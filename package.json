@@ -1,0 +1,30 @@
+{
+  "name": "uwsws",
+  "version": "0.0.1",
+  "description": "Client Library for University of Washington's Student Web Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UWFosterIT/node-uwsws/"
+  },
+  "keywords": [
+    "uw",
+    "student",
+    "web",
+    "service"
+  ],
+  "author": "Marc Miles",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.1.0"
+  }
+}
