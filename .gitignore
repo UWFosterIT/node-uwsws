@@ -25,3 +25,5 @@ tmp
 
 # Users Environment Variables
 .lock-wscript
+
+.vimrc
