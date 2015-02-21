@@ -16,7 +16,7 @@ function readCertificate(cert = "", key = "") {
   config.key  = fs.readFileSync(key);
 }
 
-const UWSWS = {
+let UWSWS = {
   anotherFn: Another.anotherFn,
   multiply: Another.multiply,
   mainFn() {
@@ -26,10 +26,13 @@ const UWSWS = {
     readCertificate(options.cert, options.key);
     config.baseUrl = options.baseUrl;
 
+    this.config = config;
+    this.options = options;
+
     // add all the sub modules with any necessary config etc
     this.term = new Term(config);
 
-    return config;
+    return this;
   }
 };
 
