@@ -1,8 +1,8 @@
-import request from 'request';
+import Service from './service';
 
-class Term {
+class Term extends Service {
   constructor(config) {
-    this.config = config;
+    super(config);
   }
 
   next (cb) {
@@ -22,23 +22,6 @@ class Term {
 
   search (options, cb) {
     this._get(`term/${options.year},${options.quarter}.json`, cb);
-    return;
-  }
-
-  _options (endpoint) {
-    return {
-      uri: this.config.baseUrl + endpoint,
-      agentOptions: {
-        cert: this.config.cert,
-        key: this.config.key
-      }
-    };
-  }
-
-  _get (endpoint, cb) {
-    request.get(this._options(endpoint), (err, response, body) => {
-      cb(err, response, JSON.parse(body));
-    });
     return;
   }
 }
