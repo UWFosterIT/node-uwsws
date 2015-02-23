@@ -45,6 +45,7 @@
     "jshint-stylish": "^1.0.0",
     "mkdirp": "^0.5.0",
     "mocha": "^2.1.0",
+    "moment": "^2.9.0",
     "sinon": "^1.12.2",
     "sinon-chai": "^2.6.0"
   },

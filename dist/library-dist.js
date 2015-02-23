@@ -31,40 +31,56 @@ var _classCallCheck = function (instance, Constructor) { if (!(instance instance
 
     _prototypeProperties(Term, null, {
       next: {
-        value: function next(callback) {
-          // get the next UW Term from the web service using the 'request' module
-          var options = {
-            url: this.config.baseUrl + "term/next",
-            agentOptions: {
-              cert: this.config.cert,
-              key: this.config.key
-            }
-          };
-
-          request.get(options, function (error, response, body) {
-            callback(error, response, body);
-          });
+        value: function next(cb) {
+          this._get("term/next.json", cb);
+          return;
         },
         writable: true,
         configurable: true
       },
       previous: {
-        value: function previous() {
-          return false;
+        value: function previous(cb) {
+          this._get("term/previous.json", cb);
+          return;
         },
         writable: true,
         configurable: true
       },
       current: {
-        value: function current() {
-          return false;
+        value: function current(cb) {
+          this._get("term/current.json", cb);
+          return;
         },
         writable: true,
         configurable: true
       },
       search: {
-        value: function search(year, term) {
-          return { year: year, quarter: term };
+        value: function search(options, cb) {
+          this._get("term/" + options.year + "," + options.quarter + ".json", cb);
+          return;
+        },
+        writable: true,
+        configurable: true
+      },
+      _options: {
+        value: function _options(endpoint) {
+          return {
+            uri: this.config.baseUrl + endpoint,
+            agentOptions: {
+              cert: this.config.cert,
+              key: this.config.key
+            }
+          };
+        },
+        writable: true,
+        configurable: true
+      },
+      _get: {
+        value: function _get(endpoint, cb) {
+          request.get(this._options(endpoint), function (err, response, body) {
+            cb(err, response, JSON.parse(body));
+          });
+          return;
         },
         writable: true,
         configurable: true
