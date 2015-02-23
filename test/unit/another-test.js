@@ -13,8 +13,4 @@ describe('A second file of tests', () => {
   it('should have always returned hello', () => {
     expect(uwsws.anotherFn).to.have.always.returned('ok');
   });
-
-  it('should of multiplied when asked', () => {
-    expect(uwsws.multiply(6, 5)).to.equal(30);
-  });
 });

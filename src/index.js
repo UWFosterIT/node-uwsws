@@ -14,11 +14,12 @@ function readCertificate(cert = "", key = "") {
 
   config.cert = fs.readFileSync(cert);
   config.key  = fs.readFileSync(key);
+
+  return;
 }
 
 let UWSWS = {
   anotherFn: Another.anotherFn,
-  multiply: Another.multiply,
   mainFn() {
     return 'hello';
   },

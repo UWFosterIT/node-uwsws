@@ -7,9 +7,6 @@
 var Another = {
   anotherFn: function() {
     return 'ok';
-  },
-  multiply: function(a, b) {
-    return a * b;
   }
 };
 

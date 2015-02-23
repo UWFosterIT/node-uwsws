@@ -17,15 +17,22 @@ describe('A feature test', () => {
 
 describe('Initializing the module', () => {
   it('should error when given missing cert or key', () => {
+    let path     = __dirname.replace('/unit', '/utils/');
+    let certFile = path + 'dummy.crt';
+
     let invalid = {
-      key: { key: '', cert: 'nope' },
-      cert: { key: 'sup', cert: '' },
-      nothing: { key: '', cert: '' }
+      key:      { key: '', cert: 'nope' },
+      cert:     { key: 'sup', cert: '' },
+      nothing:  { key: '', cert: '' },
+      withCert: { key: 'sup', cert: certFile },
+      both:     { key: 'nope', cert: 'sup'}
     };
 
     expect(function() {uwsws.initialize(invalid.key);} ).to.throw(Error);
     expect(function() {uwsws.initialize(invalid.cert);} ).to.throw(Error);
     expect(function() {uwsws.initialize(invalid.nothing);} ).to.throw(Error);
+    expect(function() {uwsws.initialize(invalid.withCert);} ).to.throw(Error);
+    expect(function() {uwsws.initialize(invalid.both);} ).to.throw(Error);
   });
 });
 

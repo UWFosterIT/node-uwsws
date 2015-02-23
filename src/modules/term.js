@@ -35,13 +35,12 @@ class Term {
     };
   }
 
-  _get(endpoint, cb) {
+  _get (endpoint, cb) {
     request.get(this._options(endpoint), (err, response, body) => {
       cb(err, response, JSON.parse(body));
     });
     return;
   }
-
 }
 
 export default Term;
