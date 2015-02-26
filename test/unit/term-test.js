@@ -1,7 +1,13 @@
+import sepia from 'sepia';
 import moment from 'moment';
+import path from 'path';
 import uwsws from '../../src/index';
 
 describe('Term', function() {
+
+  after(function() {
+    sepia.shutdown();
+  });
 
   this.timeout(3000);
   var keys = ['Year', 'NextTerm', 'Quarter'];
