@@ -5,14 +5,19 @@ import uwsws from '../../src/index';
 
 describe('Term', function() {
 
-  after(function() {
+  before(() => {
+    var fixturesPath = path.join(process.cwd(), process.env.FIXTURES);
+    sepia.fixtureDir(fixturesPath);
+  });
+
+  after(() => {
     sepia.shutdown();
   });
 
   this.timeout(3000);
   var keys = ['Year', 'NextTerm', 'Quarter'];
 
-  beforeEach(function() {
+  beforeEach(() => {
 
     let config = {
       baseUrl: 'https://ws.admin.washington.edu/student/v5/',

@@ -3,12 +3,13 @@ var $ = require('gulp-load-plugins')({
   replaceString: /^gulp(-|\.)([0-9]+)?/
 });
 
-const fs          = require('fs');
-const del         = require('del');
-const path        = require('path');
-const mkdirp      = require('mkdirp');
-const isparta     = require('isparta');
-const esperanto   = require('esperanto');
+const fs        = require('fs');
+const del       = require('del');
+const path      = require('path');
+const mkdirp    = require('mkdirp');
+const isparta   = require('isparta');
+const esperanto = require('esperanto');
+const rs        = require('run-sequence');
 
 const manifest          = require('./package.json');
 const config            = manifest.to5BoilerplateOptions;
@@ -19,7 +20,9 @@ const exportFileName    = path.basename(mainFile, path.extname(mainFile));
 function test() {
   return gulp.src(['test/setup/node.js', 'test/unit/**/*.js'], {read: false})
     .pipe($.plumber())
-    .pipe($.mocha({reporter: 'dot', globals: config.mochaGlobals}));
+    .pipe($.mocha(
+      {reporter: 'dot', globals: config.mochaGlobals, bail: process.env.BAIL}
+    ));
 }
 
 // Remove the build files
@@ -98,10 +101,38 @@ gulp.task('coverage', function(done) {
     });
 });
 
-// Lint and run our tests
+// Lint and run our tests, use the cache
 gulp.task('test', ['lint-src', 'lint-test'], function() {
+  if (process.env.CI) {
+    // Sets the fixture directory to one that will be available on a CI server
+    // that directory should contain scrubbed data
+    // ...forces sepia to "playback" which results in errors if cache 404's
+    console.log('running tests against scrubbed fixtures');
+    process.env.VCR_MODE = 'playback';
+    process.env.FIXTURES = 'fixtures/scrubbed';
+  } else {
+    process.env.VCR_MODE = 'cache';
+    process.env.FIXTURES = 'fixtures/generated';
+  }
+
   require('6to5/register')({ modules: 'common' });
   return test();
+});
+
+// Lint and run our tests, force refresh of cache
+gulp.task('clean', ['lint-src', 'lint-test'], function() {
+  process.env.VCR_MODE = 'record';
+  process.env.FIXTURES = 'fixtures/generated';
+  require('6to5/register')({ modules: 'common' });
+  return test();
+});
+
+// Runs against the scrubbed data, ideally scrub data before hand
+// we also "BAIL" so mocha will stop after the first fail
+gulp.task('ci', function(cb) {
+  process.env.CI = true;
+  process.env.BAIL = true;
+  return rs(['test'], cb);
 });
 
 // An alias of test
