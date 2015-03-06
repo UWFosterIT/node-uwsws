@@ -2,6 +2,7 @@ import fs from 'fs';
 import Another from './another';
 import Term from './modules/term';
 import Campus from './modules/campus';
+import College from './modules/college';
 
 let config = {};
 
@@ -32,8 +33,9 @@ let UWSWS = {
     this.options = options;
 
     // add all the sub modules with any necessary config etc
-    this.term   = new Term(config);
-    this.campus = new Campus(config);
+    this.term    = new Term(config);
+    this.campus  = new Campus(config);
+    this.college = new College(config);
 
     return this;
   }
