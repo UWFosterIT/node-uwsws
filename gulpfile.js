@@ -122,9 +122,10 @@ gulp.task('test', ['lint-src', 'lint-test'], function() {
 });
 
 gulp.task('clean', function() {
+  $.util.log('Removing nock back fixtures at ' + fixturesGenerated);
   rimraf(path.join(__dirname, fixturesGenerated), function (er) {
     if (er) throw er;
-    $.util.log('Removed nock back fixtures at ' + fixturesGenerated);
+    $.util.log('Fixures deleted');
     return true;
   });
 });

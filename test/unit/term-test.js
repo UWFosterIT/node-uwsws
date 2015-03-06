@@ -28,8 +28,8 @@ describe('Term', function() {
     it('should return one when it is known to exist', (done) => {
       back('term-current.json', function (nockDone) {
         uwsws.term.current( (err, response, body) => {
-          expect(body).to.contain.all.keys(keys);
           nockDone();
+          expect(body).to.contain.all.keys(keys);
           done();
         });
       });
@@ -40,8 +40,8 @@ describe('Term', function() {
     it('should return one when it is known to exist', (done) => {
       back('term-next.json', function (nockDone) {
         uwsws.term.next( (err, response, body) => {
-          expect(body).to.contain.all.keys(keys);
           nockDone();
+          expect(body).to.contain.all.keys(keys);
           done();
         });
       });
@@ -52,8 +52,8 @@ describe('Term', function() {
     it('should return one when it is known to exist', (done) => {
       back('term-prev.json', function (nockDone) {
         uwsws.term.previous( (err, response, body) => {
-          expect(body).to.contain.all.keys(keys);
           nockDone();
+          expect(body).to.contain.all.keys(keys);
           done();
         });
       });
@@ -65,8 +65,8 @@ describe('Term', function() {
       back('term-search.json', function (nockDone) {
         var options = {year: moment().year(), quarter: 'autumn'};
         uwsws.term.search(options, (err, response, body) => {
-          expect(body).to.contain.all.keys(keys);
           nockDone();
+          expect(body).to.contain.all.keys(keys);
           done();
         });
       });
