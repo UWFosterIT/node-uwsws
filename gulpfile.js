@@ -10,19 +10,31 @@ const mkdirp    = require('mkdirp');
 const isparta   = require('isparta');
 const esperanto = require('esperanto');
 const rs        = require('run-sequence');
+const rimraf    = require('rimraf');
 
-const manifest          = require('./package.json');
-const config            = manifest.to5BoilerplateOptions;
-const mainFile          = manifest.main;
-const destinationFolder = path.dirname(mainFile);
-const exportFileName    = path.basename(mainFile, path.extname(mainFile));
+const manifest            = require('./package.json');
+const config              = manifest.to5BoilerplateOptions;
+const mainFile            = manifest.main;
+const destinationFolder   = path.dirname(mainFile);
+const exportFileName      = path.basename(mainFile, path.extname(mainFile));
+const fixturesGenerated   = 'fixtures/generated';
+const fixturesScrubbed    = 'fixtures/scrubbed/generated';
+const fixturesScrubSource = 'fixtures/scrubbed/source';
 
 function test() {
+  if (process.env.CI) {
+    process.env.NOCK_BACK_MODE = 'lockdown';
+    process.env.FIXTURES       = fixturesScrubbed;
+  } else {
+    process.env.NOCK_BACK_MODE = 'record';
+    process.env.FIXTURES       = fixturesGenerated;
+  }
+
   return gulp.src(['test/setup/node.js', 'test/unit/**/*.js'], {read: false})
     .pipe($.plumber())
     .pipe($.mocha(
       {reporter: 'dot', globals: config.mochaGlobals, bail: process.env.BAIL}
-    ));
+  ));
 }
 
 // Remove the build files
@@ -88,6 +100,7 @@ gulp.task('build', ['lint-src', 'clean'], function(done) {
   });
 });
 
+
 gulp.task('coverage', function(done) {
   require('6to5/register')({ modules: 'common' });
   gulp.src(['src/*.js', 'src/modules/*.js'])
@@ -103,37 +116,45 @@ gulp.task('coverage', function(done) {
 
 // Lint and run our tests, use the cache
 gulp.task('test', ['lint-src', 'lint-test'], function() {
-  if (process.env.CI) {
-    // Sets the fixture directory to one that will be available on a CI server
-    // that directory should contain scrubbed data
-    // ...forces sepia to "playback" which results in errors if cache 404's
-    console.log('running tests against scrubbed fixtures');
-    process.env.VCR_MODE = 'playback';
-    process.env.FIXTURES = 'fixtures/scrubbed';
-  } else {
-    process.env.VCR_MODE = 'cache';
-    process.env.FIXTURES = 'fixtures/generated';
-  }
-
+  $.util.log('Using fixtures at ' + process.env.FIXTURES);
   require('6to5/register')({ modules: 'common' });
   return test();
 });
 
-// Lint and run our tests, force refresh of cache
-gulp.task('clean', ['lint-src', 'lint-test'], function() {
-  process.env.VCR_MODE = 'record';
-  process.env.FIXTURES = 'fixtures/generated';
-  require('6to5/register')({ modules: 'common' });
-  return test();
+gulp.task('clean', function() {
+  rimraf(path.join(__dirname, fixturesGenerated), function (er) {
+    if (er) throw er;
+    $.util.log('Removed nock back fixtures at ' + fixturesGenerated);
+    return true;
+  });
 });
 
-// Runs against the scrubbed data, ideally scrub data before hand
-// we also "BAIL" so mocha will stop after the first fail
+// Runs against the scrubbed data, ideally 'gulp scrub' before hand
+// This is to simulate what will run in CI, but, in CI this should not be ran
 gulp.task('ci', function(cb) {
   process.env.CI = true;
   process.env.BAIL = true;
   return rs(['test'], cb);
 });
 
+// TO DO
+// Takes the JSON scrubbed downloads from SWS documentation and inserts
+// that into that into the copied generated fixtures
+gulp.task('scrub', function(cb) {
+  // copy all the files in fixturesGenerated into fixturesScrubbed
+  // make sure each file has a matching scrubb file
+  // replace the generated json in each file with respective scrubbed json
+  var file = path.join(__dirname, fixturesScrubSource + "term_current.json");
+  var data = fs.readFileSync(file, "utf8");
+
+  // thanks Ivan for the regex!!!
+  var scrubbed = data.replace(/(\S*?)(:)[^0-9]/g,'"$1":');
+  scrubbed = JSON.stringify(JSON.parse(scrubbed));
+  console.log(scrubbed);
+
+  return true;
+});
+
 // An alias of test
 gulp.task('default', ['test']);
+

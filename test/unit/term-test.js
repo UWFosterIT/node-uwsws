@@ -1,17 +1,13 @@
-import sepia from 'sepia';
-import moment from 'moment';
-import path from 'path';
-import uwsws from '../../src/index';
+import moment     from 'moment';
+import path       from 'path';
+import {back}     from 'nock';
+//var nockBack = require('nock').back;
+import uwsws      from '../../src/index';
 
 describe('Term', function() {
 
   before(() => {
-    var fixturesPath = path.join(process.cwd(), process.env.FIXTURES);
-    sepia.fixtureDir(fixturesPath);
-  });
-
-  after(() => {
-    sepia.shutdown();
+    back.fixtures = path.join(process.cwd(), process.env.FIXTURES);
   });
 
   this.timeout(3000);
@@ -30,37 +26,49 @@ describe('Term', function() {
 
   describe('Current', () => {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.current( (err, response, body) => {
-        expect(body).to.contain.all.keys(keys);
-        done();
+      back('term-current.json', function (nockDone) {
+        uwsws.term.current( (err, response, body) => {
+          expect(body).to.contain.all.keys(keys);
+          nockDone();
+          done();
+        });
       });
-    });
+     });
   });
 
   describe('Next', function() {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.next( (err, response, body) => {
-        expect(body).to.contain.all.keys(keys);
-        done();
+      back('term-next.json', function (nockDone) {
+        uwsws.term.next( (err, response, body) => {
+          expect(body).to.contain.all.keys(keys);
+          nockDone();
+          done();
+        });
       });
     });
   });
 
   describe('Previous', () => {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.previous( (err, response, body) => {
-        expect(body).to.contain.all.keys(keys);
-        done();
+      back('term-prev.json', function (nockDone) {
+        uwsws.term.previous( (err, response, body) => {
+          expect(body).to.contain.all.keys(keys);
+          nockDone();
+          done();
+        });
       });
     });
   });
 
   describe('Search', () => {
     it('should return matching quarter and year', (done) => {
-      var options = {year: moment().year(), quarter: 'autumn'};
-      uwsws.term.search(options, (err, response, body) => {
-        expect(body).to.contain.all.keys(keys);
-        done();
+      back('term-search.json', function (nockDone) {
+        var options = {year: moment().year(), quarter: 'autumn'};
+        uwsws.term.search(options, (err, response, body) => {
+          expect(body).to.contain.all.keys(keys);
+          nockDone();
+          done();
+        });
       });
     });
   });

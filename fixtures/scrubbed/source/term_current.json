@@ -1,0 +1,58 @@
+{
+    ATermLastDay: null,
+    AcademicCatalog: "2010-08-01",
+    BTermFirstDay: null,
+    CensusDay: "2009-01-16",
+    FifthDay: "2009-01-09",
+    FinancialAidYear: null,
+    FirstDay: "2009-01-05",
+    FirstDayMedSchool: null,
+    GradeSubmissionDeadline: "2009-03-23T17:00:00",
+    GradingPeriodClose: "2009-04-08T18:00:00",
+    GradingPeriodOpen: "2009-03-02T08:00:00",
+    GradingPeriodOpenATerm: null,
+    LastAddDay: "2009-01-25",
+    LastAddDayATerm: null,
+    LastAddDayBTerm: null,
+    LastDayOfClasses: "2009-03-13",
+    LastDropDay: "2009-02-22",
+    LastDropDayATerm: null,
+    LastDropDayBTerm: null,
+    LastDropDayNotRecorded: "2009-01-18",
+    LastDropDayNotRecordedATerm: null,
+    LastDropDayNotRecordedBTerm: null,
+    LastFinalExamDay: "2009-03-20",
+    Quarter: "winter",
+    RegistrationPeriods: [
+        {
+            EndDate: "2008-11-30",
+            StartDate: "2008-11-07"
+        },
+
+        {
+            EndDate: "2009-01-04",
+            StartDate: "2008-12-01"
+        },
+
+        {
+            EndDate: "2009-01-11",
+            StartDate: "2009-01-05"
+        }
+    ],
+
+    RegistrationServicesStart: "2008-10-31",
+    StudentAccountStart: null,
+    TimeScheduleConstruction: {
+        Bothell: false,
+        Seattle: false,
+        Tacoma: false
+    },
+
+    TimeSchedulePublished: {
+        Bothell: true,
+        Seattle: true,
+        Tacoma: true
+    },
+
+    Year: 2009
+}
