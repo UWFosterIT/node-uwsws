@@ -1,8 +1,9 @@
-import fs from 'fs';
-import Another from './another';
-import Term from './modules/term';
-import Campus from './modules/campus';
-import College from './modules/college';
+import fs         from 'fs';
+import Another    from './another';
+import Term       from './modules/term';
+import Campus     from './modules/campus';
+import College    from './modules/college';
+import Department from './modules/department';
 
 let config = {};
 
@@ -29,13 +30,14 @@ let UWSWS = {
     readCertificate(options.cert, options.key);
     config.baseUrl = options.baseUrl;
 
-    this.config = config;
+    this.config  = config;
     this.options = options;
 
     // add all the sub modules with any necessary config etc
-    this.term    = new Term(config);
-    this.campus  = new Campus(config);
-    this.college = new College(config);
+    this.term       = new Term(config);
+    this.campus     = new Campus(config);
+    this.college    = new College(config);
+    this.department = new Department(config);
 
     return this;
   }
