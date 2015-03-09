@@ -1,7 +1,6 @@
 import moment     from 'moment';
 import path       from 'path';
 import {back}     from 'nock';
-//var nockBack = require('nock').back;
 import uwsws      from '../../src/index';
 
 describe('Term', function() {

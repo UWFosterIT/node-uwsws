@@ -1,11 +1,8 @@
 import fs         from 'fs';
-import Another    from './another';
 import Term       from './modules/term';
 import Campus     from './modules/campus';
 import College    from './modules/college';
 import Department from './modules/department';
-
-let config = {};
 
 function readCertificate(cert = "", key = "") {
   // don't do this async, if this fails then nothing will work
@@ -15,19 +12,18 @@ function readCertificate(cert = "", key = "") {
     throw new Error(`Client cert ${cert} or key ${key} can not be found`);
   }
 
-  config.cert = fs.readFileSync(cert);
-  config.key  = fs.readFileSync(key);
-
-  return;
+  return {
+    cert: fs.readFileSync(cert),
+    key: fs.readFileSync(key)
+  };
 }
 
 let UWSWS = {
-  anotherFn: Another.anotherFn,
   mainFn() {
     return 'hello';
   },
   initialize(options) {
-    readCertificate(options.cert, options.key);
+    let config = readCertificate(options.cert, options.key);
     config.baseUrl = options.baseUrl;
 
     this.config  = config;

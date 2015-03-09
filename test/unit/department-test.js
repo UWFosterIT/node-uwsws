@@ -1,6 +1,5 @@
 import path       from 'path';
 import {back}     from 'nock';
-//var nockBack = require('nock').back;
 import uwsws      from '../../src/index';
 
 describe('Department', function() {
@@ -10,7 +9,6 @@ describe('Department', function() {
   });
 
   this.timeout(3000);
-  //var keys = ['Year', 'NextTerm', 'Quarter'];
 
   beforeEach(() => {
 
