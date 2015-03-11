@@ -1,25 +1,13 @@
-import moment     from 'moment';
-import path       from 'path';
-import {back}     from 'nock';
-import uwsws      from '../../src/index';
+import moment from 'moment';
+import {back} from 'nock';
+import config from '../setup/config';
+import uwsws  from '../../src/index';
 
 describe('Term', function() {
 
-  before(() => {
-    back.fixtures = path.join(process.cwd(), process.env.FIXTURES);
-  });
-
-  this.timeout(3000);
   var keys = ['Year', 'NextTerm', 'Quarter'];
 
   beforeEach(() => {
-
-    let config = {
-      baseUrl: 'https://ws.admin.washington.edu/student/v5/',
-      cert: '/home/marc/.keys/milesm.bschool.pem',
-      key: '/home/marc/.keys/ItsAllGood.key'
-    };
-
     uwsws.initialize(config);
   });
 
@@ -32,7 +20,7 @@ describe('Term', function() {
           done();
         });
       });
-     });
+    });
   });
 
   describe('Next', function() {

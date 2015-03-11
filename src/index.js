@@ -19,9 +19,6 @@ function readCertificate(cert = "", key = "") {
 }
 
 let UWSWS = {
-  mainFn() {
-    return 'hello';
-  },
   initialize(options) {
     let config = readCertificate(options.cert, options.key);
     config.baseUrl = options.baseUrl;

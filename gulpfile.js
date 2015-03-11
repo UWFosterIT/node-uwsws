@@ -116,7 +116,6 @@ gulp.task('coverage', function(done) {
 
 // Lint and run our tests, use the cache
 gulp.task('test', ['lint-src', 'lint-test'], function() {
-  $.util.log('Using fixtures at ' + process.env.FIXTURES);
   require('6to5/register')({ modules: 'common' });
   return test();
 });
