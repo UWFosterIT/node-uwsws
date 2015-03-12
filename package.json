@@ -1,6 +1,6 @@
 {
   "name": "uwsws",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Client Library for University of Washington's Student Web Service",
   "main": "dist/library-dist.js",
   "scripts": {
