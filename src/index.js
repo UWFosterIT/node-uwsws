@@ -6,6 +6,7 @@ import Department from './modules/department';
 import Program    from './modules/program';
 import Curriculum from './modules/curriculum';
 import Course     from './modules/course';
+import Section    from './modules/section';
 
 function readCertificate(cert = "", key = "") {
   // don't do this async, if this fails then nothing will work
@@ -37,6 +38,7 @@ let UWSWS = {
     this.program    = new Program(config);
     this.curriculum = new Curriculum(config);
     this.course     = new Course(config);
+    this.section    = new Section(config);
 
     return this;
   }

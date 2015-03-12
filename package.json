@@ -22,6 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^3.5.0",
+    "query-string": "^1.0.0",
     "request": "^2.53.0"
   },
   "devDependencies": {
