@@ -32,9 +32,13 @@ function test() {
 
   return gulp.src(['test/setup/node.js', 'test/unit/**/*.js'], {read: false})
     .pipe($.plumber())
-    .pipe($.mocha(
-      {reporter: 'dot', globals: config.mochaGlobals, bail: process.env.BAIL}
-  ));
+    .pipe($.mocha({
+      reporter: 'dot',
+        globals: config.mochaGlobals,
+        bail: process.env.BAIL,
+        timeout: 3000
+    })
+  );
 }
 
 // Remove the build files

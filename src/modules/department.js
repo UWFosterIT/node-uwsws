@@ -8,7 +8,7 @@ class Department extends Service {
   search (options, cb) {
     let query = `college_abbreviation=${options.abrev}&sort_by={options.sort}`;
     this._get(`department.json?${query}`, (err, res, body) => {
-      cb(err, res, body.Departments);
+      cb(err, res, (err ? body : body.Departments));
     });
     return;
   }

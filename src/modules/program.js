@@ -7,7 +7,7 @@ class Program extends Service {
 
   all (cb) {
     this._get('program.json', (err, res, body) => {
-      cb(err, res, body.Programs);
+      cb(err, res, (err ? body : body.Programs));
     });
     return;
   }
@@ -26,7 +26,7 @@ class Program extends Service {
       year=${opt.year}&quarter=${opt.quarter}`;
 
     this._get(`program.json${query}`, (err, res, body) => {
-      cb(err, res, body.Programs);
+      cb(err, res, (err ? body : body.Programs));
     });
     return;
   }

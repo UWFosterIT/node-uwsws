@@ -17,7 +17,10 @@ class Service {
 
   _get (endpoint, cb) {
     request.get(this._options(endpoint), (err, response, body) => {
-      cb(err, response, JSON.parse(body));
+      let result = body;
+      if (!err) { result = JSON.parse(body); }
+
+      cb(err, response, result);
     });
     return;
   }

@@ -21,7 +21,7 @@
   "author": "Marc Miles",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.2.0",
+    "lodash": "^3.5.0",
     "request": "^2.53.0"
   },
   "devDependencies": {
