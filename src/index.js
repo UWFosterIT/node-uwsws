@@ -1,14 +1,15 @@
-import fs         from 'fs';
-import Term       from './modules/term';
-import Campus     from './modules/campus';
-import College    from './modules/college';
-import Department from './modules/department';
-import Program    from './modules/program';
-import Curriculum from './modules/curriculum';
-import Course     from './modules/course';
-import Section    from './modules/section';
-import Person     from './modules/person';
-import Enrollment from './modules/enrollment';
+import fs           from 'fs';
+import Term         from './modules/term';
+import Campus       from './modules/campus';
+import College      from './modules/college';
+import Department   from './modules/department';
+import Program      from './modules/program';
+import Curriculum   from './modules/curriculum';
+import Course       from './modules/course';
+import Section      from './modules/section';
+import Person       from './modules/person';
+import Enrollment   from './modules/enrollment';
+import Registration from './modules/registration';
 
 function readCertificate(cert = "", key = "") {
   // don't do this async, if this fails then nothing will work
@@ -33,16 +34,17 @@ let UWSWS = {
     this.options = options;
 
     // add all the sub modules with any necessary config etc
-    this.term       = new Term(config);
-    this.campus     = new Campus(config);
-    this.college    = new College(config);
-    this.department = new Department(config);
-    this.program    = new Program(config);
-    this.curriculum = new Curriculum(config);
-    this.course     = new Course(config);
-    this.section    = new Section(config);
-    this.person     = new Person(config);
-    this.enrollment = new Enrollment(config);
+    this.term         = new Term(config);
+    this.campus       = new Campus(config);
+    this.college      = new College(config);
+    this.department   = new Department(config);
+    this.program      = new Program(config);
+    this.curriculum   = new Curriculum(config);
+    this.course       = new Course(config);
+    this.section      = new Section(config);
+    this.person       = new Person(config);
+    this.enrollment   = new Enrollment(config);
+    this.registration = new Registration(config);
 
     return this;
   }
