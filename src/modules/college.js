@@ -1,3 +1,4 @@
+import qs      from 'query-string';
 import Service from './service';
 
 class College extends Service {
@@ -6,7 +7,7 @@ class College extends Service {
   }
 
   search(name, cb) {
-    let query = `campus_short_name=${name}`;
+    let query = qs.stringify( {campus_short_name: name} );
 
     this._get(`college.json?${query}`, (err, res, body) => {
       // why would there ever be more than one I don't know

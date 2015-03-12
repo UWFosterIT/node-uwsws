@@ -1,3 +1,4 @@
+import qs      from 'query-string';
 import Service from './service';
 
 class Program extends Service {
@@ -21,11 +22,16 @@ class Program extends Service {
   }
 
   search (opt, cb) {
-    opt.pathway = opt.pathway || 0;
-    let query = `?major_abbr=${opt.major}&pathway=${opt.pathway}&
-      year=${opt.year}&quarter=${opt.quarter}`;
+    let params = {
+      major_abbr: opt.major   || '',
+      pathway:    opt.pathway || 0,
+      quarter:    opt.quarter || '',
+      year:       opt.year    || '',
+    };
 
-    this._get(`program.json${query}`, (err, res, body) => {
+    let query = qs.stringify(params);
+
+    this._get(`program.json?${query}`, (err, res, body) => {
       cb(err, res, (err ? body : body.Programs));
     });
     return;

@@ -1,4 +1,4 @@
-import _       from 'lodash';
+import qs      from 'query-string';
 import Service from './service';
 
 class Course extends Service {
@@ -12,33 +12,21 @@ class Course extends Service {
     return;
   }
 
-  search (options, cb) {
+  search (opt, cb) {
+    let params = {
+      course_number:                  opt.course     || '',
+      course_title_contains:          opt.contains   || '',
+      course_title_starts:            opt.startsWith || '',
+      curriculum_abbreviation:        opt.curriculum || '',
+      exlude_coures_without_sections: opt.exclude    || '',
+      future_terms:                   opt.future     || 0,
+      page_size:                      opt.size       || '',
+      page_start:                     opt.start      || '',
+      quarter:                        opt.quarter    || '',
+      year:                           opt.year       || ''
+    };
 
-    let opt = _.defaults(options, {
-      year: '',
-      quarter: '',
-      future: 0,
-      curriculum: '',
-      course: '',
-      startsWith: '',
-      contains: '',
-      exclude: false,
-      size: '',
-      start: ''
-    });
-
-    let curric    = `curriculum_abbreviation=${opt.curriculum}`;
-    let year      = `year=${opt.year}`;
-    let quarter   = `quarter=${opt.quarter}`;
-    let paging    = `page_size=${opt.size}&page_start=${opt.start}`;
-    let course    = `course_number=${opt.course}`;
-    let starts    = `course_title_starts=${opt.startsWith}`;
-    let contains  = `course_title_contains=${opt.contains}`;
-    let excludes  = `exlude_courses_without_sections=${opt.exclude}`;
-
-    let base   = `${curric}&${year}&${quarter}&${course}`;
-    let extras = `${starts}&${contains}&${excludes}&${paging}`;
-    let query  = `${base}&${extras}`;
+    let query = qs.stringify(params);
 
     this._get(`course.json?${query}`, cb);
     return;

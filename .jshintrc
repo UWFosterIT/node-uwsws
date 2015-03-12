@@ -25,7 +25,6 @@
     "maxparams": 5,
     "maxdepth": 5,
     "maxstatements": false,
-    "maxcomplexity": 5,
     "validthis": true,
     "maxlen": 80,
     "esnext": true

@@ -1,4 +1,4 @@
-import _       from 'lodash';
+import qs      from 'query-string';
 import Service from './service';
 
 class Curriculum extends Service {
@@ -6,26 +6,21 @@ class Curriculum extends Service {
     super(config);
   }
 
-  search (options, cb) {
+  search (opt, cb) {
 
-    let opt = _.defaults(options, {
-      sort: 'on',
-      size: '',
-      start: '',
-      future: 0,
-      college: '',
-      dept: '',
-      year: '',
-      quarter: ''
-    });
+    let params = {
+      college_abbreviation:    opt.college || '',
+      course_number:           opt.course  || '',
+      department_abbreviation: opt.debt    || '',
+      future_terms:            opt.future  || 0,
+      page_size:               opt.size    || '',
+      page_start:              opt.start   || '',
+      quarter:                 opt.quarter || '',
+      sort_by:                 opt.sort    || '',
+      year:                    opt.year    || '',
+    };
 
-    let dept    = `department_abbreviation=${opt.dept}`;
-    let college = `college_abbreviation=${opt.college}`;
-    let year    = `year=${opt.year}`;
-    let quarter = `quarter=${opt.quarter}`;
-    let paging  = `page_size=${opt.size}&page_start=${opt.start}`;
-    let sorting = `sort_by=${opt.sort}&future_terms=${opt.future}`;
-    let query   = `${dept}&${college}&${year}&${quarter}&${paging}&${sorting}`;
+    let query = qs.stringify(params);
 
     this._get(`curriculum.json?${query}`, cb);
     return;

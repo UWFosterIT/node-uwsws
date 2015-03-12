@@ -1,4 +1,3 @@
-import _       from 'lodash';
 import qs      from 'query-string';
 import Service from './service';
 
@@ -14,33 +13,19 @@ class Section extends Service {
     return;
   }
 
-  search (options, cb) {
-
-    let opt = _.defaults(options, {
-      year: '',
-      quarter: '',
-      future: 0,
-      curriculum: '',
-      course: '',
-      deleteFlag: '',
-      regid: '',
-      searchBy: '',
-      include: false,
-      size: '',
-      start: ''
-    });
-
+  search (opt, cb) {
     let params = {
-      year:                    opt.year,
-      quarter:                 opt.quarter,
-      course_number:           opt.course,
-      reg_id:                  opt.regid,
-      curriculum_abbreviation: opt.curriculum,
-      page_size:               opt.size,
-      page_start:              opt.start,
-      search_by:               opt.searchBy,
-      include_secondaries:     opt.include,
-      delete_flag:             opt.deleteFlag
+      course_number:           opt.course     || '',
+      curriculum_abbreviation: opt.curriculum || '',
+      delete_flag:             opt.deleteFlag || '',
+      future_terms:            opt.future     || 0,
+      include_secondaries:     opt.include    || '',
+      page_size:               opt.size       || '',
+      page_start:              opt.start      || '',
+      quarter:                 opt.quarter    || '',
+      reg_id:                  opt.regid      || '',
+      search_by:               opt.searchBy   || '',
+      year:                    opt.year       || ''
     };
 
     let query = qs.stringify(params);
