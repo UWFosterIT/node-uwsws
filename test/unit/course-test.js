@@ -22,7 +22,7 @@ describe('Course', function() {
         uwsws.course.get(options, (err, response, result) => {
           nockDone();
           expect(result.CourseNumber).to.equal("142");
-          done();
+          done(err);
         });
       });
     });
@@ -41,7 +41,7 @@ describe('Course', function() {
         uwsws.course.search(options, (err, response, result) => {
           nockDone();
           expect(result.Courses).to.have.length.above(7);
-          done();
+          done(err);
         });
       });
     });

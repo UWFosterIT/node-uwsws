@@ -15,7 +15,7 @@ describe('College', function() {
         uwsws.college.search(name, (err, response, data) => {
           nockDone();
           expect(data.CampusShortName).to.equal(name);
-          done();
+          done(err);
         });
       });
     });

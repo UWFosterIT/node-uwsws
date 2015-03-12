@@ -15,7 +15,7 @@ describe('Department', function() {
         uwsws.department.search(options, (err, response, departments) => {
           nockDone();
           expect(departments).to.have.length.above(5);
-          done();
+          done(err);
         });
       });
     });

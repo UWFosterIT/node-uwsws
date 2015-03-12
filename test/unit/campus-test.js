@@ -14,7 +14,7 @@ describe('Campus', function() {
         uwsws.campus.all( (err, response, data) => {
           nockDone();
           expect(data.length).to.be.above(2);
-          done();
+          done(err);
         });
       });
     });

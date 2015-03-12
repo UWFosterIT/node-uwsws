@@ -17,7 +17,7 @@ describe('Term', function() {
         uwsws.term.current( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
-          done();
+          done(err);
         });
       });
     });
@@ -29,7 +29,7 @@ describe('Term', function() {
         uwsws.term.next( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
-          done();
+          done(err);
         });
       });
     });
@@ -41,7 +41,7 @@ describe('Term', function() {
         uwsws.term.previous( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
-          done();
+          done(err);
         });
       });
     });
@@ -54,7 +54,7 @@ describe('Term', function() {
         uwsws.term.search(options, (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
-          done();
+          done(err);
         });
       });
     });

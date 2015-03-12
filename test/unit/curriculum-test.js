@@ -30,7 +30,7 @@ describe('Curriculum', function() {
         uwsws.curriculum.search(options, (err, response, result) => {
           nockDone();
           expect(result.Curricula).to.have.length.above(2);
-          done();
+          done(err);
         });
       });
     });
@@ -38,7 +38,7 @@ describe('Curriculum', function() {
 
   describe('search by college', () => {
     it('should return some that match the query', (done) => {
-      back('curriculum-search-college.json', (nockdone) => {
+      back('curriculum-search-college.json', (nockDone) => {
 
         let options = {
           year: 2015,
@@ -47,9 +47,9 @@ describe('Curriculum', function() {
         };
 
         uwsws.curriculum.search(options, (err, response, result) => {
-          nockdone();
+          nockDone();
           expect(result.Curricula).to.have.length.above(4);
-          done();
+          done(err);
         });
       });
     });
