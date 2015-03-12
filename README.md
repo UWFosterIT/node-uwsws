@@ -47,7 +47,7 @@ uwsws.term.current(function(err, response, term) {
 });
 ```
 
-Using the same config,  get Comp Sci course from 2015 winter.
+Using the same config, get the intro to programming course for winter 2015.
 
 ```JavaScript
 let options = {
@@ -61,7 +61,7 @@ uwsws.course.get(options, (err, response, body) => {
   console.log(body);
 });
 ```
-For a more examples see ``test/unit/*``.  For a full list of all the options see ``src/modules/*``.  Right now there isn't a 100% coverage of all the options but in theory they should work in the context of how they are supposed to work as described in the SWS documentation.  If you find one that doesn't work please create an issue.
+For more examples see ``test/unit/*``.  For a full list of all the options see ``src/modules/*``.  Right now there isn't 100% coverage of all the options but in theory they should work in the context of the query string parameters described in the SWS documentation.  If you find one that doesn't work please create an issue.
 
 ## Endpoint Implementation
 All links below go to the official service documentation.  The code block refers to it's implementation in this module.
@@ -71,20 +71,23 @@ All of the ``callback`` methods are in the same format as those provided by the 
 
 All of the ``option`` parameters are outlined in ``sr/modules/[endpoint]``
 
-* [Campus](https://wiki.cac.washington.edu/display/SWS/Campus+Search+Resource+V5)  ``uwsws.campus.all(callback)``
-* [College Search](https://wiki.cac.washington.edu/display/SWS/College+Search+Resource+V5)  ``uwsws.college.search(campusName, callback)``
-* [Course](https://wiki.cac.washington.edu/display/SWS/Course+Resource+v5) ``uwsws.course.get(options, callback)``
-* [Course Search](https://wiki.cac.washington.edu/display/SWS/Course+Search+Resource+V5) ``uwsws.course.search(options, callback)``
-* [Curriculumn Search](https://wiki.cac.washington.edu/display/SWS/Curriculum+Search+Resource+V5) ``uwsws.curriculum.search(options, callback)``
-* [Department Search](https://wiki.cac.washington.edu/display/SWS/Department+Search+Resource+V5) ``uwsws.department.search(options, callback)``
-* [Enrollment](https://wiki.cac.washington.edu/display/SWS/Enrollment+Resource+V5) ``uwsws.enrollment.get(options, callback)``
-* [Enrollment Search](https://wiki.cac.washington.edu/display/SWS/Enrollment+Search+Resource+V5) ``uwsws.entrollment.search(options, callback)``
-* [Person](https://wiki.cac.washington.edu/display/SWS/Person+Resource+V5) ``uwsws.person.get(regid, callback)``
-* [Person Search](https://wiki.cac.washington.edu/display/SWS/Person+Search+Resource+V5) ``uwsws.person.search(options, callback)``
-* [Registration Search](https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5) ``uwsws.registration.search(options, callback)``
-* [Section](https://wiki.cac.washington.edu/display/SWS/Section+Resource+V5) ``uwsws.section.get(options, callback)``
-* [Section Search](https://wiki.cac.washington.edu/display/SWS/Section+Search+Resource+v5) ``uwsws.section.search(options, callback)``
-* [Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) ``uwsws.term.next(callback)`` or ``.previous(callback)``, or ``.current(callback)`` as well as ``uwsws.term.search(options, callback)``
+
+Endpoint  | Implementation
+------------- | -------------
+[Campus](https://wiki.cac.washington.edu/display/SWS/Campus+Search+Resource+V5)  | ``uwsws.campus.all(callback)``
+ [College Search](https://wiki.cac.washington.edu/display/SWS/College+Search+Resource+V5)  | ``uwsws.college.search(campusName, callback)``
+[Course](https://wiki.cac.washington.edu/display/SWS/Course+Resource+v5) | ``uwsws.course.get(options, callback)``
+[Course Search](https://wiki.cac.washington.edu/display/SWS/Course+Search+Resource+V5) | ``uwsws.course.search(options, callback)``
+[Curriculumn Search](https://wiki.cac.washington.edu/display/SWS/Curriculum+Search+Resource+V5) | ``uwsws.curriculum.search(options, callback)``
+[Department Search](https://wiki.cac.washington.edu/display/SWS/Department+Search+Resource+V5) | ``uwsws.department.search(options, callback)``
+[Enrollment](https://wiki.cac.washington.edu/display/SWS/Enrollment+Resource+V5) | ``uwsws.enrollment.get(options, callback)``
+[Enrollment Search](https://wiki.cac.washington.edu/display/SWS/Enrollment+Search+Resource+V5) | ``uwsws.entrollment.search(options, callback)``
+[Person](https://wiki.cac.washington.edu/display/SWS/Person+Resource+V5) | ``uwsws.person.get(regid, callback)``
+[Person Search](https://wiki.cac.washington.edu/display/SWS/Person+Search+Resource+V5) | ``uwsws.person.search(options, callback)``
+[Registration Search](https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5) | ``uwsws.registration.search(options, callback)``
+[Section](https://wiki.cac.washington.edu/display/SWS/Section+Resource+V5) | ``uwsws.section.get(options, callback)``
+[Section Search](https://wiki.cac.washington.edu/display/SWS/Section+Search+Resource+v5) | ``uwsws.section.search(options, callback)``
+[Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) |  ``uwsws.term.next(callback)`` or ``.previous(callback)``, or ``.current(callback)`` as well as ``uwsws.term.search(options, callback)``
 
 #### Not Implemented
 Most of these are not implemented due to additional security requirements beyond a simple 509 cert.  Requirements such as permissions in ASTRA or x-uw-act-as permissions passed in the header.  Feel free fork and make a pull request with working tests if you have those permissions.  Others are simply planned for a future release.
@@ -123,7 +126,7 @@ And finally, the build will make this es6 module es5 friendly with source maps.
 
     gulp coverage
 
-Runs generates code coverage report to ``coverage`` that can be sent to Code Climate etc.
+Generates code coverage report to ``./coverage`` that can be sent to Code Climate etc.
 
 ## To Do
 
