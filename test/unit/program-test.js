@@ -10,7 +10,7 @@ describe('Program', function() {
 
   describe('Search', () => {
     it('should return some that match the query', (done) => {
-      back('program-search.json', function (nockDone) {
+      back('program-search.json', (nockDone) => {
         let options = {
           major: 'C SCI'
         };
@@ -26,7 +26,7 @@ describe('Program', function() {
 
   describe('Get', () => {
     it('should return one', (done) => {
-      back('program-get.json', function (nockDone) {
+      back('program-get.json', (nockDone) => {
         let options = {
           year: 1970,
           major: 'C SCI',
@@ -44,7 +44,7 @@ describe('Program', function() {
 
   describe('All', () => {
     it('should return many of them', (done) => {
-      back('program-all.json', function (nockDone) {
+      back('program-all.json', (nockDone) => {
         uwsws.program.all((err, response, programs) => {
           nockDone();
           expect(programs).to.have.length.above(15);

@@ -10,7 +10,7 @@ describe('Campus', function() {
 
   describe('All', () => {
     it('should return each campus', (done) => {
-      back('campus.json', function (nockDone) {
+      back('campus.json', (nockDone) => {
         uwsws.campus.all( (err, response, data) => {
           nockDone();
           expect(data.length).to.be.above(2);

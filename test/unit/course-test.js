@@ -8,9 +8,9 @@ describe('Course', function() {
     uwsws.initialize(config);
   });
 
-  describe('Get', function() {
+  describe('Get', () => {
     it('should return some that match the query', (done) => {
-      back('course-get.json', function (nockDone) {
+      back('course-get.json', (nockDone) => {
 
         let options = {
           year: 2015,
@@ -28,9 +28,9 @@ describe('Course', function() {
     });
   });
 
-  describe('Search', function() {
+  describe('Search',() => {
     it('should return some that match the query', (done) => {
-      back('course-search.json', function (nockDone) {
+      back('course-search.json', (nockDone) => {
 
         let options = {
           year: 2015,

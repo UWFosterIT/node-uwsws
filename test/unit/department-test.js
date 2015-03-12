@@ -10,7 +10,7 @@ describe('Department', function() {
 
   describe('Search', () => {
     it('should return some', (done) => {
-      back('department-search.json', function (nockDone) {
+      back('department-search.json', (nockDone) => {
         let options = {abrev: 'engr'};
         uwsws.department.search(options, (err, response, departments) => {
           nockDone();

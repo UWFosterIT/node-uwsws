@@ -13,7 +13,7 @@ describe('Term', function() {
 
   describe('Current', () => {
     it('should return one when it is known to exist', (done) => {
-      back('term-current.json', function (nockDone) {
+      back('term-current.json', (nockDone) => {
         uwsws.term.current( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
@@ -25,7 +25,7 @@ describe('Term', function() {
 
   describe('Next', function() {
     it('should return one when it is known to exist', (done) => {
-      back('term-next.json', function (nockDone) {
+      back('term-next.json', (nockDone) => {
         uwsws.term.next( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);
@@ -37,7 +37,7 @@ describe('Term', function() {
 
   describe('Previous', () => {
     it('should return one when it is known to exist', (done) => {
-      back('term-prev.json', function (nockDone) {
+      back('term-prev.json', (nockDone) => {
         uwsws.term.previous( (err, response, body) => {
           nockDone();
           expect(body).to.contain.all.keys(keys);

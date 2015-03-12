@@ -10,7 +10,7 @@ describe('College', function() {
 
   describe('All', () => {
     it('should return the selected college', (done) => {
-      back('college.json', function (nockDone) {
+      back('college.json', (nockDone) => {
         let name = 'Bothell';
         uwsws.college.search(name, (err, response, data) => {
           nockDone();

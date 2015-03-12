@@ -10,7 +10,7 @@ describe('Curriculum', function() {
 
   describe('Search by dept', () => {
     it('should return some that match the query', (done) => {
-      back('curriculum-search-dept.json', function (nockDone) {
+      back('curriculum-search-dept.json', (nockDone) => {
 
         // depending on the options used you can get very large
         // results that you will need to "page" through using...
@@ -38,7 +38,7 @@ describe('Curriculum', function() {
 
   describe('search by college', () => {
     it('should return some that match the query', (done) => {
-      back('curriculum-search-college.json', function (nockdone) {
+      back('curriculum-search-college.json', (nockdone) => {
 
         let options = {
           year: 2015,
