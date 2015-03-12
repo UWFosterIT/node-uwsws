@@ -127,7 +127,7 @@ gulp.task('test', ['lint-src', 'lint-test'], function() {
 gulp.task('clean', function() {
   $.util.log('Removing nock back fixtures at ' + fixturesGenerated);
   rimraf(path.join(__dirname, fixturesGenerated), function (er) {
-    if (er) throw er;
+    if (er) { throw er; }
     $.util.log('Fixures deleted');
     return true;
   });
@@ -144,7 +144,7 @@ gulp.task('ci', function(cb) {
 // TO DO
 // Takes the JSON scrubbed downloads from SWS documentation and inserts
 // that into that into the copied generated fixtures
-gulp.task('scrub', function(cb) {
+gulp.task('scrub', function() {
   // copy all the files in fixturesGenerated into fixturesScrubbed
   // make sure each file has a matching scrubb file
   // replace the generated json in each file with respective scrubbed json

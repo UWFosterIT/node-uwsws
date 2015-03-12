@@ -2,7 +2,7 @@ import {back} from 'nock';
 import config from '../setup/config';
 import uwsws  from '../../src/index';
 
-describe('Program', function() {
+describe('Curriculum', function() {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -36,9 +36,9 @@ describe('Program', function() {
     });
   });
 
-  describe('Search by college', () => {
+  describe('search by college', () => {
     it('should return some that match the query', (done) => {
-      back('curriculum-search-college.json', function (nockDone) {
+      back('curriculum-search-college.json', function (nockdone) {
 
         let options = {
           year: 2015,
@@ -47,7 +47,7 @@ describe('Program', function() {
         };
 
         uwsws.curriculum.search(options, (err, response, result) => {
-          nockDone();
+          nockdone();
           expect(result.Curricula).to.have.length.above(4);
           done();
         });
