@@ -106,7 +106,7 @@ gulp.task('build', ['lint-src', 'clean'], function(done) {
 
 
 gulp.task('coverage', function(done) {
-  require('6to5/register')({ modules: 'common' });
+  require('babel/register')({ modules: 'common' });
   gulp.src(['src/*.js', 'src/modules/*.js'])
     .pipe($.plumber())
     .pipe($.istanbul({ instrumenter: isparta.Instrumenter }))
@@ -120,7 +120,7 @@ gulp.task('coverage', function(done) {
 
 // Lint and run our tests, use the cache
 gulp.task('test', ['lint-src', 'lint-test'], function() {
-  require('6to5/register')({ modules: 'common' });
+  require('babel/register')({ modules: 'common' });
   return test();
 });
 
