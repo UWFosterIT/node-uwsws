@@ -29,6 +29,8 @@ let UWSWS = {
   initialize(options) {
     let config = readCertificate(options.cert, options.key);
     config.baseUrl = options.baseUrl;
+    config.useCache = options.useCache;
+    config.cachePath = options.cachePath;
 
     this.config  = config;
     this.options = options;

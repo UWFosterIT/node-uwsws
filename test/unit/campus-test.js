@@ -1,4 +1,3 @@
-import {back} from 'nock';
 import config from '../setup/config';
 import uwsws  from '../../src/index';
 
@@ -10,12 +9,11 @@ describe('Campus', function() {
 
   describe('All', () => {
     it('should return each campus', (done) => {
-      back('campus.json', (nockDone) => {
-        uwsws.campus.all( (err, response, data) => {
-          nockDone();
-          expect(data.length).to.be.above(2);
-          done(err);
-        });
+      console.log('getting campus');
+      uwsws.campus.all( (err, response, data) => {
+        expect(data.length).to.be.above(2);
+        console.log('got campus');
+        done(err);
       });
     });
   });

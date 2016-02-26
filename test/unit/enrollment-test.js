@@ -1,4 +1,3 @@
-import {back} from 'nock';
 import config from '../setup/config';
 import uwsws  from '../../src/index';
 
@@ -12,36 +11,28 @@ describe('Enrollment', function() {
 
   describe('Get', () => {
     it('should return some enrollments', (done) => {
-      back('enrollment-get.json', (nockDone) => {
+      let options = {
+        year: 1996,
+        quarter: 'autumn',
+        regid: dummy
+      };
 
-        let options = {
-          year: 1996,
-          quarter: 'autumn',
-          regid: dummy
-        };
-
-        uwsws.enrollment.get(options, (err, response, person) => {
-          nockDone();
-          expect(person.Registrations).to.have.length.above(2);
-          done(err);
-        });
+      uwsws.enrollment.get(options, (err, response, person) => {
+        expect(person.Registrations).to.have.length.above(2);
+        done(err);
       });
     });
   });
 
   describe('Search',() => {
     it('should return some that match the query', (done) => {
-      back('enrollment-search.json', (nockDone) => {
+      let options = {
+        regid: dummy
+      };
 
-        let options = {
-          regid: dummy
-        };
-
-        uwsws.enrollment.search(options, (err, response, result) => {
-          nockDone();
-          expect(result.Enrollments).to.have.length.above(20);
-          done(err);
-        });
+      uwsws.enrollment.search(options, (err, response, result) => {
+        expect(result.Enrollments).to.have.length.above(20);
+        done(err);
       });
     });
   });

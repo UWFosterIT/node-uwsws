@@ -1,6 +1,6 @@
 {
   "name": "uwsws",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Client Library for University of Washington's Student Web Service",
   "main": "dist/library-dist.js",
   "scripts": {
@@ -22,7 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "query-string": "^1.0.0",
-    "request": "^2.53.0"
+    "request": "^2.53.0",
+    "nock": "^7.2.2"
   },
   "devDependencies": {
     "babel": "^4.7.8",
@@ -47,7 +48,6 @@
     "mkdirp": "^0.5.0",
     "mocha": "^2.1.0",
     "moment": "^2.9.0",
-    "nock": "^1.1.0",
     "rimraf": "^2.3.1",
     "run-sequence": "^1.0.2",
     "sinon": "^1.12.2",
