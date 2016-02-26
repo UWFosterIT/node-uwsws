@@ -111,6 +111,7 @@ Most of these are not implemented due to additional security requirements beyond
 
 
 ## Development
+Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed.
 
     gulp
 
