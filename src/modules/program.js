@@ -6,8 +6,17 @@ class Program extends Service {
     super(config);
   }
 
-  all (cb) {
-    this._get('program.json', (err, res, body) => {
+  all (opt, cb) {
+    let params = {
+      first_effective_quarter: opt.quarter || '',
+      first_effective_year:    opt.year    || '',
+      major_abbr:              opt.major   || '',
+      pathway:                 opt.pathway || 0
+    };
+
+    let query = qs.stringify(params);
+
+    this._get(`program.json.?${query}`, (err, res, body) => {
       cb(err, res, (err ? body : body.Programs));
     });
     return;
