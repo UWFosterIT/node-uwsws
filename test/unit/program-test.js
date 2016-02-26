@@ -46,12 +46,14 @@ describe('Program', function() {
     it('should return many of them', (done) => {
       back('program-all.json', (nockDone) => {
         let options = {
-          year: 2016,
-          quarter: 'autumn'
+          year: 2015,
+          quarter: 'autumn',
+          major: 'tmmba'
         };
+
         uwsws.program.all(options, (err, response, programs) => {
           nockDone();
-          expect(programs).to.have.length.above(5);
+          expect(programs).to.have.length.above(0);
           done(err);
         });
       });

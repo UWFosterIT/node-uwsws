@@ -16,7 +16,7 @@ class Program extends Service {
 
     let query = qs.stringify(params);
 
-    this._get(`program.json.?${query}`, (err, res, body) => {
+    this._get(`program.json?${query}`, (err, res, body) => {
       cb(err, res, (err ? body : body.Programs));
     });
     return;
