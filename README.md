@@ -11,7 +11,7 @@ This module assumes you have gone through all the required steps to get access a
 
 ### Examples
 
-Import the module, set it's configuration and make requests.
+Import the module, set it's configuration and make requests.  You can optionally enforce all http requests to use a local filesytem cache with ``useCache: true`` as shown below.  This can assist wtih speedy development when consuming this module.
 
 ```JavaScript
 const uwsws = import('uwsws');
@@ -19,7 +19,9 @@ const uwsws = import('uwsws');
 let config = {
   baseUrl: 'https://ws.admin.washington.edu/student/v5/',
   cert: '/path/to/your/x509.pem',
-  key: '/path/to/your/x509.key'
+  key: '/path/to/your/x509.key',
+  useCache: true,
+  cachePath: '/path/to/a/cache/directory/'
 };
 
 uwsws.initialize(config);
