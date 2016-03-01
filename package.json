@@ -10,7 +10,7 @@
     "url": "https://github.com/UWFosterIT/node-uwsws/"
   },
   "author": "Marc Miles",
-  "main": "./lib/index.js",
+  "main": "./lib/node/index.js",
   "keywords": [
     "uw",
     "student",
