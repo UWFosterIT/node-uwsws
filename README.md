@@ -113,23 +113,11 @@ Most of these are not implemented due to additional security requirements beyond
 
 
 ## Development
-Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed.
+Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed. Use the ``npm`` commands indicated in ``package.json``.
 
-    gulp
+    npm build
+    npm test
 
-The default task will run all the tests using a cache if it exists and create one when it doesn't.
-
-    gulp clean
-
-This allows the developer to clear the existing cache so that subsequent ``gulp`` will use freshly cached files.  This is good to do when UW Student Web Services does an update to their servers/codebase to test them for errors and also of course during development as needed.
-
-    gulp build
-
-And finally, the build will make this es6 module es5 friendly with source maps.
-
-    gulp coverage
-
-Generates code coverage report to ``./coverage`` that can be sent to Code Climate etc.
 
 ## To Do
 

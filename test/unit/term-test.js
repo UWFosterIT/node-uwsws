@@ -1,6 +1,6 @@
-import moment from 'moment';
-import config from '../setup/config';
+import '../setup/';
 import uwsws  from '../../src/index';
+import moment from 'moment';
 
 describe('Term', function() {
 

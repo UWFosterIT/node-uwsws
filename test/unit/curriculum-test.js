@@ -1,4 +1,4 @@
-import config from '../setup/config';
+import '../setup/';
 import uwsws  from '../../src/index';
 
 describe('Curriculum', function() {

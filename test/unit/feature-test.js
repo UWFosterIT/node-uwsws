@@ -1,3 +1,4 @@
+import '../setup/';
 import uwsws from '../../src/index';
 
 describe('Initializing the module', () => {

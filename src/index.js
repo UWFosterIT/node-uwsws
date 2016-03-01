@@ -52,4 +52,4 @@ let UWSWS = {
   }
 };
 
-export default UWSWS;
+module.exports = UWSWS;
