@@ -20,7 +20,7 @@ let config = {
   baseUrl: 'https://ws.admin.washington.edu/student/v5/',
   cert: '/path/to/your/x509.pem',
   key: '/path/to/your/x509.key',
-  useCache: true,
+  cacheMode: record,
   cachePath: '/path/to/a/cache/directory/'
 };
 
@@ -48,6 +48,14 @@ uwsws.term.current(function(err, response, term) {
   console.log(term);
 });
 ```
+
+The ``cacheMode`` can be set to any one of the following modes.  Right now, these modes are from the ``nock`` module.
+
+- wild: all requests go out to the internet, don't replay anything, doesn't record anything
+- dryrun: The default, use recorded nocks, allow http calls, doesn't record anything, useful for writing new tests
+- record: use recorded nocks, record new nocks
+- lockdown: use recorded nocks, disables all http calls even when not nocked, doesn't record
+
 
 Using the same config, get the intro to programming course for winter 2015.
 

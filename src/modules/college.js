@@ -10,8 +10,7 @@ class College extends Service {
     let query = qs.stringify( {campus_short_name: name} );
 
     this._get(`college.json?${query}`, (err, res, body) => {
-      // why would there ever be more than one I don't know
-      cb(err, res, body.Colleges[0]);
+      cb(err, res, body.Colleges);
     });
 
     return;

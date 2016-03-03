@@ -8,10 +8,11 @@ describe('College', function() {
   });
 
   describe('All', () => {
-    it('should return the selected college', (done) => {
-      let name = 'Bothell';
+    it('should return many colleges', (done) => {
+      let name = 'Seattle';
       uwsws.college.search(name, (err, response, data) => {
-        expect(data.CampusShortName).to.equal(name);
+        expect(data[0].CampusShortName).to.equal(name);
+        expect(data).length.above(2);
         done(err);
       });
     });
