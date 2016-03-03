@@ -9,9 +9,12 @@ describe('College', function() {
 
   describe('All', () => {
     it('should return many colleges', (done) => {
-      let name = 'Seattle';
-      uwsws.college.search(name, (err, response, data) => {
-        expect(data[0].CampusShortName).to.equal(name);
+      let options = {
+        name: 'Seattle'
+      };
+
+      uwsws.college.search(options, (err, response, data) => {
+        expect(data[0].CampusShortName).to.equal(options.name);
         expect(data).length.above(2);
         done(err);
       });
