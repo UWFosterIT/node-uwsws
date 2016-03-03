@@ -20,7 +20,7 @@ let config = {
   baseUrl: 'https://ws.admin.washington.edu/student/v5/',
   cert: '/path/to/your/x509.pem',
   key: '/path/to/your/x509.key',
-  cacheMode: record,
+  cacheMode: 'record',
   cachePath: '/path/to/a/cache/directory/'
 };
 
