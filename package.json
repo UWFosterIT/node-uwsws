@@ -41,7 +41,7 @@
   "scripts": {
     "build": "./node_modules/.bin/babel --presets es2015 -d lib/node src",
     "lint": "",
-    "test": "./node_modules/.bin/mocha --bail --reporter spec --compilers js:babel-register test/unit/*.js"
+    "test": "./node_modules/.bin/mocha --bail --reporter dot --compilers js:babel-register test/unit/*.js"
   },
   "engines": {
     "node": ">= v0.12.0"
