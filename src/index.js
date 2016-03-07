@@ -1,4 +1,6 @@
 import fs           from 'fs';
+import bunyan       from 'bunyan';
+import MicroCache   from 'micro-cache';
 import Term         from './modules/term';
 import Campus       from './modules/campus';
 import College      from './modules/college';
@@ -12,8 +14,6 @@ import Enrollment   from './modules/enrollment';
 import Registration from './modules/registration';
 
 function readCertificate(cert = "", key = "") {
-  // don't do this async, if this fails then nothing will work
-  // and that is preferred when using a lib like this one
   if (cert === '' || key === '' ||
       !fs.existsSync(cert) || !fs.existsSync(key)) {
     throw new Error(`Client cert ${cert} or key ${key} can not be found`);
@@ -27,15 +27,14 @@ function readCertificate(cert = "", key = "") {
 
 let UWSWS = {
   initialize(options) {
-    let config = readCertificate(options.cert, options.key);
-    config.baseUrl = options.baseUrl;
-    config.cacheMode = options.cacheMode;
-    config.cachePath = options.cachePath;
+    this.config = options;
+    this.config.auth = readCertificate(options.cert, options.key);
 
-    this.config  = config;
-    this.options = options;
+    if (!this.config.log) {
+      this.config.log = bunyan.createLogger({name: "uwsws"});
+    }
 
-    // add all the sub modules with any necessary config etc
+    this.config.cache = new MicroCache(config.cachePath, config.log);
     this.term         = new Term(config);
     this.campus       = new Campus(config);
     this.college      = new College(config);

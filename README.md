@@ -11,7 +11,7 @@ This module assumes you have gone through all the required steps to get access a
 
 ### Examples
 
-Import the module, set it's configuration and make requests.  You can optionally enforce all http requests to use a local filesytem cache with ``useCache: true`` as shown below.  This can assist wtih speedy development when consuming this module.
+Import the module and set it's configuration.  You must set a ``cacheMode`` to tell the module to save http reqeusts or not to the filesystem (usefull for development).  In production, set that mode to ``wild`` to force all requests to go over the internet.
 
 ```JavaScript
 const uwsws = import('uwsws');
@@ -31,32 +31,6 @@ uwsws.term.current((err, response, term) => {
 });
 ```
 
-or, es5 like...
-
-```JavaScript
-var uwsws = require('uwsws');
-
-var config = {
-  baseUrl: 'https://ws.admin.washington.edu/student/v5/',
-  cert: '/path/to/your/x509.pem',
-  key: '/path/to/your/x509.key'
-};
-
-uwsws.initialize(config);
-
-uwsws.term.current(function(err, response, term) {
-  console.log(term);
-});
-```
-
-The ``cacheMode`` can be set to any one of the following modes.  Right now, these modes are from the ``nock`` module.
-
-- wild: all requests go out to the internet, don't replay anything, doesn't record anything
-- dryrun: The default, use recorded nocks, allow http calls, doesn't record anything, useful for writing new tests
-- record: use recorded nocks, record new nocks
-- lockdown: use recorded nocks, disables all http calls even when not nocked, doesn't record
-
-
 Using the same config, get the intro to programming course for winter 2015.
 
 ```JavaScript
@@ -72,6 +46,17 @@ uwsws.course.get(options, (err, response, body) => {
 });
 ```
 For more examples see ``test/unit/*``.  For a full list of all the options see ``src/modules/*``.  Right now there isn't 100% coverage of all the options but in theory they should work in the context of the query string parameters described in the SWS documentation.  If you find one that doesn't work please create an issue.
+
+### Using a local cache
+
+The ``cacheMode`` can be set to any one of the following modes.  This uses the ``micro-cache`` node module as a local file system cache.  
+
+- wild: all requests go out to the internet, don't load anything from cache, doesn't save anything.
+- dryrun: Loads files from cache if exists, does http calls when cache doesn't exist, doesn't save to the cache.
+- record: Loads files from the cache and saves new ones to the cache.
+
+### Logging
+This module uses ``bunyan`` for all logging.  You can look in ``test/setup/index.js`` to see how you can pass in your own  bunyan logger. 
 
 ## Endpoint Implementation
 All links below go to the official service documentation.  The code block refers to it's implementation in this module.
