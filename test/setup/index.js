@@ -1,25 +1,13 @@
 import config from './config';
+import uwsws  from '../../lib/node/index';
 import chai from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
-import bunyan from 'bunyan';
-import prettyStream from 'bunyan-prettystream';
 
 chai.use(sinonChai);
 global.expect = chai.expect;
 global.config = config;
-
-
-let prettyStdOut = new prettyStream();
-prettyStdOut.pipe(process.stdout);
-config.log = bunyan.createLogger({
-  name: "uwsws",
-  streams: [{
-    level: 'debug',
-    type: 'raw',
-    stream: prettyStdOut
-  }]
-});
+global.uwsws = uwsws;
 
 beforeEach(function() {
   this.sandbox = sinon.sandbox.create();

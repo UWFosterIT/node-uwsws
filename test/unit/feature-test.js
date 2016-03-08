@@ -1,5 +1,4 @@
 import '../setup/';
-import uwsws from '../../src/index';
 
 describe('Initializing the module', () => {
   it('should error when given missing cert or key', () => {

@@ -25,7 +25,7 @@ class Service {
     let options = this._options(endpoint);
 
     if (this.config.cacheMode === 'wild') {
-      this.log.trace(`wild -- ${options.uri}`);
+      this.log.debug(`wild -- ${options.uri}`);
       request.get(options, function (err, response, body) {
         let result = body;
         if (!err) { result = JSON.parse(body); }
@@ -33,7 +33,7 @@ class Service {
         cb(err, response, result);
       });
     } else if (this.config.cacheMode === 'dryrun') {
-      this.log.trace(`dryrun for ${options.uri}`);
+      this.log.debug(`dryrun for ${options.uri}`);
       let body = this.cache.read(options.uriCache);
       if (body) {
         cb(null, null, JSON.parse(body));
@@ -46,7 +46,7 @@ class Service {
         });
       }
     } else if (this.config.cacheMode === 'record') {
-      this.log.trace(`record -- ${options.uri}`);
+      this.log.debug(`record -- ${options.uri}`);
       let body = this.cache.read(options.uriCache);
       if (body) {
         cb(null, null, JSON.parse(body));

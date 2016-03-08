@@ -1,5 +1,4 @@
 import '../setup/';
-import uwsws  from '../../src/index';
 
 describe('Course', function() {
 

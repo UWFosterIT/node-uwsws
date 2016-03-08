@@ -21,7 +21,8 @@ let config = {
   cert: '/path/to/your/x509.pem',
   key: '/path/to/your/x509.key',
   cacheMode: 'record',
-  cachePath: '/path/to/a/cache/directory/'
+  cachePath: '/path/to/a/cache/directory/',
+  logLevel: process.env.LOG_LEVEL || 'info'
 };
 
 uwsws.initialize(config);
@@ -56,7 +57,7 @@ The ``cacheMode`` can be set to any one of the following modes.  This uses the `
 - record: Loads files from the cache and saves new ones to the cache.
 
 ### Logging
-This module uses ``bunyan`` for all logging.  You can look in ``test/setup/index.js`` to see how you can pass in your own  bunyan logger. 
+This module uses ``winston`` for all logging.  Set an environment variable to a valid log level such as ``LOG_LEVEL=debug node yourscript.js``.
 
 ## Endpoint Implementation
 All links below go to the official service documentation.  The code block refers to it's implementation in this module.

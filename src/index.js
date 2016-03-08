@@ -1,5 +1,5 @@
 import fs           from 'fs';
-import bunyan       from 'bunyan';
+import winston      from 'winston';
 import MicroCache   from 'micro-cache';
 import Term         from './modules/term';
 import Campus       from './modules/campus';
@@ -27,14 +27,21 @@ function readCertificate(cert = "", key = "") {
 
 let UWSWS = {
   initialize(options) {
-    this.config = options;
-    this.config.auth = readCertificate(options.cert, options.key);
+    let config = options;
+    config.auth = readCertificate(options.cert, options.key);
 
-    if (!this.config.log) {
-      this.config.log = bunyan.createLogger({name: "uwsws"});
-    }
+    winston.loggers.add('uwsws', {
+      console: {
+        colorize: true,
+        label:    'uwsws',
+        level:    options.logLevel,
+        prettyPrint: true
+      }
+    });
 
-    this.config.cache = new MicroCache(config.cachePath, config.log);
+    config.log = winston.loggers.get('uwsws');
+    config.cache = new MicroCache(options.cachePath, options.logLevel);
+
     this.term         = new Term(config);
     this.campus       = new Campus(config);
     this.college      = new College(config);
