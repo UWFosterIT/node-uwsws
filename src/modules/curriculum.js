@@ -6,7 +6,7 @@ class Curriculum extends Service {
     super(config);
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
 
     let params = {
       college_abbreviation:    opt.college || '',

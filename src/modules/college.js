@@ -6,7 +6,7 @@ class College extends Service {
     super(config);
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
 
     let params = {
       campus_short_name: opt.name    || '',

@@ -6,7 +6,7 @@ class Program extends Service {
     super(config);
   }
 
-  all (opt, cb) {
+  all(opt, cb) {
     let params = {
       first_effective_quarter: opt.quarter || '',
       first_effective_year:    opt.year    || '',
@@ -17,12 +17,12 @@ class Program extends Service {
     let query = qs.stringify(params);
 
     this._get(`program.json?${query}`, (err, res, body) => {
-      cb(err, res, (err ? body : body.Programs));
+      cb(err, res, err ? body : body.Programs);
     });
     return;
   }
 
-  get (opt, cb) {
+  get(opt, cb) {
     opt.pathway = opt.pathway || 0;
     let query   = `${opt.major},${opt.pathway},${opt.year},${opt.quarter}`;
 
@@ -30,7 +30,7 @@ class Program extends Service {
     return;
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
     let params = {
       first_effective_quarter: opt.quarter || '',
       first_effective_year:    opt.year    || '',
@@ -43,7 +43,7 @@ class Program extends Service {
     let query = qs.stringify(params);
 
     this._get(`program.json?${query}`, (err, res, body) => {
-      cb(err, res, (err ? body : body.Programs));
+      cb(err, res, err ? body : body.Programs);
     });
     return;
   }

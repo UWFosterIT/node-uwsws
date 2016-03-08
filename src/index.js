@@ -13,7 +13,7 @@ import Person       from './modules/person';
 import Enrollment   from './modules/enrollment';
 import Registration from './modules/registration';
 
-function readCertificate(cert = "", key = "") {
+function readCertificate(cert = '', key = '') {
   if (cert === '' || key === '' ||
       !fs.existsSync(cert) || !fs.existsSync(key)) {
     throw new Error(`Client cert ${cert} or key ${key} can not be found`);
@@ -21,7 +21,7 @@ function readCertificate(cert = "", key = "") {
 
   return {
     cert: fs.readFileSync(cert),
-    key: fs.readFileSync(key)
+    key:  fs.readFileSync(key)
   };
 }
 
@@ -32,9 +32,9 @@ let UWSWS = {
 
     winston.loggers.add('uwsws', {
       console: {
-        colorize: true,
-        label:    'uwsws',
-        level:    options.logLevel,
+        colorize:    true,
+        label:       'uwsws',
+        level:       options.logLevel,
         prettyPrint: true
       }
     });

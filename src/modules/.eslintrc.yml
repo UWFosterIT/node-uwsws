@@ -1,0 +1,7 @@
+---
+  extends: "../../.eslintrc.yml"
+  rules:
+    camelcase:
+      - 2
+      -
+        properties: "never"

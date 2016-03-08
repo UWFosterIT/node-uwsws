@@ -9,13 +9,13 @@ global.expect = chai.expect;
 global.config = config;
 global.uwsws = uwsws;
 
-beforeEach(function() {
+beforeEach(function () {
   this.sandbox = sinon.sandbox.create();
   this.stub = this.sandbox.stub.bind(this.sandbox);
   this.spy  = this.sandbox.spy.bind(this.sandbox);
 });
 
-afterEach(function() {
+afterEach(function () {
   this.stub = undefined;
   this.spy = undefined;
   this.sandbox.restore();

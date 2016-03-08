@@ -7,7 +7,7 @@ class Campus extends Service {
 
   all(cb) {
     this._get('campus.json', (err, res, body) => {
-      cb(err, res, (err ? body : body.Campuses));
+      cb(err, res, err ? body : body.Campuses);
     });
 
     return;

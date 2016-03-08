@@ -8,7 +8,7 @@ class Registration extends Service {
 
   // forcing verbose and just the one endpoint per their notes at the wiki
   // https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5
-  search (opt, cb) {
+  search(opt, cb) {
     let params = {
       course_number:           opt.course     || '',
       curriculum_abbreviation: opt.curriculum || '',

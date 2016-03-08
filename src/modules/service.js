@@ -7,18 +7,18 @@ class Service {
     this.cache = config.cache;
   }
 
-  _options (endpoint) {
+  _options(endpoint) {
     return {
-      uriCache: endpoint.replace(/\//g, ''),
-      uri: this.config.baseUrl + endpoint,
+      uriCache:     endpoint.replace(/\//g, ''),
+      uri:          this.config.baseUrl + endpoint,
       agentOptions: {
         cert: this.config.auth.cert,
-        key: this.config.auth.key
+        key:  this.config.auth.key
       },
     };
   }
 
-  _get (endpoint, cb) {
+  _get(endpoint, cb) {
     // wild    no load no save
     // dryrun  load not save
     // record  load and save
@@ -28,7 +28,9 @@ class Service {
       this.log.debug(`wild -- ${options.uri}`);
       request.get(options, function (err, response, body) {
         let result = body;
-        if (!err) { result = JSON.parse(body); }
+        if (!err) {
+          result = JSON.parse(body);
+        }
 
         cb(err, response, result);
       });
@@ -40,7 +42,9 @@ class Service {
       } else {
         request.get(options, (err, response, body) => {
           let result = body;
-          if (!err) { result = JSON.parse(body); }
+          if (!err) {
+            result = JSON.parse(body);
+          }
 
           cb(err, response, result);
         });
@@ -53,7 +57,9 @@ class Service {
       } else {
         request.get(options, (err, response, body) => {
           let result = body;
-          if (!err) { result = JSON.parse(body); }
+          if (!err) {
+            result = JSON.parse(body);
+          }
 
           this.cache.write(options.uriCache, body, true);
           cb(err, response, result);

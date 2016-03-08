@@ -6,13 +6,13 @@ class Course extends Service {
     super(config);
   }
 
-  get (opt, cb) {
+  get(opt, cb) {
     let query = `${opt.year},${opt.quarter},${opt.curriculum},${opt.course}`;
     this._get(`course/${query}.json`, cb);
     return;
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
     let params = {
       course_number:                  opt.course     || '',
       course_title_contains:          opt.contains   || '',

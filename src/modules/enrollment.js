@@ -6,7 +6,7 @@ class Enrollment extends Service {
     super(config);
   }
 
-  get (opt, cb) {
+  get(opt, cb) {
     let verbose = opt.verbose || '';
     let query   = `${opt.year},${opt.quarter},${opt.regid}`;
 
@@ -14,7 +14,7 @@ class Enrollment extends Service {
     return;
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
     let params = {
       reg_id:  opt.regid   || '',
       verbose: opt.verbose || ''

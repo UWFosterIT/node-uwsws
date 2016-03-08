@@ -6,12 +6,12 @@ class Person extends Service {
     super(config);
   }
 
-  get (regid, cb) {
+  get(regid, cb) {
     this._get(`person/${regid}.json`, cb);
     return;
   }
 
-  search (opt, cb) {
+  search(opt, cb) {
     let params = {
       employee_id:        opt.employeeid || '',
       net_id:             opt.netid      || '',
