@@ -1,6 +1,6 @@
 {
   "name": "uwsws",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Client Library for University of Washington's Student Web Service",
   "bugs:": {
     "url": "https://github.com/UWFosterIT/node-uwsws/issues"
@@ -37,7 +37,7 @@
     "sinon-chai": "^2.8.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel --presets es2015 -d lib/node src",
+    "build": "./node_modules/.bin/babel --presets es2015 -d lib/node src --source-maps inline",
     "lint": "",
     "test": "npm run build && ./node_modules/.bin/mocha --bail --reporter dot --compilers js:babel-register test/unit/*.js"
   },
