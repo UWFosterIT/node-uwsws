@@ -8,8 +8,11 @@ class Department extends Service {
 
   search(opt, cb) {
     let query = qs.stringify({
-      college_abbreviation: opt.abrev || '',
-      sort_by:              opt.sort  || ''
+      college_abbreviation: opt.abrev   || '',
+      future_terms:         opt.future  || 0,
+      quarter:              opt.quarter || '',
+      sort_by:              opt.sort    || '',
+      year:                 opt.year    || ''
     });
 
     this._get(`department.json?${query}`, (err, res, body) => {

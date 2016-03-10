@@ -10,13 +10,9 @@ class Curriculum extends Service {
 
     let params = {
       college_abbreviation:    opt.college || '',
-      course_number:           opt.course  || '',
       department_abbreviation: opt.dept    || '',
       future_terms:            opt.future  || 0,
-      page_size:               opt.size    || '',
-      page_start:              opt.start   || '',
       quarter:                 opt.quarter || '',
-      sort_by:                 opt.sort    || '',
       year:                    opt.year    || '',
     };
 

@@ -8,15 +8,6 @@ describe('Curriculum', function () {
 
   describe('Search by dept', () => {
     it('should return some that match the query', (done) => {
-      // depending on the options used you can get very large
-      // results that you will need to "page" through using...
-      // result.Curricula.
-      //    "Next": null,
-      //    "PageSize": null,
-      //    "PageStart": null,
-      //    "Previous": null,
-      //    "TotalCount": 3
-
       let options = {
         dept:    'cse',
         quarter: 'winter',

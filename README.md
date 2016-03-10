@@ -1,5 +1,5 @@
 # UW Student Web Service
-This implements most of the [v5 UW Student Webservice endpoints](https://wiki.cac.washington.edu/display/SWS/Student+Web+Service).  Each endpoint is queried using convienent options to build the final ``request``. This module was written with es6 in mind and builds a compatable distribution for es5 and es6.
+This implements most of the [v5 UW Student Webservice endpoints](https://wiki.cac.washington.edu/display/SWS/Student+Web+Service).  Each endpoint is queried using convienent options to build the final ``request``. 
 
 This module assumes you have gone through all the required steps to get access and verified that access as [documented in the SWS wiki](https://wiki.cac.washington.edu/display/SWS/Student+Web+Service).
 
@@ -67,7 +67,6 @@ All of the ``callback`` methods are in the same format as those provided by the 
 
 All of the ``option`` parameters are outlined in ``sr/modules/[endpoint]``
 
-
 Endpoint  | Implementation
 ------------- | -------------
 [Campus](https://wiki.cac.washington.edu/display/SWS/Campus+Search+Resource+V5)  | ``uwsws.campus.all(callback)``
@@ -89,9 +88,11 @@ Endpoint  | Implementation
 Most of these are not implemented due to additional security requirements beyond a simple 509 cert.  Requirements such as permissions in ASTRA or x-uw-act-as permissions passed in the header.  Feel free fork and make a pull request with working tests if you have those permissions.  Others are simply planned for a future release.
 
 ##### extra security needed
+* [Degree (all endpoints)](https://wiki.cac.washington.edu/display/SWS/Degree+Audit+Search+V5)
 * [Change of Major](https://wiki.cac.washington.edu/display/SWS/Change+of+Major+Resource)
 * [Enrollment Majors ](https://wiki.cac.washington.edu/display/SWS/Enrollment+Majors)
 * [Section Status](https://wiki.cac.washington.edu/display/SWS/Section+Status+Resource+V5)
+* Grade Roster
 
 ##### not needed
 * [Resource List](https://wiki.cac.washington.edu/display/SWS/Resource+List+V5)!
@@ -99,21 +100,15 @@ Most of these are not implemented due to additional security requirements beyond
 
 ##### planned for next minor release
 * [Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5)
-* [Personal Financial](https://wiki.cac.washington.edu/display/SWS/Personal+Financial+Resource+V5)
-
-##### under review
-* [Degree Audit](https://wiki.cac.washington.edu/display/SWS/SWS+v5+API)
-* [Notice](https://wiki.cac.washington.edu/display/SWS/Notice+Resource+V5)
-
-
+j
 ## Development
 Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed. Use the ``npm`` commands indicated in ``package.json``.
 
     npm build
     npm test
 
-
 ## To Do
 
-- [ ] Finish implementing the remaining endpoints
-- [ ] Get ``gulp ci`` fully working with scrubbed data to enable CI
+- [ ] Implement Test Score endpoint
+- [ ] Implement the endpoints that require more security
+- [ ] Permit the use of a token instead of a x509 cert where applicable

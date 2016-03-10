@@ -16,8 +16,10 @@ class Enrollment extends Service {
 
   search(opt, cb) {
     let params = {
-      reg_id:  opt.regid   || '',
-      verbose: opt.verbose || ''
+      changed_since_date:    opt.changeDate     || '',
+      reg_id:                opt.regid          || '',
+      transcriptable_course: opt.transcriptable || '',
+      verbose:               opt.verbose        || ''
     };
 
     let query = qs.stringify(params);

@@ -14,16 +14,18 @@ class Course extends Service {
 
   search(opt, cb) {
     let params = {
-      course_number:                  opt.course     || '',
-      course_title_contains:          opt.contains   || '',
-      course_title_starts:            opt.startsWith || '',
-      curriculum_abbreviation:        opt.curriculum || '',
-      exlude_coures_without_sections: opt.exclude    || '',
-      future_terms:                   opt.future     || 0,
-      page_size:                      opt.size       || '',
-      page_start:                     opt.start      || '',
-      quarter:                        opt.quarter    || '',
-      year:                           opt.year       || ''
+      changed_since_date:             opt.changeDate     || '',
+      course_number:                  opt.course         || '',
+      course_title_contains:          opt.contains       || '',
+      course_title_starts:            opt.startsWith     || '',
+      curriculum_abbreviation:        opt.curriculum     || '',
+      exlude_coures_without_sections: opt.exclude        || '',
+      future_terms:                   opt.future         || 0,
+      page_size:                      opt.size           || '',
+      page_start:                     opt.start          || '',
+      transcriptable_course:          opt.transcriptable || '',
+      quarter:                        opt.quarter        || '',
+      year:                           opt.year           || ''
     };
 
     let query = qs.stringify(params);
