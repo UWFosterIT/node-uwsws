@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('Enrollment', function() {
+describe('Enrollment', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -11,9 +11,9 @@ describe('Enrollment', function() {
   describe('Get', () => {
     it('should return some enrollments', (done) => {
       let options = {
-        year: 1996,
         quarter: 'autumn',
-        regid: dummy
+        regid:   dummy,
+        year:    1996
       };
 
       uwsws.enrollment.get(options, (err, response, person) => {
@@ -23,7 +23,7 @@ describe('Enrollment', function() {
     });
   });
 
-  describe('Search',() => {
+  describe('Search', () => {
     it('should return some that match the query', (done) => {
       let options = {
         regid: dummy

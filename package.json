@@ -38,7 +38,7 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/babel --presets es2015 -d lib/node src --source-maps inline",
-    "lint": "",
+    "lint": "eslint test/**/*.js;",
     "test": "npm run build && ./node_modules/.bin/mocha --bail --reporter dot --compilers js:babel-register test/unit/*.js"
   },
   "engines": {

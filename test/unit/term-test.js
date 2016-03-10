@@ -1,7 +1,7 @@
 import '../setup/';
 import moment from 'moment';
 
-describe('Term', function() {
+describe('Term', function () {
 
   var keys = ['Year', 'NextTerm', 'Quarter'];
 
@@ -11,16 +11,16 @@ describe('Term', function() {
 
   describe('Current', () => {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.current( (err, response, body) => {
+      uwsws.term.current((err, response, body) => {
         expect(body).to.contain.all.keys(keys);
         done(err);
       });
     });
   });
 
-  describe('Next', function() {
+  describe('Next', function () {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.next( (err, response, body) => {
+      uwsws.term.next((err, response, body) => {
         expect(body).to.contain.all.keys(keys);
         done(err);
       });
@@ -29,7 +29,7 @@ describe('Term', function() {
 
   describe('Previous', () => {
     it('should return one when it is known to exist', (done) => {
-      uwsws.term.previous( (err, response, body) => {
+      uwsws.term.previous((err, response, body) => {
         expect(body).to.contain.all.keys(keys);
         done(err);
       });

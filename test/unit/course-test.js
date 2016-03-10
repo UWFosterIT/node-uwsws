@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('Course', function() {
+describe('Course', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -9,25 +9,25 @@ describe('Course', function() {
   describe('Get', () => {
     it('should return some that match the query', (done) => {
       let options = {
-        year: 2015,
-        quarter: 'winter',
+        course:     '142',
         curriculum: 'cse',
-        course: '142'
+        quarter:    'winter',
+        year:       2015
       };
 
       uwsws.course.get(options, (err, response, result) => {
-        expect(result.CourseNumber).to.equal("142");
+        expect(result.CourseNumber).to.equal('142');
         done(err);
       });
     });
   });
 
-  describe('Search',() => {
+  describe('Search', () => {
     it('should return some that match the query', (done) => {
       let options = {
-        year: 2015,
-        quarter: 'winter',
-        curriculum: 'math'
+        curriculum: 'math',
+        quarter:    'winter',
+        year:       2015
       };
 
       uwsws.course.search(options, (err, response, result) => {

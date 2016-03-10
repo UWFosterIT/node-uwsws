@@ -1,0 +1,5 @@
+---
+  extends: "../../.eslintrc.yml"
+  rules:
+    max-nested-callbacks:
+      - 0

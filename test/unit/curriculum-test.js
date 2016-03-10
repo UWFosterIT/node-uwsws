@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('Curriculum', function() {
+describe('Curriculum', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -18,9 +18,9 @@ describe('Curriculum', function() {
       //    "TotalCount": 3
 
       let options = {
-        year: 2015,
+        dept:    'cse',
         quarter: 'winter',
-        dept: 'cse'
+        year:    2015
       };
 
       uwsws.curriculum.search(options, (err, response, result) => {
@@ -33,9 +33,9 @@ describe('Curriculum', function() {
   describe('search by college', () => {
     it('should return some that match the query', (done) => {
       let options = {
-        year: 2015,
+        college: 'b a',
         quarter: 'winter',
-        college: 'b a'
+        year:    2015
       };
 
       uwsws.curriculum.search(options, (err, response, result) => {

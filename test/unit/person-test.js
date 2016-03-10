@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('Person', function() {
+describe('Person', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -17,7 +17,7 @@ describe('Person', function() {
     });
   });
 
-  describe('Search',() => {
+  describe('Search', () => {
     it('should return some that match the query', (done) => {
       let options = {
         netid: 'javerage'

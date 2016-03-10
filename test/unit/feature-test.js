@@ -13,11 +13,21 @@ describe('Initializing the module', () => {
       both:     { key: 'nope', cert: 'sup'}
     };
 
-    expect(function() {uwsws.initialize(invalid.key);} ).to.throw(Error);
-    expect(function() {uwsws.initialize(invalid.cert);} ).to.throw(Error);
-    expect(function() {uwsws.initialize(invalid.nothing);} ).to.throw(Error);
-    expect(function() {uwsws.initialize(invalid.withCert);} ).to.throw(Error);
-    expect(function() {uwsws.initialize(invalid.both);} ).to.throw(Error);
+    expect(function () {
+      uwsws.initialize(invalid.key);
+    }).to.throw(Error);
+    expect(function () {
+      uwsws.initialize(invalid.cert);
+    }).to.throw(Error);
+    expect(function () {
+      uwsws.initialize(invalid.nothing);
+    }).to.throw(Error);
+    expect(function () {
+      uwsws.initialize(invalid.withCert);
+    }).to.throw(Error);
+    expect(function () {
+      uwsws.initialize(invalid.both);
+    }).to.throw(Error);
   });
 });
 
@@ -26,11 +36,11 @@ describe('Initializing the module', () => {
     let path = __dirname.replace('/unit', '/utils/');
     let valid = {
       cert: path + 'dummy.crt',
-      key: path + 'dummy.key'
+      key:  path + 'dummy.key'
     };
 
     let result = null;
-    let service = function() {
+    let service = function () {
       result = uwsws.initialize(valid);
     };
 

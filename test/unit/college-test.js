@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('College', function() {
+describe('College', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);

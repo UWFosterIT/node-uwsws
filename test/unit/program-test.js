@@ -1,6 +1,6 @@
 import '../setup/';
 
-describe('Program', function() {
+describe('Program', function () {
 
   beforeEach(() => {
     uwsws.initialize(config);
@@ -22,9 +22,9 @@ describe('Program', function() {
   describe('Get', () => {
     it('should return one', (done) => {
       let options = {
-        year: 1970,
-        major: 'C SCI',
-        quarter: 'autumn'
+        major:   'C SCI',
+        quarter: 'autumn',
+        year:    1970,
       };
 
       uwsws.program.get(options, (err, response, program) => {
@@ -37,9 +37,9 @@ describe('Program', function() {
   describe('All', () => {
     it('should return many of them', (done) => {
       let options = {
-        year: 2015,
+        major:   'tmmba',
         quarter: 'autumn',
-        major: 'tmmba'
+        year:    2015,
       };
 
       uwsws.program.all(options, (err, response, programs) => {
