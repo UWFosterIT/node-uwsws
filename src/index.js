@@ -28,7 +28,16 @@ function readCertificate(cert = '', key = '') {
 let UWSWS = {
   initialize(options) {
     let config = options;
-    config.auth = readCertificate(options.cert, options.key);
+
+    if (config.token) {
+      config.auth = {};
+      config.headers = {
+        'Authorization': `Bearer ${config.token}`
+      };
+    } else {
+      config.headers = {};
+      config.auth = readCertificate(options.cert, options.key);
+    }
 
     winston.loggers.add('uwsws', {
       console: {

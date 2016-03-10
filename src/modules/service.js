@@ -9,12 +9,10 @@ class Service {
 
   _options(endpoint) {
     return {
+      agentOptions: this.config.auth,
+      headers:      this.config.headers,
       uriCache:     endpoint.replace(/\//g, ''),
-      uri:          this.config.baseUrl + endpoint,
-      agentOptions: {
-        cert: this.config.auth.cert,
-        key:  this.config.auth.key
-      },
+      uri:          this.config.baseUrl + endpoint
     };
   }
 

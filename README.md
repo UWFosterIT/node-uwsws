@@ -16,13 +16,23 @@ Import the module and set it's configuration.  You must set a ``cacheMode`` to t
 ```JavaScript
 const uwsws = import('uwsws');
 
+// With x509 cert
 let config = {
-  baseUrl: 'https://ws.admin.washington.edu/student/v5/',
-  cert: '/path/to/your/x509.pem',
-  key: '/path/to/your/x509.key',
+  baseUrl:   'https://ws.admin.washington.edu/student/v5/',
+  cert:      '/path/to/your/x509.pem',
+  key:       '/path/to/your/x509.key',
   cacheMode: 'record',
   cachePath: '/path/to/a/cache/directory/',
-  logLevel: process.env.LOG_LEVEL || 'info'
+  logLevel:  process.env.LOG_LEVEL || 'info'
+};
+
+// or....with Authentication Token
+let config = {
+  baseUrl:   'https://ws.admin.washington.edu/student/v5/',
+  cacheMode: 'record',
+  cachePath: '/path/to/a/cache/directory/',
+  logLevel:  process.env.LOG_LEVEL || 'info',
+  token:     'Your Auth Token'
 };
 
 uwsws.initialize(config);
