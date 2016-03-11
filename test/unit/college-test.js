@@ -1,6 +1,7 @@
 import '../setup/';
 
 describe('College', function () {
+  this.timeout(7000);
 
   beforeEach(() => {
     uwsws.initialize(config);
