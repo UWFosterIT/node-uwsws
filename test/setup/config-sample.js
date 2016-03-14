@@ -4,6 +4,7 @@ let config = {
   key:       '/FULL/PATH/TO/509Key',
   cacheMode: 'record',
   cachePath: '/FULL/PATH/TO/where you want to cache http requests/',
+  cacheExt:  '.json',
   logLevel:  process.env.LOG_LEVEL || 'info',
   token:     'Your Access Token if not using x509'
 };

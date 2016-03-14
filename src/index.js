@@ -49,7 +49,11 @@ let UWSWS = {
     });
 
     config.log = winston.loggers.get('uwsws');
-    config.cache = new MicroCache(options.cachePath, options.logLevel);
+    config.cache = new MicroCache(
+      options.cachePath,
+      options.logLevel,
+      options.cacheExt
+    );
 
     this.term         = new Term(config);
     this.campus       = new Campus(config);
