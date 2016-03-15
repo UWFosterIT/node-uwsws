@@ -93,6 +93,7 @@ Endpoint  | Implementation
 [Section](https://wiki.cac.washington.edu/display/SWS/Section+Resource+V5) | ``uwsws.section.get(options, callback)``
 [Section Search](https://wiki.cac.washington.edu/display/SWS/Section+Search+Resource+v5) | ``uwsws.section.search(options, callback)``
 [Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) |  ``uwsws.term.next(callback)`` or ``.previous(callback)``, or ``.current(callback)`` as well as ``uwsws.term.search(options, callback)``
+[Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5) | ``uwsws.testScore(options, callback)``
 
 #### Not Implemented
 Most of these are not implemented due to additional security requirements beyond a simple 509 cert.  Requirements such as permissions in ASTRA or x-uw-act-as permissions passed in the header.  Feel free fork and make a pull request with working tests if you have those permissions.  Others are simply planned for a future release.
@@ -108,9 +109,6 @@ Most of these are not implemented due to additional security requirements beyond
 * [Resource List](https://wiki.cac.washington.edu/display/SWS/Resource+List+V5)!
 * [Version List](https://wiki.cac.washington.edu/display/SWS/Version+List+Resource+v5)
 
-##### planned for next minor release
-* [Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5)
-j
 ## Development
 Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed. Use the ``npm`` commands indicated in ``package.json``.
 

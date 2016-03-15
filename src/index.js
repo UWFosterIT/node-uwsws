@@ -12,6 +12,7 @@ import Section      from './modules/section';
 import Person       from './modules/person';
 import Enrollment   from './modules/enrollment';
 import Registration from './modules/registration';
+import TestScore    from './modules/testscore';
 
 function readCertificate(cert = '', key = '') {
   if (cert === '' || key === '' ||
@@ -66,6 +67,7 @@ let UWSWS = {
     this.person       = new Person(config);
     this.enrollment   = new Enrollment(config);
     this.registration = new Registration(config);
+    this.testScore    = new TestScore(config);
 
     return this;
   }
