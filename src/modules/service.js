@@ -57,9 +57,9 @@ class Service {
           let result = body;
           if (!err) {
             result = JSON.parse(body);
+            this.cache.write(options.uriCache, body, true);
           }
 
-          this.cache.write(options.uriCache, body, true);
           cb(err, response, result);
         });
       }
