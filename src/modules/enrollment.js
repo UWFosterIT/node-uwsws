@@ -6,26 +6,34 @@ class Enrollment extends Service {
     super(config);
   }
 
-  get(opt, cb) {
+  get(opt) {
     let verbose = opt.verbose || '';
-    let query   = `${opt.year},${opt.quarter},${opt.regid}`;
+    let query = `${opt.year},${opt.quarter},${opt.regid}`;
 
-    this._get(`enrollment/${query}.json?verbose=${verbose}`, cb);
-    return;
+    return this._get(`enrollment/${query}.json?verbose=${verbose}`)
+      .then((result) => {
+        result.enrollment = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  search(opt, cb) {
+  search(opt) {
     let params = {
-      changed_since_date:    opt.changeDate     || '',
-      reg_id:                opt.regid          || '',
+      changed_since_date:    opt.changeDate || '',
+      reg_id:                opt.regid || '',
       transcriptable_course: opt.transcriptable || '',
-      verbose:               opt.verbose        || ''
+      verbose:               opt.verbose || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`enrollment.json?${query}`, cb);
-    return;
+    return this._get(`enrollment.json?${query}`)
+      .then((result) => {
+        result.enrollment = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 
