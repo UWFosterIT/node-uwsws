@@ -15,9 +15,13 @@ class Term extends Service {
     return;
   }
 
-  current(cb) {
-    this._get('term/current.json', cb);
-    return;
+  current() {
+    return this._get('term/dcurrent.json')
+      .then((result) => {
+        result.term = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
   search(options, cb) {
