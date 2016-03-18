@@ -6,22 +6,23 @@ class College extends Service {
     super(config);
   }
 
-  search(opt, cb) {
+  search(opt) {
 
     let params = {
-      campus_short_name: opt.name    || '',
-      future_terms:      opt.future  || 0,
+      campus_short_name: opt.name || '',
+      future_terms:      opt.future || 0,
       quarter:           opt.quarter || '',
-      year:              opt.year    || '',
+      year:              opt.year || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`college.json?${query}`, (err, res, body) => {
-      cb(err, res, body.Colleges);
-    });
-
-    return;
+    return this._get(`college.json?${query}`)
+      .then((result) => {
+        result.college = result.data.Colleges;
+        delete result.data;
+        return result;
+      });
   }
 }
 
