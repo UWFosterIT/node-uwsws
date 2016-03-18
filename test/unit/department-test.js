@@ -7,28 +7,28 @@ describe('Department', function () {
   });
 
   describe('Search', () => {
-    it('should return some', (done) => {
+    it('should return some', () => {
       let options = {
         abrev: 'engr'
       };
 
-      uwsws.department.search(options, (err, response, departments) => {
-        expect(departments).to.have.length.above(5);
-        done(err);
-      });
+      return uwsws.department.search(options)
+        .then((result) => {
+          expect(result.department).to.have.length.above(5);
+        });
     });
 
-    it('for a specific year and quarter should return some', (done) => {
+    it('for a specific year and quarter should return some', () => {
       let options = {
         abrev:   'engr',
         quarter: 'winter',
         year:    2015
       };
 
-      uwsws.department.search(options, (err, response, departments) => {
-        expect(departments.length).to.equal(10);
-        done(err);
-      });
+      return uwsws.department.search(options)
+        .then((result) => {
+          expect(result.department.length).to.equal(10);
+        });
     });
   });
 

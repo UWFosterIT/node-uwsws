@@ -6,19 +6,21 @@ class Department extends Service {
     super(config);
   }
 
-  search(opt, cb) {
+  search(opt) {
     let query = qs.stringify({
-      college_abbreviation: opt.abrev   || '',
-      future_terms:         opt.future  || 0,
+      college_abbreviation: opt.abrev || '',
+      future_terms:         opt.future || 0,
       quarter:              opt.quarter || '',
-      sort_by:              opt.sort    || '',
-      year:                 opt.year    || ''
+      sort_by:              opt.sort || '',
+      year:                 opt.year || ''
     });
 
-    this._get(`department.json?${query}`, (err, res, body) => {
-      cb(err, res, err ? body : body.Departments);
-    });
-    return;
+    return this._get(`department.json?${query}`)
+      .then((result) => {
+        result.department = result.data.Departments;
+        delete result.data;
+        return result;
+      });
   }
 }
 
