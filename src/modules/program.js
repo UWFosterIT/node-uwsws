@@ -6,46 +6,54 @@ class Program extends Service {
     super(config);
   }
 
-  all(opt, cb) {
+  all(opt) {
     let params = {
       first_effective_quarter: opt.quarter || '',
-      first_effective_year:    opt.year    || '',
-      major_abbr:              opt.major   || '',
+      first_effective_year:    opt.year || '',
+      major_abbr:              opt.major || '',
       pathway:                 opt.pathway || 0
     };
 
     let query = qs.stringify(params);
 
-    this._get(`program.json?${query}`, (err, res, body) => {
-      cb(err, res, err ? body : body.Programs);
-    });
-    return;
+    return this._get(`program.json?${query}`)
+      .then((result) => {
+        result.program = result.data.Programs;
+        delete result.data;
+        return result;
+      });
   }
 
-  get(opt, cb) {
+  get(opt) {
     opt.pathway = opt.pathway || 0;
-    let query   = `${opt.major},${opt.pathway},${opt.year},${opt.quarter}`;
+    let query = `${opt.major},${opt.pathway},${opt.year},${opt.quarter}`;
 
-    this._get(`program/${query}.json`, cb);
-    return;
+    return this._get(`program/${query}.json`)
+      .then((result) => {
+        result.program = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  search(opt, cb) {
+  search(opt) {
     let params = {
       first_effective_quarter: opt.quarter || '',
-      first_effective_year:    opt.year    || '',
-      major_abbr:              opt.major   || '',
+      first_effective_year:    opt.year || '',
+      major_abbr:              opt.major || '',
       pathway:                 opt.pathway || 0,
       quarter:                 opt.quarter || '',
-      year:                    opt.year    || ''
+      year:                    opt.year || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`program.json?${query}`, (err, res, body) => {
-      cb(err, res, err ? body : body.Programs);
-    });
-    return;
+    return this._get(`program.json?${query}`)
+      .then((result) => {
+        result.program = result.data.Programs;
+        delete result.data;
+        return result;
+      });
   }
 }
 
