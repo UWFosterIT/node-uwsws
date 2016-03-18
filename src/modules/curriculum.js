@@ -6,20 +6,24 @@ class Curriculum extends Service {
     super(config);
   }
 
-  search(opt, cb) {
+  search(opt) {
 
     let params = {
       college_abbreviation:    opt.college || '',
-      department_abbreviation: opt.dept    || '',
-      future_terms:            opt.future  || 0,
+      department_abbreviation: opt.dept || '',
+      future_terms:            opt.future || 0,
       quarter:                 opt.quarter || '',
-      year:                    opt.year    || '',
+      year:                    opt.year || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`curriculum.json?${query}`, cb);
-    return;
+    return this._get(`curriculum.json?${query}`)
+      .then((result) => {
+        result.curriculum = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

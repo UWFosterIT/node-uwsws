@@ -7,32 +7,32 @@ describe('Curriculum', function () {
   });
 
   describe('Search by dept', () => {
-    it('should return some that match the query', (done) => {
+    it('should return some that match the query', () => {
       let options = {
         dept:    'cse',
         quarter: 'winter',
         year:    2015
       };
 
-      uwsws.curriculum.search(options, (err, response, result) => {
-        expect(result.Curricula).to.have.length.above(2);
-        done(err);
-      });
+      return uwsws.curriculum.search(options)
+        .then((result) => {
+          expect(result.curriculum.Curricula).to.have.length.above(2);
+        });
     });
   });
 
   describe('search by college', () => {
-    it('should return some that match the query', (done) => {
+    it('should return some that match the query', () => {
       let options = {
         college: 'b a',
         quarter: 'winter',
         year:    2015
       };
 
-      uwsws.curriculum.search(options, (err, response, result) => {
-        expect(result.Curricula).to.have.length.above(4);
-        done(err);
-      });
+      return uwsws.curriculum.search(options)
+        .then((result) => {
+          expect(result.curriculum.Curricula).to.have.length.above(4);
+        });
     });
   });
 });
