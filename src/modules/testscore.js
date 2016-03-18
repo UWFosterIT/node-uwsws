@@ -1,4 +1,3 @@
-import qs      from 'query-string';
 import Service from './service';
 
 class TestScore extends Service {
@@ -6,14 +5,21 @@ class TestScore extends Service {
     super(config);
   }
 
-  get(opt, cb) {
+  get(opt) {
     if (opt.testType) {
-      this._get(`testscore/${opt.testType},${opt.regid}.json`, cb);
-    } else {
-      this._get(`testscore/${opt.regid}.json`, cb);
+      return this._get(`testscore/${opt.testType},${opt.regid}.json`)
+        .then((result) => {
+          result.testscore = result.data;
+          delete result.data;
+          return result;
+        });
     }
-
-    return;
+    return this._get(`testscore/${opt.regid}.json`)
+      .then((result) => {
+        result.testscore = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

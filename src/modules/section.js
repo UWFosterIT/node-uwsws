@@ -6,34 +6,42 @@ class Section extends Service {
     super(config);
   }
 
-  get(opt, cb) {
+  get(opt) {
     let course = `${opt.course}/${opt.section}`;
-    let query  = `${opt.year},${opt.quarter},${opt.curriculum},${course}`;
-    this._get(`course/${query}.json`, cb);
-    return;
+    let query = `${opt.year},${opt.quarter},${opt.curriculum},${course}`;
+    return this._get(`course/${query}.json`)
+      .then((result) => {
+        result.section = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  search(opt, cb) {
+  search(opt) {
     let params = {
-      changed_since_date:      opt.changeDate     || '',
-      course_number:           opt.course         || '',
-      curriculum_abbreviation: opt.curriculum     || '',
-      delete_flag:             opt.deleteFlag     || '',
-      future_terms:            opt.future         || 0,
-      include_secondaries:     opt.include        || '',
-      page_size:               opt.size           || '',
-      page_start:              opt.start          || '',
-      quarter:                 opt.quarter        || '',
-      reg_id:                  opt.regid          || '',
-      search_by:               opt.searchBy       || '',
+      changed_since_date:      opt.changeDate || '',
+      course_number:           opt.course || '',
+      curriculum_abbreviation: opt.curriculum || '',
+      delete_flag:             opt.deleteFlag || '',
+      future_terms:            opt.future || 0,
+      include_secondaries:     opt.include || '',
+      page_size:               opt.size || '',
+      page_start:              opt.start || '',
+      quarter:                 opt.quarter || '',
+      reg_id:                  opt.regid || '',
+      search_by:               opt.searchBy || '',
       transcriptable_course:   opt.transcriptable || '',
-      year:                    opt.year           || ''
+      year:                    opt.year || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`section.json?${query}`, cb);
-    return;
+    return this._get(`section.json?${query}`)
+      .then((result) => {
+        result.section = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

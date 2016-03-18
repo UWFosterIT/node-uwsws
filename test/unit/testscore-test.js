@@ -7,31 +7,31 @@ describe('TestScore', function () {
   });
 
   describe('Get by type', () => {
-    it('should return many test scores', (done) => {
+    it('should return many test scores', () => {
       let options = {
         regid: '9136CCB8F66711D5BE060004AC494FFE'
       };
 
-      uwsws.testScore.get(options, (err, response, result) => {
-        expect(result.TestsTaken.length).to.be.above(3);
-        done(err);
-      });
+      return uwsws.testScore.get(options)
+        .then((result) => {
+          expect(result.testscore.TestsTaken.length).to.be.above(3);
+        });
     });
 
-    it('should return only SAT test scores', (done) => {
+    it('should return only SAT test scores', () => {
       let options = {
         testType: 'SAT',
         regid:    '9136CCB8F66711D5BE060004AC494FFE'
       };
 
-      uwsws.testScore.get(options, (err, response, result) => {
-        let tests = result.TestsTaken;
-        expect(tests.length).to.be.above(3);
-        for (var value of tests) {
-          expect(value.TestType.Name).to.have.string('SAT');
-        }
-        done(err);
-      });
+      return uwsws.testScore.get(options)
+        .then((result) => {
+          let tests = result.testscore.TestsTaken;
+          expect(tests.length).to.be.above(3);
+          for (var value of tests) {
+            expect(value.TestType.Name).to.have.string('SAT');
+          }
+        });
     });
   });
 });
