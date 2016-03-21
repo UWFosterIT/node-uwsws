@@ -11,10 +11,10 @@ This module assumes you have gone through all the required steps to get access a
 
 ### Examples
 
-Import the module and set it's configuration.  You must set a ``cacheMode`` to tell the module to save http reqeusts or not to the filesystem (usefull for development).  In production, set that mode to ``wild`` to force all requests to go over the internet.
+Import the module and set it's configuration.  You must set a ``cacheMode`` to tell the module to handle http request responses. Responses can be cached to the filesystem (useful for development). In development, set ``cacheMode`` to ``record``.  In production, set ``cacheMode`` to ``wild`` to force all requests to go over the internet.
 
 ```JavaScript
-const uwsws = import('uwsws');
+import uwsws from 'uwsws';
 
 // With x509 cert
 let config = {
@@ -37,9 +37,10 @@ let config = {
 
 uwsws.initialize(config);
 
-uwsws.term.current((err, response, term) => {
-  console.log(term);
-});
+uwsws.term.current()
+  .then((result) => {
+    console.log(result.term)
+  });
 ```
 
 Using the same config, get the intro to programming course for winter 2015.
@@ -52,11 +53,12 @@ let options = {
   course: '142'
 };
 
-uwsws.course.get(options, (err, response, body) => {
-  console.log(body);
-});
+uwsws.course.get(options)
+  .then((result) => {
+    expect(result.course.CourseNumber).to.equal('142');
+  });
 ```
-For more examples see ``test/unit/*``.  For a full list of all the options see ``src/modules/*``.  Right now there isn't 100% coverage of all the options but in theory they should work in the context of the query string parameters described in the SWS documentation.  If you find one that doesn't work please create an issue.
+For more examples see ``test/unit/*``.  For a full list of all the options see ``src/modules/*``.  Right now there isn't 100% coverage of all the options, but, in theory, they should work in the context of the query string parameters described in the SWS documentation.  If you find one that doesn't work please create an issue.
 
 ### Using a local cache
 
@@ -73,7 +75,15 @@ This module uses ``winston`` for all logging.  Set an environment variable to a 
 All links below go to the official service documentation.  The code block refers to it's implementation in this module.
 
 #### Fully Supported
-All of the ``callback`` methods are in the same format as those provided by the ``request`` module. In most methods the body is returned as the 3rd param in the callback, however, where it makes sense some of the original body is removed to provide cleaner access to only the data you need.
+All of the ``uwsws`` methods return a promise for a result object that contains the following elements:
+
+Object Element | Meaning
+---------- | ---------------
+``statusCode`` | This element represents the HTTP statusCode of the API response.
+``<API name>`` | This element represents the data returned by the SWS API. For example, ``result.term`` contains term data and ``result.course`` returns course data. This element is empty if the request HTTP response code was not 200.
+``message`` | This element represents the message returned in the body of non-200 HTTP response codes. A message is not returned if the status code is 200.
+
+In most methods, the body is returned in \<API name> element. However, where it makes sense, some of the original body is removed to provide cleaner access to only the data you need.
 
 All of the ``option`` parameters are outlined in ``sr/modules/[endpoint]``
 
