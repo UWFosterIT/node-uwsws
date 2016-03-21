@@ -7,7 +7,7 @@ describe('Section', function () {
   });
 
   describe('Get', () => {
-    it('should return one that matches the query', (done) => {
+    it('should return one that matches the query', () => {
       let options = {
         course:     '142',
         curriculum: 'cse',
@@ -16,25 +16,25 @@ describe('Section', function () {
         year:       2015
       };
 
-      uwsws.section.get(options, (err, response, result) => {
-        expect(result.SectionID).to.equal('A');
-        done(err);
-      });
+      return uwsws.section.get(options)
+        .then((result) => {
+          expect(result.section.SectionID).to.equal('A');
+        });
     });
   });
 
   describe('Search', () => {
-    it('should return many that match the query', (done) => {
+    it('should return many that match the query', () => {
       let options = {
         curriculum: 'math',
         quarter:    'winter',
         year:       2015
       };
 
-      uwsws.section.search(options, (err, response, result) => {
-        expect(result.Sections).to.have.length.above(200);
-        done(err);
-      });
+      return uwsws.section.search(options)
+        .then((result) => {
+          expect(result.section.Sections).to.have.length.above(200);
+        });
     });
   });
 });

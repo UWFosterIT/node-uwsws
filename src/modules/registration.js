@@ -8,7 +8,7 @@ class Registration extends Service {
 
   // forcing verbose and just the one endpoint per their notes at the wiki
   // https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5
-  search(opt, cb) {
+  search(opt) {
     let params = {
       changed_since_date:      opt.changeDate     || '',
       course_number:           opt.course         || '',
@@ -27,8 +27,12 @@ class Registration extends Service {
 
     let query = qs.stringify(params);
 
-    this._get(`registration.json?${query}`, cb);
-    return;
+    return this._get(`registration.json?${query}`)
+      .then((result) => {
+        result.registration = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

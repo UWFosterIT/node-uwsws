@@ -6,24 +6,32 @@ class Person extends Service {
     super(config);
   }
 
-  get(regid, cb) {
-    this._get(`person/${regid}.json`, cb);
-    return;
+  get(regid) {
+    return this._get(`person/${regid}.json`)
+      .then((result) => {
+        result.person = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  search(opt, cb) {
+  search(opt) {
     let params = {
       employee_id:        opt.employeeid || '',
-      net_id:             opt.netid      || '',
-      reg_id:             opt.regid      || '',
-      student_number:     opt.studentid  || '',
-      student_system_key: opt.syskey     || ''
+      net_id:             opt.netid || '',
+      reg_id:             opt.regid || '',
+      student_number:     opt.studentid || '',
+      student_system_key: opt.syskey || ''
     };
 
     let query = qs.stringify(params);
 
-    this._get(`person.json?${query}`, cb);
-    return;
+    return this._get(`person.json?${query}`)
+      .then((result) => {
+        result.person = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

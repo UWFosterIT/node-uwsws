@@ -5,24 +5,40 @@ class Term extends Service {
     super(config);
   }
 
-  next(cb) {
-    this._get('term/next.json', cb);
-    return;
+  next() {
+    return this._get('term/next.json')
+      .then((result) => {
+        result.term = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  previous(cb) {
-    this._get('term/previous.json', cb);
-    return;
+  previous() {
+    return this._get('term/previous.json')
+      .then((result) => {
+        result.term = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  current(cb) {
-    this._get('term/current.json', cb);
-    return;
+  current() {
+    return this._get('term/current.json')
+      .then((result) => {
+        result.term = result.data;
+        delete result.data;
+        return result;
+      });
   }
 
-  search(options, cb) {
-    this._get(`term/${options.year},${options.quarter}.json`, cb);
-    return;
+  search(options) {
+    return this._get(`term/${options.year},${options.quarter}.json`)
+      .then((result) => {
+        result.term = result.data;
+        delete result.data;
+        return result;
+      });
   }
 }
 

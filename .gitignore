@@ -1,2 +1,3 @@
 test/setup/config.js
 node_modules
+/cache

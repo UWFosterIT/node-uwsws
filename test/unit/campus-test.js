@@ -7,10 +7,10 @@ describe('Campus', function () {
   });
 
   describe('All', () => {
-    it('should return each campus', (done) => {
-      uwsws.campus.all((err, response, data) => {
-        expect(data.length).to.be.above(2);
-        done(err);
+    it('should return each campus', () => {
+      return uwsws.campus.all()
+      .then((result) => {
+        expect(result.campus.length).to.be.above(2);
       });
     });
   });

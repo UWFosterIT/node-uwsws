@@ -7,45 +7,45 @@ describe('Program', function () {
   });
 
   describe('Search', () => {
-    it('should return some that match the query', (done) => {
+    it('should return some that match the query', () => {
       let options = {
         major: 'C SCI'
       };
 
-      uwsws.program.search(options, (err, response, programs) => {
-        expect(programs).to.have.length.above(0);
-        done(err);
-      });
+      return uwsws.program.search(options)
+        .then((result) => {
+          expect(result.program).to.have.length.above(0);
+        });
     });
   });
 
   describe('Get', () => {
-    it('should return one', (done) => {
+    it('should return one', () => {
       let options = {
         major:   'C SCI',
         quarter: 'autumn',
-        year:    1970,
+        year:    1970
       };
 
-      uwsws.program.get(options, (err, response, program) => {
-        expect(program.ID).to.equal('C SCI,0,1970,autumn');
-        done(err);
-      });
+      return uwsws.program.get(options)
+        .then((result) => {
+          expect(result.program.ID).to.equal('C SCI,0,1970,autumn');
+        });
     });
   });
 
   describe('All', () => {
-    it('should return many of them', (done) => {
+    it('should return many of them', () => {
       let options = {
         major:   'tmmba',
         quarter: 'autumn',
-        year:    2015,
+        year:    2015
       };
 
-      uwsws.program.all(options, (err, response, programs) => {
-        expect(programs).to.have.length.above(0);
-        done(err);
-      });
+      return uwsws.program.all(options)
+        .then((result) => {
+          expect(result.program).to.have.length.above(0);
+        });
     });
   });
 });

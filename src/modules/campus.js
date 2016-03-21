@@ -5,12 +5,13 @@ class Campus extends Service {
     super(config);
   }
 
-  all(cb) {
-    this._get('campus.json', (err, res, body) => {
-      cb(err, res, err ? body : body.Campuses);
-    });
-
-    return;
+  all() {
+    return this._get('campus.json')
+      .then((result) => {
+        result.campus = result.data.Campuses;
+        delete result.data;
+        return result;
+      });
   }
 }
 

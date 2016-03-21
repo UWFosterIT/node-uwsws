@@ -7,15 +7,15 @@ describe('Registration', function () {
   });
 
   describe('Search by person', () => {
-    it('should return many', (done) => {
+    it('should return many', () => {
       let options = {
         regid: '9136CCB8F66711D5BE060004AC494FFE'
       };
 
-      uwsws.registration.search(options, (err, response, result) => {
-        expect(result.Registrations).to.have.length.above(20);
-        done(err);
-      });
+      return uwsws.registration.search(options)
+        .then((result) => {
+          expect(result.registration.Registrations).to.have.length.above(20);
+        });
     });
   });
 });
