@@ -18,12 +18,7 @@ class Curriculum extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`curriculum.json?${query}`)
-      .then((result) => {
-        result.curriculum = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`curriculum.json?${query}`);
   }
 }
 

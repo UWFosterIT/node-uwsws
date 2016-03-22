@@ -14,7 +14,7 @@ describe('TestScore', function () {
 
       return uwsws.testScore.get(options)
         .then((result) => {
-          expect(result.testscore.TestsTaken.length).to.be.above(3);
+          expect(result.data.TestsTaken.length).to.be.above(3);
         });
     });
 
@@ -26,7 +26,7 @@ describe('TestScore', function () {
 
       return uwsws.testScore.get(options)
         .then((result) => {
-          let tests = result.testscore.TestsTaken;
+          let tests = result.data.TestsTaken;
           expect(tests.length).to.be.above(3);
           for (var value of tests) {
             expect(value.TestType.Name).to.have.string('SAT');

@@ -6,39 +6,19 @@ class Term extends Service {
   }
 
   next() {
-    return this._get('term/next.json')
-      .then((result) => {
-        result.term = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get('term/next.json');
   }
 
   previous() {
-    return this._get('term/previous.json')
-      .then((result) => {
-        result.term = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get('term/previous.json');
   }
 
   current() {
-    return this._get('term/current.json')
-      .then((result) => {
-        result.term = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get('term/current.json');
   }
 
   search(options) {
-    return this._get(`term/${options.year},${options.quarter}.json`)
-      .then((result) => {
-        result.term = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`term/${options.year},${options.quarter}.json`);
   }
 }
 

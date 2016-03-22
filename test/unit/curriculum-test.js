@@ -16,7 +16,7 @@ describe('Curriculum', function () {
 
       return uwsws.curriculum.search(options)
         .then((result) => {
-          expect(result.curriculum.Curricula).to.have.length.above(2);
+          expect(result.data.Curricula).to.have.length.above(2);
         });
     });
   });
@@ -31,7 +31,7 @@ describe('Curriculum', function () {
 
       return uwsws.curriculum.search(options)
         .then((result) => {
-          expect(result.curriculum.Curricula).to.have.length.above(4);
+          expect(result.data.Curricula).to.have.length.above(4);
         });
     });
   });

@@ -19,8 +19,7 @@ class College extends Service {
 
     return this._get(`college.json?${query}`)
       .then((result) => {
-        result.college = result.data.Colleges;
-        delete result.data;
+        result.data = result.data.Colleges;
         return result;
       });
   }

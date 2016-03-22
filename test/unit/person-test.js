@@ -12,7 +12,7 @@ describe('Person', function () {
 
       return uwsws.person.get(regid)
         .then((result) => {
-          expect(result.person.UWNetID).to.equal('javerage');
+          expect(result.data.UWNetID).to.equal('javerage');
         });
     });
   });
@@ -25,8 +25,8 @@ describe('Person', function () {
 
       return uwsws.person.search(options)
         .then((result) => {
-          expect(result.person.Persons).to.have.length.above(0);
-          expect(result.person.Persons[0].UWNetID).to.equal('javerage');
+          expect(result.data.Persons).to.have.length.above(0);
+          expect(result.data.Persons[0].UWNetID).to.equal('javerage');
         });
     });
   });

@@ -18,8 +18,7 @@ class Program extends Service {
 
     return this._get(`program.json?${query}`)
       .then((result) => {
-        result.program = result.data.Programs;
-        delete result.data;
+        result.data = result.data.Programs;
         return result;
       });
   }
@@ -28,12 +27,7 @@ class Program extends Service {
     opt.pathway = opt.pathway || 0;
     let query = `${opt.major},${opt.pathway},${opt.year},${opt.quarter}`;
 
-    return this._get(`program/${query}.json`)
-      .then((result) => {
-        result.program = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`program/${query}.json`);
   }
 
   search(opt) {
@@ -50,8 +44,7 @@ class Program extends Service {
 
     return this._get(`program.json?${query}`)
       .then((result) => {
-        result.program = result.data.Programs;
-        delete result.data;
+        result.data = result.data.Programs;
         return result;
       });
   }

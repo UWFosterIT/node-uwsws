@@ -8,8 +8,7 @@ class Campus extends Service {
   all() {
     return this._get('campus.json')
       .then((result) => {
-        result.campus = result.data.Campuses;
-        delete result.data;
+        result.data = result.data.Campuses;
         return result;
       });
   }

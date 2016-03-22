@@ -9,12 +9,7 @@ class Course extends Service {
   get(opt) {
     let query = `${opt.year},${opt.quarter},${opt.curriculum},${opt.course}`;
 
-    return this._get(`course/${query}.json`)
-      .then((result) => {
-        result.course = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`course/${query}.json`);
   }
 
   search(opt) {
@@ -35,12 +30,7 @@ class Course extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`course.json?${query}`)
-      .then((result) => {
-        result.course = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`course.json?${query}`);
   }
 }
 

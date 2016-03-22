@@ -18,7 +18,7 @@ describe('Section', function () {
 
       return uwsws.section.get(options)
         .then((result) => {
-          expect(result.section.SectionID).to.equal('A');
+          expect(result.data.SectionID).to.equal('A');
         });
     });
   });
@@ -33,7 +33,7 @@ describe('Section', function () {
 
       return uwsws.section.search(options)
         .then((result) => {
-          expect(result.section.Sections).to.have.length.above(200);
+          expect(result.data.Sections).to.have.length.above(200);
         });
     });
   });

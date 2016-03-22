@@ -12,7 +12,7 @@ describe('Term', function () {
   describe('Current', () => {
     it('should return one when it is known to exist', () => {
       return uwsws.term.current().then((result) => {
-        expect(result.term).to.contain.all.keys(keys);
+        expect(result.data).to.contain.all.keys(keys);
       });
     });
   });
@@ -20,15 +20,15 @@ describe('Term', function () {
   describe('Next', function () {
     it('should return one when it is known to exist', () => {
       return uwsws.term.next().then((result) => {
-        expect(result.term).to.contain.all.keys(keys);
+        expect(result.data).to.contain.all.keys(keys);
       });
     });
   });
 
   describe('Previous', () => {
     it('should return one when it is known to exist', () => {
-      uwsws.term.previous().then((result)  => {
-        expect(result.term).to.contain.all.keys(keys);
+      return uwsws.term.previous().then((result)  => {
+        expect(result.data).to.contain.all.keys(keys);
       });
     });
   });
@@ -36,8 +36,8 @@ describe('Term', function () {
   describe('Search', () => {
     it('should return matching quarter and year', () => {
       var options = {year: moment().year(), quarter: 'autumn'};
-      uwsws.term.search(options).then((result) => {
-        expect(result.term).to.contain.all.keys(keys);
+      return uwsws.term.search(options).then((result) => {
+        expect(result.data).to.contain.all.keys(keys);
       });
     });
   });
