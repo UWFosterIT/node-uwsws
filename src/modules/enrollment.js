@@ -10,12 +10,7 @@ class Enrollment extends Service {
     let verbose = opt.verbose || '';
     let query = `${opt.year},${opt.quarter},${opt.regid}`;
 
-    return this._get(`enrollment/${query}.json?verbose=${verbose}`)
-      .then((result) => {
-        result.enrollment = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`enrollment/${query}.json?verbose=${verbose}`);
   }
 
   search(opt) {
@@ -28,12 +23,7 @@ class Enrollment extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`enrollment.json?${query}`)
-      .then((result) => {
-        result.enrollment = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`enrollment.json?${query}`);
   }
 }
 

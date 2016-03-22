@@ -14,7 +14,7 @@ describe('Registration', function () {
 
       return uwsws.registration.search(options)
         .then((result) => {
-          expect(result.registration.Registrations).to.have.length.above(20);
+          expect(result.data.Registrations).to.have.length.above(20);
         });
     });
   });

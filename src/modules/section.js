@@ -9,12 +9,7 @@ class Section extends Service {
   get(opt) {
     let course = `${opt.course}/${opt.section}`;
     let query = `${opt.year},${opt.quarter},${opt.curriculum},${course}`;
-    return this._get(`course/${query}.json`)
-      .then((result) => {
-        result.section = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`course/${query}.json`);
   }
 
   search(opt) {
@@ -36,12 +31,7 @@ class Section extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`section.json?${query}`)
-      .then((result) => {
-        result.section = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`section.json?${query}`);
   }
 }
 

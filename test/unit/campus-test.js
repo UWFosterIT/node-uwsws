@@ -10,7 +10,7 @@ describe('Campus', function () {
     it('should return each campus', () => {
       return uwsws.campus.all()
       .then((result) => {
-        expect(result.campus.length).to.be.above(2);
+        expect(result.data.length).to.be.above(2);
       });
     });
   });

@@ -14,7 +14,7 @@ describe('Program', function () {
 
       return uwsws.program.search(options)
         .then((result) => {
-          expect(result.program).to.have.length.above(0);
+          expect(result.data).to.have.length.above(0);
         });
     });
   });
@@ -29,7 +29,7 @@ describe('Program', function () {
 
       return uwsws.program.get(options)
         .then((result) => {
-          expect(result.program.ID).to.equal('C SCI,0,1970,autumn');
+          expect(result.data.ID).to.equal('C SCI,0,1970,autumn');
         });
     });
   });
@@ -44,7 +44,7 @@ describe('Program', function () {
 
       return uwsws.program.all(options)
         .then((result) => {
-          expect(result.program).to.have.length.above(0);
+          expect(result.data).to.have.length.above(0);
         });
     });
   });

@@ -7,12 +7,7 @@ class Person extends Service {
   }
 
   get(regid) {
-    return this._get(`person/${regid}.json`)
-      .then((result) => {
-        result.person = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`person/${regid}.json`);
   }
 
   search(opt) {
@@ -26,12 +21,7 @@ class Person extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`person.json?${query}`)
-      .then((result) => {
-        result.person = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`person.json?${query}`);
   }
 }
 

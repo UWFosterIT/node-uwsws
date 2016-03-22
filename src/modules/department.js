@@ -17,8 +17,7 @@ class Department extends Service {
 
     return this._get(`department.json?${query}`)
       .then((result) => {
-        result.department = result.data.Departments;
-        delete result.data;
+        result.data = result.data.Departments;
         return result;
       });
   }

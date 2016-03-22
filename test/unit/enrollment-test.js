@@ -18,7 +18,7 @@ describe('Enrollment', function () {
 
       return uwsws.enrollment.get(options)
         .then((result) => {
-          expect(result.enrollment.Registrations).to.have.length.above(2);
+          expect(result.data.Registrations).to.have.length.above(2);
         });
     });
   });
@@ -31,7 +31,7 @@ describe('Enrollment', function () {
 
       return uwsws.enrollment.search(options)
         .then((result) => {
-          expect(result.enrollment.Enrollments).to.have.length.above(20);
+          expect(result.data.Enrollments).to.have.length.above(20);
         });
     });
   });

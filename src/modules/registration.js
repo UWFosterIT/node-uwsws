@@ -27,12 +27,7 @@ class Registration extends Service {
 
     let query = qs.stringify(params);
 
-    return this._get(`registration.json?${query}`)
-      .then((result) => {
-        result.registration = result.data;
-        delete result.data;
-        return result;
-      });
+    return this._get(`registration.json?${query}`);
   }
 }
 

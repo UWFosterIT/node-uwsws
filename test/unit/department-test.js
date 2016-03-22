@@ -14,7 +14,7 @@ describe('Department', function () {
 
       return uwsws.department.search(options)
         .then((result) => {
-          expect(result.department).to.have.length.above(5);
+          expect(result.data).to.have.length.above(5);
         });
     });
 
@@ -27,9 +27,8 @@ describe('Department', function () {
 
       return uwsws.department.search(options)
         .then((result) => {
-          expect(result.department.length).to.equal(10);
+          expect(result.data.length).to.equal(10);
         });
     });
   });
-
 });

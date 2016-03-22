@@ -15,8 +15,8 @@ describe('College', function () {
 
       return uwsws.college.search(options)
         .then((result) => {
-          expect(result.college[0].CampusShortName).to.equal(options.name);
-          expect(result.college).length.above(2);
+          expect(result.data[0].CampusShortName).to.equal(options.name);
+          expect(result.data).length.above(2);
         });
     });
 
@@ -29,7 +29,7 @@ describe('College', function () {
 
       return uwsws.college.search(options)
         .then((result) => {
-          for (var college of result.college) {
+          for (var college of result.data) {
             expect(college.Year).to.equal(options.year);
             expect(college.Quarter).to.equal(options.quarter);
           }
@@ -42,13 +42,14 @@ describe('College', function () {
       };
 
       let currentCount = 0;
-      uwsws.college.search(options)
+
+      return uwsws.college.search(options)
         .then((result) => {
-          currentCount = result.college.length;
+          currentCount = result.data.length;
           options.future = 2;
           return uwsws.college.search(options)
             .then((result) => {
-              expect(result.college.length).to.be.above(currentCount);
+              expect(result.data.length).to.be.above(currentCount);
             });
         });
     });

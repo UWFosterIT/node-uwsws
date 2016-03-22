@@ -17,7 +17,7 @@ describe('Course', function () {
 
       return uwsws.course.get(options)
         .then((result) => {
-          expect(result.course.CourseNumber).to.equal('142');
+          expect(result.data.CourseNumber).to.equal('142');
         });
     });
   });
@@ -32,7 +32,7 @@ describe('Course', function () {
 
       return uwsws.course.search(options)
         .then((result) => {
-          expect(result.course.Courses).to.have.length.above(7);
+          expect(result.data.Courses).to.have.length.above(7);
         });
     });
   });

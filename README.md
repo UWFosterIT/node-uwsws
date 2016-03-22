@@ -80,30 +80,30 @@ All of the ``uwsws`` methods return a promise for a result object that contains 
 Object Element | Meaning
 ---------- | ---------------
 ``statusCode`` | This element represents the HTTP statusCode of the API response.
-``<API name>`` | This element represents the data returned by the SWS API. For example, ``result.term`` contains term data and ``result.course`` returns course data. This element is empty if the request HTTP response code was not 200.
+``data`` | This element represents the data returned by the SWS API. This element is empty if the request HTTP response code was not 200.
 ``message`` | This element represents the message returned in the body of non-200 HTTP response codes. A message is not returned if the status code is 200.
 
-In most methods, the body is returned in \<API name> element. However, where it makes sense, some of the original body is removed to provide cleaner access to only the data you need.
+In most methods, the response body is returned in data element. However, where it makes sense, some of the original body is removed to provide cleaner access to only the data you need.
 
 All of the ``option`` parameters are outlined in ``sr/modules/[endpoint]``
 
 Endpoint  | Implementation
 ------------- | -------------
-[Campus](https://wiki.cac.washington.edu/display/SWS/Campus+Search+Resource+V5)  | ``uwsws.campus.all(callback)``
- [College Search](https://wiki.cac.washington.edu/display/SWS/College+Search+Resource+V5)  | ``uwsws.college.search(campusName, callback)``
-[Course](https://wiki.cac.washington.edu/display/SWS/Course+Resource+v5) | ``uwsws.course.get(options, callback)``
-[Course Search](https://wiki.cac.washington.edu/display/SWS/Course+Search+Resource+V5) | ``uwsws.course.search(options, callback)``
-[Curriculumn Search](https://wiki.cac.washington.edu/display/SWS/Curriculum+Search+Resource+V5) | ``uwsws.curriculum.search(options, callback)``
-[Department Search](https://wiki.cac.washington.edu/display/SWS/Department+Search+Resource+V5) | ``uwsws.department.search(options, callback)``
-[Enrollment](https://wiki.cac.washington.edu/display/SWS/Enrollment+Resource+V5) | ``uwsws.enrollment.get(options, callback)``
-[Enrollment Search](https://wiki.cac.washington.edu/display/SWS/Enrollment+Search+Resource+V5) | ``uwsws.entrollment.search(options, callback)``
-[Person](https://wiki.cac.washington.edu/display/SWS/Person+Resource+V5) | ``uwsws.person.get(regid, callback)``
-[Person Search](https://wiki.cac.washington.edu/display/SWS/Person+Search+Resource+V5) | ``uwsws.person.search(options, callback)``
-[Registration Search](https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5) | ``uwsws.registration.search(options, callback)``
-[Section](https://wiki.cac.washington.edu/display/SWS/Section+Resource+V5) | ``uwsws.section.get(options, callback)``
-[Section Search](https://wiki.cac.washington.edu/display/SWS/Section+Search+Resource+v5) | ``uwsws.section.search(options, callback)``
-[Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) |  ``uwsws.term.next(callback)`` or ``.previous(callback)``, or ``.current(callback)`` as well as ``uwsws.term.search(options, callback)``
-[Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5) | ``uwsws.testScore(options, callback)``
+[Campus](https://wiki.cac.washington.edu/display/SWS/Campus+Search+Resource+V5)  | ``uwsws.campus.all()``
+ [College Search](https://wiki.cac.washington.edu/display/SWS/College+Search+Resource+V5)  | ``uwsws.college.search(campusName)``
+[Course](https://wiki.cac.washington.edu/display/SWS/Course+Resource+v5) | ``uwsws.course.get(options)``
+[Course Search](https://wiki.cac.washington.edu/display/SWS/Course+Search+Resource+V5) | ``uwsws.course.search(options)``
+[Curriculumn Search](https://wiki.cac.washington.edu/display/SWS/Curriculum+Search+Resource+V5) | ``uwsws.curriculum.search(options)``
+[Department Search](https://wiki.cac.washington.edu/display/SWS/Department+Search+Resource+V5) | ``uwsws.department.search(options)``
+[Enrollment](https://wiki.cac.washington.edu/display/SWS/Enrollment+Resource+V5) | ``uwsws.enrollment.get(options)``
+[Enrollment Search](https://wiki.cac.washington.edu/display/SWS/Enrollment+Search+Resource+V5) | ``uwsws.entrollment.search(options)``
+[Person](https://wiki.cac.washington.edu/display/SWS/Person+Resource+V5) | ``uwsws.person.get(regid)``
+[Person Search](https://wiki.cac.washington.edu/display/SWS/Person+Search+Resource+V5) | ``uwsws.person.search(options)``
+[Registration Search](https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5) | ``uwsws.registration.search(options)``
+[Section](https://wiki.cac.washington.edu/display/SWS/Section+Resource+V5) | ``uwsws.section.get(options)``
+[Section Search](https://wiki.cac.washington.edu/display/SWS/Section+Search+Resource+v5) | ``uwsws.section.search(options)``
+[Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) |  ``uwsws.term.next()`` or ``.previous()``, or ``.current()`` as well as ``uwsws.term.search(options)``
+[Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5) | ``uwsws.testScore(options)``
 
 #### Not Implemented
 Most of these are not implemented due to additional security requirements beyond a simple 509 cert.  Requirements such as permissions in ASTRA or x-uw-act-as permissions passed in the header.  Feel free fork and make a pull request with working tests if you have those permissions.  Others are simply planned for a future release.
