@@ -105,8 +105,6 @@ Endpoint  | Implementation
 [Term](https://wiki.cac.washington.edu/display/SWS/Term+Resource+V5) |  ``uwsws.term.next()`` or ``.previous()``, or ``.current()`` as well as ``uwsws.term.search(options)``
 [Test Score](https://wiki.cac.washington.edu/display/SWS/Test+Score+Resource+V5) | ``uwsws.testScore(options)``
 
-Look at the tests of each endpoint's module for option key names.
-
 #### Not Implemented
 Most of these are not implemented due to additional security requirements beyond a simple 509 cert.  Requirements such as permissions in ASTRA or x-uw-act-as permissions passed in the header.  Feel free fork and make a pull request with working tests if you have those permissions.  Others are simply planned for a future release.
 
