@@ -45,7 +45,7 @@
     "test": "npm run build && ./node_modules/.bin/mocha --bail --reporter dot --compilers js:babel-register test/unit/*.js"
   },
   "engines": {
-    "node": ">= v0.12.0"
+    "node": ">= v4.4.4"
   },
   "license": "MIT"
 }
