@@ -27,7 +27,7 @@ describe('Term', function () {
 
   describe('Previous', () => {
     it('should return one when it is known to exist', () => {
-      return uwsws.term.previous().then((result)  => {
+      return uwsws.term.previous().then((result) => {
         expect(result.data).to.contain.all.keys(keys);
       });
     });
@@ -38,6 +38,15 @@ describe('Term', function () {
       var options = {year: moment().year(), quarter: 'autumn'};
       return uwsws.term.search(options).then((result) => {
         expect(result.data).to.contain.all.keys(keys);
+      });
+    });
+  });
+
+  describe('Current and Next n', () => {
+    it('should return n + 1 terms from current inclusive', () => {
+      var options = {numberOfTerms: 2};
+      return uwsws.term.currentAndNext(options).then((result) => {
+        expect(result.data.length).to.equal(3);
       });
     });
   });
