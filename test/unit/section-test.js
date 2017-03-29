@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('Section', function () {

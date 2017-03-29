@@ -1,16 +1,32 @@
+/* global uwsws, expect  */
 import '../setup/';
 
 describe('Initializing the module', () => {
   it('should error when given missing cert or key', () => {
-    let path     = __dirname.replace('/unit', '/utils/');
-    let certFile = path + 'dummy.crt';
+    let path = __dirname.replace('/unit', '/utils/');
+    let certFile = `${path}dummy.crt`;
 
     let invalid = {
-      key:      { key: '', cert: 'nope' },
-      cert:     { key: 'sup', cert: '' },
-      nothing:  { key: '', cert: '' },
-      withCert: { key: 'sup', cert: certFile },
-      both:     { key: 'nope', cert: 'sup'}
+      both: {
+        cert: 'sup',
+        key:  'nope',
+      },
+      cert: {
+        cert: '',
+        key:  'sup',
+      },
+      key: {
+        cert: 'nope',
+        key:  '',
+      },
+      nothing: {
+        cert: '',
+        key:  '',
+      },
+      withCert: {
+        cert: certFile,
+        key:  'sup',
+      },
     };
 
     expect(function () {
@@ -35,8 +51,8 @@ describe('Initializing the module', () => {
   it('should not error', () => {
     let path = __dirname.replace('/unit', '/utils/');
     let valid = {
-      cert: path + 'dummy.crt',
-      key:  path + 'dummy.key'
+      cert: `${path}dummy.crt`,
+      key:  `${path}dummy.key`
     };
 
     let result = null;

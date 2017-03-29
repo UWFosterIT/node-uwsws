@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 import moment from 'moment';
 
@@ -35,7 +36,10 @@ describe('Term', function () {
 
   describe('Search', () => {
     it('should return matching quarter and year', () => {
-      var options = {year: moment().year(), quarter: 'autumn'};
+      var options = {
+        quarter: 'autumn',
+        year:    moment().year(),
+      };
       return uwsws.term.search(options).then((result) => {
         expect(result.data).to.contain.all.keys(keys);
       });

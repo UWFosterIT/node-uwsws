@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('Person', function () {
@@ -19,9 +20,7 @@ describe('Person', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {
-        netid: 'javerage'
-      };
+      let options = {netid: 'javerage'};
 
       return uwsws.person.search(options)
         .then((result) => {

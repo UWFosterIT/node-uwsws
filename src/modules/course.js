@@ -23,8 +23,8 @@ class Course extends Service {
       future_terms:                     opt.future || 0,
       page_size:                        opt.size || '',
       page_start:                       opt.start || '',
-      transcriptable_course:            opt.transcriptable || '',
       quarter:                          opt.quarter || '',
+      transcriptable_course:            opt.transcriptable || '',
       year:                             opt.year || ''
     };
 

@@ -24,7 +24,7 @@ export default class Term extends Service {
   async currentAndNext(options) {
     let numberOfTerms = options.numberOfTerms;
     if (numberOfTerms) {
-      numberOfTerms ++;
+      numberOfTerms++;
     } else {
       numberOfTerms = 2;
     }
@@ -41,7 +41,10 @@ export default class Term extends Service {
       if (i % 4 === 0) {
         year++;
       }
-      let nextTerm = await this.search({year: year, quarter: termNames[i]}).catch((error) => {
+      let nextTerm = await this.search({
+        quarter: termNames[i],
+        year:    year,
+      }).catch((error) => {
         throw error;
       });
       terms.push(nextTerm.data);

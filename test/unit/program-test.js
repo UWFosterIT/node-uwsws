@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('Program', function () {
@@ -8,9 +9,7 @@ describe('Program', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {
-        major: 'C SCI'
-      };
+      let options = {major: 'C SCI'};
 
       return uwsws.program.search(options)
         .then((result) => {

@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('Enrollment', function () {
@@ -25,9 +26,7 @@ describe('Enrollment', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {
-        regid: dummy
-      };
+      let options = {regid: dummy};
 
       return uwsws.enrollment.search(options)
         .then((result) => {

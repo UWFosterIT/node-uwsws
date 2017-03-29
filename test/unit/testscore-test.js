@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('TestScore', function () {
@@ -8,9 +9,7 @@ describe('TestScore', function () {
 
   describe('Get by type', () => {
     it('should return many test scores', () => {
-      let options = {
-        regid: '9136CCB8F66711D5BE060004AC494FFE'
-      };
+      let options = {regid: '9136CCB8F66711D5BE060004AC494FFE'};
 
       return uwsws.testScore.get(options)
         .then((result) => {
@@ -20,8 +19,8 @@ describe('TestScore', function () {
 
     it('should return only SAT test scores', () => {
       let options = {
+        regid:    '9136CCB8F66711D5BE060004AC494FFE',
         testType: 'SAT',
-        regid:    '9136CCB8F66711D5BE060004AC494FFE'
       };
 
       return uwsws.testScore.get(options)

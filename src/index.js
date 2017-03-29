@@ -1,18 +1,18 @@
-import fs           from 'fs';
-import winston      from 'winston';
-import MicroCache   from 'micro-cache';
-import Term         from './modules/term';
 import Campus       from './modules/campus';
 import College      from './modules/college';
-import Department   from './modules/department';
-import Program      from './modules/program';
-import Curriculum   from './modules/curriculum';
 import Course       from './modules/course';
-import Section      from './modules/section';
-import Person       from './modules/person';
+import Curriculum   from './modules/curriculum';
+import Department   from './modules/department';
 import Enrollment   from './modules/enrollment';
+import fs           from 'fs';
+import MicroCache   from 'micro-cache';
+import Person       from './modules/person';
+import Program      from './modules/program';
 import Registration from './modules/registration';
+import Section      from './modules/section';
+import Term         from './modules/term';
 import TestScore    from './modules/testscore';
+import winston      from 'winston';
 
 function readCertificate(cert = '', key = '') {
   if (cert === '' || key === '' ||
@@ -32,9 +32,7 @@ let UWSWS = {
 
     if (config.token) {
       config.auth = {};
-      config.headers = {
-        'Authorization': `Bearer ${config.token}`
-      };
+      config.headers = {'Authorization': `Bearer ${config.token}`};
     } else {
       config.headers = {};
       config.auth = readCertificate(options.cert, options.key);

@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('College', function () {
@@ -9,9 +10,7 @@ describe('College', function () {
 
   describe('Search', () => {
     it('should return many colleges for Seattle', () => {
-      let options = {
-        name: 'Seattle'
-      };
+      let options = {name: 'Seattle'};
 
       return uwsws.college.search(options)
         .then((result) => {
@@ -37,9 +36,7 @@ describe('College', function () {
     });
 
     it('should return future terms of colleges for Seattle', () => {
-      let options = {
-        name: 'Seattle'
-      };
+      let options = {name: 'Seattle'};
 
       let currentCount = 0;
 

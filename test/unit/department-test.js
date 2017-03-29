@@ -1,3 +1,4 @@
+/* global uwsws, config, expect  */
 import '../setup/';
 
 describe('Department', function () {
@@ -8,9 +9,7 @@ describe('Department', function () {
 
   describe('Search', () => {
     it('should return some', () => {
-      let options = {
-        abrev: 'engr'
-      };
+      let options = {abrev: 'engr'};
 
       return uwsws.department.search(options)
         .then((result) => {

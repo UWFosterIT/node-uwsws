@@ -1,8 +1,8 @@
-import config from './config';
-import uwsws  from '../../lib/node/index';
 import chai from 'chai';
+import config from './config';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
+import uwsws  from '../../lib/node/index';
 
 chai.use(sinonChai);
 global.expect = chai.expect;
@@ -16,7 +16,7 @@ beforeEach(function () {
 });
 
 afterEach(function () {
-  this.stub = undefined;
-  this.spy = undefined;
+  this.stub = void 0;
+  this.spy = void 0;
   this.sandbox.restore();
 });
