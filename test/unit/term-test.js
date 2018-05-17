@@ -1,6 +1,5 @@
-/* global uwsws, config, expect  */
-import '../setup/';
-import moment from 'moment';
+require('../setup/');
+let moment = require('moment');
 
 describe('Term', function () {
 

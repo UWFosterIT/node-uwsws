@@ -1,12 +1,21 @@
 let config = {
   baseUrl:   'https://ws.admin.washington.edu/student/v5/',
   cacheExt:  '.json',
-  cacheMode: 'record',
-  cachePath: '/FULL/PATH/TO/where you want to cache http requests/',
-  cert:      '/FULL/PATH/TO/509Cert',
-  key:       '/FULL/PATH/TO/509Key',
-  logLevel:  process.env.LOG_LEVEL || 'info',
-  // token:     'Your Access Token if not using x509'
+  cacheMode: 'wild',
+  cachePath: '.cache/',
+  certInfo:  {
+    file: {
+      cert: 'PATH TO LOCAL CERT',
+      key:  'PATH TO LOCAL KEY'
+    },
+    // s3: {
+    //   certBucket: 'CERT AWS BUCKET',
+    //   certKey:    'CERT AWS KEY',
+    //   keyBucket:  'KEY AWS BUCKET',
+    //   keyKey:     'KEY AWS KEY'
+    // }
+  },
+  logLevel: 'info',
 };
 
-export default config;
+module.exports = config;

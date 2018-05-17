@@ -1,4 +1,4 @@
-import request from 'request';
+let request = require('request');
 
 class Service {
   constructor(config) {
@@ -11,8 +11,8 @@ class Service {
     return {
       agentOptions: this.config.auth,
       headers:      this.config.headers,
+      uri:          this.config.baseUrl + endpoint,
       uriCache:     endpoint.replace(/\//g, ''),
-      uri:          this.config.baseUrl + endpoint
     };
   }
 
@@ -111,4 +111,4 @@ class Service {
   }
 }
 
-export default Service;
+module.exports = Service;

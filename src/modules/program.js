@@ -1,5 +1,5 @@
-import qs      from 'query-string';
-import Service from './service';
+let qs      = require('query-string');
+let Service = require('./service');
 
 class Program extends Service {
   constructor(config) {
@@ -11,7 +11,9 @@ class Program extends Service {
       first_effective_quarter: opt.quarter || '',
       first_effective_year:    opt.year || '',
       major_abbr:              opt.major || '',
-      pathway:                 opt.pathway || 0
+      pathway:                 opt.pathway || '',
+      quarter:                 opt.quarter || '',
+      year:                    opt.year || ''
     };
 
     let query = qs.stringify(params);
@@ -24,7 +26,7 @@ class Program extends Service {
   }
 
   get(opt) {
-    opt.pathway = opt.pathway || 0;
+    opt.pathway = opt.pathway || '00';
     let query = `${opt.major},${opt.pathway},${opt.year},${opt.quarter}`;
 
     return this._get(`program/${query}.json`);
@@ -35,7 +37,7 @@ class Program extends Service {
       first_effective_quarter: opt.quarter || '',
       first_effective_year:    opt.year || '',
       major_abbr:              opt.major || '',
-      pathway:                 opt.pathway || 0,
+      pathway:                 opt.pathway || '',
       quarter:                 opt.quarter || '',
       year:                    opt.year || ''
     };
@@ -50,4 +52,4 @@ class Program extends Service {
   }
 }
 
-export default Program;
+module.exports = Program;

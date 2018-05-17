@@ -1,33 +1,83 @@
-import Campus       from './modules/campus';
-import College      from './modules/college';
-import Course       from './modules/course';
-import Curriculum   from './modules/curriculum';
-import Department   from './modules/department';
-import Enrollment   from './modules/enrollment';
-import fs           from 'fs';
-import MicroCache   from 'micro-cache';
-import Person       from './modules/person';
-import Program      from './modules/program';
-import Registration from './modules/registration';
-import Section      from './modules/section';
-import Term         from './modules/term';
-import TestScore    from './modules/testscore';
-import winston      from 'winston';
+let AWS          = require('aws-sdk');
+let Campus       = require('./modules/campus');
+let College      = require('./modules/college');
+let Course       = require('./modules/course');
+let Curriculum   = require('./modules/curriculum');
+let Department   = require('./modules/department');
+let Enrollment   = require('./modules/enrollment');
+let fs           = require('fs');
+let MicroCache   = require('micro-cache');
+let Person       = require('./modules/person');
+let Program      = require('./modules/program');
+let Registration = require('./modules/registration');
+let Section      = require('./modules/section');
+let Term         = require('./modules/term');
+let TestScore    = require('./modules/testscore');
+let winston      = require('winston');
 
-function readCertificate(cert = '', key = '') {
-  if (cert === '' || key === '' ||
-      !fs.existsSync(cert) || !fs.existsSync(key)) {
-    throw new Error(`Client cert ${cert} or key ${key} can not be found`);
+let FileCertificate = {
+  readCertificate: async (opts) => {
+    if (opts.cert === '' || opts.key === '' ||
+      !fs.existsSync(opts.cert) || !fs.existsSync(opts.key)) {
+      throw new Error(`Client cert '${opts.cert}' or key '${opts.key}' can not be found`);
+    }
+
+    return {
+      cert:               fs.readFileSync(opts.cert),
+      key:                fs.readFileSync(opts.key),
+      rejectUnauthorized: false
+    };
+  }
+};
+
+let S3Certificate = {
+  readCertificate: async (opts) => {
+    let s3 = new AWS.S3();
+    let cert = await s3.getObject({
+      Bucket: opts.certBucket,
+      Key:    opts.certKey
+    }).promise().catch((err) => {
+      throw Error('S3 get cert error', err);
+    });
+    let key = await s3.getObject({
+      Bucket: opts.keyBucket,
+      Key:    opts.keyKey
+    }).promise().catch((err) => {
+      throw Error('S3 get key error', err);
+    });
+
+    return {
+      cert:               cert.Body,
+      key:                key.Body,
+      rejectUnauthorized: false
+    };
+  }
+};
+
+async function readCertificate(opts) {
+  let certReader;
+
+  switch (true) {
+
+    case opts.hasOwnProperty('file'):
+      certReader = Object.create(FileCertificate);
+      opts = opts.file;
+      break;
+
+    case opts.hasOwnProperty('s3'):
+      certReader = Object.create(S3Certificate);
+      opts = opts.s3;
+      break;
+
+    default:
+      throw Error('Certificate reader not supported');
   }
 
-  return {
-    cert: fs.readFileSync(cert),
-    key:  fs.readFileSync(key)
-  };
+  return await certReader.readCertificate(opts);
 }
 
 let UWSWS = {
-  initialize(options) {
+  async initialize(options) {
     let config = options;
 
     if (config.token) {
@@ -35,7 +85,7 @@ let UWSWS = {
       config.headers = {'Authorization': `Bearer ${config.token}`};
     } else {
       config.headers = {};
-      config.auth = readCertificate(options.cert, options.key);
+      config.auth = await readCertificate(config.certInfo);
     }
 
     winston.loggers.add('uwsws', {

@@ -1,5 +1,4 @@
-/* global uwsws, config, expect  */
-import '../setup/';
+require('../setup/');
 
 describe('Department', function () {
 

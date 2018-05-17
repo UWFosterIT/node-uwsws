@@ -1,18 +1,17 @@
-/* global uwsws, config, expect  */
-import '../setup/';
+require('../setup/');
 
 describe('Campus', function () {
 
-  beforeEach(() => {
-    uwsws.initialize(config);
+  beforeEach(async () => {
+    await uwsws.initialize(config);
   });
 
   describe('All', () => {
     it('should return each campus', () => {
       return uwsws.campus.all()
-      .then((result) => {
-        expect(result.data.length).to.be.above(2);
-      });
+        .then((result) => {
+          expect(result.data.length).to.be.above(2);
+        });
     });
   });
 });

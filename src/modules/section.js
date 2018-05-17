@@ -1,5 +1,5 @@
-import qs      from 'query-string';
-import Service from './service';
+let qs      = require('query-string');
+let Service = require('./service');
 
 class Section extends Service {
   constructor(config) {
@@ -38,4 +38,4 @@ class Section extends Service {
   }
 }
 
-export default Section;
+module.exports = Section;

@@ -1,6 +1,6 @@
-import Service from './service';
+let Service = require('./service');
 
-export default class Term extends Service {
+module.exports = class Term extends Service {
   constructor(config) {
     super(config);
   }
@@ -51,4 +51,4 @@ export default class Term extends Service {
     }
     return {data: terms};
   }
-}
+};

@@ -1,4 +1,4 @@
-import Service from './service';
+let Service = require('./service');
 
 class TestScore extends Service {
   constructor(config) {
@@ -13,4 +13,4 @@ class TestScore extends Service {
   }
 }
 
-export default TestScore;
+module.exports = TestScore;

@@ -1,5 +1,4 @@
-/* global uwsws, config, expect  */
-import '../setup/';
+require('../setup/');
 
 describe('Program', function () {
 
@@ -9,7 +8,11 @@ describe('Program', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {major: 'C SCI'};
+      let options = {
+        major:   'C SCI',
+        quarter: 'spring',
+        year:    '2018'
+      };
 
       return uwsws.program.search(options)
         .then((result) => {
@@ -22,13 +25,13 @@ describe('Program', function () {
     it('should return one', () => {
       let options = {
         major:   'C SCI',
-        quarter: 'autumn',
-        year:    1970
+        quarter: 'spring',
+        year:    '2018'
       };
 
       return uwsws.program.get(options)
         .then((result) => {
-          expect(result.data.ID).to.equal('C SCI,0,1970,autumn');
+          expect(result.data.Href).to.equal('/student/v5/Program/C%20SCI,00,2018,spring.json');
         });
     });
   });
@@ -37,8 +40,8 @@ describe('Program', function () {
     it('should return many of them', () => {
       let options = {
         major:   'tmmba',
-        quarter: 'autumn',
-        year:    2015
+        quarter: 'spring',
+        year:    '2015'
       };
 
       return uwsws.program.all(options)
