@@ -115,6 +115,7 @@ Endpoint  | Implementation
 [Department Search](https://wiki.cac.washington.edu/display/SWS/Department+Search+Resource+V5) | ``uwsws.department.search(options)``
 [Enrollment](https://wiki.cac.washington.edu/display/SWS/Enrollment+Resource+V5) | ``uwsws.enrollment.get(options)``
 [Enrollment Search](https://wiki.cac.washington.edu/display/SWS/Enrollment+Search+Resource+V5) | ``uwsws.enrollment.search(options)``
+[Major](https://wiki.cac.washington.edu/display/SWS/Major+Students+Resource+v5) | ``uwsws.major.search(options)``
 [Person](https://wiki.cac.washington.edu/display/SWS/Person+Resource+V5) | ``uwsws.person.get(regid)``
 [Person Search](https://wiki.cac.washington.edu/display/SWS/Person+Search+Resource+V5) | ``uwsws.person.search(options)``
 [Registration Search](https://wiki.cac.washington.edu/display/SWS/Registration+Search+Resource+v5) | ``uwsws.registration.search(options)``
