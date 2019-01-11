@@ -1,20 +1,20 @@
-let AWS          = require('aws-sdk');
-let Campus       = require('./modules/campus');
-let College      = require('./modules/college');
-let Course       = require('./modules/course');
-let Curriculum   = require('./modules/curriculum');
-let Department   = require('./modules/department');
-let Enrollment   = require('./modules/enrollment');
-let fs           = require('fs');
-let Major        = require('./modules/major');
-let MicroCache   = require('micro-cache');
-let Person       = require('./modules/person');
-let Program      = require('./modules/program');
+let AWS = require('aws-sdk');
+let Campus = require('./modules/campus');
+let College = require('./modules/college');
+let Course = require('./modules/course');
+let Curriculum = require('./modules/curriculum');
+let Department = require('./modules/department');
+let Enrollment = require('./modules/enrollment');
+let fs = require('fs');
+let Major = require('./modules/major');
+let MicroCache = require('micro-cache');
+let Person = require('./modules/person');
+let Program = require('./modules/program');
 let Registration = require('./modules/registration');
-let Section      = require('./modules/section');
-let Term         = require('./modules/term');
-let TestScore    = require('./modules/testscore');
-let winston      = require('winston');
+let Section = require('./modules/section');
+let Term = require('./modules/term');
+let TestScore = require('./modules/testscore');
+let winston = require('winston');
 
 let FileCertificate = {
   readCertificate: async (opts) => {
@@ -79,7 +79,7 @@ async function readCertificate(opts) {
 
 let UWSWS = {
   async initialize(options) {
-    let config = options;
+    let config = {...options};
 
     if (config.token) {
       config.auth = {};
@@ -105,19 +105,19 @@ let UWSWS = {
       options.cacheExt
     );
 
-    this.term         = new Term(config);
-    this.campus       = new Campus(config);
-    this.college      = new College(config);
-    this.department   = new Department(config);
-    this.major        = new Major(config);
-    this.program      = new Program(config);
-    this.curriculum   = new Curriculum(config);
-    this.course       = new Course(config);
-    this.section      = new Section(config);
-    this.person       = new Person(config);
-    this.enrollment   = new Enrollment(config);
+    this.term = new Term(config);
+    this.campus = new Campus(config);
+    this.college = new College(config);
+    this.department = new Department(config);
+    this.major = new Major(config);
+    this.program = new Program(config);
+    this.curriculum = new Curriculum(config);
+    this.course = new Course(config);
+    this.section = new Section(config);
+    this.person = new Person(config);
+    this.enrollment = new Enrollment(config);
     this.registration = new Registration(config);
-    this.testScore    = new TestScore(config);
+    this.testScore = new TestScore(config);
 
     return this;
   }

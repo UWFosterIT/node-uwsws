@@ -1,6 +1,6 @@
 {
   "name": "uwsws",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "Client Library for University of Washington's Student Web Service",
   "bugs:": {
     "url": "https://github.com/UWFosterIT/node-uwsws/issues"
@@ -48,10 +48,17 @@
   },
   "scripts": {
     "lint": "eslint test/**/*.js src/**/*.js --fix; exit 0;",
-    "test": "npm run lint && mocha --timeout 10s --bail --reporter spec test/unit/*.js"
+    "test": "npm run lint && mocha --timeout 20s --bail --reporter spec test/unit/*.js"
   },
   "engines": {
     "node": ">=8.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    }
+  }
 }
