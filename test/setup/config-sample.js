@@ -1,12 +1,12 @@
-let config = {
-  baseUrl:   'https://ws.admin.washington.edu/student/v5/',
-  cacheExt:  '.json',
+const config = {
+  baseUrl: 'https://ws.admin.washington.edu/student/v5/',
+  cacheExt: '.json',
   cacheMode: 'wild',
   cachePath: '.cache/',
-  certInfo:  {
+  certInfo: {
     file: {
       cert: 'PATH TO LOCAL CERT',
-      key:  'PATH TO LOCAL KEY'
+      key: 'PATH TO LOCAL KEY',
     },
     // s3: {
     //   certBucket: 'CERT AWS BUCKET',

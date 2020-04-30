@@ -1,27 +1,23 @@
-let qs      = require('query-string');
-let Service = require('./service');
+const qs = require('query-string');
+const Service = require('./service');
 
 class Major extends Service {
-  constructor(config) {
-    super(config);
-  }
-
   search(opt) {
-    let params = {
-      campus:             opt.campus || '',
-      degree_level:       opt.degreeLevel || '',
-      degree_type:        opt.degreeType || '',
+    const params = {
+      campus: opt.campus || '',
+      degree_level: opt.degreeLevel || '',
+      degree_type: opt.degreeType || '',
       major_abbreviation: opt.majorAbbreviation || '',
-      page_size:          opt.size || '',
-      page_start:         opt.start || '',
-      pathway:            opt.pathway || '',
-      quarter:            opt.quarter || '',
-      year:               opt.year || ''
+      page_size: opt.size || '',
+      page_start: opt.start || '',
+      pathway: opt.pathway || '',
+      quarter: opt.quarter || '',
+      year: opt.year || '',
     };
 
-    let query = qs.stringify(params);
+    const query = qs.stringify(params);
 
-    return this._get(`majorstudents.json?${query}`);
+    return super.get(`majorstudents.json?${query}`);
   }
 }
 

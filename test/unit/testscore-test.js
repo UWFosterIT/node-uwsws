@@ -1,14 +1,13 @@
-require('../setup/');
+require('../setup');
 
-describe('TestScore', function () {
-
-  beforeEach(() => {
-    uwsws.initialize(config);
+describe('TestScore', () => {
+  beforeEach(async () => {
+    await uwsws.initialize(config);
   });
 
   describe('Get by type', () => {
     it('should return many test scores', () => {
-      let options = {regid: '9136CCB8F66711D5BE060004AC494FFE'};
+      const options = { regid: '9136CCB8F66711D5BE060004AC494FFE' };
 
       return uwsws.testScore.get(options)
         .then((result) => {
@@ -17,18 +16,18 @@ describe('TestScore', function () {
     });
 
     it('should return only SAT test scores', () => {
-      let options = {
-        regid:    '9136CCB8F66711D5BE060004AC494FFE',
+      const options = {
+        regid: '9136CCB8F66711D5BE060004AC494FFE',
         testType: 'SAT',
       };
 
       return uwsws.testScore.get(options)
         .then((result) => {
-          let tests = result.data.TestsTaken;
+          const tests = result.data.TestsTaken;
           expect(tests.length).to.be.above(3);
-          for (var value of tests) {
+          tests.forEach((value) => {
             expect(value.TestType.Name).to.have.string('SAT');
-          }
+          });
         });
     });
   });

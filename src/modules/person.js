@@ -1,27 +1,23 @@
-let qs      = require('query-string');
-let Service = require('./service');
+const qs = require('query-string');
+const Service = require('./service');
 
 class Person extends Service {
-  constructor(config) {
-    super(config);
-  }
-
   get(regid) {
-    return this._get(`person/${regid}.json`);
+    return super.get(`person/${regid}.json`);
   }
 
   search(opt) {
-    let params = {
-      employee_id:        opt.employeeid || '',
-      net_id:             opt.netid || '',
-      reg_id:             opt.regid || '',
-      student_number:     opt.studentid || '',
-      student_system_key: opt.syskey || ''
+    const params = {
+      employee_id: opt.employeeid || '',
+      net_id: opt.netid || '',
+      reg_id: opt.regid || '',
+      student_number: opt.studentid || '',
+      student_system_key: opt.syskey || '',
     };
 
-    let query = qs.stringify(params);
+    const query = qs.stringify(params);
 
-    return this._get(`person.json?${query}`);
+    return super.get(`person.json?${query}`);
   }
 }
 

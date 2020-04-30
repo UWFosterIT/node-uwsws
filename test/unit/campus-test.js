@@ -1,17 +1,14 @@
-require('../setup/');
+require('../setup');
 
-describe('Campus', function () {
-
+describe('Campus', () => {
   beforeEach(async () => {
     await uwsws.initialize(config);
   });
 
   describe('All', () => {
-    it('should return each campus', () => {
-      return uwsws.campus.all()
-        .then((result) => {
-          expect(result.data.length).to.be.above(2);
-        });
-    });
+    it('should return each campus', () => uwsws.campus.all()
+      .then((result) => {
+        expect(result.data.length).to.be.above(2);
+      }));
   });
 });

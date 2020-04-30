@@ -1,24 +1,20 @@
-let qs      = require('query-string');
-let Service = require('./service');
+const qs = require('query-string');
+const Service = require('./service');
 
 class Department extends Service {
-  constructor(config) {
-    super(config);
-  }
-
   search(opt) {
-    let query = qs.stringify({
+    const query = qs.stringify({
       college_abbreviation: opt.abrev || '',
-      future_terms:         opt.future || 0,
-      quarter:              opt.quarter || '',
-      sort_by:              opt.sort || '',
-      year:                 opt.year || ''
+      future_terms: opt.future || 0,
+      quarter: opt.quarter || '',
+      sort_by: opt.sort || '',
+      year: opt.year || '',
     });
 
-    return this._get(`department.json?${query}`)
+    return super.get(`department.json?${query}`)
       .then((result) => {
-        result.data = result.data.Departments;
-        return result;
+        const { Departments: data } = result.data;
+        return { data };
       });
   }
 }

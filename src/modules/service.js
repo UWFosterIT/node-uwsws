@@ -1,4 +1,4 @@
-let request = require('request');
+const got = require('got');
 
 class Service {
   constructor(config) {
@@ -7,93 +7,62 @@ class Service {
     this.cache = config.cache;
   }
 
-  _options(endpoint) {
+  options(endpoint) {
     return {
-      agentOptions: this.config.auth,
-      headers:      this.config.headers,
-      uri:          this.config.baseUrl + endpoint,
-      uriCache:     endpoint.replace(/\//g, ''),
+      agent: false,
+      cert: this.config.auth.cert,
+      key: this.config.auth.key,
+      url: this.config.baseUrl + endpoint,
+      uriCache: endpoint.replace(/\//g, ''),
     };
   }
 
-  _get(endpoint) {
-    return new Promise((fulfill, reject) => {
-      // wild    no load no save
-      // dryrun  load not save
-      // record  load and save
-      let options = this._options(endpoint);
+  async get(endpoint) {
+    // wild    no load no save
+    // dryrun  load not save
+    // record  load and save
+    const options = this.options(endpoint);
+    const { cacheMode } = this.config;
+    let response = {};
 
-      if (this.config.cacheMode === 'wild') {
-        this.log.debug(`wild -- ${options.uri}`);
-        request.get(options, (err, response, body) => {
-          if (!err) {
-            if (response.statusCode === 404) {
-              // special case for 404 because the Student Web Service
-              // returns ugly HTML in the response body.
-              body = 'Not found.';
-            }
-            fulfill(this._buildResult(response, body));
-          } else {
-            reject(err);
-          }
-        });
-      } else if (this.config.cacheMode === 'dryrun') {
-        this.log.debug(`dryrun for ${options.uri}`);
-        let body = this.cache.read(options.uriCache);
-        if (body) {
-          let response = {};
-          response.statusCode = 200;
-          fulfill(this._buildResult(response, body));
-        } else {
-          request.get(options, (err, response, body) => {
-            if (!err) {
-              if (response.statusCode === 404) {
-                // special case for 404 because the Student Web Service
-                // returns ugly HTML in the response body.
-                body = 'Not found.';
-              }
-              fulfill(this._buildResult(response, body));
-            } else {
-              reject(err);
-            }
-          });
-        }
-      } else if (this.config.cacheMode === 'record') {
-        this.log.debug(`record -- ${options.uri}`);
-        let body = this.cache.read(options.uriCache);
-        if (body) {
-          let response = {};
-          response.statusCode = 200;
-          fulfill(this._buildResult(response, body));
-        } else {
-          request.get(options, (err, response, body) => {
-            if (!err) {
-              if (response.statusCode === 200) {
-                this.cache.write(options.uriCache, body, true);
-              } else if (response.statusCode === 404) {
-                // special case for 404 because the Student Web Service
-                // returns ugly HTML in the response body.
-                body = 'Not found.';
-              }
-              fulfill(this._buildResult(response, body));
-            } else {
-              reject(err);
-            }
-          });
-        }
+    if (cacheMode !== 'wild') {
+      const body = this.cache.read(options.uriCache);
+
+      if (body) {
+        response.statusCode = 200;
+        response.body = body;
+        this.log.debug(`${cacheMode} cache hit for ${options.url}`);
+      } else {
+        this.log.debug(`${cacheMode} cache miss for ${options.url}`);
       }
-    });
+    }
+
+
+    response = await got.get(options)
+      .catch((err) => {
+        if (!err.response) {
+          this.log.error(`${err.name}: ${err.message}`);
+          throw new Error('Unable to make GET request');
+        }
+        return err.response;
+      });
+
+    this.log.debug(`GET -- ${options.url}`);
+
+    if (cacheMode === 'record' && !!response.body) {
+      this.cache.write(options.uriCache, response.body, true);
+    }
+
+    return this.buildResult(response);
   }
 
-  _buildResult(response, body) {
-    let result = {};
+  buildResult(response) {
+    const { body } = response;
+    this.log.trace(`Response body: ${body}`);
+    const result = {};
     result.statusCode = response.statusCode;
     if (response.statusCode !== 200) {
-      if (!this._isJson(body)) {
-        result.message = body;
-      } else {
-        result.message = JSON.parse(body);
-      }
+      result.message = !Service.isJson(body) ? body : JSON.parse(body);
       result.data = {};
     } else {
       result.data = JSON.parse(body);
@@ -101,7 +70,7 @@ class Service {
     return result;
   }
 
-  _isJson(data) {
+  static isJson(data) {
     try {
       JSON.parse(data);
     } catch (e) {

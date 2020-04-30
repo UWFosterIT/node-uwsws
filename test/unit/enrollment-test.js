@@ -1,19 +1,18 @@
-require('../setup/');
+require('../setup');
 
-describe('Enrollment', function () {
-
-  beforeEach(() => {
-    uwsws.initialize(config);
+describe('Enrollment', () => {
+  beforeEach(async () => {
+    await uwsws.initialize(config);
   });
 
-  let dummy = '9136CCB8F66711D5BE060004AC494FFE';
+  const dummy = '9136CCB8F66711D5BE060004AC494FFE';
 
   describe('Get', () => {
     it('should return some enrollments', () => {
-      let options = {
+      const options = {
         quarter: 'autumn',
-        regid:   dummy,
-        year:    1996
+        regid: dummy,
+        year: 1996,
       };
 
       return uwsws.enrollment.get(options)
@@ -25,7 +24,7 @@ describe('Enrollment', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {regid: dummy};
+      const options = { regid: dummy };
 
       return uwsws.enrollment.search(options)
         .then((result) => {

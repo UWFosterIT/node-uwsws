@@ -1,14 +1,13 @@
-require('../setup/');
+require('../setup');
 
-describe('Department', function () {
-
-  beforeEach(() => {
-    uwsws.initialize(config);
+describe('Department', () => {
+  beforeEach(async () => {
+    await uwsws.initialize(config);
   });
 
   describe('Search', () => {
     it('should return some', () => {
-      let options = {abrev: 'engr'};
+      const options = { abrev: 'engr' };
 
       return uwsws.department.search(options)
         .then((result) => {
@@ -17,10 +16,10 @@ describe('Department', function () {
     });
 
     it('for a specific year and quarter should return some', () => {
-      let options = {
-        abrev:   'engr',
+      const options = {
+        abrev: 'engr',
         quarter: 'winter',
-        year:    2015
+        year: 2015,
       };
 
       return uwsws.department.search(options)

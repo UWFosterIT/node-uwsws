@@ -1,18 +1,17 @@
-require('../setup/');
+require('../setup');
 
-describe('Course', function () {
-
-  beforeEach(() => {
-    uwsws.initialize(config);
+describe('Course', () => {
+  beforeEach(async () => {
+    await uwsws.initialize(config);
   });
 
   describe('Get', () => {
     it('should return some that match the query', () => {
-      let options = {
-        course:     '142',
+      const options = {
+        course: '142',
         curriculum: 'cse',
-        quarter:    'winter',
-        year:       2015
+        quarter: 'winter',
+        year: 2015,
       };
 
       return uwsws.course.get(options)
@@ -24,10 +23,10 @@ describe('Course', function () {
 
   describe('Search', () => {
     it('should return some that match the query', () => {
-      let options = {
+      const options = {
         curriculum: 'math',
-        quarter:    'winter',
-        year:       2015
+        quarter: 'winter',
+        year: 2015,
       };
 
       return uwsws.course.search(options)

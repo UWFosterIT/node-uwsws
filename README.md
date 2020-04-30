@@ -10,7 +10,9 @@ Note: Version 7.0.0 and later require Node 8
 
 ### Installation
 
-    npm install uwsws
+```bash
+npm install uwsws
+```
 
 ### Examples
 
@@ -85,7 +87,7 @@ The ``cacheMode`` can be set to any one of the following modes.  This uses the `
 
 ### Logging
 
-This module uses ``winston`` for all logging.  Set an environment variable to a valid log level such as ``LOG_LEVEL=debug node yourscript.js``.
+This module uses the `log4js` logging api, but does not include log4js itself. If you use log4js in your consuming app, it will utilize its log4js library and configuration with a logger name of `node-uwsws'.
 
 ## Endpoint Implementation
 
@@ -145,10 +147,6 @@ Most of these are not implemented due to additional security requirements beyond
 
 Copy ``test/setup/config-sample.js`` to ``test/setup/config.js`` and edit values as needed. Use the ``npm`` commands indicated in ``package.json``.
 
-    npm test
-
-## To Do
-
-- [ ] Implement Test Score endpoint
-- [ ] Implement the endpoints that require more security
-- [ ] Permit the use of a token instead of a x509 cert where applicable
+```bash
+npm test
+```

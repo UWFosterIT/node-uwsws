@@ -1,71 +1,75 @@
-let AWS = require('aws-sdk');
-let Campus = require('./modules/campus');
-let College = require('./modules/college');
-let Course = require('./modules/course');
-let Curriculum = require('./modules/curriculum');
-let Department = require('./modules/department');
-let Enrollment = require('./modules/enrollment');
-let fs = require('fs');
-let Major = require('./modules/major');
-let MicroCache = require('micro-cache');
-let Person = require('./modules/person');
-let Program = require('./modules/program');
-let Registration = require('./modules/registration');
-let Section = require('./modules/section');
-let Term = require('./modules/term');
-let TestScore = require('./modules/testscore');
-let winston = require('winston');
+const AWS = require('aws-sdk');
+const fs = require('fs');
+const MicroCache = require('micro-cache');
+const log4js = require('@log4js-node/log4js-api');
+const _ = require('lodash');
+const Campus = require('./modules/campus');
+const College = require('./modules/college');
+const Course = require('./modules/course');
+const Curriculum = require('./modules/curriculum');
+const Department = require('./modules/department');
+const Enrollment = require('./modules/enrollment');
+const Major = require('./modules/major');
+const Person = require('./modules/person');
+const Program = require('./modules/program');
+const Registration = require('./modules/registration');
+const Section = require('./modules/section');
+const Term = require('./modules/term');
+const TestScore = require('./modules/testscore');
 
-let FileCertificate = {
+const FileCertificate = {
   readCertificate: async (opts) => {
-    if (opts.cert === '' || opts.key === '' ||
-      !fs.existsSync(opts.cert) || !fs.existsSync(opts.key)) {
+    if (opts.cert === '' || opts.key === ''
+      // eslint-disable-next-line security/detect-non-literal-fs-filename
+      || !fs.existsSync(opts.cert) || !fs.existsSync(opts.key)) {
       throw new Error(`Client cert '${opts.cert}' or key '${opts.key}' can not be found`);
     }
 
     return {
-      cert:               fs.readFileSync(opts.cert),
-      key:                fs.readFileSync(opts.key),
-      rejectUnauthorized: false
+      // eslint-disable-next-line security/detect-non-literal-fs-filename
+      cert: fs.readFileSync(opts.cert),
+      // eslint-disable-next-line security/detect-non-literal-fs-filename
+      key: fs.readFileSync(opts.key),
+      rejectUnauthorized: false,
     };
-  }
+  },
 };
 
-let S3Certificate = {
+const S3Certificate = {
   readCertificate: async (opts) => {
-    let s3 = new AWS.S3();
-    let cert = await s3.getObject({
+    const s3 = new AWS.S3();
+    const cert = await s3.getObject({
       Bucket: opts.certBucket,
-      Key:    opts.certKey
+      Key: opts.certKey,
     }).promise().catch((err) => {
       throw Error('S3 get cert error', err);
     });
-    let key = await s3.getObject({
+    const key = await s3.getObject({
       Bucket: opts.keyBucket,
-      Key:    opts.keyKey
+      Key: opts.keyKey,
     }).promise().catch((err) => {
       throw Error('S3 get key error', err);
     });
 
     return {
-      cert:               cert.Body,
-      key:                key.Body,
-      rejectUnauthorized: false
+      cert: cert.Body,
+      key: key.Body,
+      rejectUnauthorized: false,
     };
-  }
+  },
 };
 
-async function readCertificate(opts) {
+async function readCertificate(options) {
   let certReader;
+  let opts = options;
 
   switch (true) {
-
-    case opts.hasOwnProperty('file'):
+    case _.has(opts, 'file'):
       certReader = Object.create(FileCertificate);
       opts = opts.file;
       break;
 
-    case opts.hasOwnProperty('s3'):
+    case _.has(opts, 's3'):
       certReader = Object.create(S3Certificate);
       opts = opts.s3;
       break;
@@ -74,36 +78,28 @@ async function readCertificate(opts) {
       throw Error('Certificate reader not supported');
   }
 
-  return await certReader.readCertificate(opts);
+  return certReader.readCertificate(opts);
 }
 
-let UWSWS = {
+const UWSWS = {
   async initialize(options) {
-    let config = {...options};
+    const config = { ...options };
 
     if (config.token) {
       config.auth = {};
-      config.headers = {'Authorization': `Bearer ${config.token}`};
+      config.headers = { Authorization: `Bearer ${config.token}` };
     } else {
       config.headers = {};
       config.auth = await readCertificate(config.certInfo);
     }
 
-    winston.loggers.add('uwsws', {
-      console: {
-        colorize:    true,
-        label:       'uwsws',
-        level:       options.logLevel,
-        prettyPrint: true
-      }
-    });
-
-    config.log = winston.loggers.get('uwsws');
     config.cache = new MicroCache(
       options.cachePath,
       options.logLevel,
-      options.cacheExt
+      options.cacheExt,
     );
+
+    config.log = log4js.getLogger('node-uwsws');
 
     this.term = new Term(config);
     this.campus = new Campus(config);
@@ -120,7 +116,7 @@ let UWSWS = {
     this.testScore = new TestScore(config);
 
     return this;
-  }
+  },
 };
 
 module.exports = UWSWS;
