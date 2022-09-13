@@ -1,0 +1,604 @@
+{
+  "Term": {
+    "Href": "/student/v5/term/2015,winter.json",
+    "Year": 2015,
+    "Quarter": "winter"
+  },
+  "CourseCampus": "Seattle",
+  "CreditControl": "fixed credit",
+  "RoomCapacity": 720,
+  "SummerTerm": "",
+  "Course": {
+    "Href": "/student/v5/course/2015,winter,CSE,142.json",
+    "Year": 2015,
+    "Quarter": "winter",
+    "CurriculumAbbreviation": "CSE",
+    "CourseNumber": "142"
+  },
+  "SectionID": "A",
+  "CourseTitle": "COMPUTER PRGRMNG I",
+  "CourseTitleLong": "Computer Programming I",
+  "CourseDescription": "Basic programming-in-the-small abilities and concepts including procedural programming (methods, parameters, return, values), basic control structures (sequence, if/else, for loop, while loop), file processing, arrays, and an introduction to defining objects. Intended for students without prior programming experience. Offered: AWSpS.",
+  "ClassWebsiteUrl": null,
+  "Curriculum": {
+    "DepartmentAbbreviation": "CSE",
+    "CollegeName": "ENGINEERING",
+    "TimeScheduleLinkAbbreviation": "cse"
+  },
+  "FeeAmount": null,
+  "FeeBudget": null,
+  "FeeType": null,
+  "AddCodeRequired": false,
+  "EnrollmentRestrictions": false,
+  "FinancialAidEligible": true,
+  "FinancialAidEligibleDisplay": "",
+  "IndependentStudy": false,
+  "SLN": "12678",
+  "TimeScheduleComments": {
+    "CollegeComments": {
+      "Lines": [
+        {
+          "Text": "**THE COLLEGE OF ENGINEERING RESERVES THE RIGHT"
+        },
+        {
+          "Text": "  TO DROP PREREGISTERED STUDENTS IN ALL ENGR"
+        },
+        {
+          "Text": "  COURSES WHO DO NOT ATTEND ONE OR MORE SCHEDULED"
+        },
+        {
+          "Text": "  CLASS MEETINGS DURING THE FIRST WEEK OF THE QTR."
+        },
+        {
+          "Text": "**FOR QUESTIONS REGARDING ENROLLMENT, CALL"
+        },
+        {
+          "Text": "  543-8590 OR VISIT 356 LOEW HALL."
+        }
+      ]
+    },
+    "CourseComments": {
+      "Lines": []
+    },
+    "CurriculumComments": {
+      "Lines": []
+    },
+    "DepartmentComments": {
+      "Lines": []
+    },
+    "InstituteComments": {
+      "Lines": []
+    },
+    "SectionComments": {
+      "Lines": [
+        {
+          "Text": "=================================="
+        },
+        {
+          "Text": "CONTACT CSE142@UW.EDU FOR"
+        },
+        {
+          "Text": "ANY REGISTRATION QUESTIONS"
+        },
+        {
+          "Text": "=================================="
+        }
+      ]
+    },
+    "TimeScheduleGeneratedComments": {
+      "Lines": []
+    }
+  },
+  "DeleteFlag": "active",
+  "DistanceLearning": false,
+  "DistanceLearningCalendarType": {
+    "Code": "0",
+    "Description": "Not a Distance Learning section"
+  },
+  "DistanceLearningType": {
+    "Code": null,
+    "Description": null
+  },
+  "EndDate": "",
+  "FinalExam": {
+    "Building": "KNE",
+    "FinalExamBuilding": {
+      "Href": "https://ws.admin.washington.edu/space/v1/facility.json?aggregate_number=&city=&facility_code=KNE&facility_type=&leased_or_owned=&name=&page_size=10&postal_code=&site=&state=&status=&street="
+    },
+    "Date": "2015-03-18",
+    "EndTime": "14:20",
+    "MeetingStatus": "3",
+    "RoomNumber": "130",
+    "StartTime": "12:30"
+  },
+  "GradingSystem": "standard",
+  "HonorsCourse": false,
+  "InstituteName": null,
+  "RepositoryTimeStamp": "5/24/2022 3:45:24 PM",
+  "Metadata": "SectionSourceKey=SDB;",
+  "JointSections": [],
+  "CourseHasVariableContent": false,
+  "SameVariableContentAs": [],
+  "MaximumCredit": "",
+  "MaximumTermCredit": "",
+  "MinimumTermCredit": "4.0",
+  "ResearchCredit": false,
+  "ServiceLearning": false,
+  "SectionType": "lecture",
+  "SecondaryGradingOption": false,
+  "StartDate": "",
+  "DuplicateEnrollmentAllowed": false,
+  "PrimarySection": {
+    "Href": "/student/v5/course/2015,winter,CSE,142/A.json",
+    "Year": 2015,
+    "Quarter": "winter",
+    "CurriculumAbbreviation": "CSE",
+    "CourseNumber": "142",
+    "SectionID": "A"
+  },
+  "LinkedSectionTypes": [
+    {
+      "LinkedSections": [
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AA.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AA"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AB.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AB"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AC.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AC"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AD.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AD"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AE.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AE"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AF.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AF"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AG.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AG"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AH.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AH"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AI.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AI"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AJ.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AJ"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AK.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AK"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AL.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AL"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AM.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AM"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AN.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AN"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AO.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AO"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AP.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AP"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AQ.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AQ"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AR.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AR"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AS.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AS"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AT.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AT"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AU.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AU"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AV.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AV"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AW.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AW"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AX.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AX"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AY.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AY"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/AZ.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "AZ"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/A1.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "A1"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/A2.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "A2"
+          },
+          "IsPrimarySection": false
+        },
+        {
+          "Section": {
+            "Href": "/student/v5/course/2015,winter,CSE,142/A3.json",
+            "Year": 2015,
+            "Quarter": "winter",
+            "CurriculumAbbreviation": "CSE",
+            "CourseNumber": "142",
+            "SectionID": "A3"
+          },
+          "IsPrimarySection": false
+        }
+      ],
+      "Type": "quiz"
+    }
+  ],
+  "Meetings": [
+    {
+      "MeetingIndex": "1",
+      "MeetingType": "lecture",
+      "DaysOfWeek": {
+        "Days": [
+          {
+            "Name": "Monday"
+          },
+          {
+            "Name": "Wednesday"
+          },
+          {
+            "Name": "Friday"
+          }
+        ],
+        "Text": "M W F"
+      },
+      "DaysOfWeekToBeArranged": false,
+      "StartTime": "09:30",
+      "EndTime": "10:20",
+      "BuildingToBeArranged": false,
+      "Building": "KNE",
+      "Meeting": {
+        "Href": "https://ws.admin.washington.edu/space/v1/facility.json?aggregate_number=&city=&facility_code=KNE&facility_type=&leased_or_owned=&name=&page_size=10&postal_code=&site=&state=&status=&street="
+      },
+      "RoomToBeArranged": false,
+      "RoomNumber": "130",
+      "Instructors": [
+        {
+          "FacultySequenceNumber": null,
+          "TSPrint": true,
+          "PercentInvolve": "98",
+          "Person": {
+            "Name": "Stuart Reges",
+            "RegID": "67EF146CBFD911D89AB8CAE121111DCE",
+            "Pronouns": null,
+            "Href": "/student/v5/person/67EF146CBFD911D89AB8CAE121111DCE.json"
+          },
+          "GradeRoster": null
+        },
+        {
+          "FacultySequenceNumber": null,
+          "TSPrint": false,
+          "PercentInvolve": "1",
+          "Person": {
+            "Name": "Pim Lustig",
+            "RegID": "7E81ECC86A7C11D5A4AE0004AC494FFE",
+            "Pronouns": null,
+            "Href": "/student/v5/person/7E81ECC86A7C11D5A4AE0004AC494FFE.json"
+          },
+          "GradeRoster": null
+        },
+        {
+          "FacultySequenceNumber": null,
+          "TSPrint": false,
+          "PercentInvolve": "1",
+          "Person": {
+            "Name": "Whitaker Elliott Brand",
+            "RegID": "842C827C6A2911D9906F000629C31437",
+            "Pronouns": null,
+            "Href": "/student/v5/person/842C827C6A2911D9906F000629C31437.json"
+          },
+          "GradeRoster": null
+        }
+      ]
+    }
+  ],
+  "GradeSubmissionDelegates": [
+    {
+      "Person": {
+        "Name": "Charlotte I Goddard",
+        "RegID": "489E0F016AF4A2EF04FC6100CC280461",
+        "Pronouns": null,
+        "Href": "/student/v5/person/489E0F016AF4A2EF04FC6100CC280461.json"
+      },
+      "DelegateLevel": "college"
+    },
+    {
+      "Person": {
+        "Name": "Crystal L. Eney",
+        "RegID": "EA6C8F2E6A7C11D5A4AE0004AC494FFE",
+        "Pronouns": null,
+        "Href": "/student/v5/person/EA6C8F2E6A7C11D5A4AE0004AC494FFE.json"
+      },
+      "DelegateLevel": "department"
+    },
+    {
+      "Person": {
+        "Name": "Pim Lustig",
+        "RegID": "7E81ECC86A7C11D5A4AE0004AC494FFE",
+        "Pronouns": null,
+        "Href": "/student/v5/person/7E81ECC86A7C11D5A4AE0004AC494FFE.json"
+      },
+      "DelegateLevel": "curriculum"
+    }
+  ],
+  "Auditors": 1,
+  "CurrentEnrollment": 626,
+  "LimitEstimateEnrollment": 672,
+  "LimitEstimateEnrollmentIndicator": "limit",
+  "StudentCreditHours": "2504.0",
+  "SelfRegistrationAllowed": true,
+  "GeneralEducationRequirements": {
+    "Diversity": false,
+    "EnglishComposition": false,
+    "IndividualsAndSocieties": false,
+    "NaturalWorld": true,
+    "QuantitativeAndSymbolicReasoning": true,
+    "VisualLiteraryAndPerformingArts": false,
+    "Writing": false
+  },
+  "Registrations": {
+    "Year": 2015,
+    "Quarter": "winter",
+    "RegID": null,
+    "SectionID": "A",
+    "IsActive": true,
+    "Verbose": false,
+    "CurriculumAbbreviation": "CSE",
+    "CourseNumber": "142",
+    "InstructorRegID": null,
+    "ChangedSinceDate": "",
+    "TranscriptableCourse": "",
+    "PageStart": "",
+    "PageSize": "",
+    "Href": "/student/v5/registration.json?year=2015&quarter=winter&curriculum_abbreviation=CSE&course_number=142&section_id=A&reg_id=&is_active=True&instructor_reg_id=&verbose=False&changed_since_date=&transcriptable_course=&page_start=&page_size="
+  },
+  "OnlineLearningType": {
+    "Code": "00",
+    "Description": "No online learning component"
+  },
+  "LMSOwnership": null,
+  "PrimaryLMS": null,
+  "IsIndependentStart": false,
+  "EOS_CID": null,
+  "BlockRegistrationParents": [],
+  "BlockRegistrationChildren": [],
+  "TimeMaskException": false
+}

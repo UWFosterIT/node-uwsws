@@ -1,0 +1,3922 @@
+{
+  "TotalCount": 488,
+  "Curricula": [
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "A A",
+      "CurriculumName": "AERONAUTICS & ASTRO",
+      "CurriculumFullName": "AERONAUTICS & ASTRONAUTICS",
+      "Href": "/student/v5/curriculum/2015,winter,A%20A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "A E",
+      "CurriculumName": "AEROSPACE ENGINEERING",
+      "CurriculumFullName": "AEROSPACE ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,A%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "A S",
+      "CurriculumName": "AEROSPACE STUDIES",
+      "CurriculumFullName": "AEROSPACE STUDIES (AIR FORCE ROTC)",
+      "Href": "/student/v5/curriculum/2015,winter,A%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AAS",
+      "CurriculumName": "ASIAN-AMERICAN STUDIES",
+      "CurriculumFullName": "ASIAN-AMERICAN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,AAS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ACADEM",
+      "CurriculumName": "UW ACADEMY",
+      "CurriculumFullName": "UNIVERSITY ACADEMY",
+      "Href": "/student/v5/curriculum/2015,winter,ACADEM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ACCTG",
+      "CurriculumName": "ACCOUNTING",
+      "CurriculumFullName": "ACCOUNTING",
+      "Href": "/student/v5/curriculum/2015,winter,ACCTG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ADMIN",
+      "CurriculumName": "ADMINISTRATION",
+      "CurriculumFullName": "ADMINISTRATION",
+      "Href": "/student/v5/curriculum/2015,winter,ADMIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AES",
+      "CurriculumName": "AMERICAN ETHNIC STUDIES",
+      "CurriculumFullName": "AMERICAN ETHNIC STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,AES.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AFRAM",
+      "CurriculumName": "AFRICAN-AMERICAN STUDIES",
+      "CurriculumFullName": "AFRICAN-AMERICAN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,AFRAM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AIS",
+      "CurriculumName": "AMERICAN INDIAN STUDIES",
+      "CurriculumFullName": "AMERICAN INDIAN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,AIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AKKAD",
+      "CurriculumName": "AKKADIAN",
+      "CurriculumFullName": "AKKADIAN",
+      "Href": "/student/v5/curriculum/2015,winter,AKKAD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ALTAI",
+      "CurriculumName": "ALTAI",
+      "CurriculumFullName": "ALTAIC",
+      "Href": "/student/v5/curriculum/2015,winter,ALTAI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "AMATH",
+      "CurriculumName": "APPLIED MATHEMATICS",
+      "CurriculumFullName": "APPLIED MATHEMATICS",
+      "Href": "/student/v5/curriculum/2015,winter,AMATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ANEST",
+      "CurriculumName": "ANESTHESIOLOGY",
+      "CurriculumFullName": "ANESTHESIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,ANEST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ANTH",
+      "CurriculumName": "ANTHROPOLOGY",
+      "CurriculumFullName": "ANTHROPOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,ANTH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARAB",
+      "CurriculumName": "ARABIC",
+      "CurriculumFullName": "ARABIC",
+      "Href": "/student/v5/curriculum/2015,winter,ARAB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARAMIC",
+      "CurriculumName": "ARAMAIC",
+      "CurriculumFullName": "ARAMAIC",
+      "Href": "/student/v5/curriculum/2015,winter,ARAMIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARCH",
+      "CurriculumName": "ARCHITECTURE",
+      "CurriculumFullName": "ARCHITECTURE",
+      "Href": "/student/v5/curriculum/2015,winter,ARCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARCHY",
+      "CurriculumName": "ARCHAEOLOGY",
+      "CurriculumFullName": "ARCHAEOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,ARCHY.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARCTIC",
+      "CurriculumName": "ARCTIC STUDIES",
+      "CurriculumFullName": "ARCTIC STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,ARCTIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ART",
+      "CurriculumName": "ART",
+      "CurriculumFullName": "ART",
+      "Href": "/student/v5/curriculum/2015,winter,ART.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ART H",
+      "CurriculumName": "ART HISTORY",
+      "CurriculumFullName": "ART HISTORY",
+      "Href": "/student/v5/curriculum/2015,winter,ART%20H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARTS",
+      "CurriculumName": "INTERDISC ARTS",
+      "CurriculumFullName": "INTERDISCIPLINARY ARTS",
+      "Href": "/student/v5/curriculum/2015,winter,ARTS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ARTSCI",
+      "CurriculumName": "ARTS AND SCIENCES",
+      "CurriculumFullName": "ARTS AND SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,ARTSCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ASIAN",
+      "CurriculumName": "ASIAN",
+      "CurriculumFullName": "ASIAN LANGUAGES & LITERATURE",
+      "Href": "/student/v5/curriculum/2015,winter,ASIAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ASL",
+      "CurriculumName": "AMERICAN SIGN LANGUAGE",
+      "CurriculumFullName": "AMERICAN SIGN LANGUAGE",
+      "Href": "/student/v5/curriculum/2015,winter,ASL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ASTBIO",
+      "CurriculumName": "ASTROBIOLOGY",
+      "CurriculumFullName": "ASTROBIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,ASTBIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ASTR",
+      "CurriculumName": "ASTRONOMY",
+      "CurriculumFullName": "ASTRONOMY",
+      "Href": "/student/v5/curriculum/2015,winter,ASTR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ATM S",
+      "CurriculumName": "ATMOSPHERIC SCIENCE",
+      "CurriculumFullName": "ATMOSPHERIC SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,ATM%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B A",
+      "CurriculumName": "BUSINESS ADMINISTRATION",
+      "CurriculumFullName": "BUSINESS ADMINISTRATION",
+      "Href": "/student/v5/curriculum/2015,winter,B%20A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ACCT",
+      "CurriculumName": "ACCOUNTING (BOTHELL)",
+      "CurriculumFullName": "ACCOUNTING(BOTHELL)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ACCT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ARAB",
+      "CurriculumName": "ARABIC - BOTHELL",
+      "CurriculumFullName": "ARABIC - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ARAB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ART",
+      "CurriculumName": "ART - BOTHELL",
+      "CurriculumFullName": "ART - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ART.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ARTS",
+      "CurriculumName": "ARTS BOTHELL",
+      "CurriculumFullName": "ARTS - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ARTS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ASL",
+      "CurriculumName": "AMERICAN SIGN LANGUAGE",
+      "CurriculumFullName": "AMERICAN SIGN LANGUAGE - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ASL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B BIO",
+      "CurriculumName": "BIOLOGY (BOTHELL)",
+      "CurriculumFullName": "BIOLOGY - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20BIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B BSKL",
+      "CurriculumName": "BUSINESS SKILL (BOTHELL)",
+      "CurriculumFullName": "BUSINESS SKILLS (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20BSKL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B BUS",
+      "CurriculumName": "BUSINESS ADMIN (BOTHELL)",
+      "CurriculumFullName": "BUSINESS ADMINISTRATION (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20BUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CE",
+      "CurriculumName": "COMPUTER ENGINEERING",
+      "CurriculumFullName": "COMPUTER ENGINEERING (BOTHELL)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CHEM",
+      "CurriculumName": "BOTHELL CHEMISTRY",
+      "CurriculumFullName": "CHEMISTRY - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CHEM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CHIN",
+      "CurriculumName": "CHINESE - BOTHELL",
+      "CurriculumFullName": "CHINESE - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CHIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CLIM",
+      "CurriculumName": "CLIMATE SCIENCE",
+      "CurriculumFullName": "CLIMATE SCIENCE - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CLIM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CMU",
+      "CurriculumName": "BUSINESS COMMUNICATION",
+      "CurriculumFullName": "BUSINESS COMMUNICATION",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CMU.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CORE",
+      "CurriculumName": "BOTHELL CORE",
+      "CurriculumFullName": "BOTHELL CORE",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CORE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B CUSP",
+      "CurriculumName": "UNIVERSITY STUDIES",
+      "CurriculumFullName": "UNIV STUDIES AND PROGRAMS - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20CUSP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B E",
+      "CurriculumName": "BUILT ENVIRONMENT",
+      "CurriculumFullName": "BUILT ENVIRONMENT",
+      "Href": "/student/v5/curriculum/2015,winter,B%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ECON",
+      "CurriculumName": "BUSINESS ECONOMICS",
+      "CurriculumFullName": "BUSINESS ECONOMICS",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ECON.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B EDUC",
+      "CurriculumName": "EDUCATION (BOTHEL)",
+      "CurriculumFullName": "EDUCATION (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20EDUC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B EE",
+      "CurriculumName": "ELECT ENG (BOTHELL)",
+      "CurriculumFullName": "ELECTRICAL ENGINEERING - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20EE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ENGR",
+      "CurriculumName": "ENGINEERING (BTHL)",
+      "CurriculumFullName": "ENGINEERING - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ENGR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B FIN",
+      "CurriculumName": "FINANCE (BOTHELL)",
+      "CurriculumFullName": "FINANCE (BOTHELL)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20FIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B GEN",
+      "CurriculumName": "GENERAL STD (BOTHELL)",
+      "CurriculumFullName": "GENERAL STUDIES (BOTHELL)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20GEN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B H",
+      "CurriculumName": "BIOETHICS & HUMANITIES",
+      "CurriculumFullName": "BIOETHICS AND HUMANITIES",
+      "Href": "/student/v5/curriculum/2015,winter,B%20H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B HLTH",
+      "CurriculumName": "HEALTH (BOTHELL)",
+      "CurriculumFullName": "HEALTH (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20HLTH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B IMD",
+      "CurriculumName": "INTERACTIVE MEDIA DESIGN",
+      "CurriculumFullName": "INTERACTIVE MEDIA DESIGN",
+      "Href": "/student/v5/curriculum/2015,winter,B%20IMD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B LEAD",
+      "CurriculumName": "LEADERSHIP (BOTHELL)",
+      "CurriculumFullName": "LEADERSHIP - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20LEAD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B MATH",
+      "CurriculumName": "MATHEMATICS (BOTHELL)",
+      "CurriculumFullName": "MATHEMATICS - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20MATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B ME",
+      "CurriculumName": "MECH ENG (BOTHELL)",
+      "CurriculumFullName": "MECHANICAL ENGINEERING - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20ME.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B MGMT",
+      "CurriculumName": "MANAGEMENT - BOTHELL",
+      "CurriculumFullName": "MANAGEMENT (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20MGMT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B MKTG",
+      "CurriculumName": "MARKETING (BOTHELL)",
+      "CurriculumFullName": "MARKETING (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20MKTG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B NURS",
+      "CurriculumName": "NURSING (BOTHELL)",
+      "CurriculumFullName": "NURSING (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,B%20NURS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B PHYS",
+      "CurriculumName": "PHYSICS - BOTHELL",
+      "CurriculumFullName": "PHYSICS - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20PHYS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B POL",
+      "CurriculumName": "BUSINESS POLICY",
+      "CurriculumFullName": "BUSINESS POLICY",
+      "Href": "/student/v5/curriculum/2015,winter,B%20POL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B SPAN",
+      "CurriculumName": "SPANISH - BOTHELL",
+      "CurriculumFullName": "SPANISH - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20SPAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B STR",
+      "CurriculumName": "BIOLOGICAL STRUCTURE",
+      "CurriculumFullName": "BIOLOGICAL STRUCTURE",
+      "Href": "/student/v5/curriculum/2015,winter,B%20STR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "B WRIT",
+      "CurriculumName": "WRITING",
+      "CurriculumFullName": "WRITING - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,B%20WRIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BA RM",
+      "CurriculumName": "BUS ADMIN RESEARCH METHO",
+      "CurriculumFullName": "BUS ADMIN RESEARCH METHODS",
+      "Href": "/student/v5/curriculum/2015,winter,BA%20RM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BCONSC",
+      "CurriculumName": "CONSCSNS (BOTHELL)",
+      "CurriculumFullName": "CONSCIOUSNESS - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BCONSC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BCS",
+      "CurriculumName": "BOSNIAN-CROATIAN-SERBIAN",
+      "CurriculumFullName": "BOSNIAN-CROATIAN-SERBIAN",
+      "Href": "/student/v5/curriculum/2015,winter,BCS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BCULST",
+      "CurriculumName": "CULTURAL STUDIES (BOTHL)",
+      "CurriculumFullName": "CULTURAL STUDIES - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BCULST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BCWRIT",
+      "CurriculumName": "CREATIVE WRITING",
+      "CurriculumFullName": "CREATIVE WRITING - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BCWRIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BENG",
+      "CurriculumName": "BENGALI",
+      "CurriculumFullName": "BENGALI",
+      "Href": "/student/v5/curriculum/2015,winter,BENG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BES",
+      "CurriculumName": "ENVIRON SCI (BOTHELL)",
+      "CurriculumFullName": "ENVIRONMENTAL SCIENCE - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BES.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BFRNCH",
+      "CurriculumName": "FRENCH - BOTHELL",
+      "CurriculumFullName": "FRENCH - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BFRNCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BHS",
+      "CurriculumName": "HEALTH STUDIES (BOTHELL)",
+      "CurriculumFullName": "HEALTH STUDIES (BOTHELL CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,BHS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIBHEB",
+      "CurriculumName": "BIBLICAL HEBREW",
+      "CurriculumFullName": "BIBLICAL HEBREW",
+      "Href": "/student/v5/curriculum/2015,winter,BIBHEB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIME",
+      "CurriculumName": "BIO INFRMT AND MED EDUC",
+      "CurriculumFullName": "BIOMEDICAL INFORMATICS AND MED EDUCATION",
+      "Href": "/student/v5/curriculum/2015,winter,BIME.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIO A",
+      "CurriculumName": "BIOCULTURAL ANTHROPOLOGY",
+      "CurriculumFullName": "BIOCULTURAL ANTHROPOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,BIO%20A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIOC",
+      "CurriculumName": "BIOCHEMISTRY",
+      "CurriculumFullName": "BIOCHEMISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,BIOC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIOEN",
+      "CurriculumName": "BIOENGINEERING",
+      "CurriculumFullName": "BIOENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,BIOEN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIOL",
+      "CurriculumName": "BIOLOGY",
+      "CurriculumFullName": "BIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,BIOL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIOST",
+      "CurriculumName": "BIOSTATISTICS",
+      "CurriculumFullName": "BIOSTATISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,BIOST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BIS",
+      "CurriculumName": "INTERDISCIPL STUDIES",
+      "CurriculumFullName": "INTERDISCIPLINARY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,BIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISAMS",
+      "CurriculumName": "AMERICAN STUDIES - BOTHL",
+      "CurriculumFullName": "AMERICAN STUDIES -- BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BISAMS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISCLA",
+      "CurriculumName": "CULTURE, LIT, ARTS-BOTHL",
+      "CurriculumFullName": "CULTURE, LITERATURE, AND THE ARTS -- BTH",
+      "Href": "/student/v5/curriculum/2015,winter,BISCLA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISCP",
+      "CurriculumName": "COMMUNITY PSYCH -BOTHELL",
+      "CurriculumFullName": "COMMUNITY PSYCHOLOGY -- BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BISCP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISGST",
+      "CurriculumName": "GLOBAL STUDIES - BOTHELL",
+      "CurriculumFullName": "GLOBAL STUDIES -- BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BISGST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISIA",
+      "CurriculumName": "IAS INTERDISCIP ARTS",
+      "CurriculumFullName": "IAS INTERDISCIPLINARY ARTS",
+      "Href": "/student/v5/curriculum/2015,winter,BISIA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISLEP",
+      "CurriculumName": "LAW, ECON, PUBLC POLICY",
+      "CurriculumFullName": "LAW, ECONOMICS, AND PUBLIC POLICY",
+      "Href": "/student/v5/curriculum/2015,winter,BISLEP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISMCS",
+      "CurriculumName": "MEDIA AND COM STDIES",
+      "CurriculumFullName": "MEDIA & COMMUNICATION STUDIES - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BISMCS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISSEB",
+      "CurriculumName": "SOC, ETHICS, HMN BEHAVR",
+      "CurriculumFullName": "SOCIETY, ETHICS, AND HUMAN BEHAVIOR",
+      "Href": "/student/v5/curriculum/2015,winter,BISSEB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISSKL",
+      "CurriculumName": "INTERDISC STUDY SKILLS",
+      "CurriculumFullName": "INTERDISCIPLINARY STUDY SKILLS",
+      "Href": "/student/v5/curriculum/2015,winter,BISSKL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BISSTS",
+      "CurriculumName": "IAS SCI, TECH, SOCIETY",
+      "CurriculumFullName": "IAS SCIENCE, TECHNOLOGY, AND SOCIETY",
+      "Href": "/student/v5/curriculum/2015,winter,BISSTS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BJAPAN",
+      "CurriculumName": "JAPANESE - BOTHELL",
+      "CurriculumFullName": "JAPANESE - BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BJAPAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BLS",
+      "CurriculumName": "LIBERAL STUDIES",
+      "CurriculumFullName": "LIBERAL STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,BLS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BMSD",
+      "CurriculumName": "BIOMOLECULAR STRUC & DES",
+      "CurriculumFullName": "BIOMOLECULAR STRUCTURE AND DESIGN",
+      "Href": "/student/v5/curriculum/2015,winter,BMSD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BPOLST",
+      "CurriculumName": "POLICY STUDIES (BOTHELL)",
+      "CurriculumFullName": "POLICY STUDIES - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BPOLST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BSE",
+      "CurriculumName": "BIORESOURCE & SCI ENGRNG",
+      "CurriculumFullName": "BIORESOURCE SCIENCE & ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,BSE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BST",
+      "CurriculumName": "SCI & TECH (BOTHELL)",
+      "CurriculumFullName": "SCIENCE AND TECHNOLOGY - UW BOTHELL",
+      "Href": "/student/v5/curriculum/2015,winter,BST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "BULGR",
+      "CurriculumName": "BULGARIAN",
+      "CurriculumFullName": "BULGARIAN",
+      "Href": "/student/v5/curriculum/2015,winter,BULGR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "C ENV",
+      "CurriculumName": "COLL OF THE ENVIR",
+      "CurriculumFullName": "COLLEGE OF THE ENVIRONMENT",
+      "Href": "/student/v5/curriculum/2015,winter,C%20ENV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "C LIT",
+      "CurriculumName": "COMPARATIVE LIT",
+      "CurriculumFullName": "COMPARATIVE LITERATURE",
+      "Href": "/student/v5/curriculum/2015,winter,C%20LIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "C MED",
+      "CurriculumName": "COMPARATIVE MEDICINE",
+      "CurriculumFullName": "COMPARATIVE MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,C%20MED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CATA",
+      "CurriculumName": "CATALAN",
+      "CurriculumFullName": "CATALAN",
+      "Href": "/student/v5/curriculum/2015,winter,CATA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CAUP",
+      "CurriculumName": "COL OF ARCH & URBAN PLAN",
+      "CurriculumFullName": "COLLEGE OF ARCHITECTURE & URBAN PLANNING",
+      "Href": "/student/v5/curriculum/2015,winter,CAUP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CEE",
+      "CurriculumName": "CIVIL & ENVIR ENGR",
+      "CurriculumFullName": "CIVIL & ENVIRONMENTAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,CEE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CEP",
+      "CurriculumName": "COM, ENV, AND PLANNING",
+      "CurriculumFullName": "COMMUNITY, ENVIRONMENT, AND PLANNING",
+      "Href": "/student/v5/curriculum/2015,winter,CEP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CFR",
+      "CurriculumName": "COLLEGE OF FOR RESOURCES",
+      "CurriculumFullName": "COLLEGE OF FOREST RESOURCES",
+      "Href": "/student/v5/curriculum/2015,winter,CFR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CFRM",
+      "CurriculumName": "COMP'L FIN & RISK MGMT",
+      "CurriculumFullName": "COMPUTATIONAL FINANCE & RISK MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,CFRM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHEM",
+      "CurriculumName": "CHEMISTRY",
+      "CurriculumFullName": "CHEMISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,CHEM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHEM E",
+      "CurriculumName": "CHEMICAL ENGINEERING",
+      "CurriculumFullName": "CHEMICAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,CHEM%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHGTAI",
+      "CurriculumName": "CHAGATAI",
+      "CurriculumFullName": "CHAGATAI",
+      "Href": "/student/v5/curriculum/2015,winter,CHGTAI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHID",
+      "CurriculumName": "COMP HIST OF IDEAS",
+      "CurriculumFullName": "COMPARATIVE HISTORY OF IDEAS",
+      "Href": "/student/v5/curriculum/2015,winter,CHID.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHIN",
+      "CurriculumName": "CHINESE",
+      "CurriculumFullName": "CHINESE",
+      "Href": "/student/v5/curriculum/2015,winter,CHIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CHSTU",
+      "CurriculumName": "CHICANO STUDIES",
+      "CurriculumFullName": "CHICANO STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,CHSTU.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CL AR",
+      "CurriculumName": "CLASSICAL ARCHAEOLOGY",
+      "CurriculumFullName": "CLASSICAL ARCHAEOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,CL%20AR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CL LI",
+      "CurriculumName": "CLASSICAL LINGUISTICS",
+      "CurriculumFullName": "CLASSICAL LINGUISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,CL%20LI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CLAS",
+      "CurriculumName": "CLASSICS",
+      "CurriculumFullName": "CLASSICS",
+      "Href": "/student/v5/curriculum/2015,winter,CLAS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CM",
+      "CurriculumName": "CONSTRUCTION MANAGEMENT",
+      "CurriculumFullName": "CONSTRUCTION MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,CM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "COM",
+      "CurriculumName": "COMMUNICATION",
+      "CurriculumFullName": "COMMUNICATION",
+      "Href": "/student/v5/curriculum/2015,winter,COM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CONJ",
+      "CurriculumName": "CONJOINT (MEDICINE)",
+      "CurriculumFullName": "CONJOINT (MEDICINE)",
+      "Href": "/student/v5/curriculum/2015,winter,CONJ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "COPTIC",
+      "CurriculumName": "COPTIC",
+      "CurriculumFullName": "COPTIC",
+      "Href": "/student/v5/curriculum/2015,winter,COPTIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CR SB",
+      "CurriculumName": "CROATIAN-SERBIAN",
+      "CurriculumFullName": "CROATIAN-SERBIAN",
+      "Href": "/student/v5/curriculum/2015,winter,CR%20SB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CS&SS",
+      "CurriculumName": "CEN FOR STAT & SOC SCI",
+      "CurriculumFullName": "CENTER FOR STATISTICS & THE SOCIAL SCI",
+      "Href": "/student/v5/curriculum/2015,winter,CS%26SS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSDE",
+      "CurriculumName": "CSDE",
+      "CurriculumFullName": "Ctr for Stdies in Demography and Ecology",
+      "Href": "/student/v5/curriculum/2015,winter,CSDE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSE",
+      "CurriculumName": "COMPUTER SCI & ENGR",
+      "CurriculumFullName": "COMPUTER SCIENCE & ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,CSE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSE M",
+      "CurriculumName": "ACCELERATED MASTERS PRG",
+      "CurriculumFullName": "COMP SCI & ENGR ACCELERATED MASTERS PRG",
+      "Href": "/student/v5/curriculum/2015,winter,CSE%20M.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSE P",
+      "CurriculumName": "PROFESSIONAL MASTERS PRG",
+      "CurriculumFullName": "COMP SCI & ENGR PROFESSIONAL MASTERS PRG",
+      "Href": "/student/v5/curriculum/2015,winter,CSE%20P.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSS",
+      "CurriculumName": "COMPUTING & SOFTWARE SYS",
+      "CurriculumFullName": "COMPUTING & SOFTWARE SYSTEMS",
+      "Href": "/student/v5/curriculum/2015,winter,CSS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSSAP",
+      "CurriculumName": "CSS APLICATION PROGRAMNG",
+      "CurriculumFullName": "APPLICATION PROGRAMMING",
+      "Href": "/student/v5/curriculum/2015,winter,CSSAP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSSIE",
+      "CurriculumName": "CSS INFORMATION ENGINRNG",
+      "CurriculumFullName": "INFORMATION ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,CSSIE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSSSA",
+      "CurriculumName": "CSS SYSTEMS ANALYSIS",
+      "CurriculumFullName": "SYSTEMS ANALYSIS",
+      "Href": "/student/v5/curriculum/2015,winter,CSSSA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CSSSKL",
+      "CurriculumName": "CMPTG & SFTWR SKILLS",
+      "CurriculumFullName": "COMPUTING & SOFTWARE SYSTEMS SKILLS",
+      "Href": "/student/v5/curriculum/2015,winter,CSSSKL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "CZECH",
+      "CurriculumName": "CZECH",
+      "CurriculumFullName": "CZECH",
+      "Href": "/student/v5/curriculum/2015,winter,CZECH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "D HYG",
+      "CurriculumName": "DENTAL HYGIENE",
+      "CurriculumFullName": "DENTAL HYGIENE",
+      "Href": "/student/v5/curriculum/2015,winter,D%20HYG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DANCE",
+      "CurriculumName": "DANCE",
+      "CurriculumFullName": "DANCE",
+      "Href": "/student/v5/curriculum/2015,winter,DANCE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DANISH",
+      "CurriculumName": "DANISH",
+      "CurriculumFullName": "DANISH",
+      "Href": "/student/v5/curriculum/2015,winter,DANISH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DENT",
+      "CurriculumName": "DENTISTRY",
+      "CurriculumFullName": "DENTISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,DENT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DESIGN",
+      "CurriculumName": "DESIGN",
+      "CurriculumFullName": "DESIGN",
+      "Href": "/student/v5/curriculum/2015,winter,DESIGN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DIS ST",
+      "CurriculumName": "DISABILITY STUDIES",
+      "CurriculumFullName": "DISABILITY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,DIS%20ST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DPHS",
+      "CurriculumName": "DENTAL PUBLIC HLTH SCI",
+      "CurriculumFullName": "DENTAL PUBLIC HEALTH SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,DPHS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DRAMA",
+      "CurriculumName": "DRAMA",
+      "CurriculumFullName": "DRAMA",
+      "Href": "/student/v5/curriculum/2015,winter,DRAMA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "DXARTS",
+      "CurriculumName": "DIGTL ARTS AND EXP MEDIA",
+      "CurriculumFullName": "DIGITAL ARTS AND EXPERIMENTAL MEDIA",
+      "Href": "/student/v5/curriculum/2015,winter,DXARTS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "E E",
+      "CurriculumName": "ELECTRICAL ENGR",
+      "CurriculumFullName": "ELECTRICAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,E%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EBIZ",
+      "CurriculumName": "E-BUSINESS",
+      "CurriculumFullName": "E-BUSINESS",
+      "Href": "/student/v5/curriculum/2015,winter,EBIZ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ECFS",
+      "CurriculumName": "ERLY CHLDHD & FAMILY STD",
+      "CurriculumFullName": "EARLY CHILDHOOD AND FAMILY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,ECFS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ECON",
+      "CurriculumName": "ECONOMICS",
+      "CurriculumFullName": "ECONOMICS",
+      "Href": "/student/v5/curriculum/2015,winter,ECON.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDC&I",
+      "CurriculumName": "EDUCATIONAL CURRIC &INST",
+      "CurriculumFullName": "CURRICULUM & INSTRUCTION",
+      "Href": "/student/v5/curriculum/2015,winter,EDC%26I.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDLPS",
+      "CurriculumName": "EDUC LEADRSHP & POL ST",
+      "CurriculumFullName": "EDUCATIONAL LEADERSHIP & POLICY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,EDLPS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDPSY",
+      "CurriculumName": "EDUCATIONAL PSYCHOLOGY",
+      "CurriculumFullName": "EDUCATIONAL PSYCHOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,EDPSY.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDSPE",
+      "CurriculumName": "SPECIAL EDUCATION",
+      "CurriculumFullName": "SPECIAL EDUCATION",
+      "Href": "/student/v5/curriculum/2015,winter,EDSPE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDTEP",
+      "CurriculumName": "TEACHER EDUCATION",
+      "CurriculumFullName": "EDUCATION (TEACHER EDUCATION PROGRAM)",
+      "Href": "/student/v5/curriculum/2015,winter,EDTEP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EDUC",
+      "CurriculumName": "EDUCATION",
+      "CurriculumFullName": "EDUCATION",
+      "Href": "/student/v5/curriculum/2015,winter,EDUC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EGYPT",
+      "CurriculumName": "EGYPTIAN",
+      "CurriculumFullName": "EGYPTIAN",
+      "Href": "/student/v5/curriculum/2015,winter,EGYPT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ELCBUS",
+      "CurriculumName": "EASTSIDE LDRSHIP CTR",
+      "CurriculumFullName": "EASTSIDE LEADERSHIP CENTER (BOTHELL)",
+      "Href": "/student/v5/curriculum/2015,winter,ELCBUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EMBA",
+      "CurriculumName": "EXEC MASTERS BUS ADMIN",
+      "CurriculumFullName": "EXEC MASTERS BUSINESS ADMIN GROUP",
+      "Href": "/student/v5/curriculum/2015,winter,EMBA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENDO",
+      "CurriculumName": "ENDODONTICS",
+      "CurriculumFullName": "ENDODONTICS",
+      "Href": "/student/v5/curriculum/2015,winter,ENDO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENGL",
+      "CurriculumName": "ENGLISH",
+      "CurriculumFullName": "ENGLISH",
+      "Href": "/student/v5/curriculum/2015,winter,ENGL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENGR",
+      "CurriculumName": "ENGINEERING",
+      "CurriculumFullName": "ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,ENGR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENTRE",
+      "CurriculumName": "ENTREPRENEURSHIP & INNOV",
+      "CurriculumFullName": "ENTREPRENEURSHIP AND INNOVATION",
+      "Href": "/student/v5/curriculum/2015,winter,ENTRE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENV H",
+      "CurriculumName": "ENVIRONMENTAL HEALTH",
+      "CurriculumFullName": "ENVIRONMENTAL HEALTH",
+      "Href": "/student/v5/curriculum/2015,winter,ENV%20H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ENVIR",
+      "CurriculumName": "PROG ON THE ENVIR",
+      "CurriculumFullName": "PROGRAM ON THE ENVIRONMENT",
+      "Href": "/student/v5/curriculum/2015,winter,ENVIR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EPI",
+      "CurriculumName": "EPIDEMIOLOGY",
+      "CurriculumFullName": "EPIDEMIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,EPI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ESRM",
+      "CurriculumName": "ENV SCI & RESRC MGMT",
+      "CurriculumFullName": "ENVIRONMENTAL SCI & RESOURCE MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,ESRM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ESS",
+      "CurriculumName": "EARTH AND SPACE SCIENCES",
+      "CurriculumFullName": "EARTH AND SPACE SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,ESS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ESTO",
+      "CurriculumName": "ESTONIAN",
+      "CurriculumFullName": "ESTONIAN",
+      "Href": "/student/v5/curriculum/2015,winter,ESTO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "EURO",
+      "CurriculumName": "INT ST:EUROPE",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: EUROPE",
+      "Href": "/student/v5/curriculum/2015,winter,EURO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FAMED",
+      "CurriculumName": "FAMILY MEDICINE",
+      "CurriculumFullName": "FAMILY MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,FAMED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FHL",
+      "CurriculumName": "FRIDAY HARBOR LABS",
+      "CurriculumFullName": "FRIDAY HARBOR LABS",
+      "Href": "/student/v5/curriculum/2015,winter,FHL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FIN",
+      "CurriculumName": "FINANCE",
+      "CurriculumFullName": "FINANCE",
+      "Href": "/student/v5/curriculum/2015,winter,FIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FINN",
+      "CurriculumName": "FINNISH",
+      "CurriculumFullName": "FINNISH",
+      "Href": "/student/v5/curriculum/2015,winter,FINN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FISH",
+      "CurriculumName": "FISHERIES",
+      "CurriculumFullName": "FISHERIES",
+      "Href": "/student/v5/curriculum/2015,winter,FISH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "FRENCH",
+      "CurriculumName": "FRENCH",
+      "CurriculumFullName": "FRENCH",
+      "Href": "/student/v5/curriculum/2015,winter,FRENCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "G H",
+      "CurriculumName": "GLOBAL HEALTH",
+      "CurriculumFullName": "GLOBAL HEALTH",
+      "Href": "/student/v5/curriculum/2015,winter,G%20H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GEEZ",
+      "CurriculumName": "GE'EZ",
+      "CurriculumFullName": "GE'EZ",
+      "Href": "/student/v5/curriculum/2015,winter,GEEZ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GEMBA",
+      "CurriculumName": "GLOBAL EXEC MBA",
+      "CurriculumFullName": "GLOBAL EXEC MASTERS BUSINESS ADMIN GROUP",
+      "Href": "/student/v5/curriculum/2015,winter,GEMBA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GEN ST",
+      "CurriculumName": "GENERAL STUDIES",
+      "CurriculumFullName": "GENERAL STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,GEN%20ST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GENOME",
+      "CurriculumName": "GENOME SCIENCES",
+      "CurriculumFullName": "GENOME SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,GENOME.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GEOG",
+      "CurriculumName": "GEOGRAPHY",
+      "CurriculumFullName": "GEOGRAPHY",
+      "Href": "/student/v5/curriculum/2015,winter,GEOG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GERMAN",
+      "CurriculumName": "GERMANICS",
+      "CurriculumFullName": "GERMANICS",
+      "Href": "/student/v5/curriculum/2015,winter,GERMAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GIS",
+      "CurriculumName": "GEN & INTERDISC STUDIES",
+      "CurriculumFullName": "GENERAL & INTERDISCIPLINARY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,GIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GRDSCH",
+      "CurriculumName": "GRADUATE SCHOOL",
+      "CurriculumFullName": "GRADUATE SCHOOL",
+      "Href": "/student/v5/curriculum/2015,winter,GRDSCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GREEK",
+      "CurriculumName": "GREEK",
+      "CurriculumFullName": "GREEK",
+      "Href": "/student/v5/curriculum/2015,winter,GREEK.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GTTL",
+      "CurriculumName": "GL TR, TRANS, & LOGIS",
+      "CurriculumFullName": "GLOBAL TRADE, TRANSPORTATION & LOGISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,GTTL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "GWSS",
+      "CurriculumName": "GNDR, WMN, SEXLTY STDIES",
+      "CurriculumFullName": "GENDER, WOMEN, AND SEXUALITY STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,GWSS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "H A&S",
+      "CurriculumName": "HONORS -ARTS & SCIENCES",
+      "CurriculumFullName": "HONORS - ARTS & SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,H%20A%26S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HCDE",
+      "CurriculumName": "HMN-CNTRD DESIGN & ENGR",
+      "CurriculumFullName": "HUMAN CENTERED DESIGN AND ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,HCDE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HCID",
+      "CurriculumName": "HMN-CMPTR INTERACT DESGN",
+      "CurriculumFullName": "HUMAN-COMPUTER INTERACTION DESIGN",
+      "Href": "/student/v5/curriculum/2015,winter,HCID.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HEBR",
+      "CurriculumName": "HEBREW",
+      "CurriculumFullName": "HEBREW",
+      "Href": "/student/v5/curriculum/2015,winter,HEBR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HIA",
+      "CurriculumName": "HEALTH INFORMATION ADMIN",
+      "CurriculumFullName": "HEALTH INFORMATION ADMIN",
+      "Href": "/student/v5/curriculum/2015,winter,HIA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HIHIM",
+      "CurriculumName": "HLTH INFRMTCS & INFO MGT",
+      "CurriculumFullName": "HEALTH INFORMATICS & HLTH INFORMTN MGMT",
+      "Href": "/student/v5/curriculum/2015,winter,HIHIM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HINDI",
+      "CurriculumName": "HINDI",
+      "CurriculumFullName": "HINDI",
+      "Href": "/student/v5/curriculum/2015,winter,HINDI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HIST",
+      "CurriculumName": "HISTORY",
+      "CurriculumFullName": "HISTORY",
+      "Href": "/student/v5/curriculum/2015,winter,HIST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HONORS",
+      "CurriculumName": "HONORS",
+      "CurriculumFullName": "HONORS",
+      "Href": "/student/v5/curriculum/2015,winter,HONORS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HPS",
+      "CurriculumName": "HIST & PHIL OF SCIENCE",
+      "CurriculumFullName": "HISTORY AND PHILOSOPHY OF SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,HPS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HRMOB",
+      "CurriculumName": "HUMAN RESOURCE MANAGEMNT",
+      "CurriculumFullName": "HUMAN RESOURCE MANAGE & ORGANIZ BEHAVIOR",
+      "Href": "/student/v5/curriculum/2015,winter,HRMOB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSERV",
+      "CurriculumName": "HEALTH SERVICES",
+      "CurriculumFullName": "HEALTH SERVICES",
+      "Href": "/student/v5/curriculum/2015,winter,HSERV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSMGMT",
+      "CurriculumName": "HEALTH SERV MGMT",
+      "CurriculumFullName": "HEALTH SERVICES MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,HSMGMT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTAA",
+      "CurriculumName": "HISTORY OF NRTH AMERICA",
+      "CurriculumFullName": "HISTORY OF NORTH AMERICA (USA & CANADA)",
+      "Href": "/student/v5/curriculum/2015,winter,HSTAA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTAFM",
+      "CurriculumName": "HST AFRICA & MIDDLE EAST",
+      "CurriculumFullName": "HISTORY OF AFRICA AND THE MIDDLE EAST",
+      "Href": "/student/v5/curriculum/2015,winter,HSTAFM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTAM",
+      "CurriculumName": "ANCIENT & MEDIEVAL HIST",
+      "CurriculumFullName": "ANCIENT & MEDIEVAL HISTORY",
+      "Href": "/student/v5/curriculum/2015,winter,HSTAM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTAS",
+      "CurriculumName": "HISTORY OF ASIA",
+      "CurriculumFullName": "HISTORY OF ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,HSTAS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTCMP",
+      "CurriculumName": "CMPRTV/TRANSREG HISTORY",
+      "CurriculumFullName": "COMPARATIVE AND TRANSREGIONAL HISTORY",
+      "Href": "/student/v5/curriculum/2015,winter,HSTCMP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTEU",
+      "CurriculumName": "HSTORY OF MODERN EUROPE",
+      "CurriculumFullName": "HISTORY OF MODERN EUROPE",
+      "Href": "/student/v5/curriculum/2015,winter,HSTEU.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTLAC",
+      "CurriculumName": "HST LTN AMRCA & CARIBN",
+      "CurriculumFullName": "HISTORY OF LATIN AMERICA & THE CARIBBEAN",
+      "Href": "/student/v5/curriculum/2015,winter,HSTLAC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HSTRY",
+      "CurriculumName": "HSTRY SMNRS & INDP STD",
+      "CurriculumFullName": "HISTORY SEMINARS AND INDEPENDENT STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,HSTRY.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HUBIO",
+      "CurriculumName": "HUMAN BIOLOGY",
+      "CurriculumFullName": "HUMAN BIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,HUBIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HUM",
+      "CurriculumName": "HUMANITIES",
+      "CurriculumFullName": "CENTER FOR THE HUMANITIES",
+      "Href": "/student/v5/curriculum/2015,winter,HUM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "HUNGR",
+      "CurriculumName": "HUNGARIAN",
+      "CurriculumFullName": "HUNGARIAN",
+      "Href": "/student/v5/curriculum/2015,winter,HUNGR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "I BUS",
+      "CurriculumName": "INTERNATIONAL BUSINESS",
+      "CurriculumFullName": "INTERNATIONAL BUSINESS",
+      "Href": "/student/v5/curriculum/2015,winter,I%20BUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "I S",
+      "CurriculumName": "INFORMATION SYSTEMS",
+      "CurriculumFullName": "INFORMATION SYSTEMS",
+      "Href": "/student/v5/curriculum/2015,winter,I%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ICEL",
+      "CurriculumName": "ICELANDIC",
+      "CurriculumFullName": "ICELANDIC",
+      "Href": "/student/v5/curriculum/2015,winter,ICEL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "IMMUN",
+      "CurriculumName": "IMMUNOLOGY",
+      "CurriculumFullName": "IMMUNOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,IMMUN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "IMT",
+      "CurriculumName": "INFORM MGMT & TECH",
+      "CurriculumFullName": "INFORMATION MANAGEMENT & TECHNOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,IMT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "IND E",
+      "CurriculumName": "INDUSTRIAL ENGINEERING",
+      "CurriculumFullName": "INDUSTRIAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,IND%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INDIV",
+      "CurriculumName": "INDIVIDUALIZED STUDIES",
+      "CurriculumFullName": "INDIVIDUALIZED STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,INDIV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INDN",
+      "CurriculumName": "INDIAN",
+      "CurriculumFullName": "INDIAN",
+      "Href": "/student/v5/curriculum/2015,winter,INDN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INDO",
+      "CurriculumName": "INDONESIAN",
+      "CurriculumFullName": "INDONESIAN",
+      "Href": "/student/v5/curriculum/2015,winter,INDO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INDON",
+      "CurriculumName": "INDONESIAN",
+      "CurriculumFullName": "INDONESIAN",
+      "Href": "/student/v5/curriculum/2015,winter,INDON.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INFO",
+      "CurriculumName": "INFORMATICS",
+      "CurriculumFullName": "INFORMATICS",
+      "Href": "/student/v5/curriculum/2015,winter,INFO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INFX",
+      "CurriculumName": "INFO SCHOOL INTERDISC",
+      "CurriculumFullName": "INFORMATION SCHOOL INTERDISCIPLINARY",
+      "Href": "/student/v5/curriculum/2015,winter,INFX.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INSC",
+      "CurriculumName": "INFORMATION SCI",
+      "CurriculumFullName": "INFORMATION SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,INSC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "INTSCI",
+      "CurriculumName": "INTEGRATED SCIENCE",
+      "CurriculumFullName": "INTEGRATED SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,INTSCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "IPHD",
+      "CurriculumName": "INDIVIDUAL PHD",
+      "CurriculumFullName": "INDIVIDUAL PHD",
+      "Href": "/student/v5/curriculum/2015,winter,IPHD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "IPM",
+      "CurriculumName": "INFRAST PLN&MG",
+      "CurriculumFullName": "INFRASTRUCTURE PLANNING AND MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,IPM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ISS",
+      "CurriculumName": "INTRGRTD SOC SCI",
+      "CurriculumFullName": "INTERGRATED SOCIAL SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,ISS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ITA",
+      "CurriculumName": "INFORMATION TECH APPS",
+      "CurriculumFullName": "INFORMATION TECHNOLOGY APPLICATIONS",
+      "Href": "/student/v5/curriculum/2015,winter,ITA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ITAL",
+      "CurriculumName": "ITALIAN",
+      "CurriculumFullName": "ITALIAN",
+      "Href": "/student/v5/curriculum/2015,winter,ITAL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JAPAN",
+      "CurriculumName": "JAPANESE",
+      "CurriculumFullName": "JAPANESE",
+      "Href": "/student/v5/curriculum/2015,winter,JAPAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS",
+      "CurriculumName": "INTERNATIONAL STUDIES",
+      "CurriculumFullName": "JSIS CORE AND GATEWAY COURSES",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS A",
+      "CurriculumName": "INTERNATIONAL STUDIES A",
+      "CurriculumFullName": "JSIS AREA STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS%20A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS B",
+      "CurriculumName": "INTERNATIONAL STUDIES B",
+      "CurriculumFullName": "JSIS GLOBAL AND THEMATIC COURSES",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS%20B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS C",
+      "CurriculumName": "INTERNATIONAL STUDIES C",
+      "CurriculumFullName": "JSIS COMP RELIGION/JEWISH STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS%20C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS D",
+      "CurriculumName": "INTERNATIONAL STUDIES D",
+      "CurriculumFullName": "JACKSON SCHOOL OF INT'L STUDIES D",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS%20D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "JSIS E",
+      "CurriculumName": "INTERNATIONAL STUDIES E",
+      "CurriculumFullName": "JSIS LANGUAGE COURSES",
+      "Href": "/student/v5/curriculum/2015,winter,JSIS%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "KAZAKH",
+      "CurriculumName": "KAZAKH",
+      "CurriculumFullName": "KAZAKH",
+      "Href": "/student/v5/curriculum/2015,winter,KAZAKH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "KOREAN",
+      "CurriculumName": "KOREAN",
+      "CurriculumFullName": "KOREAN",
+      "Href": "/student/v5/curriculum/2015,winter,KOREAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "KYRGYZ",
+      "CurriculumName": "KYRGYZ",
+      "CurriculumFullName": "KYRGYZ",
+      "Href": "/student/v5/curriculum/2015,winter,KYRGYZ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "L ARCH",
+      "CurriculumName": "LANDSCAPE ARCHITECTURE",
+      "CurriculumFullName": "LANDSCAPE ARCHITECTURE",
+      "Href": "/student/v5/curriculum/2015,winter,L%20ARCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAB M",
+      "CurriculumName": "LABORATORY MEDICINE",
+      "CurriculumFullName": "LABORATORY MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,LAB%20M.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LATIN",
+      "CurriculumName": "LATIN",
+      "CurriculumFullName": "LATIN",
+      "Href": "/student/v5/curriculum/2015,winter,LATIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LATV",
+      "CurriculumName": "LATVIAN",
+      "CurriculumFullName": "LATVIAN",
+      "Href": "/student/v5/curriculum/2015,winter,LATV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW",
+      "CurriculumName": "LAW",
+      "CurriculumFullName": "LAW",
+      "Href": "/student/v5/curriculum/2015,winter,LAW.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW A",
+      "CurriculumName": "LAW A",
+      "CurriculumFullName": "LAW A",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW B",
+      "CurriculumName": "LAW B",
+      "CurriculumFullName": "LAW B",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW C",
+      "CurriculumName": "LAW C",
+      "CurriculumFullName": "LAW C",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW E",
+      "CurriculumName": "LAW E",
+      "CurriculumFullName": "LAW E",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW H",
+      "CurriculumName": "LAW (HEALTH)",
+      "CurriculumFullName": "LAW (HEALTH)",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW P",
+      "CurriculumName": "LAW (INTELLECT PROP)",
+      "CurriculumFullName": "LAW (INTELLECTUAL PROPERTY)",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20P.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LAW T",
+      "CurriculumName": "LAW (TAXATION)",
+      "CurriculumFullName": "LAW (TAXATION)",
+      "Href": "/student/v5/curriculum/2015,winter,LAW%20T.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LEDE",
+      "CurriculumName": "LEADERSHIP DEVELOPMENT",
+      "CurriculumFullName": "LEADERSHIP DEVELOPMENT FOR EDUCATORS",
+      "Href": "/student/v5/curriculum/2015,winter,LEDE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LING",
+      "CurriculumName": "LINGUISTICS",
+      "CurriculumFullName": "LINGUISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,LING.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LIS",
+      "CurriculumName": "LIBRARY & INFORMATION SC",
+      "CurriculumFullName": "LIBRARY & INFORMATION SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,LIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LIT",
+      "CurriculumName": "LITERATURE",
+      "CurriculumFullName": "LITERATURE",
+      "Href": "/student/v5/curriculum/2015,winter,LIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LITH",
+      "CurriculumName": "LITHUANIAN",
+      "CurriculumFullName": "LITHUANIAN",
+      "Href": "/student/v5/curriculum/2015,winter,LITH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "LSJ",
+      "CurriculumName": "LAW, SOCIETIES, JUSTICE",
+      "CurriculumFullName": "LAW, SOCIETIES, AND JUSTICE",
+      "Href": "/student/v5/curriculum/2015,winter,LSJ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "M E",
+      "CurriculumName": "MECHANICAL ENGINEERING",
+      "CurriculumFullName": "MECHANICAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,M%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "M SCI",
+      "CurriculumName": "MILITARY SCIENCE",
+      "CurriculumFullName": "MILITARY SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,M%20SCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CurriculumName": "MATHEMATICS",
+      "CurriculumFullName": "MATHEMATICS",
+      "Href": "/student/v5/curriculum/2015,winter,MATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MBT",
+      "CurriculumName": "MOLECULAR BIOTECHNOLOGY",
+      "CurriculumFullName": "MOLECULAR BIOTECHNOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,MBT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MCB",
+      "CurriculumName": "MOLEC & CELLULAR BIOLOGY",
+      "CurriculumFullName": "MOLECULAR AND CELLULAR BIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,MCB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEBI",
+      "CurriculumName": "MED EDUC AND BIO INFORMA",
+      "CurriculumFullName": "MEDICAL EDUCATION AND BIOMED INFORMATICS",
+      "Href": "/student/v5/curriculum/2015,winter,MEBI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MED",
+      "CurriculumName": "MEDICINE",
+      "CurriculumFullName": "MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,MED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MED EM",
+      "CurriculumName": "EMERGENCY MEDICINE",
+      "CurriculumFullName": "EMERGENCY MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,MED%20EM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDCH",
+      "CurriculumName": "MEDICINAL CHEMISTRY",
+      "CurriculumFullName": "MEDICINAL CHEMISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,MEDCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDECK",
+      "CurriculumName": "ELECTIVE CLERKSHIPS",
+      "CurriculumFullName": "ELECTIVE CLERKSHIPS",
+      "Href": "/student/v5/curriculum/2015,winter,MEDECK.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDED",
+      "CurriculumName": "MEDICAL EDUCATION",
+      "CurriculumFullName": "MEDICAL EDUCATION",
+      "Href": "/student/v5/curriculum/2015,winter,MEDED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDENG",
+      "CurriculumName": "MEDICAL ENGINEERING",
+      "CurriculumFullName": "MEDICAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,MEDENG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDEX",
+      "CurriculumName": "MEDEX",
+      "CurriculumFullName": "MEDEX",
+      "Href": "/student/v5/curriculum/2015,winter,MEDEX.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEDRCK",
+      "CurriculumName": "REQUIRED CLERKSHIPS",
+      "CurriculumFullName": "REQUIRED CLERKSHIPS",
+      "Href": "/student/v5/curriculum/2015,winter,MEDRCK.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MEIE",
+      "CurriculumName": "MECHANICAL/INDUSTRIAL",
+      "CurriculumFullName": "MECHANICAL/INDUSTRIAL ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,MEIE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MGMT",
+      "CurriculumName": "MANAGEMENT",
+      "CurriculumFullName": "MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,MGMT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MHE",
+      "CurriculumName": "MED HIST & ETHICS",
+      "CurriculumFullName": "MEDICAL HISTORY & ETHICS",
+      "Href": "/student/v5/curriculum/2015,winter,MHE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MICROM",
+      "CurriculumName": "MICROBIOLOGY",
+      "CurriculumFullName": "MICROBIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,MICROM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MKTG",
+      "CurriculumName": "MARKETING",
+      "CurriculumFullName": "MARKETING",
+      "Href": "/student/v5/curriculum/2015,winter,MKTG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MODHEB",
+      "CurriculumName": "MODERN HEBREW",
+      "CurriculumFullName": "MODERN HEBREW",
+      "Href": "/student/v5/curriculum/2015,winter,MODHEB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MOLENG",
+      "CurriculumName": "MOLECULAR ENGINEERING",
+      "CurriculumFullName": "MOLECULAR ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,MOLENG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MOLMED",
+      "CurriculumName": "MOLECULAR MEDICINE",
+      "CurriculumFullName": "MOLECULAR MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,MOLMED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MONG",
+      "CurriculumName": "MONGOLIAN",
+      "CurriculumFullName": "MONGOLIAN",
+      "Href": "/student/v5/curriculum/2015,winter,MONG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MSE",
+      "CurriculumName": "MATERIALS SCI & ENGR",
+      "CurriculumFullName": "MATERIALS SCIENCE & ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,MSE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MSIS",
+      "CurriculumName": "MS INFORMATION SYSTEMS",
+      "CurriculumFullName": "M.S. INFORMATION SYSTEMS",
+      "Href": "/student/v5/curriculum/2015,winter,MSIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUHST",
+      "CurriculumName": "MUSIC HISTORY",
+      "CurriculumFullName": "MUSIC HISTORY",
+      "Href": "/student/v5/curriculum/2015,winter,MUHST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSAP",
+      "CurriculumName": "APPLIED MUSIC",
+      "CurriculumFullName": "APPLIED MUSIC",
+      "Href": "/student/v5/curriculum/2015,winter,MUSAP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSED",
+      "CurriculumName": "MUSIC EDUCATION",
+      "CurriculumFullName": "MUSIC EDUCATION",
+      "Href": "/student/v5/curriculum/2015,winter,MUSED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSEN",
+      "CurriculumName": "MUSIC ENSEMBLE",
+      "CurriculumFullName": "MUSIC ENSEMBLE",
+      "Href": "/student/v5/curriculum/2015,winter,MUSEN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSEUM",
+      "CurriculumName": "MUSEOLOGY",
+      "CurriculumFullName": "MUSEOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,MUSEUM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSIC",
+      "CurriculumName": "MUSIC",
+      "CurriculumFullName": "MUSIC",
+      "Href": "/student/v5/curriculum/2015,winter,MUSIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MUSICP",
+      "CurriculumName": "MUSIC PERFORMANCE",
+      "CurriculumFullName": "MUSIC PERFORMANCE",
+      "Href": "/student/v5/curriculum/2015,winter,MUSICP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "N SCI",
+      "CurriculumName": "NAVAL SCIENCE",
+      "CurriculumFullName": "NAVAL SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,N%20SCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "N&MES",
+      "CurriculumName": "NEAR & MIDDLE EASTERN ST",
+      "CurriculumFullName": "NEAR & MIDDLE EASTERN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,N%26MES.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NBIO",
+      "CurriculumName": "NEUROBIOLOGY",
+      "CurriculumFullName": "NEUROBIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,NBIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NCLIN",
+      "CurriculumName": "NURSING CLINICAL",
+      "CurriculumFullName": "NURSING CLINICAL",
+      "Href": "/student/v5/curriculum/2015,winter,NCLIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NEAR E",
+      "CurriculumName": "NEAR EASTERN LANG & CIV",
+      "CurriculumFullName": "NEAR EASTERN LANGUAGES & CIVILIZATION",
+      "Href": "/student/v5/curriculum/2015,winter,NEAR%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NEUBEH",
+      "CurriculumName": "NEUROBIOLOGY & BEHAVIOR",
+      "CurriculumFullName": "NEUROBIOLOGY & BEHAVIOR",
+      "Href": "/student/v5/curriculum/2015,winter,NEUBEH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NEUR S",
+      "CurriculumName": "NEUROLOGICAL SURGERY",
+      "CurriculumFullName": "NEUROLOGICAL SURGERY",
+      "Href": "/student/v5/curriculum/2015,winter,NEUR%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NEURL",
+      "CurriculumName": "NEUROLOGY",
+      "CurriculumFullName": "NEUROLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,NEURL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NEURO",
+      "CurriculumName": "NEUROSCIENCE",
+      "CurriculumFullName": "NEUROSCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,NEURO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NME",
+      "CurriculumName": "NANO & MOLEC ENGNRNG",
+      "CurriculumFullName": "NANOSCIENCE AND MOLECULAR ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,NME.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NMETH",
+      "CurriculumName": "NURSING METHODS",
+      "CurriculumFullName": "NURSING METHODS",
+      "Href": "/student/v5/curriculum/2015,winter,NMETH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NORW",
+      "CurriculumName": "NORWEGIAN",
+      "CurriculumFullName": "NORWEGIAN",
+      "Href": "/student/v5/curriculum/2015,winter,NORW.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NSG",
+      "CurriculumName": "NURSING",
+      "CurriculumFullName": "NURSING",
+      "Href": "/student/v5/curriculum/2015,winter,NSG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NUC E",
+      "CurriculumName": "NUCLEAR ENGINEERING",
+      "CurriculumFullName": "NUCLEAR ENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,NUC%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NURS",
+      "CurriculumName": "NURSING",
+      "CurriculumFullName": "NURSING",
+      "Href": "/student/v5/curriculum/2015,winter,NURS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "NUTR",
+      "CurriculumName": "NUTRITIONAL SCIENCE",
+      "CurriculumFullName": "NUTRITIONAL SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,NUTR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "O E",
+      "CurriculumName": "ORGANIZATION & ENVIRON",
+      "CurriculumFullName": "ORGANIZATION & ENVIRONMENT",
+      "Href": "/student/v5/curriculum/2015,winter,O%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "O S",
+      "CurriculumName": "ORAL SURGERY",
+      "CurriculumFullName": "ORAL SURGERY",
+      "Href": "/student/v5/curriculum/2015,winter,O%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "OB GYN",
+      "CurriculumName": "OBSTETRICS & GYNECOLOGY",
+      "CurriculumFullName": "OBSTETRICS & GYNECOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,OB%20GYN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "OCEAN",
+      "CurriculumName": "OCEANOGRAPY",
+      "CurriculumFullName": "OCEANOGRAPHY",
+      "Href": "/student/v5/curriculum/2015,winter,OCEAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "OPHTH",
+      "CurriculumName": "OPHTHALMOLOGY",
+      "CurriculumFullName": "OPHTHALMOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,OPHTH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "OPMGT",
+      "CurriculumName": "OPERATIONS MANAGEMENT",
+      "CurriculumFullName": "OPERATIONS MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,OPMGT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ORALB",
+      "CurriculumName": "ORAL BIOLOGY",
+      "CurriculumFullName": "ORAL BIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,ORALB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ORALM",
+      "CurriculumName": "ORAL MEDICINE",
+      "CurriculumFullName": "ORAL MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,ORALM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ORTHO",
+      "CurriculumName": "ORTHODONTICS",
+      "CurriculumFullName": "ORTHODONTICS",
+      "Href": "/student/v5/curriculum/2015,winter,ORTHO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ORTHP",
+      "CurriculumName": "ORTHOPEDICS",
+      "CurriculumFullName": "ORTHOPEDICS",
+      "Href": "/student/v5/curriculum/2015,winter,ORTHP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "OTOHN",
+      "CurriculumName": "OTOLARYNGOLOGY(HD & NECK",
+      "CurriculumFullName": "OTOLARYNGOLOGY,HEAD & NECK SURGERY",
+      "Href": "/student/v5/curriculum/2015,winter,OTOHN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "P BIO",
+      "CurriculumName": "PHYSIOLOGY & BIOPHYSICS",
+      "CurriculumFullName": "PHYSIOLOGY & BIOPHYSICS",
+      "Href": "/student/v5/curriculum/2015,winter,P%20BIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PA EX",
+      "CurriculumName": "PUBLIC AFFAIRS EXECUTIVE",
+      "CurriculumFullName": "PUBLIC AFFAIRS EXECUTIVE MPA",
+      "Href": "/student/v5/curriculum/2015,winter,PA%20EX.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PABIO",
+      "CurriculumName": "PATHOBIOLOGY",
+      "CurriculumFullName": "PATHOBIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,PABIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PATH",
+      "CurriculumName": "PATHOLOGY",
+      "CurriculumFullName": "PATHOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,PATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PB AF",
+      "CurriculumName": "PUBLIC AFFAIRS",
+      "CurriculumFullName": "PUBLIC AFFAIRS",
+      "Href": "/student/v5/curriculum/2015,winter,PB%20AF.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PBSCI",
+      "CurriculumName": "PSYCH & BEHAVIORAL SCI",
+      "CurriculumFullName": "PSYCHIATRY & BEHAVIORAL SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,PBSCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PCEUT",
+      "CurriculumName": "PHARMACEUTICS",
+      "CurriculumFullName": "PHARMACEUTICS",
+      "Href": "/student/v5/curriculum/2015,winter,PCEUT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PEDO",
+      "CurriculumName": "PEDIATRIC DENTISTRY",
+      "CurriculumFullName": "PEDIATRIC DENTISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,PEDO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PEDS",
+      "CurriculumName": "PEDIATRICS",
+      "CurriculumFullName": "PEDIATRICS",
+      "Href": "/student/v5/curriculum/2015,winter,PEDS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PERIO",
+      "CurriculumName": "PERIODONTICS",
+      "CurriculumFullName": "PERIODONTICS",
+      "Href": "/student/v5/curriculum/2015,winter,PERIO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHARBE",
+      "CurriculumName": "PHARMACEUTICAL BIOENG",
+      "CurriculumFullName": "PHARMACEUTICAL BIOENGINEERING",
+      "Href": "/student/v5/curriculum/2015,winter,PHARBE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHARM",
+      "CurriculumName": "PHARMACY",
+      "CurriculumFullName": "PHARMACY",
+      "Href": "/student/v5/curriculum/2015,winter,PHARM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHARMP",
+      "CurriculumName": "PHARMACY PRACTICE",
+      "CurriculumFullName": "PHARMACY PRACTICE",
+      "Href": "/student/v5/curriculum/2015,winter,PHARMP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHCOL",
+      "CurriculumName": "PHARMACOLOGY",
+      "CurriculumFullName": "PHARMACOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,PHCOL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHG",
+      "CurriculumName": "PUBLIC HEALTH GENETICS",
+      "CurriculumFullName": "PUBLIC HEALTH GENETICS",
+      "Href": "/student/v5/curriculum/2015,winter,PHG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHIL",
+      "CurriculumName": "PHILOSOPHY",
+      "CurriculumFullName": "PHILOSOPHY",
+      "Href": "/student/v5/curriculum/2015,winter,PHIL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHRMRA",
+      "CurriculumName": "PHARMACY REG AFFAIRS",
+      "CurriculumFullName": "PHARMACY REGULATORY AFFAIRS",
+      "Href": "/student/v5/curriculum/2015,winter,PHRMRA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PHYS",
+      "CurriculumName": "PHYSICS",
+      "CurriculumFullName": "PHYSICS",
+      "Href": "/student/v5/curriculum/2015,winter,PHYS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "POL S",
+      "CurriculumName": "POLITICAL SCIENCE",
+      "CurriculumFullName": "POLITICAL SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,POL%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "POLSH",
+      "CurriculumName": "POLISH",
+      "CurriculumFullName": "POLISH",
+      "Href": "/student/v5/curriculum/2015,winter,POLSH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PORT",
+      "CurriculumName": "PORTUGUESE",
+      "CurriculumFullName": "PORTUGUESE",
+      "Href": "/student/v5/curriculum/2015,winter,PORT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PPM",
+      "CurriculumName": "PUBLIC POLICY AND MGMT",
+      "CurriculumFullName": "PUBLIC POLICY AND MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,PPM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PROS",
+      "CurriculumName": "PROSTHODONTICS",
+      "CurriculumFullName": "PROSTHODONTICS",
+      "Href": "/student/v5/curriculum/2015,winter,PROS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PRSAN",
+      "CurriculumName": "PERSIAN",
+      "CurriculumFullName": "PERSIAN",
+      "Href": "/student/v5/curriculum/2015,winter,PRSAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "PSYCH",
+      "CurriculumName": "PSYCHOLOGY",
+      "CurriculumFullName": "PSYCHOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,PSYCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "Q SCI",
+      "CurriculumName": "QUANTITATIVE SCIENCE",
+      "CurriculumFullName": "QUANTITATIVE SCIENCE (FISHERIES & FOR R)",
+      "Href": "/student/v5/curriculum/2015,winter,Q%20SCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "QERM",
+      "CurriculumName": "QUANT ECOL & RESOURCE MG",
+      "CurriculumFullName": "QUANTITATIVE ECOLOGY & RESOURCE MGMT",
+      "Href": "/student/v5/curriculum/2015,winter,QERM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "QMETH",
+      "CurriculumName": "QUANTITATIVE METHODS",
+      "CurriculumFullName": "QUANTITATIVE METHODS",
+      "Href": "/student/v5/curriculum/2015,winter,QMETH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "QUAT",
+      "CurriculumName": "QUATERNARY SCIENCES",
+      "CurriculumFullName": "QUATERNARY SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,QUAT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "R E",
+      "CurriculumName": "REAL ESTATE",
+      "CurriculumFullName": "REAL ESTATE",
+      "Href": "/student/v5/curriculum/2015,winter,R%20E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "R ONC",
+      "CurriculumName": "RADIATION ONCOLOGY",
+      "CurriculumFullName": "RADIATION ONCOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,R%20ONC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RADGY",
+      "CurriculumName": "RADIOLOGY",
+      "CurriculumFullName": "RADIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,RADGY.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "REHAB",
+      "CurriculumName": "REHABILITATION MED",
+      "CurriculumFullName": "REHABILITATION MEDICINE",
+      "Href": "/student/v5/curriculum/2015,winter,REHAB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RELIG",
+      "CurriculumName": "INT ST:COMPRTVE RELIGION",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: COMPRTVE RELIGION",
+      "Href": "/student/v5/curriculum/2015,winter,RELIG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RES D",
+      "CurriculumName": "RESTORATIVE DENTISTRY",
+      "CurriculumFullName": "RESTORATIVE DENTISTRY",
+      "Href": "/student/v5/curriculum/2015,winter,RES%20D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RHB PO",
+      "CurriculumName": "PROSTHETICS & ORTHOTICS",
+      "CurriculumFullName": "REHAB MED - PROSTHETICS & ORTHOTICS",
+      "Href": "/student/v5/curriculum/2015,winter,RHB%20PO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RMN",
+      "CurriculumName": "ROMANIAN",
+      "CurriculumFullName": "ROMANIAN (ROMANCE L & L)",
+      "Href": "/student/v5/curriculum/2015,winter,RMN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ROMAN",
+      "CurriculumName": "ROMANCE LANG & LIT",
+      "CurriculumFullName": "ROMANCE LANGUAGES & LITERATURE",
+      "Href": "/student/v5/curriculum/2015,winter,ROMAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ROMN",
+      "CurriculumName": "ROMANIAN",
+      "CurriculumFullName": "ROMANIAN (SLAVIC)",
+      "Href": "/student/v5/curriculum/2015,winter,ROMN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "RUSS",
+      "CurriculumName": "RUSSIAN",
+      "CurriculumFullName": "RUSSIAN",
+      "Href": "/student/v5/curriculum/2015,winter,RUSS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SCAND",
+      "CurriculumName": "SCAND",
+      "CurriculumFullName": "SCANDINAVIAN",
+      "Href": "/student/v5/curriculum/2015,winter,SCAND.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SCI T",
+      "CurriculumName": "SCIENCE TEACHING",
+      "CurriculumFullName": "SCIENCE TEACHING",
+      "Href": "/student/v5/curriculum/2015,winter,SCI%20T.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SCTL",
+      "CurriculumName": "SPLY CHN TRANS LOGISTICS",
+      "CurriculumFullName": "SUPPLY CHAIN TRANSPORTATION & LOGISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,SCTL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SEFS",
+      "CurriculumName": "SCHOOL OF ENV&FOR RSRCS",
+      "CurriculumFullName": "SCHOOL OF ENVIRONMENT AND FOREST RSRCS",
+      "Href": "/student/v5/curriculum/2015,winter,SEFS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SIS",
+      "CurriculumName": "INTERNATIONAL STUDIES",
+      "CurriculumFullName": "INTERNATIONAL STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,SIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISA",
+      "CurriculumName": "INT ST: ASIA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,SISA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISAF",
+      "CurriculumName": "INT ST:AFRICA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: AFRICA",
+      "Href": "/student/v5/curriculum/2015,winter,SISAF.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISCA",
+      "CurriculumName": "INT ST:CANADA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: CANADA",
+      "Href": "/student/v5/curriculum/2015,winter,SISCA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISEA",
+      "CurriculumName": "INT ST:EAST ASIA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: EAST ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,SISEA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISJE",
+      "CurriculumName": "INT ST:JEWISH STUDIES",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: JEWISH STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,SISJE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISLA",
+      "CurriculumName": "INT ST:LATIN AMERICA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: LATIN AMERICA",
+      "Href": "/student/v5/curriculum/2015,winter,SISLA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISME",
+      "CurriculumName": "INT ST:MIDDLE EAST",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: MIDDLE EAST",
+      "Href": "/student/v5/curriculum/2015,winter,SISME.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISRE",
+      "CurriculumName": "INT:RUS, E EUR & C ASIA",
+      "CurriculumFullName": "INT ST: RUSSIA, E EUROPE, & CENT ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,SISRE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISSA",
+      "CurriculumName": "INT ST:SOUTH ASIA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: SOUTH ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,SISSA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SISSE",
+      "CurriculumName": "INT ST:SOUTHEAST ASIA",
+      "CurriculumFullName": "INTERNATIONAL STUDIES: SOUTHEAST ASIA",
+      "Href": "/student/v5/curriculum/2015,winter,SISSE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SLAV",
+      "CurriculumName": "SLAV",
+      "CurriculumFullName": "SLAVIC",
+      "Href": "/student/v5/curriculum/2015,winter,SLAV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SLAVIC",
+      "CurriculumName": "SLAVIC LANGUAGES & LIT",
+      "CurriculumFullName": "SLAVIC LANGUAGES & LITERATURES",
+      "Href": "/student/v5/curriculum/2015,winter,SLAVIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SLVN",
+      "CurriculumName": "SLOVENIAN",
+      "CurriculumFullName": "SLOVENIAN",
+      "Href": "/student/v5/curriculum/2015,winter,SLVN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SMA",
+      "CurriculumName": "SCH OF MARINE AFFAIRS",
+      "CurriculumFullName": "SCHOOL OF MARINE AFFAIRS",
+      "Href": "/student/v5/curriculum/2015,winter,SMA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SMEA",
+      "CurriculumName": "MARINE & ENVIRON AFFAIRS",
+      "CurriculumFullName": "SCHOOL MARINE AND ENVIRONMENTAL AFFAIRS",
+      "Href": "/student/v5/curriculum/2015,winter,SMEA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SNKRT",
+      "CurriculumName": "SANSKRIT",
+      "CurriculumFullName": "SANSKRIT",
+      "Href": "/student/v5/curriculum/2015,winter,SNKRT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SOC",
+      "CurriculumName": "SOCIOLOGY",
+      "CurriculumFullName": "SOCIOLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,SOC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SOC W",
+      "CurriculumName": "SOCIAL WORK",
+      "CurriculumFullName": "SOCIAL WORK (MSW)",
+      "Href": "/student/v5/curriculum/2015,winter,SOC%20W.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SOC WF",
+      "CurriculumName": "SOCIAL WELFARE (BASW)",
+      "CurriculumFullName": "SOCIAL WELFARE (BASW)",
+      "Href": "/student/v5/curriculum/2015,winter,SOC%20WF.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SOC WL",
+      "CurriculumName": "SOCIAL WELFARE (PHD)",
+      "CurriculumFullName": "SOCIAL WELFARE",
+      "Href": "/student/v5/curriculum/2015,winter,SOC%20WL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SOCSCI",
+      "CurriculumName": "INTERDIS SOC SCI",
+      "CurriculumFullName": "INTERDISCIPLINARY SOCIAL SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,SOCSCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SPAN",
+      "CurriculumName": "SPANISH",
+      "CurriculumFullName": "SPANISH",
+      "Href": "/student/v5/curriculum/2015,winter,SPAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SPCI",
+      "CurriculumName": "STRT PLN CRIT INFRSTRCTR",
+      "CurriculumFullName": "STRATEGIC PLANNING FOR CRITICAL INFRASTR",
+      "Href": "/student/v5/curriculum/2015,winter,SPCI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SPH",
+      "CurriculumName": "SCHOOL OF PUBLIC HEALTH",
+      "CurriculumFullName": "SCHOOL OF PUBLIC HEALTH",
+      "Href": "/student/v5/curriculum/2015,winter,SPH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SPHSC",
+      "CurriculumName": "SPEECH & HEARING SCI",
+      "CurriculumFullName": "SPEECH & HEARING SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,SPHSC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SPLING",
+      "CurriculumName": "SPANISH LINGUISTICS",
+      "CurriculumFullName": "SPANISH LINGUISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,SPLING.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "ST MGT",
+      "CurriculumName": "STRATEGIC MANAGEMENT",
+      "CurriculumFullName": "STRATEGIC MANAGEMENT",
+      "Href": "/student/v5/curriculum/2015,winter,ST%20MGT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "STAT",
+      "CurriculumName": "STATISTICS",
+      "CurriculumFullName": "STATISTICS",
+      "Href": "/student/v5/curriculum/2015,winter,STAT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "STMATH",
+      "CurriculumName": "SCI & TECH MATH",
+      "CurriculumFullName": "SCIENCE AND TECHNOLOGY MATHEMATICS",
+      "Href": "/student/v5/curriculum/2015,winter,STMATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SURG",
+      "CurriculumName": "SURGERY",
+      "CurriculumFullName": "SURGERY",
+      "Href": "/student/v5/curriculum/2015,winter,SURG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SWA",
+      "CurriculumName": "SWAHILI",
+      "CurriculumFullName": "SWAHILI",
+      "Href": "/student/v5/curriculum/2015,winter,SWA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "SWED",
+      "CurriculumName": "SWEDISH",
+      "CurriculumFullName": "SWEDISH",
+      "Href": "/student/v5/curriculum/2015,winter,SWED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T ACCT",
+      "CurriculumName": "ACCOUNTING (TACOMA)",
+      "CurriculumFullName": "ACCOUNTING (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20ACCT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T AMST",
+      "CurriculumName": "AMERICAN STUDIES",
+      "CurriculumFullName": "AMERICAN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,T%20AMST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T ANTH",
+      "CurriculumName": "ANTHROPOLOGY (TACOMA)",
+      "CurriculumFullName": "ANTHROPOLOGY (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20ANTH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T ARTS",
+      "CurriculumName": "ARTS (TACOMA)",
+      "CurriculumFullName": "ARTS (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20ARTS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T BGEN",
+      "CurriculumName": "GENERAL BUS (TACOMA)",
+      "CurriculumFullName": "GENERAL BUSINESS (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20BGEN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T BUS",
+      "CurriculumName": "BUSINESS ADMIN (TACOMA)",
+      "CurriculumFullName": "BUSINESS ADMINISTRATION (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20BUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T C",
+      "CurriculumName": "TECHNICAL COMMUNICATION",
+      "CurriculumFullName": "TECHNICAL COMMUNICATION",
+      "Href": "/student/v5/curriculum/2015,winter,T%20C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T CORE",
+      "CurriculumName": "CORE CURRICULUM - TACOMA",
+      "CurriculumFullName": "CORE CURRICULUM - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20CORE.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T CRIM",
+      "CurriculumName": "CRIMINAL JUSTICE - TACOM",
+      "CurriculumFullName": "CRIMINAL JUSTICE (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20CRIM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T CSL",
+      "CurriculumName": "CBRSCRTY & LDRSHIP",
+      "CurriculumFullName": "CYBERSECURITY AND LEADERSHIP",
+      "Href": "/student/v5/curriculum/2015,winter,T%20CSL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EDLD",
+      "CurriculumName": "EDUC LDRSHIP (TACOMA)",
+      "CurriculumFullName": "EDUCATIONAL LEADERSHIP (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EDLD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EDSM",
+      "CurriculumName": "2NDARY MATH EDUCATION",
+      "CurriculumFullName": "SECONDARY MATHEMATICS EDUCATION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EDSM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EDSP",
+      "CurriculumName": "SPECIAL EDUCATION:TACOMA",
+      "CurriculumFullName": "SPECIAL EDUCATION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EDSP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EDSS",
+      "CurriculumName": "2NDARY SCIENCE EDUCATION",
+      "CurriculumFullName": "SECONDARY SCIENCE EDUCATION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EDSS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EDUC",
+      "CurriculumName": "EDUCATION (TACOMA)",
+      "CurriculumFullName": "EDUCATION (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EDUC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T EGL",
+      "CurriculumName": "ETHNIC GENDER LABOR STS",
+      "CurriculumFullName": "ETHNIC, GENDER, AND LABOR STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,T%20EGL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T FILM",
+      "CurriculumName": "FILM STUDIES (TACOMA)",
+      "CurriculumFullName": "FILM STUDIES (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20FILM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T FIN",
+      "CurriculumName": "FINANCE - TACOMA",
+      "CurriculumFullName": "FINANCE - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20FIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T FLL",
+      "CurriculumName": "FOREIGN LANG LEARNING",
+      "CurriculumFullName": "FOREIGN LANGUAGE LEARNING - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20FLL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T GEOG",
+      "CurriculumName": "GEOGRAPHY - TACOMA",
+      "CurriculumFullName": "GEOGRAPHY - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20GEOG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T GH",
+      "CurriculumName": "TACOMA GLOBAL HONORS",
+      "CurriculumFullName": "GLOBAL HONORS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20GH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T GIS",
+      "CurriculumName": "GEOG INFO SYS - TACOMA",
+      "CurriculumFullName": "GEOGRAPHIC INFORMATION SYSTEMS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20GIS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T HISP",
+      "CurriculumName": "HISPANIC STUDIES",
+      "CurriculumFullName": "HISPANIC STUDIES (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20HISP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T HIST",
+      "CurriculumName": "HISTORY (TACOMA)",
+      "CurriculumFullName": "HISTORY (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20HIST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T HLTH",
+      "CurriculumName": "HEALTH (TACOMA)",
+      "CurriculumFullName": "HEALTH (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20HLTH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T INFO",
+      "CurriculumName": "INFO TECH & SYS-TACOMA",
+      "CurriculumFullName": "INFORMATION TECHNOLOGY & SYSTEMS-TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20INFO.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T INST",
+      "CurriculumName": "INST TECH - TACOMA",
+      "CurriculumFullName": "INSTITUTE OF TECHNOLOGY - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20INST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T INTL",
+      "CurriculumName": "INTERNATIONAL PROGRAMS",
+      "CurriculumFullName": "INTERNATIONAL PROGRAMS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20INTL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T IS",
+      "CurriculumName": "INFORM SYSTEMS (TACOMA)",
+      "CurriculumFullName": "INFORMATION SYSTEMS (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20IS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T LIT",
+      "CurriculumName": "LITERATURE (TACOMA)",
+      "CurriculumFullName": "LITERATURE (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20LIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T MGMT",
+      "CurriculumName": "MANAGEMENT (TACOMA)",
+      "CurriculumFullName": "MANAGEMENT (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20MGMT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T MKTG",
+      "CurriculumName": "MARKETING (TACOMA)",
+      "CurriculumFullName": "MARKETING (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20MKTG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T NURS",
+      "CurriculumName": "NURSING(TACOMA CAMPUS)",
+      "CurriculumFullName": "NURSING (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20NURS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T PHIL",
+      "CurriculumName": "PHILOSOPHY (TACOMA)",
+      "CurriculumFullName": "PHILOSOPHY (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20PHIL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T SOC",
+      "CurriculumName": "SOCIOLOGY (TACOMA)",
+      "CurriculumFullName": "SOCIOLOGY (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20SOC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T SOCW",
+      "CurriculumName": "SOCIAL WORK - TACOMA",
+      "CurriculumFullName": "SOCIAL WORK (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20SOCW.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T SUD",
+      "CurriculumName": "SUST URB DEV-TACOMA",
+      "CurriculumFullName": "SUSTAINABLE URBAN DEVELOPMENT - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20SUD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T UNIV",
+      "CurriculumName": "UNIV STUDIES - TACOMA",
+      "CurriculumFullName": "UNIVERSITY STUDIES - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20UNIV.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T URB",
+      "CurriculumName": "URB ST - TACOMA",
+      "CurriculumFullName": "URBAN STUDIES - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,T%20URB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "T WOMN",
+      "CurriculumName": "WOMEN STUDIES (TACOMA)",
+      "CurriculumFullName": "WOMEN STUDIES (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,T%20WOMN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TAGLG",
+      "CurriculumName": "TAGALOG",
+      "CurriculumFullName": "TAGALOG",
+      "Href": "/student/v5/curriculum/2015,winter,TAGLG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TAMIL",
+      "CurriculumName": "TAMIL",
+      "CurriculumFullName": "TAMIL",
+      "Href": "/student/v5/curriculum/2015,winter,TAMIL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TBECON",
+      "CurriculumName": "BUSINESS ECON (TACOMA)",
+      "CurriculumFullName": "BUSINESS ECONOMICS (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,TBECON.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCES",
+      "CurriculumName": "COMP ENG & SYSTEMS",
+      "CurriculumFullName": "COMPUTER ENGINEERING & SYSTEMS (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,TCES.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCHIN",
+      "CurriculumName": "CHINESE - TACOMA",
+      "CurriculumFullName": "CHINESE - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TCHIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCOM",
+      "CurriculumName": "COMMUNICATION - TACOMA",
+      "CurriculumFullName": "COMMUNICATION - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TCOM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCSIG",
+      "CurriculumName": "COMM & SOC IN: GEN",
+      "CurriculumFullName": "COMMUNITIES & SOCIAL INSTITUTIONS: GEN",
+      "Href": "/student/v5/curriculum/2015,winter,TCSIG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCSIIN",
+      "CurriculumName": "COMM & SOC IN: INTL",
+      "CurriculumFullName": "COMMUNITIES & SOCIAL INSTITUTIONS: INTL",
+      "Href": "/student/v5/curriculum/2015,winter,TCSIIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCSIUS",
+      "CurriculumName": "COMM & SOC IN: US",
+      "CurriculumFullName": "COMMUNITIES & SOCIAL INSTITUTIONS: US",
+      "Href": "/student/v5/curriculum/2015,winter,TCSIUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCSS",
+      "CurriculumName": "CSS - TACOMA",
+      "CurriculumFullName": "COMPUTER SCIENCE & SYSTEMS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TCSS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCULTR",
+      "CurriculumName": "CULTURAL STUDIES",
+      "CurriculumFullName": "CULTURAL STUDIES - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TCULTR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCXG",
+      "CurriculumName": "CULTURAL EXPRSNS: GENRL",
+      "CurriculumFullName": "CULTURAL EXPRESSIONS: GENERAL",
+      "Href": "/student/v5/curriculum/2015,winter,TCXG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCXIN",
+      "CurriculumName": "CULTURAL EXPRSNS: INTL",
+      "CurriculumFullName": "CULTURAL EXPRESSIONS: INTERNATIONAL",
+      "Href": "/student/v5/curriculum/2015,winter,TCXIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TCXUS",
+      "CurriculumName": "CULTURAL EXPRSNS: US",
+      "CurriculumFullName": "CULTURAL EXPRESSIONS: UNITED STATES",
+      "Href": "/student/v5/curriculum/2015,winter,TCXUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TECON",
+      "CurriculumName": "ECONOMICS - TACOMA",
+      "CurriculumFullName": "ECONOMICS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TECON.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TEDADM",
+      "CurriculumName": "ED ADMIN (TACOMA)",
+      "CurriculumFullName": "EDUCATIONAL ADMINISTRATION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,TEDADM.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TEDNUR",
+      "CurriculumName": "NSG EDUCATION (TACOMA)",
+      "CurriculumFullName": "NURSING EDUCATION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,TEDNUR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TESC",
+      "CurriculumName": "ENVIRONMENTAL SCIENCE",
+      "CurriculumFullName": "ENVIRONMENTAL SCIENCE",
+      "Href": "/student/v5/curriculum/2015,winter,TESC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TEST",
+      "CurriculumName": "ENVIRONMENTAL STUDIES",
+      "CurriculumFullName": "ENVIRONMENTAL STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,TEST.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "THAI",
+      "CurriculumName": "THAI",
+      "CurriculumFullName": "THAI",
+      "Href": "/student/v5/curriculum/2015,winter,THAI.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "THLEAD",
+      "CurriculumName": "HEALTHCARE LEADERSHIP",
+      "CurriculumFullName": "HEALTHCARE LEADERSHIP (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,THLEAD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIAS",
+      "CurriculumName": "INTERDISC ARTS & SCIS",
+      "CurriculumFullName": "INTERDISCIPLINARY ARTS AND SCIENCES",
+      "Href": "/student/v5/curriculum/2015,winter,TIAS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIASIN",
+      "CurriculumName": "COMP INTL STUDIES",
+      "CurriculumFullName": "COMPARATIVE INTERNATIONAL STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,TIASIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIASUS",
+      "CurriculumName": "COMP US STUDIES",
+      "CurriculumFullName": "COMPARATIVE UNITED STATES STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,TIASUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIB",
+      "CurriculumName": "TIBETAN",
+      "CurriculumFullName": "TIBETAN",
+      "Href": "/student/v5/curriculum/2015,winter,TIB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIBCG",
+      "CurriculumName": "IDS, BELFS & CUL PAT:GEN",
+      "CurriculumFullName": "IDEAS, BELIEFS & CULTURAL PATTERNS: GEN",
+      "Href": "/student/v5/curriculum/2015,winter,TIBCG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIBCIN",
+      "CurriculumName": "IDS, BELFS & CUL PAT: IN",
+      "CurriculumFullName": "IDEAS, BELIEFS & CLTRL PTTRNS: INTL - T",
+      "Href": "/student/v5/curriculum/2015,winter,TIBCIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TIBCUS",
+      "CurriculumName": "IDS, BELFS & CUL PAT: US",
+      "CurriculumFullName": "IDEAS, BELIEFS & CULTURAL PATTERNS: US",
+      "Href": "/student/v5/curriculum/2015,winter,TIBCUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TKIC",
+      "CurriculumName": "TURKIC",
+      "CurriculumFullName": "TURKIC",
+      "Href": "/student/v5/curriculum/2015,winter,TKIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TKISH",
+      "CurriculumName": "TURKISH",
+      "CurriculumFullName": "TURKISH",
+      "Href": "/student/v5/curriculum/2015,winter,TKISH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TLSIN",
+      "CurriculumName": "LIBERAL STUDIES (INTL)",
+      "CurriculumFullName": "LIBERAL STUDIES (INTERNATIONAL STUDIES)",
+      "Href": "/student/v5/curriculum/2015,winter,TLSIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TMATH",
+      "CurriculumName": "MATHEMATICS - TACOMA",
+      "CurriculumFullName": "MATHEMATICS - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TMATH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TMMBA",
+      "CurriculumName": "TECHNOLOGY MGT MBA",
+      "CurriculumFullName": "TECHNOLOGY MGMT MASTERS BUS ADMIN GROUP",
+      "Href": "/student/v5/curriculum/2015,winter,TMMBA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TNPRFT",
+      "CurriculumName": "NON-PROFIT STUDIES",
+      "CurriculumFullName": "NON-PROFIT STUDIES (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,TNPRFT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TPOL S",
+      "CurriculumName": "POLITICAL SCIENCE - T",
+      "CurriculumFullName": "POLITICAL SCIENCE - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TPOL%20S.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TPSYCH",
+      "CurriculumName": "PSYCHOLOGY - TACOMA",
+      "CurriculumFullName": "PSYCHOLOGY - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TPSYCH.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TQS",
+      "CurriculumName": "QUANTITATIVE SKILLS",
+      "CurriculumFullName": "QUANTITATIVE SKILLS",
+      "Href": "/student/v5/curriculum/2015,winter,TQS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TRELIG",
+      "CurriculumName": "RELIGION (TACOMA)",
+      "CurriculumFullName": "RELIGION (TACOMA)",
+      "Href": "/student/v5/curriculum/2015,winter,TRELIG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TSMG",
+      "CurriculumName": "ST & MKTS: GEN",
+      "CurriculumFullName": "STATES AND MARKETS: GENERAL FOCUS",
+      "Href": "/student/v5/curriculum/2015,winter,TSMG.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TSMIN",
+      "CurriculumName": "ST & MKTS: INTL",
+      "CurriculumFullName": "STATES & MARKETS: INTRNATL FOCUS (TAC)",
+      "Href": "/student/v5/curriculum/2015,winter,TSMIN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TSMUS",
+      "CurriculumName": "ST & MKTS: US",
+      "CurriculumFullName": "STATES AND MARKETS: UNITED STATES FOCUS",
+      "Href": "/student/v5/curriculum/2015,winter,TSMUS.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TSOCWF",
+      "CurriculumName": "SOCIAL WELFARE - TACOMA",
+      "CurriculumFullName": "SOCIAL WELFARE (TACOMA CAMPUS)",
+      "Href": "/student/v5/curriculum/2015,winter,TSOCWF.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TSPAN",
+      "CurriculumName": "SPANISH - TACOMA",
+      "CurriculumFullName": "SPANISH - TACOMA",
+      "Href": "/student/v5/curriculum/2015,winter,TSPAN.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TURKIC",
+      "CurriculumName": "TURKIC",
+      "CurriculumFullName": "TURKIC",
+      "Href": "/student/v5/curriculum/2015,winter,TURKIC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "TWRT",
+      "CurriculumName": "WRITING INSTRUCTION",
+      "CurriculumFullName": "WRITING INSTRUCTION",
+      "Href": "/student/v5/curriculum/2015,winter,TWRT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UCONJ",
+      "CurriculumName": "UNIVERSITY CONJOINT",
+      "CurriculumFullName": "UNIVERSITY CONJOINT",
+      "Href": "/student/v5/curriculum/2015,winter,UCONJ.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UGARIT",
+      "CurriculumName": "UGARITIC",
+      "CurriculumFullName": "UGARITIC",
+      "Href": "/student/v5/curriculum/2015,winter,UGARIT.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UKR",
+      "CurriculumName": "UKRAINIAN",
+      "CurriculumFullName": "UKRAINIAN",
+      "Href": "/student/v5/curriculum/2015,winter,UKR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "URBDP",
+      "CurriculumName": "URBAN PLANNING",
+      "CurriculumFullName": "URBAN PLANNING",
+      "Href": "/student/v5/curriculum/2015,winter,URBDP.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "URDU",
+      "CurriculumName": "URDU",
+      "CurriculumFullName": "URDU",
+      "Href": "/student/v5/curriculum/2015,winter,URDU.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UROL",
+      "CurriculumName": "UROLOGY",
+      "CurriculumFullName": "UROLOGY",
+      "Href": "/student/v5/curriculum/2015,winter,UROL.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UYGUR",
+      "CurriculumName": "UYGUR",
+      "CurriculumFullName": "UYGUR",
+      "Href": "/student/v5/curriculum/2015,winter,UYGUR.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "UZBEK",
+      "CurriculumName": "UZBEK",
+      "CurriculumFullName": "UZBEK",
+      "Href": "/student/v5/curriculum/2015,winter,UZBEK.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "VALUES",
+      "CurriculumName": "VALUES IN SOCIETY",
+      "CurriculumFullName": "VALUES IN SOCIETY",
+      "Href": "/student/v5/curriculum/2015,winter,VALUES.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "VIET",
+      "CurriculumName": "VIETNAMESE",
+      "CurriculumFullName": "VIETNAMESE",
+      "Href": "/student/v5/curriculum/2015,winter,VIET.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "WOMEN",
+      "CurriculumName": "WOMEN STUDIES",
+      "CurriculumFullName": "WOMEN STUDIES",
+      "Href": "/student/v5/curriculum/2015,winter,WOMEN.json"
+    }
+  ],
+  "PageSize": null,
+  "PageStart": null,
+  "Current": {
+    "Year": 2015,
+    "Quarter": "winter",
+    "DepartmentAbbreviation": null,
+    "CollegeAbbreviation": null,
+    "FutureTerms": 0,
+    "ViewUnpublished": false,
+    "Href": "/student/v5/curriculum.json?year=2015&quarter=winter&future_terms=0&department_abbreviation=&college_abbreviation=&view_unpublished=false&page_start=&page_size="
+  },
+  "Next": null,
+  "Previous": null
+}

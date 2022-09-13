@@ -1,9 +1,0 @@
----
-globals:
-  expect: true
-  uwsws: true
-  config: true
-rules:
-  max-nested-callbacks:
-    - warn
-    - max: 5

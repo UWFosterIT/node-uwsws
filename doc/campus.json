@@ -1,0 +1,30 @@
+{
+  "Current": {
+    "Href": "/student/v5/campus.json?page_start=1&page_size=10"
+  },
+  "Next": null,
+  "PageSize": "10",
+  "PageStart": "1",
+  "Previous": null,
+  "TotalCount": 3,
+  "Campuses": [
+    {
+      "CampusShortName": "BOTHELL",
+      "CampusFullName": "UNIVERSITY OF WASHINGTON BOTHELL",
+      "CampusName": "UW Bothell",
+      "Href": "/student/v5/campus/BOTHELL.json"
+    },
+    {
+      "CampusShortName": "SEATTLE",
+      "CampusFullName": "UNIVERSITY OF WASHINGTON SEATTLE",
+      "CampusName": "UW Seattle",
+      "Href": "/student/v5/campus/SEATTLE.json"
+    },
+    {
+      "CampusShortName": "TACOMA",
+      "CampusFullName": "UNIVERSITY OF WASHINGTON TACOMA",
+      "CampusName": "UW Tacoma",
+      "Href": "/student/v5/campus/TACOMA.json"
+    }
+  ]
+}

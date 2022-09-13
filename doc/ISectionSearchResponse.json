@@ -1,0 +1,1996 @@
+{
+  "TotalCount": 246,
+  "PageSize": "10",
+  "PageStart": "1",
+  "Sections": [
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "098",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,098/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "103",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,103/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,111/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,111/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,111/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,111/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,111/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,111/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,111/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,111/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,111/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "111",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,111/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,112/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,112/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,112/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,112/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,112/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,112/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,112/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,112/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,112/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "112",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,112/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,120/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,120/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,120/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,120/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,120/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,120/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,120/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,120/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,120/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,120/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "K",
+      "Href": "/student/v5/course/2015,winter,MATH,120/K.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "L",
+      "Href": "/student/v5/course/2015,winter,MATH,120/L.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "120",
+      "SectionID": "M",
+      "Href": "/student/v5/course/2015,winter,MATH,120/M.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,124/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,124/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,124/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,124/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,124/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,124/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,124/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "CA",
+      "Href": "/student/v5/course/2015,winter,MATH,124/CA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "CB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/CB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "CC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/CC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "CD",
+      "Href": "/student/v5/course/2015,winter,MATH,124/CD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,124/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "DA",
+      "Href": "/student/v5/course/2015,winter,MATH,124/DA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "DB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/DB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "DC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/DC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "DD",
+      "Href": "/student/v5/course/2015,winter,MATH,124/DD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,124/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "EA",
+      "Href": "/student/v5/course/2015,winter,MATH,124/EA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "EB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/EB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "EC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/EC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,124/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "FB",
+      "Href": "/student/v5/course/2015,winter,MATH,124/FB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "FC",
+      "Href": "/student/v5/course/2015,winter,MATH,124/FC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "FD",
+      "Href": "/student/v5/course/2015,winter,MATH,124/FD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "I",
+      "Href": "/student/v5/course/2015,winter,MATH,124/I.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "124",
+      "SectionID": "N",
+      "Href": "/student/v5/course/2015,winter,MATH,124/N.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,125/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,125/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,125/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "CA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/CA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "CB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/CB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "CC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/CC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "CD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/CD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,125/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "DA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/DA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "DB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/DB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "DC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/DC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "DD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/DD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,125/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "EA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/EA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "EB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/EB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "EC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/EC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "ED",
+      "Href": "/student/v5/course/2015,winter,MATH,125/ED.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,125/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "FA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/FA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "FB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/FB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "FC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/FC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "FD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/FD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,125/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "GA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/GA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "GB",
+      "Href": "/student/v5/course/2015,winter,MATH,125/GB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "GC",
+      "Href": "/student/v5/course/2015,winter,MATH,125/GC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "GD",
+      "Href": "/student/v5/course/2015,winter,MATH,125/GD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "H",
+      "Href": "/student/v5/course/2015,winter,MATH,125/H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "HA",
+      "Href": "/student/v5/course/2015,winter,MATH,125/HA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "N",
+      "Href": "/student/v5/course/2015,winter,MATH,125/N.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "O",
+      "Href": "/student/v5/course/2015,winter,MATH,125/O.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "125",
+      "SectionID": "P",
+      "Href": "/student/v5/course/2015,winter,MATH,125/P.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,126/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,126/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,126/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,126/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,126/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,126/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "BA",
+      "Href": "/student/v5/course/2015,winter,MATH,126/BA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "BB",
+      "Href": "/student/v5/course/2015,winter,MATH,126/BB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "BC",
+      "Href": "/student/v5/course/2015,winter,MATH,126/BC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "BD",
+      "Href": "/student/v5/course/2015,winter,MATH,126/BD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,126/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "CA",
+      "Href": "/student/v5/course/2015,winter,MATH,126/CA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "CB",
+      "Href": "/student/v5/course/2015,winter,MATH,126/CB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "CC",
+      "Href": "/student/v5/course/2015,winter,MATH,126/CC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "CD",
+      "Href": "/student/v5/course/2015,winter,MATH,126/CD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,126/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "DA",
+      "Href": "/student/v5/course/2015,winter,MATH,126/DA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "DB",
+      "Href": "/student/v5/course/2015,winter,MATH,126/DB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "DC",
+      "Href": "/student/v5/course/2015,winter,MATH,126/DC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "DD",
+      "Href": "/student/v5/course/2015,winter,MATH,126/DD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "126",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,126/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "135",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,135/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "197",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,197/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "197",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,197/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "198",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,198/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "300",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,300/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "300",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,300/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "300",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,300/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "300",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,300/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,307/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,307/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,307/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,307/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,307/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,307/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,307/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "H",
+      "Href": "/student/v5/course/2015,winter,MATH,307/H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "I",
+      "Href": "/student/v5/course/2015,winter,MATH,307/I.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "J",
+      "Href": "/student/v5/course/2015,winter,MATH,307/J.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "K",
+      "Href": "/student/v5/course/2015,winter,MATH,307/K.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "307",
+      "SectionID": "L",
+      "Href": "/student/v5/course/2015,winter,MATH,307/L.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,308/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,308/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,308/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,308/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,308/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,308/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,308/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "H",
+      "Href": "/student/v5/course/2015,winter,MATH,308/H.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "I",
+      "Href": "/student/v5/course/2015,winter,MATH,308/I.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "J",
+      "Href": "/student/v5/course/2015,winter,MATH,308/J.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "K",
+      "Href": "/student/v5/course/2015,winter,MATH,308/K.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "L",
+      "Href": "/student/v5/course/2015,winter,MATH,308/L.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "M",
+      "Href": "/student/v5/course/2015,winter,MATH,308/M.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "N",
+      "Href": "/student/v5/course/2015,winter,MATH,308/N.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "308",
+      "SectionID": "O",
+      "Href": "/student/v5/course/2015,winter,MATH,308/O.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,309/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,309/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,309/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,309/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,309/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,309/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "309",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,309/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,324/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,324/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,324/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,324/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,324/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,324/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "324",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,324/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "327",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,327/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "327",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,327/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "327",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,327/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "328",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,328/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "328",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,328/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "335",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,335/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "380",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,380/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "381",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,381/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "390",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,390/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "390",
+      "SectionID": "AA",
+      "Href": "/student/v5/course/2015,winter,MATH,390/AA.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "390",
+      "SectionID": "AB",
+      "Href": "/student/v5/course/2015,winter,MATH,390/AB.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "390",
+      "SectionID": "AC",
+      "Href": "/student/v5/course/2015,winter,MATH,390/AC.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "390",
+      "SectionID": "AD",
+      "Href": "/student/v5/course/2015,winter,MATH,390/AD.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "394",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,394/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "394",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,394/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "394",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,394/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "395",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,395/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "395",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,395/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "398",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,398/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "403",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,403/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "403",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,403/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "407",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,407/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "408",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,408/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "412",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,412/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "425",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,425/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "428",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,428/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "442",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,442/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "444",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,444/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "462",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,462/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "465",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,465/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "480",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,480/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "496",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,496/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "498",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,498/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "498",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,498/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "505",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,505/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "510",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,510/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "510",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,510/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "522",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,522/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "525",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,525/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "530",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,530/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "530",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,530/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "530",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,530/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "530",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,530/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "535",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,535/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "545",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,545/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "550",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,550/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "550",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,550/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "550",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,550/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "550",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,550/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "555",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,555/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "558",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,558/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "570",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,570/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "575",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,575/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "580",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,580/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "580",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,580/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,582/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,582/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,582/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "D",
+      "Href": "/student/v5/course/2015,winter,MATH,582/D.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "E",
+      "Href": "/student/v5/course/2015,winter,MATH,582/E.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "F",
+      "Href": "/student/v5/course/2015,winter,MATH,582/F.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "582",
+      "SectionID": "G",
+      "Href": "/student/v5/course/2015,winter,MATH,582/G.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "585",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,585/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "585",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,585/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "590",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,590/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "597",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,597/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "600",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,600/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "600",
+      "SectionID": "B",
+      "Href": "/student/v5/course/2015,winter,MATH,600/B.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "600",
+      "SectionID": "C",
+      "Href": "/student/v5/course/2015,winter,MATH,600/C.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "700",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,700/A.json"
+    },
+    {
+      "Year": 2015,
+      "Quarter": "winter",
+      "CurriculumAbbreviation": "MATH",
+      "CourseNumber": "800",
+      "SectionID": "A",
+      "Href": "/student/v5/course/2015,winter,MATH,800/A.json"
+    }
+  ],
+  "Current": {
+    "Year": "2015",
+    "Quarter": "winter",
+    "FutureTerms": 0,
+    "CurriculumAbbreviation": "math",
+    "CourseNumber": null,
+    "DeleteFlag": null,
+    "RegID": null,
+    "SearchBy": null,
+    "IncludeSecondaries": false,
+    "PageStart": "1",
+    "PageSize": "10",
+    "ChangedSinceDate": null,
+    "TranscriptableCourse": "yes",
+    "FacilityCode": null,
+    "RoomNumber": null,
+    "SLN": null,
+    "Href": "/student/v5/section.json?year=2015&quarter=winter&future_terms=0&curriculum_abbreviation=math&course_number=&reg_id=&search_by=&include_secondaries=&delete_flag=&changed_since_date=&transcriptable_course=yes&page_size=10&page_start=1&facility_code=&room_number=&sln="
+  },
+  "Next": null,
+  "Previous": null
+}

@@ -1,0 +1,3037 @@
+{
+  "Major": {
+    "Abbreviation": "B A",
+    "Campus": "Seattle",
+    "DegreeLevel": 1,
+    "DegreeName": "BACHELOR OF ARTS IN BUSINESS ADMINISTRATION",
+    "DegreeType": 2,
+    "FullName": "Business Administration",
+    "MajorName": "BUSINESS ADMINISTRATION",
+    "Pathway": 0,
+    "ShortName": "BUSINESS ADM",
+    "CollegeAbbreviation": "B A",
+    "CollegeFullName": "FOSTER SCHOOL OF BUSINESS",
+    "DepartmentCode": "300",
+    "DepartmentAbbreviation": "B A",
+    "DepartmentFullName": "BUSINESS ADMINISTRATION"
+  },
+  "Students": [
+    {
+      "Href": "/student/v5/person/000757435F8C42F4B53C239BAFC9B030.json",
+      "Name": "Mackenzi J. Oates",
+      "RegID": "000757435F8C42F4B53C239BAFC9B030",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0017EFE630544562A41EC110F688B8B1.json",
+      "Name": "Jack Louis Albrecht",
+      "RegID": "0017EFE630544562A41EC110F688B8B1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/002C7090F8BC4CBA857DAD1C900BF14B.json",
+      "Name": "MELISSA MITSUKI ARIMA",
+      "RegID": "002C7090F8BC4CBA857DAD1C900BF14B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0053848387B5465D91769360B1CA9E11.json",
+      "Name": "Caleb Xiong",
+      "RegID": "0053848387B5465D91769360B1CA9E11",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0090703AFEE541049CF941E33919578B.json",
+      "Name": "Taiga B. Koffron",
+      "RegID": "0090703AFEE541049CF941E33919578B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0127374A956944C9B2A2D83270F1569E.json",
+      "Name": "Nathaniel Lewis Wipfler",
+      "RegID": "0127374A956944C9B2A2D83270F1569E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0186C96E18684F8291B1BD956FC8E5C5.json",
+      "Name": "Bella Hood",
+      "RegID": "0186C96E18684F8291B1BD956FC8E5C5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/02181AB7A26D4CF8A2D768ED9C29B958.json",
+      "Name": "Yiyin Zhong",
+      "RegID": "02181AB7A26D4CF8A2D768ED9C29B958",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/021E323A9420409899FCCC284B1EF082.json",
+      "Name": "Alex James Oakley",
+      "RegID": "021E323A9420409899FCCC284B1EF082",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/025319D2E91AFAD4F41A66D62C133517.json",
+      "Name": "JULIA ANN HALLOWELL",
+      "RegID": "025319D2E91AFAD4F41A66D62C133517",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0280381AEAAD49BDA2B4BBD108D93D99.json",
+      "Name": "Ben Brimble",
+      "RegID": "0280381AEAAD49BDA2B4BBD108D93D99",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/02C3DF91894441CEAA38717431A66AEA.json",
+      "Name": "Matthew Lee",
+      "RegID": "02C3DF91894441CEAA38717431A66AEA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/02E452679C7E42DD946E2B7DD8B39C32.json",
+      "Name": "Nicholas Michael Neathamer",
+      "RegID": "02E452679C7E42DD946E2B7DD8B39C32",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/02EF732F80054A41AD4E7CCE34F83CBF.json",
+      "Name": "Peter Gabriel Besel",
+      "RegID": "02EF732F80054A41AD4E7CCE34F83CBF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0475AEDD15E2489598299DC8A5FA7F2D.json",
+      "Name": "Alec Nicholas Willig",
+      "RegID": "0475AEDD15E2489598299DC8A5FA7F2D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0498B2C96FCE4E17B68FFDA6F248B6D8.json",
+      "Name": "Erik Nielsen",
+      "RegID": "0498B2C96FCE4E17B68FFDA6F248B6D8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/04BC65D399BD42E19447149C9DE54A33.json",
+      "Name": "Hannah Luu",
+      "RegID": "04BC65D399BD42E19447149C9DE54A33",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/05397E9B8ED1468298CFEE67214A83C4.json",
+      "Name": "Jessica Marisol Moreno",
+      "RegID": "05397E9B8ED1468298CFEE67214A83C4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0567AE1A53E94C0699E6195FD44BA111.json",
+      "Name": "Delaney Dashel",
+      "RegID": "0567AE1A53E94C0699E6195FD44BA111",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/05BB59CB5C36428D9FF40CE59FE1FFE5.json",
+      "Name": "Jackson George Herzog",
+      "RegID": "05BB59CB5C36428D9FF40CE59FE1FFE5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/05BB5E0EE9E14BDD589CB4735AF0B250.json",
+      "Name": "Andrew Kim",
+      "RegID": "05BB5E0EE9E14BDD589CB4735AF0B250",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/064648DBDE3B63FB10B4C2F1CC940FED.json",
+      "Name": "May Qiang",
+      "RegID": "064648DBDE3B63FB10B4C2F1CC940FED",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/067740D76F514F82BF7592F7784D4A39.json",
+      "Name": "Vivian Lee",
+      "RegID": "067740D76F514F82BF7592F7784D4A39",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0784A62AC85549109BEF76C2B0567BFA.json",
+      "Name": "Tae Min Alec Hong",
+      "RegID": "0784A62AC85549109BEF76C2B0567BFA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0798ACFECA694B5CACC88D4AECBB7DA3.json",
+      "Name": "Shiv Chitre",
+      "RegID": "0798ACFECA694B5CACC88D4AECBB7DA3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/07F8FA6BC7AD417E9661A4870681E184.json",
+      "Name": "Jack Chandler McCarthy",
+      "RegID": "07F8FA6BC7AD417E9661A4870681E184",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/084FBB5E1EECDB558637A84EE885F35B.json",
+      "Name": "Jenny Sun",
+      "RegID": "084FBB5E1EECDB558637A84EE885F35B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/08751206DF43537F7E37FD27846F027C.json",
+      "Name": "Thomas Mathieu",
+      "RegID": "08751206DF43537F7E37FD27846F027C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0885FA7595D64F1A9025B49A5E381CAD.json",
+      "Name": "Emily Joy Albertson",
+      "RegID": "0885FA7595D64F1A9025B49A5E381CAD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/08B003AF3185D42003E2999E7A38A92F.json",
+      "Name": "Medha Satya Sindiri",
+      "RegID": "08B003AF3185D42003E2999E7A38A92F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/08C043B6C75961B6539B2DD83DFDA8C8.json",
+      "Name": "Kristina Te",
+      "RegID": "08C043B6C75961B6539B2DD83DFDA8C8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/08EE8FC0B95DD29B8E39DDB94BC168A1.json",
+      "Name": "Hannah Heller",
+      "RegID": "08EE8FC0B95DD29B8E39DDB94BC168A1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/08F6152377E44625CA23581868889D89.json",
+      "Name": "Ricky West Graham",
+      "RegID": "08F6152377E44625CA23581868889D89",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/098E1235914D4B47AB0BAA4468026968.json",
+      "Name": "Yosep Kim",
+      "RegID": "098E1235914D4B47AB0BAA4468026968",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/09C6C31F84AD4508A6FC32CEDF79DEC8.json",
+      "Name": "Michael Lee Bahner",
+      "RegID": "09C6C31F84AD4508A6FC32CEDF79DEC8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/09E0727E2F58C1F7FB154EC033C90785.json",
+      "Name": "Kendell Jensen",
+      "RegID": "09E0727E2F58C1F7FB154EC033C90785",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0A2708EB7E4BA5FC3C520A942A5A6B6A.json",
+      "Name": "Mac Anne Comerford",
+      "RegID": "0A2708EB7E4BA5FC3C520A942A5A6B6A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0A4A8B6982EE480AB205991825519413.json",
+      "Name": "April Ann Mercer",
+      "RegID": "0A4A8B6982EE480AB205991825519413",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0A4C189E7D5598E01999B9AA25A2CDB3.json",
+      "Name": "Joe Archer",
+      "RegID": "0A4C189E7D5598E01999B9AA25A2CDB3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0A5003B0B6CEDC7AD019A1D3B8140CFA.json",
+      "Name": "Tessa Joan Horne",
+      "RegID": "0A5003B0B6CEDC7AD019A1D3B8140CFA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0A7969321DF6544CE9210C636A668564.json",
+      "Name": "Sophie Bolt",
+      "RegID": "0A7969321DF6544CE9210C636A668564",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0CD795404C2840CDBAE50F5EEA34FA74.json",
+      "Name": "Lindsey Dawn Arrowsmith",
+      "RegID": "0CD795404C2840CDBAE50F5EEA34FA74",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0D08D6801F3CD6F9772E7727F7C6D9AF.json",
+      "Name": "SE HWAN KIM",
+      "RegID": "0D08D6801F3CD6F9772E7727F7C6D9AF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0D917ACCC5024D4782DA904D38A788A0.json",
+      "Name": "Cody Eric Hughes",
+      "RegID": "0D917ACCC5024D4782DA904D38A788A0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0E8F096022214E7DA7EEA9B0024A8736.json",
+      "Name": "Lisa Paik",
+      "RegID": "0E8F096022214E7DA7EEA9B0024A8736",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0EC076D5D7D740909ED67E29F23C5EF3.json",
+      "Name": "Jack Bruno Nelson",
+      "RegID": "0EC076D5D7D740909ED67E29F23C5EF3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/0EFD0F11D956431594037F49D47E84F2.json",
+      "Name": "Peter Gillan Weller",
+      "RegID": "0EFD0F11D956431594037F49D47E84F2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/10BAE3F1D447412EA0067A2F5E480A07.json",
+      "Name": "Katie Van Deventer",
+      "RegID": "10BAE3F1D447412EA0067A2F5E480A07",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/10F2F80FA59730A925AFDA42945774B4.json",
+      "Name": "Samuel Kuo",
+      "RegID": "10F2F80FA59730A925AFDA42945774B4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/10F46352D505409C8D9AD72CA88AD691.json",
+      "Name": "Maxwell Shingjen Tang",
+      "RegID": "10F46352D505409C8D9AD72CA88AD691",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1141D4E77F7B42E2A6EC17F77DFFF614.json",
+      "Name": "Ananya Agarwal",
+      "RegID": "1141D4E77F7B42E2A6EC17F77DFFF614",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/117BBBC75865FAF214FD1FA971793665.json",
+      "Name": "Jake Calder McAuley",
+      "RegID": "117BBBC75865FAF214FD1FA971793665",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/11FCD6E26F4BA24AB99AF08CC22C3A29.json",
+      "Name": "LIANNA KAJANI",
+      "RegID": "11FCD6E26F4BA24AB99AF08CC22C3A29",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/12D4D6135E102E52DBC13E6C8DD27D49.json",
+      "Name": "Abby Grace Torggler",
+      "RegID": "12D4D6135E102E52DBC13E6C8DD27D49",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1350862E640C11DA8F45000629C31437.json",
+      "Name": "Zilpher Fiamaua Faitalia",
+      "RegID": "1350862E640C11DA8F45000629C31437",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1364F842E66B49ECB0EC03FC6A215FF1.json",
+      "Name": "Calvin P. Huynh",
+      "RegID": "1364F842E66B49ECB0EC03FC6A215FF1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/136A111938A840E2A647A0F80698FD42.json",
+      "Name": "Austin H. Yoon",
+      "RegID": "136A111938A840E2A647A0F80698FD42",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/139F3E13CD7D0CD19CBD8A3DDC81961C.json",
+      "Name": "Andrew John Hogan",
+      "RegID": "139F3E13CD7D0CD19CBD8A3DDC81961C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/146C12C16B3DB7D1BA0A3B2F79B0C672.json",
+      "Name": "Matthew Ryan Kellicut",
+      "RegID": "146C12C16B3DB7D1BA0A3B2F79B0C672",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/14C4D34AA27D532D8A02F11C636E1B74.json",
+      "Name": "Austin Lewis Bloise",
+      "RegID": "14C4D34AA27D532D8A02F11C636E1B74",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/153E7B1960973E2680BBFDB0EB4FC780.json",
+      "Name": "Carson Davy",
+      "RegID": "153E7B1960973E2680BBFDB0EB4FC780",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/157AC1F426A14D9E8A9AE1C847198B88.json",
+      "Name": "Taylor Nicole Bohot",
+      "RegID": "157AC1F426A14D9E8A9AE1C847198B88",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/15F37CE3EFF0D2F1F45C0A31126C74AB.json",
+      "Name": "Clemente Varas Collado",
+      "RegID": "15F37CE3EFF0D2F1F45C0A31126C74AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1603254239DEDCC34B7093CCA9326FED.json",
+      "Name": "Anna Kate Shimoda",
+      "RegID": "1603254239DEDCC34B7093CCA9326FED",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/16119FAF53144736A70CB4448FD524AB.json",
+      "Name": "Elizabeth Pelluer",
+      "RegID": "16119FAF53144736A70CB4448FD524AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/16B525D9A98E458390E5AF5778A66B44.json",
+      "Name": "Peter Zachariah",
+      "RegID": "16B525D9A98E458390E5AF5778A66B44",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/17342FCC152247FAB8F3050233626CA7.json",
+      "Name": "Andrew Philip Schmitt",
+      "RegID": "17342FCC152247FAB8F3050233626CA7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/17507B05879F4D5F82C7204C05F20B47.json",
+      "Name": "Carter Henry Rusch",
+      "RegID": "17507B05879F4D5F82C7204C05F20B47",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/175286F3939C50931E9F0645D198F746.json",
+      "Name": "Julia Grace Seaman",
+      "RegID": "175286F3939C50931E9F0645D198F746",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1820F94AD6A87CD513A334A71469D969.json",
+      "Name": "Hannah Riahi",
+      "RegID": "1820F94AD6A87CD513A334A71469D969",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/188019C4D833405E9EC33CAC6F94B7B5.json",
+      "Name": "Keenjal V Sangani",
+      "RegID": "188019C4D833405E9EC33CAC6F94B7B5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/18EAAF4C837E49498BD404BF7B6B61C1.json",
+      "Name": "Jeffrey Kazuo Fetterman",
+      "RegID": "18EAAF4C837E49498BD404BF7B6B61C1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/191D1E957A1688BEBF25EBBC8C12F90E.json",
+      "Name": "Emree Dallas Burkhalter",
+      "RegID": "191D1E957A1688BEBF25EBBC8C12F90E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1A0ED61110254F98B7E1060E0D28F168.json",
+      "Name": "John In",
+      "RegID": "1A0ED61110254F98B7E1060E0D28F168",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1A1317A097AB4A89B5CBE384CB5D94F9.json",
+      "Name": "Viraj Salil Deshpande",
+      "RegID": "1A1317A097AB4A89B5CBE384CB5D94F9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1A23717BA6EC4AFC80875E956D8EA218.json",
+      "Name": "Yuxin Zhang",
+      "RegID": "1A23717BA6EC4AFC80875E956D8EA218",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1A34DDDDEE5545EE80CBEC7AB0204807.json",
+      "Name": "Vivian Tat",
+      "RegID": "1A34DDDDEE5545EE80CBEC7AB0204807",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1A5FBCD7D89442B7874D311117D7095F.json",
+      "Name": "Praveen Kesapragada",
+      "RegID": "1A5FBCD7D89442B7874D311117D7095F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1B325F8CCB7F4F6E9CDFA489C6C5BEF4.json",
+      "Name": "Lisa Anne Jensen",
+      "RegID": "1B325F8CCB7F4F6E9CDFA489C6C5BEF4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1C760B6A8568485996F2E605C8A0E208.json",
+      "Name": "Tyler Joseph Persons",
+      "RegID": "1C760B6A8568485996F2E605C8A0E208",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1CA3075A6F5748E48634DFB56CCDD1DA.json",
+      "Name": "Lindy Helena Wandel",
+      "RegID": "1CA3075A6F5748E48634DFB56CCDD1DA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1DA611DB75A0601B00D8EC2BA9605A6B.json",
+      "Name": "Sara Olga Zarit",
+      "RegID": "1DA611DB75A0601B00D8EC2BA9605A6B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1DD46C284C44793C91B527915C9AFA00.json",
+      "Name": "April Pauline Tea",
+      "RegID": "1DD46C284C44793C91B527915C9AFA00",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/1F998F1B30C9A097BB4DB3FA69C3A46C.json",
+      "Name": "Evan Alayan",
+      "RegID": "1F998F1B30C9A097BB4DB3FA69C3A46C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/20782733119A4DB9A8BA6F2B81F33B75.json",
+      "Name": "Natalie Claire Pedersen",
+      "RegID": "20782733119A4DB9A8BA6F2B81F33B75",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/20AF747A0C368CCE3C9FA04513E05868.json",
+      "Name": "Conrad Brian Yee",
+      "RegID": "20AF747A0C368CCE3C9FA04513E05868",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/20DC16DB63D841FB9D22AE91609BBADF.json",
+      "Name": "Navjot Kaur",
+      "RegID": "20DC16DB63D841FB9D22AE91609BBADF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/217CBD3AF6454571B4CAA69322C39FCC.json",
+      "Name": "Olivia Virgin",
+      "RegID": "217CBD3AF6454571B4CAA69322C39FCC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2195C7D8F819BF52468BDBE417EB4D65.json",
+      "Name": "Ashten Lynette Alexander",
+      "RegID": "2195C7D8F819BF52468BDBE417EB4D65",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/21E6ED76BF32487192CC513979647781.json",
+      "Name": "Bligh Bjarnason",
+      "RegID": "21E6ED76BF32487192CC513979647781",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/21E9D4D4406E4A619FAF2F5718C88152.json",
+      "Name": "Tsegi Gantulga",
+      "RegID": "21E9D4D4406E4A619FAF2F5718C88152",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/22F2F6382EFB4184855736868576265D.json",
+      "Name": "Kristi Cattien Nguyen",
+      "RegID": "22F2F6382EFB4184855736868576265D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/236CD637571D4252BE475BF4F63C098F.json",
+      "Name": "Joanne Chen",
+      "RegID": "236CD637571D4252BE475BF4F63C098F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/23798B1D7AA4464B97968972D2BA45A2.json",
+      "Name": "Nancy Nguyen",
+      "RegID": "23798B1D7AA4464B97968972D2BA45A2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/243F9A0D8AD146AB9136F0F3CEEA74E4.json",
+      "Name": "Holly Styant-Browne",
+      "RegID": "243F9A0D8AD146AB9136F0F3CEEA74E4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/24B8E2344E1C469794DF2BD512A41A8C.json",
+      "Name": "Nicholas Peter Bilbao",
+      "RegID": "24B8E2344E1C469794DF2BD512A41A8C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2575ACD856EE2444240D4D3BA8C98963.json",
+      "Name": "Elizabeth Hope Mantle",
+      "RegID": "2575ACD856EE2444240D4D3BA8C98963",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/25BEB5CCE235D5B69FD3495EF3F91C24.json",
+      "Name": "Jack Witham",
+      "RegID": "25BEB5CCE235D5B69FD3495EF3F91C24",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/26FA0E2D888D4D4C98404A26D8A6F8E7.json",
+      "Name": "Margaux Irena Hansen",
+      "RegID": "26FA0E2D888D4D4C98404A26D8A6F8E7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/273AE6EA2D2C43659D3C488982162638.json",
+      "Name": "David Kyumin Hwang",
+      "RegID": "273AE6EA2D2C43659D3C488982162638",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/276EDD4427C04967B0C7B358F474DAAC.json",
+      "Name": "Christina Tsai",
+      "RegID": "276EDD4427C04967B0C7B358F474DAAC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/278C44F5771C7FBECCF26BABBD7FA828.json",
+      "Name": "William Moses Goffe",
+      "RegID": "278C44F5771C7FBECCF26BABBD7FA828",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/27F60FA79D3DA1DDC832ADCCCCE7839C.json",
+      "Name": "David Matthew Liew",
+      "RegID": "27F60FA79D3DA1DDC832ADCCCCE7839C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/285CEB9CFCA34689BAFDAED2D011720C.json",
+      "Name": "John Thomas Pence",
+      "RegID": "285CEB9CFCA34689BAFDAED2D011720C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/288FC6355431DE0BF8667852E89E2F2C.json",
+      "Name": "VINH THIEN VAN",
+      "RegID": "288FC6355431DE0BF8667852E89E2F2C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/295770A0E85A4D34AF500DC7F64659FF.json",
+      "Name": "Amie Szeto",
+      "RegID": "295770A0E85A4D34AF500DC7F64659FF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2A15FE948BFC471D8FC1AE2670CE474F.json",
+      "Name": "Andrew Um",
+      "RegID": "2A15FE948BFC471D8FC1AE2670CE474F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2A45C09C9BB740B59F3F6647A4DB06A6.json",
+      "Name": "Ryan Harlan Landry",
+      "RegID": "2A45C09C9BB740B59F3F6647A4DB06A6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2AABED4530CE40E99FEB42B4EC1B1D00.json",
+      "Name": "Evan Arthrur Coughlan",
+      "RegID": "2AABED4530CE40E99FEB42B4EC1B1D00",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2BD2DA00AB14428B822C8681BD54507A.json",
+      "Name": "Cori Jacobs Rosin",
+      "RegID": "2BD2DA00AB14428B822C8681BD54507A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2CC5182E5D8040DC9C54AB8586E5DC86.json",
+      "Name": "Alyssa Dickerson",
+      "RegID": "2CC5182E5D8040DC9C54AB8586E5DC86",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2D1735A379A4439ABC06D851FEA552A7.json",
+      "Name": "Madison Brooke Truess",
+      "RegID": "2D1735A379A4439ABC06D851FEA552A7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2D539113E27A49D5B640D57083101F93.json",
+      "Name": "Sara Therese Skrobut",
+      "RegID": "2D539113E27A49D5B640D57083101F93",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2DA092FF9F77471F8EEE07CFB3ADFAFA.json",
+      "Name": "Melisa Ramos",
+      "RegID": "2DA092FF9F77471F8EEE07CFB3ADFAFA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2DDCAE28F6E74A7F9946B73B6F4CB764.json",
+      "Name": "Alexander Scott MacDonald",
+      "RegID": "2DDCAE28F6E74A7F9946B73B6F4CB764",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2EA7170833994622B8465BC796FEE660.json",
+      "Name": "Rana Maher Mustafa Nabali",
+      "RegID": "2EA7170833994622B8465BC796FEE660",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2EAA18073EE1466D85F1AF7B40264893.json",
+      "Name": "Stella Han",
+      "RegID": "2EAA18073EE1466D85F1AF7B40264893",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2EE8FA6333FAE3C0E4ED52204D6073A3.json",
+      "Name": "George Timothy Johnson",
+      "RegID": "2EE8FA6333FAE3C0E4ED52204D6073A3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2F58BEF879564823A9731404368E0194.json",
+      "Name": "Taryn Lum",
+      "RegID": "2F58BEF879564823A9731404368E0194",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2FBBA0DE8A0845B7B63BC2F0A82B9543.json",
+      "Name": "Morgan John Leake",
+      "RegID": "2FBBA0DE8A0845B7B63BC2F0A82B9543",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/2FD5E3075128F113D88E039E7BE54077.json",
+      "Name": "Audrey Yoon",
+      "RegID": "2FD5E3075128F113D88E039E7BE54077",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/30101B4B3C0958CBD2F161413A0E6A88.json",
+      "Name": "Samuel P. Pelly",
+      "RegID": "30101B4B3C0958CBD2F161413A0E6A88",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/30EDD79A553640E789A5918C57EC65E8.json",
+      "Name": "Trevor James Rogerson",
+      "RegID": "30EDD79A553640E789A5918C57EC65E8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/31CC4B2B100B77C3C06BEA374DA0ACF8.json",
+      "Name": "Sydney Nicole Burns",
+      "RegID": "31CC4B2B100B77C3C06BEA374DA0ACF8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/338EC5DC9C564E1AAA4B5A27EDD8C488.json",
+      "Name": "Hannah Rene Lukomski",
+      "RegID": "338EC5DC9C564E1AAA4B5A27EDD8C488",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/33B289874B657064C3C129EFF36C763D.json",
+      "Name": "Eli Bloch Garcia",
+      "RegID": "33B289874B657064C3C129EFF36C763D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/33D1ECD3FC92E6BCFD8E51731D1384E4.json",
+      "Name": "Sophia Alexandra Pipko",
+      "RegID": "33D1ECD3FC92E6BCFD8E51731D1384E4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/33F142C29F37BDD38D479C30DBDB6469.json",
+      "Name": "Hailey Rose Mears",
+      "RegID": "33F142C29F37BDD38D479C30DBDB6469",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3458DADB5C1C4A0ABAB34F9CB71CAE9B.json",
+      "Name": "Katie Anne Kowalsky",
+      "RegID": "3458DADB5C1C4A0ABAB34F9CB71CAE9B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/34E17A585A97495F8168F2E839A0DC9A.json",
+      "Name": "Grace H. Wu",
+      "RegID": "34E17A585A97495F8168F2E839A0DC9A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/357E783D413E4541084AB770B7859F29.json",
+      "Name": "Jordan N Hoglund",
+      "RegID": "357E783D413E4541084AB770B7859F29",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/35E3A5AF299C4B0593188B8A33DD6359.json",
+      "Name": "Robert Wayper",
+      "RegID": "35E3A5AF299C4B0593188B8A33DD6359",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/36D21867341843F2AE9A8A3A5338127D.json",
+      "Name": "Nicole Lynne Rasmussen",
+      "RegID": "36D21867341843F2AE9A8A3A5338127D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/36D6C2C8C08748D19711D049A9A85A6F.json",
+      "Name": "Lina Zou",
+      "RegID": "36D6C2C8C08748D19711D049A9A85A6F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/37082C17A069503B147A8E2FAD227E52.json",
+      "Name": "Torin Dye",
+      "RegID": "37082C17A069503B147A8E2FAD227E52",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/370CCB643D0B9C50B2285CBAD706A476.json",
+      "Name": "David M. Podeweltz",
+      "RegID": "370CCB643D0B9C50B2285CBAD706A476",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/37AECE7B005F4BF5F4289349ADAFF012.json",
+      "Name": "Grace Lee",
+      "RegID": "37AECE7B005F4BF5F4289349ADAFF012",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/39BE983C78A2D1A3C92DEA4234FC2DA0.json",
+      "Name": "Michelle Rose Cardenas",
+      "RegID": "39BE983C78A2D1A3C92DEA4234FC2DA0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3A5992E885804215966FE532B1ED686F.json",
+      "Name": "Trevor Jenks",
+      "RegID": "3A5992E885804215966FE532B1ED686F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3B0E437E0A9C4BE696BCF173CB58AA09.json",
+      "Name": "Liam Stanford Knight",
+      "RegID": "3B0E437E0A9C4BE696BCF173CB58AA09",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3B139983B4508B72A359533E44A4B943.json",
+      "Name": "Felicia Yan",
+      "RegID": "3B139983B4508B72A359533E44A4B943",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3B80A83D2024EE05882A1E9C2802F3C8.json",
+      "Name": "Preston Bingley",
+      "RegID": "3B80A83D2024EE05882A1E9C2802F3C8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3C7E0666F4C97AB73EE70296EB61CA04.json",
+      "Name": "Vivia Zhu",
+      "RegID": "3C7E0666F4C97AB73EE70296EB61CA04",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3CACE1B1C5606741B9359448FC754129.json",
+      "Name": "Christina Rose McMillan",
+      "RegID": "3CACE1B1C5606741B9359448FC754129",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3D44EEB2FF5D48FE8E2D2C8D25214032.json",
+      "Name": "Jacqueline Puglisi",
+      "RegID": "3D44EEB2FF5D48FE8E2D2C8D25214032",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3D94F2200A574A46A9BC7618B7D243CD.json",
+      "Name": "Katie Munger",
+      "RegID": "3D94F2200A574A46A9BC7618B7D243CD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3DACD4420DAC4BA0A91D4181D8D66F1E.json",
+      "Name": "Kellen Eid",
+      "RegID": "3DACD4420DAC4BA0A91D4181D8D66F1E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3E2C1EA0CB9342D3A88485F5D3762B2A.json",
+      "Name": "Kade Harrison Eckert",
+      "RegID": "3E2C1EA0CB9342D3A88485F5D3762B2A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3E37931DB5E44F38B4D7919B9E5A65FA.json",
+      "Name": "Courtney A. Score",
+      "RegID": "3E37931DB5E44F38B4D7919B9E5A65FA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3E524DF7C173B2CCD17AAB18F3A386F5.json",
+      "Name": "Oliver Pearson",
+      "RegID": "3E524DF7C173B2CCD17AAB18F3A386F5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3EF50979EB234D15AB648C253F311DBC.json",
+      "Name": "Isabella Esperanza Corriere",
+      "RegID": "3EF50979EB234D15AB648C253F311DBC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3FC70E2B08454992B14767ED391F695B.json",
+      "Name": "Olivia R. DiLiberti",
+      "RegID": "3FC70E2B08454992B14767ED391F695B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/3FE3F18D42C04BA3921620F460344B6D.json",
+      "Name": "Katherine Xu",
+      "RegID": "3FE3F18D42C04BA3921620F460344B6D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/40329D053A85243EC51BA9B0A726B9EB.json",
+      "Name": "Jack Heffernan",
+      "RegID": "40329D053A85243EC51BA9B0A726B9EB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/40F0E26DC3E94EC9B6B66D451772D92F.json",
+      "Name": "Ari Harrison Pitasky",
+      "RegID": "40F0E26DC3E94EC9B6B66D451772D92F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/42DDCA46579C418381BEBCD9A688F18E.json",
+      "Name": "Bryan Zhou",
+      "RegID": "42DDCA46579C418381BEBCD9A688F18E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/42FD260FC3C94B1B9D6168132721F203.json",
+      "Name": "Parker Thomas Cech",
+      "RegID": "42FD260FC3C94B1B9D6168132721F203",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/43C0261946123694FE0EA707C47E8E3A.json",
+      "Name": "Christopher Lam",
+      "RegID": "43C0261946123694FE0EA707C47E8E3A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/43CD473C74514774948749EC1BC68D0C.json",
+      "Name": "Jack Samuel Nemiroff",
+      "RegID": "43CD473C74514774948749EC1BC68D0C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4778F3550C1069059E435330D82A33E2.json",
+      "Name": "Zoie Decker",
+      "RegID": "4778F3550C1069059E435330D82A33E2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/47A8ED6F58AC4323B6BAF8EBC181CA28.json",
+      "Name": "James Barry Price",
+      "RegID": "47A8ED6F58AC4323B6BAF8EBC181CA28",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/485074E338B8493B89FDC4915ABA6E75.json",
+      "Name": "Benjamin E. Vandehey",
+      "RegID": "485074E338B8493B89FDC4915ABA6E75",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/48B5292C17394AD2A7D55050442C6420.json",
+      "Name": "Jaime Lynn Brown",
+      "RegID": "48B5292C17394AD2A7D55050442C6420",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/49200C7AD1514871AB567F0FEBD4F148.json",
+      "Name": "Chip Conyard",
+      "RegID": "49200C7AD1514871AB567F0FEBD4F148",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/492EE009396E435E91ACAB1CAB0A1475.json",
+      "Name": "Nathan Murstein",
+      "RegID": "492EE009396E435E91ACAB1CAB0A1475",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/495566F23DA731011872805A5340402E.json",
+      "Name": "Linda Jessica Wang",
+      "RegID": "495566F23DA731011872805A5340402E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/49D4C3ED38F22FE19C0F2E1F48D07923.json",
+      "Name": "Lily Haghighi",
+      "RegID": "49D4C3ED38F22FE19C0F2E1F48D07923",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/49FA00D495924EF09DD8F51EFEA7D0E5.json",
+      "Name": "Juyoun Park",
+      "RegID": "49FA00D495924EF09DD8F51EFEA7D0E5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4A61D9CFFD2C9E6750F254A78AC6A5F2.json",
+      "Name": "Dylan Nova Hathaway",
+      "RegID": "4A61D9CFFD2C9E6750F254A78AC6A5F2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4A725CE27E343A4125493A4F44E30B90.json",
+      "Name": "Max Schell",
+      "RegID": "4A725CE27E343A4125493A4F44E30B90",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4A9B294A110E42C29AEDCF5C7EBDED67.json",
+      "Name": "Kendall C. Smith",
+      "RegID": "4A9B294A110E42C29AEDCF5C7EBDED67",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4AA5D4DF9E5FF2146B4C556CF4F736F3.json",
+      "Name": "Natalia Villamil",
+      "RegID": "4AA5D4DF9E5FF2146B4C556CF4F736F3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4AA7C075EB11461799FBD91A0A9A9180.json",
+      "Name": "Lars Bradley Tvedt",
+      "RegID": "4AA7C075EB11461799FBD91A0A9A9180",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4C5370B018E44B2D9E06B73571A227FC.json",
+      "Name": "Celia Kendall Holland",
+      "RegID": "4C5370B018E44B2D9E06B73571A227FC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4CF8F8F52C50478E96FC7EAB13D441AB.json",
+      "Name": "Jessica Leigh Irvine",
+      "RegID": "4CF8F8F52C50478E96FC7EAB13D441AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4D42D6AE92334B439521DFF29791CB02.json",
+      "Name": "Maxwell O. Sleeth",
+      "RegID": "4D42D6AE92334B439521DFF29791CB02",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4DBDCEA79DFE4EF28008C86BDD7F6612.json",
+      "Name": "Jessica Hsieh",
+      "RegID": "4DBDCEA79DFE4EF28008C86BDD7F6612",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4E0909BD210B4CC6A08531112843B603.json",
+      "Name": "Natalie Mifsud",
+      "RegID": "4E0909BD210B4CC6A08531112843B603",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/4EEEE0B97DE98A03D7475B2ECA8028CD.json",
+      "Name": "Daniel James Peterson",
+      "RegID": "4EEEE0B97DE98A03D7475B2ECA8028CD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/502FEACECB8DF895C83B03D670F90B33.json",
+      "Name": "Winnie Chen",
+      "RegID": "502FEACECB8DF895C83B03D670F90B33",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5045F309789A41528CB8C12AB236577C.json",
+      "Name": "Jonathan Woo Kim",
+      "RegID": "5045F309789A41528CB8C12AB236577C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/506C6679702B483CAAF671ADBD24E2F9.json",
+      "Name": "Pete Kenny",
+      "RegID": "506C6679702B483CAAF671ADBD24E2F9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5087CB09E09FABF4B1D1FC8F2352D49E.json",
+      "Name": "Cohen D Bahneman",
+      "RegID": "5087CB09E09FABF4B1D1FC8F2352D49E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/50E7E3FEBD7B9423176420748FE9F480.json",
+      "Name": "Crystal Kim",
+      "RegID": "50E7E3FEBD7B9423176420748FE9F480",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/510AFA64AA43330939B0267647FEE728.json",
+      "Name": "Rachel Suominen",
+      "RegID": "510AFA64AA43330939B0267647FEE728",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/517C4D25C0A749C7A9F2E6325CA40E34.json",
+      "Name": "Linnae Marie Myhre",
+      "RegID": "517C4D25C0A749C7A9F2E6325CA40E34",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/518D149AEA2E3783C538B90505F0A6A3.json",
+      "Name": "Eric Fong",
+      "RegID": "518D149AEA2E3783C538B90505F0A6A3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/51B2B06E658520F2953E43C99D4F3E8B.json",
+      "Name": "Jake Judson Maschmedt",
+      "RegID": "51B2B06E658520F2953E43C99D4F3E8B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/51BE49FEB6D144A69FF4F98F91DF4B2D.json",
+      "Name": "Raven Apigo",
+      "RegID": "51BE49FEB6D144A69FF4F98F91DF4B2D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5326910CA7D544AB9A25B3B041C7641F.json",
+      "Name": "Elizabeth Sokratov",
+      "RegID": "5326910CA7D544AB9A25B3B041C7641F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/53751FBCD3024F73A28612D7F8FC9CF3.json",
+      "Name": "Andrew Scott Hitchcock",
+      "RegID": "53751FBCD3024F73A28612D7F8FC9CF3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/546043FBD63B490EA3B3018D94B99192.json",
+      "Name": "Kellen Joel Foster",
+      "RegID": "546043FBD63B490EA3B3018D94B99192",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/54B990336C994461B7878E4387EE4DD6.json",
+      "Name": "John Sun",
+      "RegID": "54B990336C994461B7878E4387EE4DD6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/54C4FD076F104CFB8A7FE7FB460AA8CD.json",
+      "Name": "Alexa Clare Smith",
+      "RegID": "54C4FD076F104CFB8A7FE7FB460AA8CD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/54FD65DA031DCEE20D59C2D7C099B030.json",
+      "Name": "Hannah Tulanian",
+      "RegID": "54FD65DA031DCEE20D59C2D7C099B030",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5506AE0F014C481F926662D63A77AC03.json",
+      "Name": "Drew Melkonian",
+      "RegID": "5506AE0F014C481F926662D63A77AC03",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/552F0F4017F3872AB454DF0F90BAD880.json",
+      "Name": "Nikolas Kainoa Burton",
+      "RegID": "552F0F4017F3872AB454DF0F90BAD880",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5538EEC0CAE84CEF8103AD7EB604DC1B.json",
+      "Name": "Austin Wen",
+      "RegID": "5538EEC0CAE84CEF8103AD7EB604DC1B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/55528589DE4E40CAB210D1203733F060.json",
+      "Name": "Cameron Lewis",
+      "RegID": "55528589DE4E40CAB210D1203733F060",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/55D354F2E5346E69C111D7527B861813.json",
+      "Name": "Carolyn Gatlin",
+      "RegID": "55D354F2E5346E69C111D7527B861813",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/567D5B9682E687C01F20331CF7793619.json",
+      "Name": "Gaby Catabijan",
+      "RegID": "567D5B9682E687C01F20331CF7793619",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/569FBDC7D002463EAF5F8D23DEDC2835.json",
+      "Name": "Adrian Goodwin",
+      "RegID": "569FBDC7D002463EAF5F8D23DEDC2835",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/579A3DE6CFD546EC8D346DE07E22D16C.json",
+      "Name": "Sasha J. Gordon",
+      "RegID": "579A3DE6CFD546EC8D346DE07E22D16C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/57AA2D1E62534E80B3AA9569DA4154AA.json",
+      "Name": "Margaret A. Black",
+      "RegID": "57AA2D1E62534E80B3AA9569DA4154AA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/582AB7BA8CE4D64AB223BED3E4940E22.json",
+      "Name": "Jennifer Jean Pyke",
+      "RegID": "582AB7BA8CE4D64AB223BED3E4940E22",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5853DE3DB87BF5A667F89CCC0CC95961.json",
+      "Name": "Brady Jones",
+      "RegID": "5853DE3DB87BF5A667F89CCC0CC95961",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5865FAFEB27ECC60359B7D7F0B2F8157.json",
+      "Name": "Stephanie Pao",
+      "RegID": "5865FAFEB27ECC60359B7D7F0B2F8157",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/58FE7987AB4A48EFB5CF02F26E7FE0BF.json",
+      "Name": "Nicholas Ken Fang",
+      "RegID": "58FE7987AB4A48EFB5CF02F26E7FE0BF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/593A88F001CB26EE2A84D8FF11CB8C84.json",
+      "Name": "Evelyn Artyom Tsaturian",
+      "RegID": "593A88F001CB26EE2A84D8FF11CB8C84",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5952A2A64B21BA8B9D3CF5BA5C5E804B.json",
+      "Name": "SMRITHI SUDIP",
+      "RegID": "5952A2A64B21BA8B9D3CF5BA5C5E804B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/59A165BAAAAC47489959F6BEF2B382A0.json",
+      "Name": "Shuyi Wang",
+      "RegID": "59A165BAAAAC47489959F6BEF2B382A0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5A922330C73B48EE8AFC58F0008E697A.json",
+      "Name": "Jessica G. Davies",
+      "RegID": "5A922330C73B48EE8AFC58F0008E697A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5AA68A41144547E79D362CD1C81BCB95.json",
+      "Name": "Peter Windus",
+      "RegID": "5AA68A41144547E79D362CD1C81BCB95",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5B91A5A74E4541E6837E83F55C67F6A4.json",
+      "Name": "Fiona Tian",
+      "RegID": "5B91A5A74E4541E6837E83F55C67F6A4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5C51CDEBAA1D48738C6814E2B760CC82.json",
+      "Name": "Daniel Jones",
+      "RegID": "5C51CDEBAA1D48738C6814E2B760CC82",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5CC6CE560C87894A73E71B8D51BE1E1D.json",
+      "Name": "Brendan Dudley Walsh",
+      "RegID": "5CC6CE560C87894A73E71B8D51BE1E1D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5CDBB6CBD03386FD265A39F1DF5EDBEA.json",
+      "Name": "Joseph Rey Dyer",
+      "RegID": "5CDBB6CBD03386FD265A39F1DF5EDBEA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5CFC637D5CB680910B105BA5EF335B6D.json",
+      "Name": "Max F Feldmeier",
+      "RegID": "5CFC637D5CB680910B105BA5EF335B6D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5D6197B32624E8ABE5824386FE67CD6A.json",
+      "Name": "Claire Leary Mansfield",
+      "RegID": "5D6197B32624E8ABE5824386FE67CD6A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5DB014F537AE4759ADB41AC4693D60E4.json",
+      "Name": "Sakura Kishiro",
+      "RegID": "5DB014F537AE4759ADB41AC4693D60E4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5E20B8726C7445A19B889C6195612D7F.json",
+      "Name": "Jeremy Brian Steckler",
+      "RegID": "5E20B8726C7445A19B889C6195612D7F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5E96AB7061C5273E9BD1970A275C5125.json",
+      "Name": "Amanda Ariel Huynh",
+      "RegID": "5E96AB7061C5273E9BD1970A275C5125",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5EB16713BD5DA2ABABF8803AA28AC2EF.json",
+      "Name": "Kyle Tsang",
+      "RegID": "5EB16713BD5DA2ABABF8803AA28AC2EF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5EEE84146C3139BE8391F758B744239C.json",
+      "Name": "Carson Adam Coe",
+      "RegID": "5EEE84146C3139BE8391F758B744239C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/5F7D2E1DAADD737D71E914666BF6C52F.json",
+      "Name": "Preston Grays Donion",
+      "RegID": "5F7D2E1DAADD737D71E914666BF6C52F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/60329EECA409380E228889F44934C64C.json",
+      "Name": "Isaac Chung",
+      "RegID": "60329EECA409380E228889F44934C64C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/603705572477482C813D0B0EBE8347AD.json",
+      "Name": "Samuel Eric Petersen",
+      "RegID": "603705572477482C813D0B0EBE8347AD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/610CFD621C7B4205990BCA491F443625.json",
+      "Name": "Madeline Ray Zeldes",
+      "RegID": "610CFD621C7B4205990BCA491F443625",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6263717EFC624D70AE21BE79C30E3D4C.json",
+      "Name": "Robert Lloyd Franklin",
+      "RegID": "6263717EFC624D70AE21BE79C30E3D4C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/62ABBE5ACEDF48119653846E3C05B823.json",
+      "Name": "Gabriella Finn Harness",
+      "RegID": "62ABBE5ACEDF48119653846E3C05B823",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/637ED3570B444A64ACFB1600CC8BE1FC.json",
+      "Name": "Ruhika Hattangadi",
+      "RegID": "637ED3570B444A64ACFB1600CC8BE1FC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6420627E1E26AF96C66E5B3402A5B977.json",
+      "Name": "Grace Nicole Paulson",
+      "RegID": "6420627E1E26AF96C66E5B3402A5B977",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6433FBF7E3F98F2235D1CED0A67AD9C3.json",
+      "Name": "Kevin Grant",
+      "RegID": "6433FBF7E3F98F2235D1CED0A67AD9C3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/64BAAFC665BA4CB7A9ED4F73932CF83C.json",
+      "Name": "Alex Nagode",
+      "RegID": "64BAAFC665BA4CB7A9ED4F73932CF83C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/64BBE9078A3940A2800A1B0B8B9F82FF.json",
+      "Name": "Spencer Kent Mueller",
+      "RegID": "64BBE9078A3940A2800A1B0B8B9F82FF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/64DD8A892D4A40D590396A61DBEAAAEA.json",
+      "Name": "Jacob K Glant",
+      "RegID": "64DD8A892D4A40D590396A61DBEAAAEA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/651DFDC9EC7C43F39D4CDF3FC10B45C5.json",
+      "Name": "Daniel Wilson",
+      "RegID": "651DFDC9EC7C43F39D4CDF3FC10B45C5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6576B2A9DACD471EAE75B2175EE07508.json",
+      "Name": "Colin James Campbell",
+      "RegID": "6576B2A9DACD471EAE75B2175EE07508",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/65773B44952D40C79DF3FB5015AD3F15.json",
+      "Name": "Clara Johanna Temer",
+      "RegID": "65773B44952D40C79DF3FB5015AD3F15",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/65FE91F1AB8D453480D2C2608204AF7B.json",
+      "Name": "SERINA NGUYEN",
+      "RegID": "65FE91F1AB8D453480D2C2608204AF7B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/660B7567B7A04F37A50A5FDAF4769D2B.json",
+      "Name": "Brandon Paul Leitgeb",
+      "RegID": "660B7567B7A04F37A50A5FDAF4769D2B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/662A05E2B08045F09B5BC46413E98339.json",
+      "Name": "Ryan Christopher Lock",
+      "RegID": "662A05E2B08045F09B5BC46413E98339",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/668B01479A9E4AB4A9DB52D67B639B0C.json",
+      "Name": "Kevin Reimer",
+      "RegID": "668B01479A9E4AB4A9DB52D67B639B0C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/673A0A0B64FD8ECB74EF5C21E5680D52.json",
+      "Name": "Samiha Bhuiyan",
+      "RegID": "673A0A0B64FD8ECB74EF5C21E5680D52",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/677E9118365045A8B88D5B47C0EB8BA3.json",
+      "Name": "Emily Guo",
+      "RegID": "677E9118365045A8B88D5B47C0EB8BA3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/67C029CC610F40ADB7EA75A910A14197.json",
+      "Name": "Michael James Farace",
+      "RegID": "67C029CC610F40ADB7EA75A910A14197",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/67F79CE0E1E543C2AC926D82EBF191F0.json",
+      "Name": "Elizabeth James",
+      "RegID": "67F79CE0E1E543C2AC926D82EBF191F0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/68A398EA42B90A53A2CB910A12FC0045.json",
+      "Name": "Ryan Kendall",
+      "RegID": "68A398EA42B90A53A2CB910A12FC0045",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/68CD021AC5D5452294D61F489F74FE28.json",
+      "Name": "Emi Nakatsu",
+      "RegID": "68CD021AC5D5452294D61F489F74FE28",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/68DABCDD862F4AE9B4B642AE5213CB4E.json",
+      "Name": "Evan N. Poremba",
+      "RegID": "68DABCDD862F4AE9B4B642AE5213CB4E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6953AE37166E431EA3EFC510A79AD199.json",
+      "Name": "Max B. Beeson",
+      "RegID": "6953AE37166E431EA3EFC510A79AD199",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/69E48718B3DF4814918B56A1CD6A5552.json",
+      "Name": "Kevin Hong Ting",
+      "RegID": "69E48718B3DF4814918B56A1CD6A5552",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6B23F8B1FBD8438CA7671F7B32366DD9.json",
+      "Name": "Christopher Paul F Diaz",
+      "RegID": "6B23F8B1FBD8438CA7671F7B32366DD9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6BA4BB2F66224E4FADE0592C51E1C5CE.json",
+      "Name": "Morgan Wheeler",
+      "RegID": "6BA4BB2F66224E4FADE0592C51E1C5CE",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6BAAE0E8317EA5188D134EDF02A30488.json",
+      "Name": "Elizabeth Shipley",
+      "RegID": "6BAAE0E8317EA5188D134EDF02A30488",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6BB62EFB419349F8A45D63DED8EE0496.json",
+      "Name": "Paola Sanchez",
+      "RegID": "6BB62EFB419349F8A45D63DED8EE0496",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6C230BFE16C44CBE92AD08925F5A2AB2.json",
+      "Name": "Hewan Mengistu",
+      "RegID": "6C230BFE16C44CBE92AD08925F5A2AB2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6C81EC4D2E5A4ED5BF05CF192F79F604.json",
+      "Name": "Jack David Enger",
+      "RegID": "6C81EC4D2E5A4ED5BF05CF192F79F604",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6D3E62C4A2D14E43834B656995FCBC54.json",
+      "Name": "Rachel M. Bernstein",
+      "RegID": "6D3E62C4A2D14E43834B656995FCBC54",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6DCEA3078AB849769045B23DEDAFDCF2.json",
+      "Name": "Alexander James Blue",
+      "RegID": "6DCEA3078AB849769045B23DEDAFDCF2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6DE200B7CAF54E88A742BE49259AFE5D.json",
+      "Name": "Jack Charles Bossung",
+      "RegID": "6DE200B7CAF54E88A742BE49259AFE5D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6DFE924F01E69214CD2331558556DD05.json",
+      "Name": "Andrew Richard Kremer",
+      "RegID": "6DFE924F01E69214CD2331558556DD05",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6E9E459CB4BE4127A78C10A32A30DFA8.json",
+      "Name": "Carson Gabriel Nye",
+      "RegID": "6E9E459CB4BE4127A78C10A32A30DFA8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6ECDDB5F746236FDC402FB4C24B27878.json",
+      "Name": "Coleman Lenau Kotchik",
+      "RegID": "6ECDDB5F746236FDC402FB4C24B27878",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6EFF59AE90AF447406D20712C98E92DB.json",
+      "Name": "Chris J Calkins",
+      "RegID": "6EFF59AE90AF447406D20712C98E92DB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/6F6297D936E540B59CFAC2196522D83A.json",
+      "Name": "Tiffany Wong",
+      "RegID": "6F6297D936E540B59CFAC2196522D83A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/70998E4FF3C1B60FADF59637025C0275.json",
+      "Name": "Christian Michael Blazona",
+      "RegID": "70998E4FF3C1B60FADF59637025C0275",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/71F968672675AF65BBC1296B4A8D4FD8.json",
+      "Name": "Jade Egan",
+      "RegID": "71F968672675AF65BBC1296B4A8D4FD8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/72151CC7F459DFE5BD0D152DBA10677A.json",
+      "Name": "Jose Luis Rodriguez",
+      "RegID": "72151CC7F459DFE5BD0D152DBA10677A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/722606A9DA8A27E21C9FA38934FAE0A0.json",
+      "Name": "Grayson J Leo",
+      "RegID": "722606A9DA8A27E21C9FA38934FAE0A0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/72462130E9F7456DB2E3777FCD63BE82.json",
+      "Name": "Cian Caitlin Hillis",
+      "RegID": "72462130E9F7456DB2E3777FCD63BE82",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7249D87C9330CB530DAE45DF78F6DF1C.json",
+      "Name": "Kiersten Diercks",
+      "RegID": "7249D87C9330CB530DAE45DF78F6DF1C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/72B19E6CE66643C59C64A095F4956468.json",
+      "Name": "Jacob Charles Reines",
+      "RegID": "72B19E6CE66643C59C64A095F4956468",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/73219B148D7AC13651B912AE53C70C24.json",
+      "Name": "Chloe Jane Hatfield",
+      "RegID": "73219B148D7AC13651B912AE53C70C24",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/73C10970ABF9440382B93E8DAB8F46FB.json",
+      "Name": "Brennan Jacobson",
+      "RegID": "73C10970ABF9440382B93E8DAB8F46FB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/74C18773194D4F72A701803939AEE0F6.json",
+      "Name": "Todd Alan Gruebner",
+      "RegID": "74C18773194D4F72A701803939AEE0F6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/752DE7CC5FA84BF88EC38A4735DBEE7B.json",
+      "Name": "Aaron Ng",
+      "RegID": "752DE7CC5FA84BF88EC38A4735DBEE7B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/755FFAE43AAD9EA6B1A5A3FC11A6263A.json",
+      "Name": "Maria Macatbag",
+      "RegID": "755FFAE43AAD9EA6B1A5A3FC11A6263A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/759715336BCCB1D192AC49F40AF996C1.json",
+      "Name": "Vincent J Zhang",
+      "RegID": "759715336BCCB1D192AC49F40AF996C1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/75B5E7AB1F6AA418522F3F8AD1F8B01A.json",
+      "Name": "Matthew Benjamin Wong",
+      "RegID": "75B5E7AB1F6AA418522F3F8AD1F8B01A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/75E9F962A1EA4007AD972298E0528D9E.json",
+      "Name": "Erica Lee Blume",
+      "RegID": "75E9F962A1EA4007AD972298E0528D9E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/75FC2E7574C701CDD2433B99190F348B.json",
+      "Name": "Benedict Suciu",
+      "RegID": "75FC2E7574C701CDD2433B99190F348B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/77119533F0B34926A17A813952C7BA59.json",
+      "Name": "Dyllan Robert Gritter",
+      "RegID": "77119533F0B34926A17A813952C7BA59",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/77654F31EF0C0133F1E94962ECD9E7B5.json",
+      "Name": "Jane Kim",
+      "RegID": "77654F31EF0C0133F1E94962ECD9E7B5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/77A6BEA8F85C4EE58DC50650ED79CB24.json",
+      "Name": "Sabrina Joann Zhu",
+      "RegID": "77A6BEA8F85C4EE58DC50650ED79CB24",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7915FC5F6373075BDE888075ADE527EC.json",
+      "Name": "Nathaniel Thomas Creamer",
+      "RegID": "7915FC5F6373075BDE888075ADE527EC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7939064F5CEE8AB08124B3DECC9356BD.json",
+      "Name": "Ethan Richard Sargent",
+      "RegID": "7939064F5CEE8AB08124B3DECC9356BD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7A2B1ADF900C46FE9B276052E0039806.json",
+      "Name": "Arissa K. Lee",
+      "RegID": "7A2B1ADF900C46FE9B276052E0039806",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7A636ABE35854F2E83EA7BCDF418FC39.json",
+      "Name": "Noah Vaughn",
+      "RegID": "7A636ABE35854F2E83EA7BCDF418FC39",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7ACC8C6A58FA2A6ACF6F4546F31285E4.json",
+      "Name": "Kenneth Nguyen",
+      "RegID": "7ACC8C6A58FA2A6ACF6F4546F31285E4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7B189047353747D495DA809F4DD29E36.json",
+      "Name": "Spencer Gresham Nicolls",
+      "RegID": "7B189047353747D495DA809F4DD29E36",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7B4C9900D8FDDE54B190053A57DC8987.json",
+      "Name": "William Rufus Hoefer",
+      "RegID": "7B4C9900D8FDDE54B190053A57DC8987",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7B9B7022FE88DA33DDDB583C1FF67F4B.json",
+      "Name": "Denise Bui",
+      "RegID": "7B9B7022FE88DA33DDDB583C1FF67F4B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7BC8F211ABCB4746802805AA06BC1943.json",
+      "Name": "Kellen James Potocsnak",
+      "RegID": "7BC8F211ABCB4746802805AA06BC1943",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7BF3F0786007403FBA8093113A3B4E4D.json",
+      "Name": "Camryn R. Phipps",
+      "RegID": "7BF3F0786007403FBA8093113A3B4E4D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7BF432CBBDAD6E308452C0D104AA3DF6.json",
+      "Name": "Everett Buck",
+      "RegID": "7BF432CBBDAD6E308452C0D104AA3DF6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7C70005BF86C7B8F29B3D90F82C1D553.json",
+      "Name": "David Sumner Shuer",
+      "RegID": "7C70005BF86C7B8F29B3D90F82C1D553",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7C7C6A4239E9444C92FBB721B355A5A3.json",
+      "Name": "Eric Tang",
+      "RegID": "7C7C6A4239E9444C92FBB721B355A5A3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7CB8443F2B484DFE91567AB9775A1F28.json",
+      "Name": "Alandra Eliza Gonzalez",
+      "RegID": "7CB8443F2B484DFE91567AB9775A1F28",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7CFFD7C52E9D668C1C6BB8B90D39DCE4.json",
+      "Name": "Thalassa Maple Cheng",
+      "RegID": "7CFFD7C52E9D668C1C6BB8B90D39DCE4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7D21C0F2DE7344D680ED6BDF312DEA7D.json",
+      "Name": "Jarod David Mowers",
+      "RegID": "7D21C0F2DE7344D680ED6BDF312DEA7D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7DCD3656BFCB3F24A87CEEC542488AD1.json",
+      "Name": "Xiaoyi Peng",
+      "RegID": "7DCD3656BFCB3F24A87CEEC542488AD1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7E03FE83D5AA91F6D12F0914E0380595.json",
+      "Name": "Jake Seaberg",
+      "RegID": "7E03FE83D5AA91F6D12F0914E0380595",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7E1C4641619642CCBD913511F5089D02.json",
+      "Name": "Adrianna Varela",
+      "RegID": "7E1C4641619642CCBD913511F5089D02",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7F7CCC66B486410389D1C4486D17BD72.json",
+      "Name": "Yin Deng",
+      "RegID": "7F7CCC66B486410389D1C4486D17BD72",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7FB08C685F9B440BA15CFA5513291D3C.json",
+      "Name": "Grant William Shaw",
+      "RegID": "7FB08C685F9B440BA15CFA5513291D3C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/7FE1CEC7F9A34011A699AF1988D701B7.json",
+      "Name": "Kevin Jack Schultz",
+      "RegID": "7FE1CEC7F9A34011A699AF1988D701B7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/822F3829C0F903F4C333AD1B50726D59.json",
+      "Name": "Bonnie Ting",
+      "RegID": "822F3829C0F903F4C333AD1B50726D59",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/82D715CFC3654E3E919C33775FAB58EE.json",
+      "Name": "Amanda Lebowsky",
+      "RegID": "82D715CFC3654E3E919C33775FAB58EE",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8304539908E8AAB4CE20912B552F4E60.json",
+      "Name": "Leland Thomas Sevier",
+      "RegID": "8304539908E8AAB4CE20912B552F4E60",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/839BD4880C495EA20BAF07CD5480282E.json",
+      "Name": "Kyle Cody",
+      "RegID": "839BD4880C495EA20BAF07CD5480282E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/83A038F841784E9AE8205C21F75966AB.json",
+      "Name": "Odin Carl Vondruska",
+      "RegID": "83A038F841784E9AE8205C21F75966AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/84021E890737446285C2E8DEA99F9F81.json",
+      "Name": "William Robert Moore IV",
+      "RegID": "84021E890737446285C2E8DEA99F9F81",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/84545F7F92D848358D434D91F35AAA2D.json",
+      "Name": "Kjerstin Anne Scanlan",
+      "RegID": "84545F7F92D848358D434D91F35AAA2D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/84851D9A53E5E2D538551AB686330D13.json",
+      "Name": "Cynthia Yeh",
+      "RegID": "84851D9A53E5E2D538551AB686330D13",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/85117BCDEAEF496DA226C44AB507753B.json",
+      "Name": "Anna Kayla McGinnis",
+      "RegID": "85117BCDEAEF496DA226C44AB507753B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/85403F083E724B2ABDD06A76CD9EB78E.json",
+      "Name": "Maya Lustgarten",
+      "RegID": "85403F083E724B2ABDD06A76CD9EB78E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/85F8D7C82C794C4FB95B0E645AC00540.json",
+      "Name": "Jack Baldwin Beardsley",
+      "RegID": "85F8D7C82C794C4FB95B0E645AC00540",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/860B49A1BBB548AE9044014981ED1663.json",
+      "Name": "Ella Paschen Dipietro",
+      "RegID": "860B49A1BBB548AE9044014981ED1663",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/863605C8D4A745BF896C330A991E878F.json",
+      "Name": "Elise Miranda Rosenfeld",
+      "RegID": "863605C8D4A745BF896C330A991E878F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/863FE8990E2A93201DEB461A2EDD151E.json",
+      "Name": "Karina Jay Hazari",
+      "RegID": "863FE8990E2A93201DEB461A2EDD151E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8672A21B2CE52B0A59D3D9357F7130C9.json",
+      "Name": "Kaitlyn May Tran",
+      "RegID": "8672A21B2CE52B0A59D3D9357F7130C9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/86ACE13674CA4866A86FEB078D5C6748.json",
+      "Name": "Ryan Patrick Fitzgerald",
+      "RegID": "86ACE13674CA4866A86FEB078D5C6748",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8739BF3C5ADBE6E608FA54E10C69AF90.json",
+      "Name": "Courtney Anne Burrow",
+      "RegID": "8739BF3C5ADBE6E608FA54E10C69AF90",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8784544356394B488FBB57B35F478DBD.json",
+      "Name": "Brahmam Chunduri",
+      "RegID": "8784544356394B488FBB57B35F478DBD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8818DC76F2B84F8C957187CB39F7968E.json",
+      "Name": "Coco Wang",
+      "RegID": "8818DC76F2B84F8C957187CB39F7968E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/884BCC73912C7CC9DD2D68B02DABE51D.json",
+      "Name": "Maryum Zuha Ozman",
+      "RegID": "884BCC73912C7CC9DD2D68B02DABE51D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8872D5C8A92D452BBE6ABD54970E58D0.json",
+      "Name": "Fletcher Andrew Hatting",
+      "RegID": "8872D5C8A92D452BBE6ABD54970E58D0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8886CB5A7A93470D9A0D7ABA88C9D549.json",
+      "Name": "Emily Katherine Calderon",
+      "RegID": "8886CB5A7A93470D9A0D7ABA88C9D549",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8902ED8FF5864468A88D2B2ED3FD7535.json",
+      "Name": "Shawn Jung",
+      "RegID": "8902ED8FF5864468A88D2B2ED3FD7535",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/89C6A8F5925F4BE6BDF3803D244C3B23.json",
+      "Name": "Logan Anthony Guerrero",
+      "RegID": "89C6A8F5925F4BE6BDF3803D244C3B23",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8A4FA9B209B24589A3FC3C18E7A1AC0F.json",
+      "Name": "Weston Wernette",
+      "RegID": "8A4FA9B209B24589A3FC3C18E7A1AC0F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8A8BD094C5380B929F34D371D7E4268C.json",
+      "Name": "Clara Sande Crowley",
+      "RegID": "8A8BD094C5380B929F34D371D7E4268C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8AADEED6C5B24DE7A9A1AC3C48B2CE8D.json",
+      "Name": "Daniel Zhang",
+      "RegID": "8AADEED6C5B24DE7A9A1AC3C48B2CE8D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8B121450A9E14815B30EF4A837EE4142.json",
+      "Name": "Ethan M. Mayers",
+      "RegID": "8B121450A9E14815B30EF4A837EE4142",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8B87B26CDAC643488AF09B9CFBA49CF5.json",
+      "Name": "Stella Tsaneva",
+      "RegID": "8B87B26CDAC643488AF09B9CFBA49CF5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8B8B19B1C3E64645975F2FFF0294C0CD.json",
+      "Name": "Rae Hu Wong",
+      "RegID": "8B8B19B1C3E64645975F2FFF0294C0CD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8C4CECF96EDF4CD8AD3807A16B02C902.json",
+      "Name": "Samantha Bender",
+      "RegID": "8C4CECF96EDF4CD8AD3807A16B02C902",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8C733C6DE6A14B85B82356624D661F8D.json",
+      "Name": "Jake Henry Behn",
+      "RegID": "8C733C6DE6A14B85B82356624D661F8D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8CB49116DB02464F869494D7B7ED02BC.json",
+      "Name": "Trent DeLucia",
+      "RegID": "8CB49116DB02464F869494D7B7ED02BC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8CFD3FE5CF1DFE087ED11379E0E2222F.json",
+      "Name": "Ryan Hendley Suits",
+      "RegID": "8CFD3FE5CF1DFE087ED11379E0E2222F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8D0B070B206F426DAD55FD2EC5FAC798.json",
+      "Name": "Sophia Miles",
+      "RegID": "8D0B070B206F426DAD55FD2EC5FAC798",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8DCC5CC752A3443AAF65A1E7240CC6EA.json",
+      "Name": "Evan Yee-Fung Choy",
+      "RegID": "8DCC5CC752A3443AAF65A1E7240CC6EA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8DD0C1A1896ECB7E153D25A1E8EA4FAD.json",
+      "Name": "Daniel Simic",
+      "RegID": "8DD0C1A1896ECB7E153D25A1E8EA4FAD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8DED1E53343040CEB3CA90CBAC192A7A.json",
+      "Name": "Marcus Raphael Mesnik-Greene",
+      "RegID": "8DED1E53343040CEB3CA90CBAC192A7A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8E1A822CE46A49CF9708333D571A3268.json",
+      "Name": "Olivia Caitlin Ling",
+      "RegID": "8E1A822CE46A49CF9708333D571A3268",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8E7C0DE4A00C2A7AF5FBF849CA776440.json",
+      "Name": "Ross David Heilweil",
+      "RegID": "8E7C0DE4A00C2A7AF5FBF849CA776440",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/8E997707E9C84B8BA5AA8FAF0EE981FC.json",
+      "Name": "James Bruce McCutcheon",
+      "RegID": "8E997707E9C84B8BA5AA8FAF0EE981FC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9019C36E2A224D8D93CD8B1D4B98E68D.json",
+      "Name": "Anna Katherine Jacobsen",
+      "RegID": "9019C36E2A224D8D93CD8B1D4B98E68D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/90ED288131FBB72B9C8A5CB562549B26.json",
+      "Name": "Resibayi Ayisilu",
+      "RegID": "90ED288131FBB72B9C8A5CB562549B26",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/913B1FE48AC94D57BBDF6843F2D30D74.json",
+      "Name": "Lazar Orlovic",
+      "RegID": "913B1FE48AC94D57BBDF6843F2D30D74",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/91684D5B06BD4C63B78C7847EE9323E0.json",
+      "Name": "Adam Harrison Phelan",
+      "RegID": "91684D5B06BD4C63B78C7847EE9323E0",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/91C876B34B6E47C2982F20AB15F68424.json",
+      "Name": "Kevin Nishi",
+      "RegID": "91C876B34B6E47C2982F20AB15F68424",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/91EE09E56DDF4003B9C3E35633511B85.json",
+      "Name": "Christian Mark Nirschl",
+      "RegID": "91EE09E56DDF4003B9C3E35633511B85",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/92321D4C41BC317A7E68EE41ED0517F2.json",
+      "Name": "Zilin He",
+      "RegID": "92321D4C41BC317A7E68EE41ED0517F2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9321557C623748CBA3E9B105F4030D75.json",
+      "Name": "Hannah J Yerex",
+      "RegID": "9321557C623748CBA3E9B105F4030D75",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/939C0EAE0C6D4C10AFDE26912B1E6F43.json",
+      "Name": "Holly Renee Dudley",
+      "RegID": "939C0EAE0C6D4C10AFDE26912B1E6F43",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9418677160BB4326AD89926126C3A534.json",
+      "Name": "Ethan Min-Cherng Chen",
+      "RegID": "9418677160BB4326AD89926126C3A534",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/946864297DD3AC4FB9A16BFC872C3CD5.json",
+      "Name": "Kenji Lin",
+      "RegID": "946864297DD3AC4FB9A16BFC872C3CD5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/94B96004311D44B0B196B5C0730B2047.json",
+      "Name": "Hanna K. Puetz",
+      "RegID": "94B96004311D44B0B196B5C0730B2047",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9594DE5E8AB78BE00B84B39770414297.json",
+      "Name": "Madeleine Ann Chin",
+      "RegID": "9594DE5E8AB78BE00B84B39770414297",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/95F16E4453954AF6A808C6F8154200D5.json",
+      "Name": "Chloe Elizabeth Hopps",
+      "RegID": "95F16E4453954AF6A808C6F8154200D5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/95FBB3E00EF2481483A58F11F9527076.json",
+      "Name": "Andrew Takumi Labaczewski",
+      "RegID": "95FBB3E00EF2481483A58F11F9527076",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/961398A748C64401AD7F6ADFD685BBC6.json",
+      "Name": "Shannon Liang-Shan Fitzpatrick",
+      "RegID": "961398A748C64401AD7F6ADFD685BBC6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9613A8C4A7994D929CF65CC585764A9A.json",
+      "Name": "Dane Frank Coop",
+      "RegID": "9613A8C4A7994D929CF65CC585764A9A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/963E0DC40097EDB3C9D3E9A7E3EACED7.json",
+      "Name": "Michelle Yang",
+      "RegID": "963E0DC40097EDB3C9D3E9A7E3EACED7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/96807610219F425EA66906DBE793F371.json",
+      "Name": "Griffin D Miller",
+      "RegID": "96807610219F425EA66906DBE793F371",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9696EC18EFB94EC09477243672C2CFD1.json",
+      "Name": "Zechariah Brown",
+      "RegID": "9696EC18EFB94EC09477243672C2CFD1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/96C4747C623D808B29BB8428B4992992.json",
+      "Name": "Celia Gale",
+      "RegID": "96C4747C623D808B29BB8428B4992992",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9729E5A78A55454CA9581F2C6BFBDCFE.json",
+      "Name": "Cade Darren Otton",
+      "RegID": "9729E5A78A55454CA9581F2C6BFBDCFE",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/974C9843832CF5593A739AE22B8CFF32.json",
+      "Name": "Leena Zara Janmohamed",
+      "RegID": "974C9843832CF5593A739AE22B8CFF32",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9811D5CEF09649DEA713DC800376E5D2.json",
+      "Name": "Casey Lee Doran",
+      "RegID": "9811D5CEF09649DEA713DC800376E5D2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/984B63472902BF00DA99D613871B8903.json",
+      "Name": "Skyler Pollak",
+      "RegID": "984B63472902BF00DA99D613871B8903",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/99C8D913E35440F287E5BC68A946C392.json",
+      "Name": "Army Pasqual Olsen",
+      "RegID": "99C8D913E35440F287E5BC68A946C392",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/99EAC318A83C3688ED8A1F1A860C1FA9.json",
+      "Name": "Shayla Dinh Van",
+      "RegID": "99EAC318A83C3688ED8A1F1A860C1FA9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9A657BB063174840A4ADBAA4E55755AC.json",
+      "Name": "Bradley Wong",
+      "RegID": "9A657BB063174840A4ADBAA4E55755AC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9AEE0BFEAE434C6EA60773638371B76A.json",
+      "Name": "Ivan Ivanov Trindev",
+      "RegID": "9AEE0BFEAE434C6EA60773638371B76A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9B2926E20442469E992EC3E8A754EFCF.json",
+      "Name": "Audrey Rose Lindner",
+      "RegID": "9B2926E20442469E992EC3E8A754EFCF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9B3113C133424934BC6330D9749D56CF.json",
+      "Name": "Salil Ravindra Kanade",
+      "RegID": "9B3113C133424934BC6330D9749D56CF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9B7B5871D11A454DA63F39C3A12311CB.json",
+      "Name": "Maggie Chan",
+      "RegID": "9B7B5871D11A454DA63F39C3A12311CB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9B91DFDDAD5E44018FBD5E1D57821805.json",
+      "Name": "Pearl Lam",
+      "RegID": "9B91DFDDAD5E44018FBD5E1D57821805",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9C2ADB0F9C0226198D28FE9837E95420.json",
+      "Name": "Yudai Yokoyama",
+      "RegID": "9C2ADB0F9C0226198D28FE9837E95420",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9C678328B9791F44CBACE09F55F5F08F.json",
+      "Name": "Kimberly Ann Clayton",
+      "RegID": "9C678328B9791F44CBACE09F55F5F08F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9CC6BBE4A7D04B78BEB1DA75DE6CB441.json",
+      "Name": "Allison Rose Ambrose",
+      "RegID": "9CC6BBE4A7D04B78BEB1DA75DE6CB441",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9D3600442A5B2D54E55E8F9A4F4AC2EA.json",
+      "Name": "John Paul Hilden",
+      "RegID": "9D3600442A5B2D54E55E8F9A4F4AC2EA",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9DBF3DFF88AD40969CB70DE50C4EA644.json",
+      "Name": "Adam Veith",
+      "RegID": "9DBF3DFF88AD40969CB70DE50C4EA644",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9E0B96E0234445549694B5A0D7DBB47B.json",
+      "Name": "Mackenzie Maly",
+      "RegID": "9E0B96E0234445549694B5A0D7DBB47B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9E13AF9EBA2C36337F1EE138C71A0160.json",
+      "Name": "Emily Sun Reed",
+      "RegID": "9E13AF9EBA2C36337F1EE138C71A0160",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9F07C8503FE2414681874CDE0250929C.json",
+      "Name": "Natalie Stender",
+      "RegID": "9F07C8503FE2414681874CDE0250929C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/9F0F6BA9298F75299BFE005AB7E7981D.json",
+      "Name": "Kelley Blair Gibbs",
+      "RegID": "9F0F6BA9298F75299BFE005AB7E7981D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A0BC5E7C11CF79028321ABAC933E2901.json",
+      "Name": "Eddie Vraney",
+      "RegID": "A0BC5E7C11CF79028321ABAC933E2901",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A1CA5468D49B45D8B2924C127E8DBA31.json",
+      "Name": "Riley W. Noonan",
+      "RegID": "A1CA5468D49B45D8B2924C127E8DBA31",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A1F36DA42945152AA0D6795EEF063A4A.json",
+      "Name": "Mariah Grace Van Halm",
+      "RegID": "A1F36DA42945152AA0D6795EEF063A4A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A2BE69C845D7FD0F21EEFA8330FE6008.json",
+      "Name": "Hani Ghebrehiwet",
+      "RegID": "A2BE69C845D7FD0F21EEFA8330FE6008",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A308B59F3E89470EB1410A41D0D9EA2C.json",
+      "Name": "Drew T. Gustafson",
+      "RegID": "A308B59F3E89470EB1410A41D0D9EA2C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A3A7B48FA83F446B929F408AE98648AB.json",
+      "Name": "Olivia Crum",
+      "RegID": "A3A7B48FA83F446B929F408AE98648AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A3C6A19C5A35D09A0ECD791FD10EE85C.json",
+      "Name": "Mia Isabelle Strobel",
+      "RegID": "A3C6A19C5A35D09A0ECD791FD10EE85C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A3EF30E45DFA4CEB812BA3AB91210514.json",
+      "Name": "Sophie Ye",
+      "RegID": "A3EF30E45DFA4CEB812BA3AB91210514",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A422B6FC01B646C58509139F3AB2EACC.json",
+      "Name": "Ethan Harrison Finkel",
+      "RegID": "A422B6FC01B646C58509139F3AB2EACC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A45BBF1484ED4939B86F5A39005CD1AD.json",
+      "Name": "Julia Angiuli Wischman",
+      "RegID": "A45BBF1484ED4939B86F5A39005CD1AD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A4764B051A518D10C5CDF2A0486A652D.json",
+      "Name": "Emma Truong",
+      "RegID": "A4764B051A518D10C5CDF2A0486A652D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A4811B88C212C6D95F4702FC6714759D.json",
+      "Name": "Adrian Fernandez",
+      "RegID": "A4811B88C212C6D95F4702FC6714759D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A4CB551CD2A6437AB1DF90F496A242A3.json",
+      "Name": "Brenden Liu Tang",
+      "RegID": "A4CB551CD2A6437AB1DF90F496A242A3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A4D59DDD64814E6C9205581968F3E1B2.json",
+      "Name": "Emily R. Kargl",
+      "RegID": "A4D59DDD64814E6C9205581968F3E1B2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A5F0B387FAAB448EB5BBCB138FDA095B.json",
+      "Name": "Jackson Keller Fitton",
+      "RegID": "A5F0B387FAAB448EB5BBCB138FDA095B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A76FF1D9561E464199E70E2176F3FE9C.json",
+      "Name": "Jackie Yeh",
+      "RegID": "A76FF1D9561E464199E70E2176F3FE9C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A787B241502B4B5AA0C18BEDCF3E045D.json",
+      "Name": "Maxwell Michael Eastern",
+      "RegID": "A787B241502B4B5AA0C18BEDCF3E045D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A7ABB40C7D0C7E5FC4043186B5A01187.json",
+      "Name": "Bradley Michael Oliver",
+      "RegID": "A7ABB40C7D0C7E5FC4043186B5A01187",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A81FABD92E7A49DFA388A63D033CB626.json",
+      "Name": "Jacquie R Dunworth",
+      "RegID": "A81FABD92E7A49DFA388A63D033CB626",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A849493AB21C437B934FFAEEA2E5ABA9.json",
+      "Name": "Marissa Anne Stuart",
+      "RegID": "A849493AB21C437B934FFAEEA2E5ABA9",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A8912EEEBEEFA9094837FBE7B6E57E19.json",
+      "Name": "Yu-Pei Ho",
+      "RegID": "A8912EEEBEEFA9094837FBE7B6E57E19",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A8974B2BB3EB40AB8BC7F1632341FEEC.json",
+      "Name": "Haiyang Hong",
+      "RegID": "A8974B2BB3EB40AB8BC7F1632341FEEC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A8CD7A44FAB3F65D82479FF827039057.json",
+      "Name": "Anuj Ankit",
+      "RegID": "A8CD7A44FAB3F65D82479FF827039057",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A95C876510CFA48C8A5EE683371FEC19.json",
+      "Name": "Kenna Marie Royse",
+      "RegID": "A95C876510CFA48C8A5EE683371FEC19",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/A9FE1E79749A25984464E3B04B244C24.json",
+      "Name": "Jake Campbell",
+      "RegID": "A9FE1E79749A25984464E3B04B244C24",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AABB017C205B47709D861500224B2743.json",
+      "Name": "Cailin Mackenzie Onosko",
+      "RegID": "AABB017C205B47709D861500224B2743",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ABCCEA750CCC6DB075636A53D3073FE2.json",
+      "Name": "Indigo Bruno-Hopps",
+      "RegID": "ABCCEA750CCC6DB075636A53D3073FE2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ABCE4A9C27648926C3F2C237480EC6AB.json",
+      "Name": "Lily Jennifer Christensen",
+      "RegID": "ABCE4A9C27648926C3F2C237480EC6AB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ABF4B3DD3FEA41C98B815C61693E12B3.json",
+      "Name": "Mia Lina Marie Leoncavallo",
+      "RegID": "ABF4B3DD3FEA41C98B815C61693E12B3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AC25F2658C64FED60C66BE05DFDF59A4.json",
+      "Name": "Chad Stinson",
+      "RegID": "AC25F2658C64FED60C66BE05DFDF59A4",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ACCD7D906E9047309215F4DC01A9E0C2.json",
+      "Name": "Abbey Marie Dillon",
+      "RegID": "ACCD7D906E9047309215F4DC01A9E0C2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AD1571EACA784673A958143DA5BE57E3.json",
+      "Name": "Jane B. Stanley",
+      "RegID": "AD1571EACA784673A958143DA5BE57E3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AD17EA0F80874FC380C8486D32207995.json",
+      "Name": "Robert L. Eldridge",
+      "RegID": "AD17EA0F80874FC380C8486D32207995",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AD59F60B646C4EFA9E229E1C5FA34B22.json",
+      "Name": "BRIGETTE LONG",
+      "RegID": "AD59F60B646C4EFA9E229E1C5FA34B22",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ADDDD49E278F44CFB205E1D62239659D.json",
+      "Name": "Samantha Rose Sato",
+      "RegID": "ADDDD49E278F44CFB205E1D62239659D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/ADF765B5EA2F4BF58C23DB4AA6AA5C2C.json",
+      "Name": "Kemper Rosella Jolly",
+      "RegID": "ADF765B5EA2F4BF58C23DB4AA6AA5C2C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AE23AC5242324A428155416F8CF04B48.json",
+      "Name": "Eric Duncan Beld",
+      "RegID": "AE23AC5242324A428155416F8CF04B48",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AE443ED1926E6F5E37A8CCB4DF15B702.json",
+      "Name": "Eddie Liu",
+      "RegID": "AE443ED1926E6F5E37A8CCB4DF15B702",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AE76F2A5D2054A63BF441E191F5D5F50.json",
+      "Name": "Koa Richard Work",
+      "RegID": "AE76F2A5D2054A63BF441E191F5D5F50",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AEB4780A8B22ACB2E85BE597A4D4F4DF.json",
+      "Name": "Noah Francis Arrick",
+      "RegID": "AEB4780A8B22ACB2E85BE597A4D4F4DF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AEB81FD4C9504F6485358EEF4EF979F5.json",
+      "Name": "Heidi Olsen",
+      "RegID": "AEB81FD4C9504F6485358EEF4EF979F5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AEFB877D4494F580B86BFEE7FAE713F5.json",
+      "Name": "Adrielle Elizabeth Walker",
+      "RegID": "AEFB877D4494F580B86BFEE7FAE713F5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/AF9482E75F724001BF6F81CB53D15274.json",
+      "Name": "Ruth V Krishchuk",
+      "RegID": "AF9482E75F724001BF6F81CB53D15274",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B160F29C378DD1F3A617C169363C9F5D.json",
+      "Name": "Andrew Baek",
+      "RegID": "B160F29C378DD1F3A617C169363C9F5D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B1830C78EF5C503FCF4BCB1106A8BBDF.json",
+      "Name": "Tali Goldin",
+      "RegID": "B1830C78EF5C503FCF4BCB1106A8BBDF",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B1DE404E3B8F4ED69AC42DDA4FC258E6.json",
+      "Name": "Bryce Michael Neighbor",
+      "RegID": "B1DE404E3B8F4ED69AC42DDA4FC258E6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B24457FA382068D6010FADE260275FF8.json",
+      "Name": "Christian Simon Sailer",
+      "RegID": "B24457FA382068D6010FADE260275FF8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B2775C51CD05225D7FE42F9BADE49AF6.json",
+      "Name": "Anna Schulz",
+      "RegID": "B2775C51CD05225D7FE42F9BADE49AF6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B29382A7B2AA468A8CA82463AB2C8DA7.json",
+      "Name": "J.T. Schilling",
+      "RegID": "B29382A7B2AA468A8CA82463AB2C8DA7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B3B1202A07C2974F0753A2E71F8CE9E3.json",
+      "Name": "Grace Elizabeth Gallaudet",
+      "RegID": "B3B1202A07C2974F0753A2E71F8CE9E3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B3BF2B87657F4F90877960F36D2EC023.json",
+      "Name": "Jessica R Minkiewitz",
+      "RegID": "B3BF2B87657F4F90877960F36D2EC023",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B3FC5BA8BB74463FB02E2555881C7ACC.json",
+      "Name": "Kelsey E Burks",
+      "RegID": "B3FC5BA8BB74463FB02E2555881C7ACC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B55D4B6AB9E340D99C18959DECA4ED64.json",
+      "Name": "Brittney S. Cash",
+      "RegID": "B55D4B6AB9E340D99C18959DECA4ED64",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B5F5AE0DF46D732E258F4804C38A924E.json",
+      "Name": "Jarrod Edward Byers",
+      "RegID": "B5F5AE0DF46D732E258F4804C38A924E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B61E6223A166429497BE634544907956.json",
+      "Name": "Julia Hughes",
+      "RegID": "B61E6223A166429497BE634544907956",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B64A845EC61240BA8287455EFC61F875.json",
+      "Name": "Katherine M. Menezes",
+      "RegID": "B64A845EC61240BA8287455EFC61F875",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B804B9ABB323CFC0C6A064BF8A9D4F39.json",
+      "Name": "Katelin Nicole Yates",
+      "RegID": "B804B9ABB323CFC0C6A064BF8A9D4F39",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B871BC38E8D943528ED357881177D71C.json",
+      "Name": "Connor J. Kardokus",
+      "RegID": "B871BC38E8D943528ED357881177D71C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B89F6E9C829D4CEABA20563A1404086C.json",
+      "Name": "Lezah Rodriguez",
+      "RegID": "B89F6E9C829D4CEABA20563A1404086C",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/B8ABD2B563C64C4C93FFC08B69817C91.json",
+      "Name": "Nick Alexander Sandoval",
+      "RegID": "B8ABD2B563C64C4C93FFC08B69817C91",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BA137426793A4378A269B8ABC426254D.json",
+      "Name": "Erika Weber",
+      "RegID": "BA137426793A4378A269B8ABC426254D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BAD936A105234ED1A1EA2FC6B4404E2A.json",
+      "Name": "Megan E. Gordon",
+      "RegID": "BAD936A105234ED1A1EA2FC6B4404E2A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BBF6BFDDC3F64C11819DEE4A9CF25174.json",
+      "Name": "Adam Eno Newton",
+      "RegID": "BBF6BFDDC3F64C11819DEE4A9CF25174",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BC7AE20318C499A4A9990742F87AA7C6.json",
+      "Name": "Kiyotaka Sakamoto",
+      "RegID": "BC7AE20318C499A4A9990742F87AA7C6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BCA76AB747B8462B95173BBC9E3C1402.json",
+      "Name": "Claire Pickering",
+      "RegID": "BCA76AB747B8462B95173BBC9E3C1402",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BCA8E630DDE44111860431D803A04AA8.json",
+      "Name": "Mckenna Marie Fuller",
+      "RegID": "BCA8E630DDE44111860431D803A04AA8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BCFD24B16D974D0AAD943D39F5B366F3.json",
+      "Name": "Jonathan Edward Schiffer",
+      "RegID": "BCFD24B16D974D0AAD943D39F5B366F3",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BD0BB0F80C584780844C62BF6A41A82E.json",
+      "Name": "Zoe Mae Tucker",
+      "RegID": "BD0BB0F80C584780844C62BF6A41A82E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BD25A27FF7B64357A01BE5DDF557F418.json",
+      "Name": "Kyle Kuan Ting",
+      "RegID": "BD25A27FF7B64357A01BE5DDF557F418",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BD43D68D6DE04759AD074F343D681E82.json",
+      "Name": "Emmitt Joseph Kinch",
+      "RegID": "BD43D68D6DE04759AD074F343D681E82",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BDD3AAFCC6616850A1DFD8CF700D62AC.json",
+      "Name": "Renae Kang",
+      "RegID": "BDD3AAFCC6616850A1DFD8CF700D62AC",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BF2A8DAB711A1995DA760025501771E5.json",
+      "Name": "YI BIN TAN",
+      "RegID": "BF2A8DAB711A1995DA760025501771E5",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/BF7C7418BEB190B3162C28AED86A946B.json",
+      "Name": "Elyssa Kristen Yim",
+      "RegID": "BF7C7418BEB190B3162C28AED86A946B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C00CC16C4AE04FF8B237F2B646AB694A.json",
+      "Name": "Christian Nino De Guzman",
+      "RegID": "C00CC16C4AE04FF8B237F2B646AB694A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C05039A4CE1F4D26816A6B9832D57703.json",
+      "Name": "Paul Hideo Onishi",
+      "RegID": "C05039A4CE1F4D26816A6B9832D57703",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C0DAFEE9EA2A1CB7A6F918E3321C59D1.json",
+      "Name": "Claire Ann Kaill",
+      "RegID": "C0DAFEE9EA2A1CB7A6F918E3321C59D1",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C17854EFA6B2417B97421F044BF0E48E.json",
+      "Name": "Spencer Greenwald",
+      "RegID": "C17854EFA6B2417B97421F044BF0E48E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C1E7A5D640026BBEC3D4339D200BAC41.json",
+      "Name": "Mikee Cagampan",
+      "RegID": "C1E7A5D640026BBEC3D4339D200BAC41",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C27268E22ADA49D0A6BF956F63579389.json",
+      "Name": "Erin Storey",
+      "RegID": "C27268E22ADA49D0A6BF956F63579389",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C2946AA046444B248DDE50DA76849F95.json",
+      "Name": "MEI YIN SO",
+      "RegID": "C2946AA046444B248DDE50DA76849F95",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C2B69F61AA064B66BAA334AEB9C227DE.json",
+      "Name": "Luke Cantor",
+      "RegID": "C2B69F61AA064B66BAA334AEB9C227DE",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C34E52F5D2BB77D8ADC9EE7B01A6F37B.json",
+      "Name": "Matthew Nelson",
+      "RegID": "C34E52F5D2BB77D8ADC9EE7B01A6F37B",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C37473F8CF0A2C90CE32858DA3E36332.json",
+      "Name": "Zane Dunham",
+      "RegID": "C37473F8CF0A2C90CE32858DA3E36332",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C3859C04CC664DE281268224B1AD9C24.json",
+      "Name": "Julia R. Loyd",
+      "RegID": "C3859C04CC664DE281268224B1AD9C24",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C38F9609CD033221A37724379E685544.json",
+      "Name": "Katie Snider",
+      "RegID": "C38F9609CD033221A37724379E685544",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C39CB5207B72F7E9B9F2D48268CDBB88.json",
+      "Name": "Shane Martin Reichlin",
+      "RegID": "C39CB5207B72F7E9B9F2D48268CDBB88",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C3CF6854AA6745CB93E93323E3900F9E.json",
+      "Name": "Travis John Miller",
+      "RegID": "C3CF6854AA6745CB93E93323E3900F9E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C3FAB21E4723454AA59F9EB55CE4C1F8.json",
+      "Name": "Trey Gene Munsell",
+      "RegID": "C3FAB21E4723454AA59F9EB55CE4C1F8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C42F118897FC33F12E98F3791D013CC8.json",
+      "Name": "Christina Fox",
+      "RegID": "C42F118897FC33F12E98F3791D013CC8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C46BAC4097968485597CD1610939D944.json",
+      "Name": "Michael Riley",
+      "RegID": "C46BAC4097968485597CD1610939D944",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C471DCC9397B4DFB93FB98ED3CD8F09E.json",
+      "Name": "Frank Cui",
+      "RegID": "C471DCC9397B4DFB93FB98ED3CD8F09E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C4EA6951CED5ED69E3A5017E96D3D8E7.json",
+      "Name": "Kylie Marie Thomas",
+      "RegID": "C4EA6951CED5ED69E3A5017E96D3D8E7",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C52992A35B9441EF86CC3D03A8AF9133.json",
+      "Name": "Lisa Gyuro",
+      "RegID": "C52992A35B9441EF86CC3D03A8AF9133",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C594DCD128225C58C67172B36430F11F.json",
+      "Name": "Matthew Edward Leviten",
+      "RegID": "C594DCD128225C58C67172B36430F11F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C6396CED379A46C984A235F9F12BD3DD.json",
+      "Name": "Daniel Caudell",
+      "RegID": "C6396CED379A46C984A235F9F12BD3DD",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C6819A18F52D0051E38657735E1330C6.json",
+      "Name": "Lily Maul",
+      "RegID": "C6819A18F52D0051E38657735E1330C6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C6D74AB21ADE2EF4B39A31FCD4D8DF72.json",
+      "Name": "Ryan Chen",
+      "RegID": "C6D74AB21ADE2EF4B39A31FCD4D8DF72",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C6EE8E90D80E40CEB420E5F5B138055A.json",
+      "Name": "Emma Louise Brand",
+      "RegID": "C6EE8E90D80E40CEB420E5F5B138055A",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C706955EA6BF427DA4819B67713C64E6.json",
+      "Name": "Davin Ji-Hang Lee",
+      "RegID": "C706955EA6BF427DA4819B67713C64E6",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C7770E789C80EBF576EC3C54DE59D6CB.json",
+      "Name": "Luke Michael Kuna",
+      "RegID": "C7770E789C80EBF576EC3C54DE59D6CB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C8A2925AA70B419ABB9108E63F63FA06.json",
+      "Name": "Danielle Minji Suhr",
+      "RegID": "C8A2925AA70B419ABB9108E63F63FA06",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C8F41A87D3B74531890BDF0AEC81E6BB.json",
+      "Name": "Jenni Yetkinler",
+      "RegID": "C8F41A87D3B74531890BDF0AEC81E6BB",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C90732EAF1174CB19A4D42E5382A7C4D.json",
+      "Name": "Jacky Truong",
+      "RegID": "C90732EAF1174CB19A4D42E5382A7C4D",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C90E4579821F07B3FE54042456C9CA0E.json",
+      "Name": "Patricia Li",
+      "RegID": "C90E4579821F07B3FE54042456C9CA0E",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C929E9DEAA804C299778F23B2703CF7F.json",
+      "Name": "Julia Taylor Eldrenkamp",
+      "RegID": "C929E9DEAA804C299778F23B2703CF7F",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C96C9D8DC5B646699D4DC92BD01536E8.json",
+      "Name": "Kelsey Scanlan",
+      "RegID": "C96C9D8DC5B646699D4DC92BD01536E8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C9B6B9CA276A4EECBB954F74619223D8.json",
+      "Name": "Stephen Lee",
+      "RegID": "C9B6B9CA276A4EECBB954F74619223D8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/C9F53248AF524D648D19873931C839B8.json",
+      "Name": "Jackson John Reed",
+      "RegID": "C9F53248AF524D648D19873931C839B8",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/CA24A8B614DDF30BED61004FB8BA55A2.json",
+      "Name": "Ian Huang",
+      "RegID": "CA24A8B614DDF30BED61004FB8BA55A2",
+      "Pronouns": null
+    },
+    {
+      "Href": "/student/v5/person/CA3CB8C6584E4EA18326949EC0CB3E78.json",
+      "Name": "Cole Wilder Smith",
+      "RegID": "CA3CB8C6584E4EA18326949EC0CB3E78",
+      "Pronouns": null
+    }
+  ],
+  "PageStart": "1",
+  "PageSize": "10",
+  "TotalCount": 656,
+  "Current": {
+    "Href": "/student/v5/majorstudents.json?year=2018&quarter=autumn&campus=SEATTLE&degree_level=1&degree_type=2&major_abbreviation=B%20A&pathway=00&page_size=10&page_start=1",
+    "PageStart": "1",
+    "PageSize": "10",
+    "Year": "2018",
+    "Quarter": "autumn",
+    "Campus": "SEATTLE",
+    "DegreeLevel": "1",
+    "DegreeType": "2",
+    "MajorAbbreviation": "B A",
+    "Pathway": "00"
+  },
+  "Previous": null,
+  "Next": null
+}

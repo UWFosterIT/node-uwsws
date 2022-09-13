@@ -1,0 +1,290 @@
+{
+  "TotalCount": 46,
+  "PageSize": "10",
+  "PageStart": "1",
+  "Enrollments": [
+    {
+      "Href": "/student/v5/enrollment/1996,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1996,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1997,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1997,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1997,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1997,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1997,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1997,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1998,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1998,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1998,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1998,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1998,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1998,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1999,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1999,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1999,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1999,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/1999,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 1999,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2000,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2000,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2000,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2000,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2001,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2001,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2001,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2001,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2002,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2002,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2002,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2002,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2003,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2003,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2003,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2003,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2003,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2003,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2004,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2004,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2004,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2004,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2004,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2004,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2004,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2004,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2005,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2005,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2005,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2005,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2005,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2005,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2006,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2006,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2007,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2007,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2008,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2008,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2008,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2008,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2009,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2009,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2009,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2009,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2009,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2009,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2009,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2009,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2010,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2010,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2010,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2010,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2010,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2010,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2011,summer,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2011,
+      "Quarter": "summer",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2011,autumn,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2011,
+      "Quarter": "autumn",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2012,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2012,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2016,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2016,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2018,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2018,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2019,winter,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2019,
+      "Quarter": "winter",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2019,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2019,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2020,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2020,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    },
+    {
+      "Href": "/student/v5/enrollment/2021,spring,9136CCB8F66711D5BE060004AC494FFE.json?transcriptable_course=",
+      "Year": 2021,
+      "Quarter": "spring",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE"
+    }
+  ],
+  "Current": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Verbose": false,
+    "Href": "/student/v5/enrollment.json?reg_id=9136CCB8F66711D5BE060004AC494FFE&verbose=&changed_since_date=&transcriptable_course="
+  },
+  "Next": null,
+  "Previous": null
+}

@@ -1,0 +1,29 @@
+{
+  "ProgramUri": {
+    "Href": "/student/v5/Program/C%20SCI,00,2018,spring.json",
+    "MajorAbbreviation": "C SCI",
+    "Pathway": "00",
+    "Year": 2018,
+    "Quarter": "spring"
+  },
+  "Department": {
+    "CollegeAbbreviation": "C",
+    "DepartmentAbbreviation": "C SCI",
+    "DepartmentFullName": "COMPUTER SCIENCE"
+  },
+  "MajorFullName": "Computer Science",
+  "MajorName": "COMPUTER SCIENCE",
+  "MajorShortName": "COMPUTER SCI",
+  "Pathway": "00",
+  "FirstEffectiveTerm": {
+    "Href": "/student/v5/term/1970,autumn.json",
+    "Year": 1970,
+    "Quarter": "autumn"
+  },
+  "LastEffectiveTerm": {
+    "Href": "/student/v5/term/9999,autumn.json",
+    "Year": 9999,
+    "Quarter": "autumn"
+  },
+  "Href": "/student/v5/Program/C%20SCI,00,2018,spring.json"
+}

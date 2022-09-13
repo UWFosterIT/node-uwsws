@@ -3,3 +3,5 @@ node_modules
 /cache
 *.log
 *.txt
+dist
+__tests__/setup/config.ts

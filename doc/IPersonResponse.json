@@ -1,0 +1,73 @@
+{
+  "UWNetID": "javerage",
+  "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+  "FirstName": "Jamesian McMiddle",
+  "LastName": "Average",
+  "StudentName": "Jamesian McMiddle Average",
+  "Pronouns": "they/them/their/theirs/themself",
+  "RegisteredName": "JAMES AVERAGE STUDENT",
+  "StudentSystemKey": "000083856",
+  "EmployeeID": "123456789",
+  "StudentNumber": "1033334",
+  "BirthDate": "1956-04-05",
+  "Gender": "M",
+  "DirectoryRelease": false,
+  "Email": "",
+  "LocalAddress": {
+    "Line1": "C/O STUDENT TEAM",
+    "Line2": "UW TOWER C-110 BOX 359533",
+    "City": "SEATTLE",
+    "State": "WA",
+    "Zip": "98195",
+    "Country": "",
+    "PostalCode": ""
+  },
+  "PermanentAddress": {
+    "Line1": "C/O STUDENT TEAM",
+    "Line2": "UW TOWER C-110 BOX 359533",
+    "City": "SEATTLE",
+    "State": "WA",
+    "Zip": "98195",
+    "Country": "",
+    "PostalCode": ""
+  },
+  "LocalPhone": "8905671234",
+  "PermanentPhone": "2065555555",
+  "Veteran": {
+    "Code": "0",
+    "Description": "NOT A VET"
+  },
+  "LastEnrolled": {
+    "Href": "/student/v5/term/2021,spring.json",
+    "Year": 2021,
+    "Quarter": "spring"
+  },
+  "Notices": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Href": "/student/v5/notice/9136CCB8F66711D5BE060004AC494FFE.json"
+  },
+  "PersonFinancial": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Href": "/student/v5/person/9136CCB8F66711D5BE060004AC494FFE/financial.json"
+  },
+  "Resident": "1",
+  "ResidencyDescription": "RESIDENT",
+  "VisaType": "",
+  "TestScore": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Href": "/student/v5/testscore/9136CCB8F66711D5BE060004AC494FFE.json"
+  },
+  "Sports": [],
+  "CurrentEnrollment": null,
+  "AcademicAdvisers": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Href": "/student/v5/person/9136CCB8F66711D5BE060004AC494FFE/advisers.json"
+  },
+  "Degrees": {
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "Href": "/student/v5/person/9136CCB8F66711D5BE060004AC494FFE/degree.json"
+  },
+  "SourceDateString": null,
+  "Metadata": null,
+  "RepositoryTimeStamp": "8/24/2022 10:02:37 AM"
+}

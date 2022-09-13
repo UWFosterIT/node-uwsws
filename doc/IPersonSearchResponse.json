@@ -1,0 +1,74 @@
+{
+  "TotalCount": 1,
+  "PageSize": "10",
+  "PageStart": "1",
+  "Persons": [
+    {
+      "BirthDate": "1956-04-05",
+      "DirectoryRelease": false,
+      "Email": "",
+      "EmployeeID": "123456789",
+      "FirstName": "Jamesian McMiddle",
+      "Gender": "M",
+      "LastEnrolled": {
+        "Href": "/student/v5/term/2021,spring.json",
+        "Year": 2021,
+        "Quarter": "spring"
+      },
+      "LastName": "Average",
+      "Pronouns": "they/them/their/theirs/themself",
+      "LocalAddress": {
+        "Line1": "C/O STUDENT TEAM",
+        "Line2": "UW TOWER C-110 BOX 359533",
+        "City": "SEATTLE",
+        "State": "WA",
+        "Zip": "98195",
+        "Country": "",
+        "PostalCode": ""
+      },
+      "LocalPhone": "8905671234",
+      "PermanentAddress": {
+        "Line1": "C/O STUDENT TEAM",
+        "Line2": "UW TOWER C-110 BOX 359533",
+        "City": "SEATTLE",
+        "State": "WA",
+        "Zip": "98195",
+        "Country": "",
+        "PostalCode": ""
+      },
+      "PermanentPhone": "2065555555",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+      "Resident": "1",
+      "StudentName": "Jamesian McMiddle Average",
+      "RegisteredName": "JAMES AVERAGE STUDENT",
+      "StudentNumber": "1033334",
+      "StudentSystemKey": "000083856",
+      "TestScore": {
+        "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+        "Href": "/student/v5/testscore/9136CCB8F66711D5BE060004AC494FFE.json"
+      },
+      "UWNetID": "javerage",
+      "Veteran": {
+        "Code": "0",
+        "Description": "NOT A VET"
+      },
+      "VisaType": "",
+      "Href": "/student/v5/person/9136CCB8F66711D5BE060004AC494FFE.json"
+    }
+  ],
+  "Current": {
+    "EmployeeID": null,
+    "NetID": "javerage",
+    "PageStart": "1",
+    "PageSize": "10",
+    "Verbose": false,
+    "RegID": null,
+    "StudentNumber": null,
+    "ChangedSinceDate": null,
+    "StudentSystemKey": null,
+    "HasDisability": null,
+    "Href": "/student/v5/person.json?reg_id=&net_id=javerage&student_number=&employee_id=&student_system_key=&changed_since_date=&verbose=&page_size=10&page_start=1"
+  },
+  "Previous": null,
+  "Next": null
+}

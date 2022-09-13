@@ -1,0 +1,191 @@
+{
+  "Person": {
+    "EmployeeID": "123456789",
+    "FirstName": "Jamesian McMiddle",
+    "LastName": "Average",
+    "Pronouns": "they/them/their/theirs/themself",
+    "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+    "StudentName": "Jamesian McMiddle Average",
+    "StudentNumber": "1033334",
+    "StudentSystemKey": "000083856",
+    "UWNetID": "javerage",
+    "Uri": {
+      "Name": "Jamesian McMiddle Average",
+      "RegID": "9136CCB8F66711D5BE060004AC494FFE",
+      "Pronouns": "they/them/their/theirs/themself",
+      "Href": "/student/v5/person/9136CCB8F66711D5BE060004AC494FFE.json"
+    }
+  },
+  "TestsTaken": [
+    {
+      "TestType": {
+        "Description": "ENGL/WRITING COMBINE",
+        "MinScore": 1,
+        "MaxScore": 36,
+        "Name": "ACT EW"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "2011-01-20T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 27
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "AP MATH AB",
+        "MinScore": 0,
+        "MaxScore": 5,
+        "Name": "AP MAB"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1996-05-08T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1996-05-08T00:00:00",
+          "TestScore": 5
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "FRENCH PLACEMENT",
+        "MinScore": 0,
+        "MaxScore": 100,
+        "Name": "FR  TL"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1998-01-01T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1998-01-01T00:00:00",
+          "TestScore": 76
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "MATH INTERMD ALGEBRA",
+        "MinScore": 0,
+        "MaxScore": 100,
+        "Name": "MATHIA"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1998-01-01T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1998-01-01T00:00:00",
+          "TestScore": 23
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "SAT VERBAL",
+        "MinScore": 200,
+        "MaxScore": 800,
+        "Name": "SAT V"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 400
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "SAT VERB RECENTERED",
+        "MinScore": 200,
+        "MaxScore": 800,
+        "Name": "SAT VR"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 480
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "SAT MATH",
+        "MinScore": 200,
+        "MaxScore": 800,
+        "Name": "SATM"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 300
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "SAT MATH RECENTERED",
+        "MinScore": 200,
+        "MaxScore": 800,
+        "Name": "SATMR"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 340
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "WPCT VERBAL",
+        "MinScore": 27,
+        "MaxScore": 79,
+        "Name": "WPCT V"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 50
+        }
+      ]
+    },
+    {
+      "TestType": {
+        "Description": "WPCT QUANTITATIVE",
+        "MinScore": 28,
+        "MaxScore": 77,
+        "Name": "WPCTQ"
+      },
+      "Scores": [
+        {
+          "EnteredDate": "1992-06-15T00:00:00",
+          "Percentile": null,
+          "RevisedScore": false,
+          "TakenDate": "1953-12-25T00:00:00",
+          "TestScore": 40
+        }
+      ]
+    }
+  ]
+}

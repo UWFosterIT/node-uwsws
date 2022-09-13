@@ -1,0 +1,130 @@
+{
+  "TotalCount": 168,
+  "PageSize": "10",
+  "PageStart": "1",
+  "Courses": [
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,098.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "INTER ALGEBRA",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Intermediate Algebra",
+      "CourseNumber": "098"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,100.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "ALGEBRA",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Algebra",
+      "CourseNumber": "100"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,102.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "ALGEBRA",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Algebra",
+      "CourseNumber": "102"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,103.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "INTRO ELEM FUNCTION",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Introduction to Elementary Functions",
+      "CourseNumber": "103"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,106.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "INTRO FINITE MATH",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "INTRODUCTION TO FINITE MATHEMATICS",
+      "CourseNumber": "106"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,107.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "MATH PRACTICAL ART",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "MATHEMATICS: A PRACTICAL ART",
+      "CourseNumber": "107"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,111.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "ALGEBRA WITH APPL",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Algebra with Applications",
+      "CourseNumber": "111"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,112.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "BUSINESS &ECON CALC",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Application of Calculus to Business and Economics",
+      "CourseNumber": "112"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,120.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "PRECALCULUS",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Precalculus",
+      "CourseNumber": "120"
+    },
+    {
+      "Href": "/student/v5/course/2015,winter,MATH,124.json",
+      "Year": 2015,
+      "Quarter": "winter",
+      "CourseTitle": "CALC ANALYT GEOM I",
+      "CurriculumAbbreviation": "MATH",
+      "CourseTitleLong": "Calculus with Analytic Geometry I",
+      "CourseNumber": "124"
+    }
+  ],
+  "Current": {
+    "Year": "2015",
+    "Quarter": "winter",
+    "CurriculumAbbreviation": "math",
+    "CourseNumber": null,
+    "FutureTerms": 0,
+    "CourseTitleStarts": null,
+    "CourseTitleContains": null,
+    "ExcludeCoursesWithoutSections": false,
+    "ChangedSinceDate": null,
+    "TranscriptableCourse": "yes",
+    "ViewUnpublished": false,
+    "PageStart": "1",
+    "PageSize": "10",
+    "Href": "/student/v5/course.json?year=2015&quarter=winter&future_terms=0&curriculum_abbreviation=math&course_number=&course_title_starts=&course_title_contains=&exclude_courses_without_sections=&page_size=10&page_start=1&changed_since_date=&transcriptable_course=yes&view_unpublished=false"
+  },
+  "Previous": null,
+  "Next": {
+    "Year": "2015",
+    "Quarter": "winter",
+    "CurriculumAbbreviation": "math",
+    "CourseNumber": null,
+    "FutureTerms": 0,
+    "CourseTitleStarts": null,
+    "CourseTitleContains": null,
+    "ExcludeCoursesWithoutSections": false,
+    "ChangedSinceDate": null,
+    "TranscriptableCourse": "yes",
+    "ViewUnpublished": false,
+    "PageStart": "11",
+    "PageSize": "10",
+    "Href": "/student/v5/course.json?year=2015&quarter=winter&future_terms=0&curriculum_abbreviation=math&course_number=&course_title_starts=&course_title_contains=&exclude_courses_without_sections=&page_size=10&page_start=11&changed_since_date=&transcriptable_course=yes&view_unpublished=false"
+  }
+}
