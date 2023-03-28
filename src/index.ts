@@ -1,4 +1,4 @@
-import log4js, { Logger } from '@log4js-node/log4js-api';
+import { Logger, ILogObj } from 'tslog';
 import { IUwSwsOptions } from './IUwSwsOptions.js';
 import Campus from './endpoints/campus.js';
 import College from './endpoints/college.js';
@@ -20,8 +20,23 @@ export { ICertFetcher } from './certFetcher/ICertFetcher.js';
 export { IApiError } from './modules/IService.js';
 export { IUwSwsOptions } from './IUwSwsOptions.js';
 
+enum LogLevel {
+  silly,
+  trace,
+  debug,
+  info,
+  warn,
+  error,
+  fatal,
+}
+
+const logSettings = {
+  prettyLogTemplate: '{{rawIsoStr}} - {{logLevelName}}: [{{name}}]',
+  stylePrettyLogs: false,
+} as const;
+
 export class UwSws {
-  private log: Logger;
+  private log: Logger<ILogObj>;
 
   private service: Service;
 
@@ -52,9 +67,7 @@ export class UwSws {
   testScore: TestScore;
 
   constructor(options: IUwSwsOptions) {
-    this.log = log4js.getLogger('node-uwsws');
-
-    this.log.level = options.uwSwsLogLevel || 'OFF';
+    this.log = new Logger({ name: this.constructor.name, minLevel: LogLevel[options.logLevel || 'error'], ...logSettings });
 
     this.service = new Service({
       organizationName: options.organizationName,

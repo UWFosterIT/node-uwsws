@@ -1,4 +1,4 @@
-import { Logger } from '@log4js-node/log4js-api';
+import { ILogObj, Logger } from 'tslog';
 import got, {
   Got, isResponseOk, Options, PlainResponse,
 } from 'got';
@@ -9,9 +9,9 @@ import version from '../version.js';
 export default class Service {
   private got: Got;
 
-  private log: Logger;
+  private log: Logger<ILogObj>;
 
-  constructor(config: any, log: Logger) {
+  constructor(config: any, log: Logger<ILogObj>) {
     this.log = log;
     const options = new Options({
       https: {

@@ -87,7 +87,7 @@ If you find one that doesn't work or if an endpoint or option isn't supported, p
 
 ## Certificate Fetchers
 
-This package includes a helper module to fetch client certificates using different methods. The built-in fetcgers includes support for AWS S3 and the local file system. You can also create custom certificate fetchers. See the `./__tests__/certFetcher-test.ts` file for a custom certFetcher example.
+This package includes a helper module to fetch client certificates using different methods. The built-in fetchers includes support for AWS S3 and the local file system. You can also create custom certificate fetchers. See the `./__tests__/certFetcher-test.ts` file for a custom certFetcher example.
 
 ```JavaScript
 import { CertFetcherManager } from '../src/index';

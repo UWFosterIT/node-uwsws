@@ -1,5 +1,6 @@
 import { ICertFetcher } from '../src/certFetcher/ICertFetcher';
 import { UwSws, CertFetcherManager } from '../src/index';
+import { LogLevel } from '../src/IUwSwsOptions';
 
 import config from './setup/config';
 
@@ -19,7 +20,7 @@ describe('Enrollment', () => {
       baseUrl: config.baseUrl,
       certData,
       // eslint-disable-next-line @typescript-eslint/dot-notation
-      uwSwsLogLevel: config['uwSwsLogLevel'],
+      logLevel: config.uwSwsLogLevel as LogLevel,
     });
   });
 
@@ -30,7 +31,7 @@ describe('Enrollment', () => {
       const options = {
         quarter: 'autumn',
         regId: dummy,
-        year: 1996,
+        year: 1998,
       };
 
       return uwSws.enrollment.getRegistrations(options)

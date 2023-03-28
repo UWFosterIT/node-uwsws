@@ -1,21 +1,3 @@
-// If you want to enable logging, uncomment the following code.
-// log4js is installed as a dev dependency.
-
-// import log4js from 'log4js';
-
-// log4js.configure({
-//   appenders: {
-//     out: {
-//       type: 'stdout',
-//       layout: {
-//         type: 'pattern',
-//         pattern: '%d - %p: [%c] %m%n',
-//       },
-//     },
-//   },
-//   categories: { default: { appenders: ['out'], level: 'error' } },
-// });
-
 export default {
   organizationName: 'YOUR ORGANIZATION NAME',
   baseUrl: 'https://ws.admin.washington.edu/student/v5/',

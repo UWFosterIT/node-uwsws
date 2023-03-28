@@ -1,13 +1,13 @@
-import { Logger } from '@log4js-node/log4js-api';
+import { ILogObj, Logger } from 'tslog';
 import Service from '../modules/apiService';
 import { IApiError } from '../modules/IService';
 
 export default class Endpoint {
   protected service: Service;
 
-  protected log: Logger;
+  protected log: Logger<ILogObj>;
 
-  constructor(serviceApi: Service, logger: Logger) {
+  constructor(serviceApi: Service, logger: Logger<ILogObj>) {
     this.service = serviceApi;
     this.log = logger;
   }
