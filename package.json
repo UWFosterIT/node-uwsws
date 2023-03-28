@@ -49,8 +49,10 @@
   "scripts": {
     "lint": "eslint test/**/*.js src/**/*.js --fix; exit 0;",
     "test": "jest",
-    "prebuild": "node -p \"'export default { LIB_VERSION: ' + JSON.stringify(require('./package.json').version) + ' };'\" > src/version.ts",
-    "build": "tsc -p tsconfig.json"
+    "prebuild": "node -p \"'export const LIB_VERSION = ' + JSON.stringify(require('./package.json').version) + ';'\" > src/version.ts",
+    "build": "npm run prebuild && tsc",
+    "prepare": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">=16.10.0"

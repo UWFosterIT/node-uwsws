@@ -4,7 +4,7 @@ import got, {
 } from 'got';
 import { IApiError, IApiResponse, ApiResult } from './IService.js';
 
-import version from '../version.js';
+import { LIB_VERSION } from '../version.js';
 
 export default class Service {
   private got: Got;
@@ -20,7 +20,7 @@ export default class Service {
       },
       prefixUrl: config.baseUrl,
       headers: {
-        'User-Agent': `${config.organizationName}/${version.LIB_VERSION}`,
+        'User-Agent': `${config.organizationName}/${LIB_VERSION}`,
         Accept: 'application/json',
       },
     });
