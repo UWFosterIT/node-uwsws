@@ -24,7 +24,6 @@
   ],
   "dependencies": {
     "@aws-sdk/client-s3": "^3.301.0",
-    "@log4js-node/log4js-api": "^1.0.2",
     "got": "^12.6.0",
     "lodash": "^4.17.21",
     "ts-custom-error": "^3.3.1",
