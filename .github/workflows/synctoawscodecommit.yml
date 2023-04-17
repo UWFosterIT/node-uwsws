@@ -1,0 +1,25 @@
+name: Sync to AWS Codecommit
+
+on: [push, delete]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Sync CodeCommit
+        run: |
+          git config --global --add safe.directory /github/workspace
+          git remote add backup https://${{ secrets.CODECOMMIT_USER }}:${{ secrets.CODECOMMIT_PASSWORD }}@git-codecommit.us-west-2.amazonaws.com/v1/repos/${PWD##*/}
+          if ${{ github.event_name == 'push'}}
+          then
+            git push backup -f
+          fi
+          if ${{ github.event_name == 'delete' }}
+          then
+            git push backup --delete ${{ github.event.ref }}
+          fi
