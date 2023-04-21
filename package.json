@@ -1,6 +1,6 @@
 {
   "name": "uwsws",
-  "version": "9.0.1",
+  "version": "10.0.1",
   "description": "Client Library for University of Washington's Student Web Service",
   "bugs:": {
     "url": "https://github.com/UWFosterIT/node-uwsws/issues"

@@ -67,7 +67,11 @@ export class UwSws {
   testScore: TestScore;
 
   constructor(options: IUwSwsOptions) {
-    this.log = new Logger({ name: this.constructor.name, minLevel: LogLevel[options.logLevel || 'error'], ...logSettings });
+    this.log = new Logger({
+      name: this.constructor.name,
+      minLevel: LogLevel[options.uwSwsLogLevel as keyof typeof LogLevel || 'error'],
+      ...logSettings,
+    });
 
     this.service = new Service({
       organizationName: options.organizationName,

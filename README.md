@@ -28,15 +28,13 @@ The URL of the SWS server. You can use the test or production server.
 
 #### `auth: { cert: 'cert data', key: 'key data' }`
 
-The Graduate Applicant Web Service requires that you pass a valid UW x509 client certificate with all requests. The data returned from the request is restricted to what is authorized for your cert.
+The Student Web Service requires that you pass a valid UW x509 client certificate with all requests. The data returned from the request is restricted to what is authorized for your cert.
 
 You can use the included certificate fetcher helpers to get cert and key data from local files, from an AWS S3 bucket, or you can create a custom fetcher.
 
 #### `uwSwsLogLevel`
 
-To enable logging, you must install the `log4js-node` package. You don't need to import or configure log4js for it to work unless you want to handle log messages in some other way than sending them to stdout.
-
-You can set the log level to `trace`, `debug`, `info`, `warn`, `error`, `fatal`, or `off`. If nothing is specified, the default level is `off`. When set to `off` log messages (even errors) will not display.
+You can set the log level to `silly`, `trace`, `debug`, `info`, `warn`, `error`, `fatal`. If nothing is specified
 
 ```JavaScript
 import UwSws from 'uwsws';

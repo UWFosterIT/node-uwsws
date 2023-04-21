@@ -1,6 +1,5 @@
 import { ICertFetcher } from '../src/certFetcher/ICertFetcher';
 import { UwSws, CertFetcherManager } from '../src/index';
-import { LogLevel } from '../src/IUwSwsOptions';
 
 import config from './setup/config';
 
@@ -22,7 +21,7 @@ describe('Term', () => {
       baseUrl: config.baseUrl,
       certData,
       // eslint-disable-next-line @typescript-eslint/dot-notation
-      logLevel: config.uwSwsLogLevel as LogLevel,
+      uwSwsLogLevel: config.uwSwsLogLevel,
     });
   });
 
